@@ -4,6 +4,7 @@ tags:
   - guide
 parents: "[[index]]"
 share: true
+title: Guides
 ---
 [[./Guide Obsidian|Obsidian]]
 [[./Guide Templater|Templater]]
