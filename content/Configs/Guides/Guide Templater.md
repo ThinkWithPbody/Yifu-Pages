@@ -3,7 +3,7 @@ tags:
   - guide
 share: true
 ---
-<%*
+`<%*
 const fileName = "This is the name of a file";
 const existing = tp.file.find_tfile(fileName);
 let createdFileDisplay;
@@ -12,9 +12,9 @@ if (existing) {
 } else {
   createdFileDisplay = (await tp.file.create_new(tp.file.find_tfile("template-name"), fileName)).basename;
 }
-_%>
-[[<% createdFileDisplay %>|<% createdFileDisplay %>]]
-<% tp.file.cursor() %>
+_%>`
+`[[<% createdFileDisplay %>]]`
+`<% tp.file.cursor() %>`
 
 ## Date
 
