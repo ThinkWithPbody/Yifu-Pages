@@ -3,8 +3,6 @@ tags:
   - wiki
 share: true
 ---
-parents:: [[../../2024-04-26|2024-04-26]]
-
 ## SPT Install and Update
 
 1. Use BsgLauncher.exe to install or update official EFT to your best SSD
@@ -40,7 +38,7 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 5. Click `Run` to launch SPT.
 	- Change SPT Launcher settings on Game Path and URL.
 
-![[./Attachments/Escape From Tarkov/Pasted image 20240520011534.png|500]]
+![[./Attachments/Escape From Tarkov/Pasted image 20240520011534.png|Pasted image 20240520011534]]
 
 ##### Packages (Manual)
 To install, remove existing 🍌 and 🥒 folders completely and place all contents from the package in root **"/"**.
