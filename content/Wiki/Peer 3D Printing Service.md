@@ -27,7 +27,7 @@ Bambu P1S with AMS
 > [!info]
 > Slicing fee is discounted or waived depending on complexity.
 > 
-> Slicing fee is waived for Bambu Studio sliced .3mf files, print failures are not covered and no support will be provided. If you understand the risks and seek complete control, use this [[./Attachments/Peer 3D Printing Service/Template.3mf|template]] to get started.
+> Slicing fee is waived for Bambu Studio sliced .3mf files, print failures are not covered and no support will be provided. If you understand the risks and seek complete control, use this [template](http://www.mediafire.com/view/rgq6dceauc22jln) to get started.
 
 ### Getting Started
 
