@@ -19,7 +19,7 @@ change
 			**Never delete or replace "/BepInEx/plugins/spt".**
 		- Mod Settings: "/BepInEx/config"
 		- Save Profiles (only if you run a server): "/user/profiles"
-	![|500](https://live.staticflickr.com/65535/53696801218_db324e3ae4_o.jpg)%%
+	![|500](https://live.staticflickr.com/65535/53696801218_db324e3ae4_o.jpg)
 
 ## SPT Mods Install and Update
 
@@ -33,7 +33,7 @@ Manual install locations are marked with üçå for **"/BepInEx/plugins"** and ü•
 2. Create a new global instance in your SPT folder. Settings can be kept default, ignore pop-ups.
 	- Under SPT root, edit `sptvfsbridge.bat` and add `REM ` at the start of line 9 and 12 so that it reads for example `REM start "" "%server_path%"`, then save the file. This is so that only the client will run, and instantly.
 3. Download and install any mods in MO, making sure to select their full name from the drop down. To speed up the process, you can extract mod files to the MO instance location under `MO\<InstanceName>\mods\`, then refresh MO.
-	![2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian).jpg](file:///D:%5C_twp%5CMedia%5CImage%5CPictures%5CShareX%5C2024%5C2024-06%5C2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian).jpg)
+	![[./Attachments/Escape From Tarkov/2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian).jpg|2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian)]]
 	- **Packages** are named `SPT Salt <SPTVersion>_<Package>`. They contain all mods of a major version.
 	- **Patches** are named `SPT Salt <SPTVersion>_<Package>.<Patch>`. They are smaller and incomplete, meant to distribute mod updates quickly.
 	- The **PersistentFiles** mod is how default configs are distributed and is a placeholder for your SPT settings and profile. Simply copy the files in this mod from `MO\<InstanceName>\mods\PersistentFiles-*\` as well as any extra files you want to keep from `MO\<InstanceName>\overwrite\` into an archive, then install it in MO as a mod set to a high priority to keep files across updates.
