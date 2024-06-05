@@ -4,8 +4,7 @@ tags:
 share: true
 ---
 parents:: [[../../2024-04-26|2024-04-26]]
-change
-# Escape From Tarkov
+
 ## SPT Install and Update
 
 1. Use BsgLauncher.exe to install or update official EFT to your best SSD
@@ -18,8 +17,8 @@ change
 		- Mods: "/user/mods" & "/BepInEx/plugins"
 			**Never delete or replace "/BepInEx/plugins/spt".**
 		- Mod Settings: "/BepInEx/config"
-		- Save Profiles (only if you run a server): "/user/profiles"
-	![|500](https://live.staticflickr.com/65535/53696801218_db324e3ae4_o.jpg)
+		- Save Profiles (only if you run a server): "/user/profiles"%%
+%%![|500](https://live.staticflickr.com/65535/53696801218_db324e3ae4_o.jpg)%%
 
 ## SPT Mods Install and Update
 

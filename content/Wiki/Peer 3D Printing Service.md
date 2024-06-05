@@ -5,8 +5,6 @@ share: true
 ---
 parents:: [[../../Yifu Ding|Yifu Ding]]
 
-# Peer 3D Printing Service
-
 <span style="font-size:2em;color:red;background-color:gree;">End of Year 50% Off!</span>
 
 *Cheaper, better, and faster than Stratasys PLA!*
@@ -24,7 +22,7 @@ Bambu P1S with AMS
 
 | Plate Slicing & Setup | Time                                          | Filament             |
 | :-------------------- | --------------------------------------------- | -------------------- |
-| $8 + $4/plate         | <span style="color:red;">\$3</span> ~~$6~~/hr | As cheap as it gets! |
+| \$8 + $4/plate        | <span style="color:red;">\$3</span> ~~$6~~/hr | As cheap as it gets! |
 
 > [!info]
 > Slicing fee is discounted or waived depending on complexity.
