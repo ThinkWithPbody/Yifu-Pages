@@ -21,7 +21,7 @@ parents:: [[../../2024-04-26|2024-04-26]]
 		- Save Profiles (only if you run a server): "/user/profiles"
 	![|500](https://live.staticflickr.com/65535/53696801218_db324e3ae4_o.jpg)%%
 
-## SPT Modlist 
+## SPT Mods Install and Update
 
 The modlist is compatible with **Mod Organizer** for profile management, meaning more than one instance of the game can be stored without taking excessive disk space, but it is not mandatory. 
 
@@ -60,7 +60,7 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 > [!tip]
 > If you want to use your own profile on our server or download the one in use on our server for your local server, contact me.
 
-### Modlist
+## Modlist
 #### Tools
 [Server Value Modifier](https://hub.sp-tarkov.com/files/file/379-server-value-modifier-svm/#tab_d24083dde670a53728f69fa322aa580ec032191a) 🥒 (Server settings)
 [Profile Editor](https://hub.sp-tarkov.com/files/file/184-spt-aki-profile-editor/) (Read installation, player health, quest, and items) 
