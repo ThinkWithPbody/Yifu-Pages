@@ -29,8 +29,9 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "Email": "mailto:yifuding.twp@gmail.com",
+      "LinkedIn": "https://www.linkedin.com/in/yifu-ding/",
+      "Instagram": "https://www.instagram.com/yifu_ding_/",
     },
   }),
 }
