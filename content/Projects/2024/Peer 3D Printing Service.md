@@ -3,7 +3,7 @@ tags:
   - wiki
 share: true
 ---
-parents:: [[../../Yifu Ding|Yifu Ding]]
+parents:: [[../../../Yifu Ding|Yifu Ding]]
 
 <span style="font-size:2em;color:red;background-color:gree;">End of Year 50% Off!</span>
 
@@ -216,7 +216,7 @@ Scarf Joint Seam (Contour And Hole)
 
 ### Showcase
 
-![[./Attachments/Peer 3D Printing Service/Showcase-Arjay Asuncion.jpg|400]]
+![[./Attachments/Peer 3D Printing Service/DSCF4947.jpg|400]]
 <iframe title="Speckle" src="https://app.speckle.systems/projects/aefb5374cb/models/a8a8bbe12f#embed=%7B%22isEnabled%22%3Atrue%7D" width="800" height="400" frameborder="0"></iframe>
 by Arjay Asuncion - 2024
 
