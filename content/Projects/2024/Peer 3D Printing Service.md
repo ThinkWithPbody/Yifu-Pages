@@ -2,6 +2,7 @@
 tags:
   - project
 share: true
+status: done
 ---
 parents:: [[../../../Yifu Ding|Yifu Ding]]
 
