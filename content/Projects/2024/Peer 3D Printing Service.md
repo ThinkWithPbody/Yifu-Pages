@@ -1,6 +1,6 @@
 ---
 tags:
-  - wiki
+  - project
 share: true
 ---
 parents:: [[../../../Yifu Ding|Yifu Ding]]

@@ -1,6 +1,6 @@
 ---
 tags:
-  - wiki
+  - project
 share: true
 ---
 ## SPT Install and Update
