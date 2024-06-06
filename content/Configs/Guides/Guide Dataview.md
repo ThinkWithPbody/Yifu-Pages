@@ -4,10 +4,13 @@ tags:
 share: true
 ---
 ```
-| File                                                                        | Due        | Status |
-| --------------------------------------------------------------------------- | ---------- | ------ |
-| [[Projects/2024/Beyond the Tarmac/Beyond the Tarmac.md\|Beyond the Tarmac]] | 2024-06-22 | \-     |
-
+dataview
+TABLE due AS "Due", status as Status
+FROM "Projects" AND #project AND !#navigation
+WHERE !completion AND (status != "done")
+SORT due
+SORT completion DESC
+```
 
 ```
 file.inlinks AS "Mentions"
