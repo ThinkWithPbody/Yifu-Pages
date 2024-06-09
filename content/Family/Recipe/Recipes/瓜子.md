@@ -8,4 +8,4 @@ recipe_meal:
   - "[[../../../../Snack|Snack]]"
 share: true
 ---
-recipe_detail:: 
+(recipe_detail:: )
