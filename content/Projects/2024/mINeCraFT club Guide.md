@@ -8,11 +8,21 @@ completion: 2024-06-10
 share: true
 ---
 
-![Logo|20](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Version: mcc-1.20.1-forge-1.0 
+Version: ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) mcc-1.20.1-forge-1.0
+Server Address: 173.32.64.239:25565
 
 # Install
 
-Server Address: 173.32.64.239:25565
+## Curse Forge
+
+1. Download Curse Forge Standalone [Here](https://www.curseforge.com/download/app).
+2. Download the mINeCraFT club modpack [Here](http://www.mediafire.com/view/6r8ge3eejqiy6ju).
+3. Install the modpack on Curse Forge.
+	1. Go to Minecraft
+	2. From the top right, Create Custom Profile
+	3. Click the underlined word **import**
+	4. Select the modpack
+4. Click Play, then Play
 
 # Default Hotkeys
 ## 1. Movement
