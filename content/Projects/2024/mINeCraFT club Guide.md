@@ -7,10 +7,14 @@ due:
 completion: 2024-06-10
 share: true
 ---
-parents:: [[Wiki/mINeCraFT club|mINeCraFT club]]
-  
+
 ![Logo|20](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) Version: mcc-1.20.1-forge-1.0 
 
+# Install
+
+Server Address: 173.32.64.239:25565
+
+# Default Hotkeys
 ## 1. Movement
 
 LC = Sneak
@@ -23,11 +27,15 @@ LS = Sprint
 Tab = Inventory
 Q = Offhand Swap
 V = Hotbar Swap
+- LS + V = Tetra Use Secondary
+R = Tetra Toolbelt
+- LC + R = Tetra Toolbelt Open
+- LS + R = Tetra Toolbelt Restock
 E = Sophisticated Backpack
     Mouse3 = Backpack Sort
-- LA + Z = Backpack Upgrade Slot 1
-- LA + X = Backpack Upgrade Slot 2
-- LA + C = Backpack Upgrade Slot 3
+- Z = Backpack Upgrade Slot 1
+- X = Backpack Upgrade Slot 2
+- C = Backpack Upgrade Slot 3
 T = Delete Item
 	Most recently deleted items are stored in the Trash Slot UI
 - LC + T = Toggle Trash Slot UI
