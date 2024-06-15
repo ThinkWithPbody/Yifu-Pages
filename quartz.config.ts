@@ -67,7 +67,7 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ comments: true }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "relative" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "absolute" }),
       Plugin.Description(),
       Plugin.HardLineBreaks(),
     ],
