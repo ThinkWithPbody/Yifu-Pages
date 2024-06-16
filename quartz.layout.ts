@@ -73,23 +73,24 @@ export const defaultListPageLayout: PageLayout = {
 
 Component.Explorer({
     sortFn: (a, b) => {
-        function getParentFolderName(node) {
-            const pathParts = node.split('/');
-            return pathParts[pathParts.length - 2];
-        }
         if ((!a.file && !b.file) || (a.file && b.file)) {
+            // Check if either a or b has a name matching its parent's name
+            const aMatchesParent = a.fullPath.endsWith(`/${a.name}/${a.name}`);
+            const bMatchesParent = b.fullPath.endsWith(`/${b.name}/${b.name}`);
+
+            if (aMatchesParent && !bMatchesParent) {
+                return -1;
+            }
+            if (!aMatchesParent && bMatchesParent) {
+                return 1;
+            }
+
             // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
             // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
-            if (a.name === getParentFolderName(a) && b.name !== getParentFolderName(b)) {
-                return 1
-            } else if (a.name !== getParentFolderName(a) && b.name === getParentFolderName(b)) {
-                return -1
-            } else {
-                return a.displayName.localeCompare(b.displayName, undefined, {
-                    numeric: true,
-                    sensitivity: "base",
-                })
-            }
+            return a.displayName.localeCompare(b.displayName, undefined, {
+                numeric: true,
+                sensitivity: "base",
+            })
         }
         if (a.file && !b.file) {
             return 1

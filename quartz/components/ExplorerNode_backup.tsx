@@ -51,7 +51,6 @@ export class FileNode {
   depth: number
   icon?: string
   order?: number
-  fullPath: string
 
   constructor(
     slugSegment: string,
@@ -59,7 +58,6 @@ export class FileNode {
     file?: QuartzPluginData,
     depth?: number,
     icon?: string,
-    fullPath: string,
   ) {
     this.children = []
     this.name = slugSegment
@@ -68,7 +66,6 @@ export class FileNode {
     this.depth = depth ?? 0
     this.icon = icon ?? (file?.frontmatter?.icon as string) ?? undefined
     this.order = file?.frontmatter?.order
-    this.fullPath = fullPath
   }
 
   private insert(fileData: DataWrapper) {
@@ -77,7 +74,6 @@ export class FileNode {
     }
 
     const nextSegment = fileData.path[0]
-    const newPath = joinSegments(this.fullPath, nextSegment)
 
     // base case, insert here
     if (fileData.path.length === 1) {
@@ -91,7 +87,7 @@ export class FileNode {
         }
       } else {
         // direct child
-        this.children.push(new FileNode(nextSegment, undefined, fileData.file, this.depth + 1, undefined, newPath))
+        this.children.push(new FileNode(nextSegment, undefined, fileData.file, this.depth + 1))
       }
 
       return
@@ -110,8 +106,6 @@ export class FileNode {
       getPathSegment(fileData.file.relativePath, this.depth),
       undefined,
       this.depth + 1,
-      undefined,
-      newPath,
     )
     newChild.insert(fileData)
     this.children.push(newChild)
