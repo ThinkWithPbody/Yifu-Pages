@@ -2,7 +2,6 @@
 tags:
   - navigation
   - project
-database-plugin: basic
 parents: "[[index]]"
 share: true
 ---

@@ -4,7 +4,7 @@ tags:
 share: true
 status: done
 ---
-parents:: [[../../../Yifu Ding|Yifu Ding]]
+[parents:: [[../../../Yifu Ding|Yifu Ding]]]
 
 <span style="font-size:2em;color:red;background-color:gree;">End of Year 50% Off!</span>
 
