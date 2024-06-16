@@ -16,7 +16,7 @@ Server Address: 173.32.64.239:25565
 ## Curse Forge
 
 1. Download Curse Forge Standalone [Here](https://www.curseforge.com/download/app).
-2. Download the mINeCraFT club modpack [Here](http://www.mediafire.com/view/6r8ge3eejqiy6ju).
+2. Download the mINeCraFT club modpack [Here](http://www.mediafire.com/view/3lecuhjkpkdltja).
 3. Install the modpack on Curse Forge.
 	1. Go to Minecraft
 	2. From the top right, Create Custom Profile
