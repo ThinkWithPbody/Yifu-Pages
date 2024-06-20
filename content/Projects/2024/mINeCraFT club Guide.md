@@ -1,14 +1,14 @@
 ---
 tags:
   - project
-status: done
+status: DONE
 priority: medium
 due: 
 completion: 2024-06-10
 share: true
 ---
-
-Version: ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png) mcc-1.20.1-forge-1.0
+![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
+Version: mcc-1.20.1-forge-1.2
 Server Address: 173.32.64.239:25565
 
 # Install
@@ -16,7 +16,7 @@ Server Address: 173.32.64.239:25565
 ## Curse Forge
 
 1. Download Curse Forge Standalone [Here](https://www.curseforge.com/download/app).
-2. Download the mINeCraFT club modpack [Here](http://www.mediafire.com/view/3lecuhjkpkdltja).
+2. Download the mINeCraFT club modpack [Here](http://www.mediafire.com/view/7l642dcu8z0z9yz).
 3. Install the modpack on Curse Forge.
 	1. Go to Minecraft
 	2. From the top right, Create Custom Profile
@@ -75,8 +75,8 @@ O = Autofish GUI
 P = List Players (Minimap Icon)
 %%- F = Torch
     > Place torch from hotbar.%%
-%%K = Quark Placement Orientation Lock
-    Locks the placement orientation of blocks such as stairs.%%
+K = Quark Placement Orientation Lock
+- *Locks the placement orientation of blocks such as stairs.*
 L = Advancements
 N + Mouse2 = Carry On
 - *Works on entities within a small range.*
@@ -118,20 +118,20 @@ Num 1 = The One Probe Overlay Toggle
 
 ## 6. Misc
 
-%%Mouse4 = Back
-- *Navigate back from the previous UI*%%
+Mouse4 = Back
+- *Navigate back from the previous UI*
 %%Mouse5 = Camera Zoom%%
 %%Pause = Reduce FPS
     LC + Pause = FPS Reducer GUI%%
 %%J = Ping Menu%%
 Num 0 = Social Interaction
-%%- \\ = Salute
+- \\\\ = Salute
 - Num 7 = Emote Yes
 - Num 4 = Emote No
 - Num 8 = Emote Clap
 - Num 5 = Emote Weep
 - Num 9 = Emote Wave
-- Num 6 = Emote Shrug%%
+- Num 6 = Emote Shrug
 F1 = UI
 F2 = Cinematic Camera
 F3 = Information Overlay
@@ -146,4 +146,4 @@ F5 = Perspective Toggle
     Page Up = Shoulder Surfing Camera Closer
     Page Down = Shoulder Surfing Camera Farther%%
 F11 = Fullscreen
-%%- F12 = Screenshot%%
+F12 = Camera Mode
