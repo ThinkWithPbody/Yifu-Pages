@@ -7,10 +7,11 @@ share: true
 ---
 ## Active Projects
 
-| File                                                                        | Due        | Status |
-| --------------------------------------------------------------------------- | ---------- | ------ |
-| [[./2024/ICPS Research/ICPS Research\|ICPS Research]]             | \-         | todo   |
-| [[./2024/Beyond the Tarmac/Beyond the Tarmac\|Beyond the Tarmac]] | 2024-06-22 | \-     |
+| File                                                                        | Due | Status      |
+| --------------------------------------------------------------------------- | --- | ----------- |
+| [[../../Project Title\|Project Title]]             | \-  | TODO        |
+| [[../../ICPS Research\|ICPS Research]]             | \-  | IN_PROGRESS |
+| [[../../Beyond the Tarmac\|Beyond the Tarmac]] | \-  | IN_PROGRESS |
 
 
 ## Past Projects
