@@ -2,9 +2,9 @@
 tags:
   - project
 share: true
-status: done
+status: DONE
 ---
-[parents:: [[../../../Yifu Ding|Yifu Ding]]]
+%%[parents:: [[../../../Yifu Ding|Yifu Ding]]]%%
 
 <span style="font-size:2em;color:red;background-color:gree;">End of Year 50% Off!</span>
 
@@ -14,7 +14,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 
 ### Machine
 
-Bambu P1S with AMS
+FDM Bambu P1S with AMS
 - Up to 4 filaments per plate
 - Build volume XYZ: 225mm * 225mm * 250mm | 8.85in * 8.85in * 9.85in
 - 0.4 mm hardened steel nozzle
