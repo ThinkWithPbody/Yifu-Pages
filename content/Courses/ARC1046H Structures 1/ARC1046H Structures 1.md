@@ -1,8 +1,9 @@
 ---
 tags:
   - course
-year: 2024
-quarter: "1"
+start: 2024-01-05
+due: 
+completion: 
 people:
   - "[[People/Dave Bowick|People/Dave Bowick]]"
   - "[[People/Shannon Hilchie|People/Shannon Hilchie]]"
