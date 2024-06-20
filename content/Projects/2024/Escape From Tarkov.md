@@ -2,7 +2,7 @@
 tags:
   - project
 share: true
-status: done
+status: DONE
 ---
 ## SPT Install and Update
 
