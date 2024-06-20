@@ -27,3 +27,23 @@ _%>`
 [Templates Showcase](https://github.com/SilentVoid13/Templater/discussions/categories/templates-showcase)
 [zachyoung Templater snippets](https://zachyoung.dev/posts/templater-snippets)
 [Christian's Templater Templates](https://github.com/chhoumann/Templater_Templates)
+
+## Templates
+
+## Due
+```
+group by due
+has due date
+(scheduled before next 2 week) OR (no scheduled date)
+```
+## Scheduled
+```
+group by scheduled
+no due date
+scheduled before next 2 week OR no scheduled date
+NOT (tag includes shopping)
+```
+## Shopping
+```
+tag includes shopping
+```
