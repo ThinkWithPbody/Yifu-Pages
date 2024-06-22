@@ -303,7 +303,7 @@ Steel and concrete building:
 			- Left
 		- Geo datum as cardinal, others as ordinal
 	- Put the grids in the most convenient place to offset from foundations
-		- [x] ![[./Attachments/ARC1046H Structures 1 2024-01-17.png|ARC1046H Structures 1 2024-01-17]]%%[[../../../ARC1046H Structures 1 2024-01-17|🖋 Edit in Excalidraw]]%%  [completion:: 2024-04-10]
+		- [x] ![[./Attachments/ARC1046H Structures 1 2024-01-17.png|ARC1046H Structures 1 2024-01-17]]%%[[../../../../ARC1046H Structures 1 2024-01-17|🖋 Edit in Excalidraw]]%%  [completion:: 2024-04-10]
 	- Only describe the extent when it’s not obvious
 	- Describe top of steel / beam everywhere (sometimes indicated on schedule)
 		- sometimes, indicate under side of deck, and top of steel is at underside of deck unless noted
@@ -384,7 +384,7 @@ Alternative Construction Techniques (Glass, Fabric, Straw Bale, Rammed Earth)
 	- Multiple storey column lifts (steel)
 	- Minimize transfers
 - Cold and hot rolled steel
-	- [x] ![[./Attachments/ARC1046H Structures 1 2024-01-24.png|ARC1046H Structures 1 2024-01-24]]%%[[../../../ARC1046H Structures 1 2024-01-24|🖋 Edit in Excalidraw]]%%  [completion:: 2024-04-10]
+	- [x] ![[./Attachments/ARC1046H Structures 1 2024-01-24.png|ARC1046H Structures 1 2024-01-24]]%%[[../../../../ARC1046H Structures 1 2024-01-24|🖋 Edit in Excalidraw]]%%  [completion:: 2024-04-10]
 	- Flange thickness and web thickness not necessarily same width, not working as hard as flange
 
 Steel construction
