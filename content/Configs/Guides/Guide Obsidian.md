@@ -42,8 +42,10 @@ Inline Reference![[Guide Obsidian#Styles|Configs/Guides/Guide Obsidian > Styles]
 ## Shortcuts
 
 Ctrl = Enable Hover Preview On Links
-Alt + E = Toggle Source Mode
+Ctrl + E = Toggle Source Mode
+Alt + E = Templater
+Alt + Q = QuickAdd
 Ctrl + Alt + A = Emoji Toolbar
 Ctrl + Alt + T = Modify Task
-Drag + Ctrl + Drop = Embed /  Transclude
+Ctrl + Drag + Drop = Embed /  Transclude
 [Multiple Cursors](https://help.obsidian.md/Editing+and+formatting/Multiple+cursors)
