@@ -3,10 +3,10 @@ tags:
   - guide
 share: true
 ---
-### Standard Fields
+## Standard Fields
 status: string = TODO, IN_PROGRESS, DONE, CANCELLED
 
-### Dataview Basics
+## Dataview Basics
 For active projects:
 ```
 LIST
@@ -29,7 +29,11 @@ release-date:: 2024-06-18T12:00
 ```
 \- until release!!
 ```
-P-4DT-4H-16M-20.159S until release!!
+P-5DT-6H-1M-6.638S until release!!
+
+## DataviewJS
+
+dv.date("now").toFormat("x");
 
 ### Rename, Move, AND Link To Main Page
 ```
