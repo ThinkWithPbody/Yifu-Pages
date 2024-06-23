@@ -3,7 +3,7 @@ tags:
   - course
 start: 2024-01-05
 due: 
-completion: 
+completion: 2024-04-01
 people:
   - "[[People/Dave Bowick|People/Dave Bowick]]"
   - "[[People/Shannon Hilchie|People/Shannon Hilchie]]"
