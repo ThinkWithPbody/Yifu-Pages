@@ -32,16 +32,16 @@ FDM Bambu P1S with AMS
 
 ### Getting Started
 
-1. Follow [[Peer 3D Printing Service#File Preparation|File Preparation]] and export files.
-2. Choose your [[Peer 3D Printing Service#Filament|Filament]].
-3. Choose from one of the [[Peer 3D Printing Service#Quality Presets|Quality Presets]].
-4. Adjust [[Peer 3D Printing Service#Slicing Options|Slicing Options]] as needed.
+1. Follow [[Yifu's 3D Printing Service#File Preparation|File Preparation]] and export files.
+2. Choose your [[Yifu's 3D Printing Service#Filament|Filament]].
+3. Choose from one of the [[Yifu's 3D Printing Service#Quality Presets|Quality Presets]].
+4. Adjust [[Yifu's 3D Printing Service#Slicing Options|Slicing Options]] as needed.
 5. Send your **ZIP** file, **filament**, **preset**, and **custom options** to Yifu Ding over Teams or [Email](mailto:yifu.ding@mail.utoronto.ca) for an estimate.
 6. Email transfer fees to yifuding.twp@gmail.com
 
 #### File Preparation
 
-![[./Attachments/Peer 3D Printing Service/2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino).gif|2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino)]]
+![[./Attachments/Yifu's 3D Printing Service/2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino).gif|2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino)]]
 
 ##### Orientate
 
@@ -62,7 +62,7 @@ Files should be exported as **STL in millimetres**.
 - Rhino files or incorrectly scaled STL will not be accepted.
 - **Each separated body should be one file** regardless of which plate they may be on, to maximize nesting potential.
 	- When relative positioning is important, add a small bridge with a cross section of 0.5-1mm² (depending on strength requirement) directly on the print bed and boolean union all connected bodies.
-- For multiple objects, use the Rhino command **RunPythonScript** with the [[./Attachments/Peer 3D Printing Service/BatchExportSTLByObj.py|Batch Export Python Script]] to export all selected files at once.
+- For multiple objects, use the Rhino command **RunPythonScript** with the [[./Attachments/Yifu's 3D Printing Service/BatchExportSTLByObj.py|Batch Export Python Script]] to export all selected files at once.
 - Deliver more than one .stl files as a **ZIP**.
 
 #### Filament
@@ -217,7 +217,7 @@ Scarf Joint Seam (Contour And Hole)
 
 ### Showcase
 
-![[./Attachments/Peer 3D Printing Service/DSCF4947.jpg|400]]
+![[./Attachments/Yifu's 3D Printing Service/DSCF4947.jpg|400]]
 <iframe title="Speckle" src="https://app.speckle.systems/projects/aefb5374cb/models/a8a8bbe12f#embed=%7B%22isEnabled%22%3Atrue%7D" width="800" height="400" frameborder="0"></iframe>
 by Arjay Asuncion - 2024
 
@@ -226,7 +226,7 @@ by Arjay Asuncion - 2024
 ###### *Why is there a setup fee? For each plate?*
 
 This setup fee allows me to take more care optimizing your print file and compensates me for my continued presence. Optimizations can massively reduce your print time and filament, lowering total cost, but each job is different and it takes time. I try my best to provide affordable and environmentally responsible printing service, which is why I offer my time and expertise at a modest fee. You'll always have the option to slice it by yourself and I am pleased to waive the setup fee for such cases, but current success rate for this option is only 0%.
-![[./Attachments/Peer 3D Printing Service/2024-04-10T00_15_05.jpg|200]]
+![[./Attachments/Yifu's 3D Printing Service/2024-04-10T00_15_05.jpg|200]]
 
 %%
 ### Tiny Tracker
