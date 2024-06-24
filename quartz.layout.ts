@@ -49,7 +49,7 @@ export const defaultContentPageLayout: PageLayout = {
         Component.DesktopOnly(
             Component.ExplorerBurger({
                 folderDefaultState: "collapsed",
-                folderClickBehavior: "link",// link, collapse
+                folderClickBehavior: "collapse",// link, collapse
                 useSavedState: true,
                 title: "",
                 iconSettings: iconsOptions,
