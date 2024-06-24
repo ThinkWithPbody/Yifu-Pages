@@ -49,7 +49,7 @@ export const defaultContentPageLayout: PageLayout = {
         Component.DesktopOnly(
             Component.ExplorerBurger({
                 folderDefaultState: "collapsed",
-                folderClickBehavior: "link",
+                folderClickBehavior: "link",// link, collapse
                 useSavedState: true,
                 title: "",
                 iconSettings: iconsOptions,
@@ -73,69 +73,62 @@ export const defaultListPageLayout: PageLayout = {
 // Graph
 Component.Graph({
     localGraph: {
-      drag: true, // whether to allow panning the view around
-      zoom: true, // whether to allow zooming in and out
-      depth: 2, // how many hops of notes to display
-      scale: 1.1, // default view scale
-      repelForce: 0.5, // how much nodes should repel each other
-      centerForce: 0.3, // how much force to use when trying to center the nodes
-      linkDistance: 30, // how long should the links be by default?
-      fontSize: 0.6, // what size should the node labels be?
-      opacityScale: 1, // how quickly do we fade out the labels when zooming out?
-      removeTags: [], // what tags to remove from the graph
-      showTags: true, // whether to show tags in the graph
+        drag: true, // whether to allow panning the view around
+        zoom: true, // whether to allow zooming in and out
+        depth: 2, // how many hops of notes to display
+        scale: 1.1, // default view scale
+        repelForce: 0.5, // how much nodes should repel each other
+        centerForce: 0.3, // how much force to use when trying to center the nodes
+        linkDistance: 30, // how long should the links be by default?
+        fontSize: 0.6, // what size should the node labels be?
+        opacityScale: 1, // how quickly do we fade out the labels when zooming out?
+        removeTags: [], // what tags to remove from the graph
+        showTags: true, // whether to show tags in the graph
     },
     globalGraph: {
-      drag: true,
-      zoom: true,
-      depth: -1,
-      scale: 0.9,
-      repelForce: 0.5,
-      centerForce: 0.3,
-      linkDistance: 30,
-      fontSize: 0.6,
-      opacityScale: 1,
-      removeTags: [], // what tags to remove from the graph
-      showTags: true, // whether to show tags in the graph
+        drag: true,
+        zoom: true,
+        depth: -1,
+        scale: 0.9,
+        repelForce: 0.5,
+        centerForce: 0.3,
+        linkDistance: 30,
+        fontSize: 0.6,
+        opacityScale: 1,
+        removeTags: [], // what tags to remove from the graph
+        showTags: true, // whether to show tags in the graph
     },
-  })
+})
 
-  // Folder Tree Sort
+// Folder Tree Sort
 Component.Explorer({
     sortFn: (a, b) => {
-        if ((!a.file && !b.file) || (a.file && b.file)) {
-            // Check if either a or b has a name matching its parent's name
-            const aMatchesParent = a.fullPath.endsWith(`/${a.name}/${a.name}`);
-            const bMatchesParent = b.fullPath.endsWith(`/${b.name}/${b.name}`);
+        // Determine if the nodes match their parent's name
+        const aMatchesParent = a.fullPath.endsWith(`/${a.name}/${a.name}`);
+        const bMatchesParent = b.fullPath.endsWith(`/${b.name}/${b.name}`);
 
-            if (aMatchesParent && !bMatchesParent) {
-                return -1;
-            }
-            if (!aMatchesParent && bMatchesParent) {
-                return 1;
-            }
+        // Prioritize nodes matching their parent's name
+        if (aMatchesParent && !bMatchesParent) {
+            return -1;
+        }
+        if (!aMatchesParent && bMatchesParent) {
+            return 1;
+        }
 
-            // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
-            // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
-            return a.displayName.localeCompare(b.displayName, undefined, {
-                numeric: true,
-                sensitivity: "base",
-            })
-        }
-        if (a.file && !b.file) {
-            return 1
-        } else {
-            return -1
-        }
+        // Compare display names if both or neither match their parent's name
+        return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+        });
     },
     mapFn: (node) => {
-        // dont change name of root node
+        // Don't change the name of the root node
         if (node.depth > 0) {
-            // set emoji for file/folder
+            // Set emoji for file/folder
             if (node.file) {
-                node.displayName = "📄 " + node.displayName
+                node.displayName = "📄 " + node.displayName;
             } else {
-                node.displayName = "📁 " + node.displayName
+                node.displayName = "📁 " + node.displayName;
             }
         }
     },
