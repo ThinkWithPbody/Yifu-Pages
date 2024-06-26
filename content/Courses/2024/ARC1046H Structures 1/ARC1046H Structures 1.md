@@ -17,9 +17,6 @@ share: true
 [code:: ARC1046H]
 [title:: Structures 1]
 
-[ARC1046HS 2024 2024.01.08 Graduate Course Outline.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CARC1046HS%202024%202024.01.08%20Graduate%20Course%20Outline.pdf)
-[Files](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CFiles)
-
 ## Sizing Guidelines
 
 | Material | Type                              | Standard Sizes                                                                                                                                                                                     | Rule of Thumb           | Note                                                                |
