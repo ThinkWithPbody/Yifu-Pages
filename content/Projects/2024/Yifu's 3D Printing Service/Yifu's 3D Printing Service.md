@@ -5,6 +5,7 @@ share: true
 status: DONE
 ---
 %%[parents:: [[../../../../Yifu Ding|Yifu Ding]]]%%
+%% https://bit.ly/3KXxaNK %%
 
 <span style="font-size:2em;color:red;background-color:gree;">End of Year 50% Off!</span>
 
