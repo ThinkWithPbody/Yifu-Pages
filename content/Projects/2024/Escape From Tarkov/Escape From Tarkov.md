@@ -30,25 +30,16 @@ Manual install locations are marked with 🍌 for **"/BepInEx/plugins"** and �
 	- Download and install [SPT ModOrganizer Integration](https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview) by extracting it to the MO install location.
 2. Create a new global instance in your SPT folder. Settings can be kept default, ignore pop-ups.
 	- Under SPT root, edit `sptvfsbridge.bat` and add `REM ` at the start of line 9 and 12 so that it reads for example `REM start "" "%server_path%"`, then save the file. This is so that only the client will run, and instantly.
-3. Download and install any mods in MO, making sure to select their full name from the drop down. To speed up the process, you can extract mod files to the MO instance location under `MO\<InstanceName>\mods\`, then refresh MO.
+3. [[Escape From Tarkov#Patch Note & Downloads|Download]] a **package** or **patch** and extract files to the MO instance location under `MO\<InstanceName>\`, then refresh MO.
 	![[./Attachments/Escape From Tarkov/2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian).jpg|2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian)]]
 	- **Packages** are named `SPT Salt <SPTVersion>_<Package>`. They contain all mods of a major version.
 	- **Patches** are named `SPT Salt <SPTVersion>_<Package>.<Patch>`. They are smaller and incomplete, meant to distribute mod updates quickly.
 	- The **PersistentFiles** mod is how default configs are distributed and is a placeholder for your SPT settings and profile. Simply copy the files in this mod from `MO\<InstanceName>\mods\PersistentFiles-*\` as well as any extra files you want to keep from `MO\<InstanceName>\overwrite\` into an archive, then install it in MO as a mod set to a high priority to keep files across updates.
-4. **Profiles & Categories** are named `SPT Salt MO <SPTVersion>_<Package>.<Patch>` They are the fastest way to switch between mod lists, but they only work if you've already imported all mods they reference, so don't skip the previous step. Extract the archive to `MO2\<InstanceName>\`, then refresh MO and select the profile.
+4. **Profiles** are the fastest way to switch between mod lists, but they only work if you've already imported all mods they reference. Select the profile for the current package or patch.
 5. Click `Run` to launch SPT.
-	- Change SPT Launcher settings on Game Path and URL.
+	- Don't forget to change SPT Launcher settings on Game Path and URL.
 
 ![[./Attachments/Escape From Tarkov/Pasted image 20240520011534.png|Pasted image 20240520011534]]
-
-##### Packages (Manual)
-To install, remove existing 🍌 and 🥒 folders completely and place all contents from the package in root **"/"**.
-
-##### Patches (Manual)
-To install, place all contents from the patch in root **"/"**.
-
-> [!warning]
-> **Never delete or replace "/BepInEx/plugins/spt".**
 
 ## Project Fika (MPT)
 
@@ -74,6 +65,7 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 
 #### Gameplay
 [Project Fika](https://discord.gg/project-fika) ([Documentation](https://github.com/project-fika/fika-documentation)) 🍌🥒
+[Realism Mod](https://hub.sp-tarkov.com/files/file/606-spt-realism-mod/) 🍌🥒 (Everything overhauled)
 [Late to the Party](https://hub.sp-tarkov.com/files/file/1099-late-to-the-party/) 🍌🥒 (Realistic Scav runs)
 [Backdoor Bandit](https://hub.sp-tarkov.com/files/file/1154-backdoor-bandit-bb/#overview) 🍌🥒 (Shoot open doors)
 [Josh Mate's Better Backpacks](https://hub.sp-tarkov.com/files/file/772-josh-mate-s-better-backpacks/#overview) 🥒 (Backpack rebalance)
@@ -91,7 +83,8 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 [Loot Value](https://hub.sp-tarkov.com/files/file/1606-lootvalue/) 🍌🥒 (Alt Shift M1 to quick sell)
 [Item Info](https://hub.sp-tarkov.com/files/file/985-item-info/) 🥒 (Rarity recolor and detailed description)
 [More Checkmarks](https://hub.sp-tarkov.com/files/file/1159-morecheckmarks/) 🍌🥒 (Show requirement for quests, hideout, crafting)
-[Stash Search](https://hub.sp-tarkov.com/files/file/1769-stash-search/)) 🍌 (Ctrl F in stash
+[Stash Search](https://hub.sp-tarkov.com/files/file/1769-stash-search/)) 🍌 (Ctrl F in stash)
+[AutoDeposit](https://hub.sp-tarkov.com/files/file/2027-autodeposit/) 🍌
 [UI Fixes](https://hub.sp-tarkov.com/files/file/1860-ui-fixes/) 🍌 (Drag to swap, UI QOL changes)
 [Skipper](https://hub.sp-tarkov.com/files/file/1861-skipper/) 🍌 (Ctrl to skip quests)
 
@@ -113,9 +106,17 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 [Pause](https://hub.sp-tarkov.com/files/file/1793-pause-reupload/) 🍌 (P to pause, may cause death)
 
 #### Default Hotkeys
-- M4 to zoom
-	- M4 to dial optic in
-	- M5 to dial optic out
+- C to mount weapon
+	- Ctrl + M4 to dial optic in
+	- Ctrl + M5 to dial optic out
+- Ctrl to look around
+	- Ctrl + Scroll to cycle High-ready Low-ready stance
+	- M5 to Active Aim stance
+	- M4 to Short-stock stance
+	- K to Patrol stance
+- V to quick melee
+	- Double V to hold melee weapon
+	- Hold V to use melee weapon
 - F12 to change Fika Core settings such as health bar, damage multiplier, and AI range
 	- T to ping
 	- F9 to enter free cam
@@ -126,10 +127,21 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 - M2 item in stash to gift to other accounts
 - Alt Shift M1 item in stash to automatically sell to most profitable market
 - O to check bosses
-- P to pause
 
 ### Patch Note & Downloads
 
+##### 3.8.3_2.1
+[Patch Download](http://www.mediafire.com/view/qdk1z02d4ja10ik)
+
+Added Realism Mod
+Added AutoDeposit
+Updated Looting Bots
+Updated Borkel's Realistic Night Vision Goggles
+Updated Late to the Party
+Updated Fontaine's FOV Fix & Variable Optics
+Updated Dynamic Maps
+Updated That's Lit
+Updated That's Lit Sync
 ##### 3.8.3_2
 [Package](http://www.mediafire.com/view/msx1i8v7aqdoxwk)
 [Profile](http://www.mediafire.com/view/7i0apd7w7ax9rm1)
