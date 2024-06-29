@@ -115,8 +115,8 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 	- M4 to Short-stock stance
 	- K to Patrol stance
 - V to quick melee
-	- Double V to hold melee weapon
-	- Hold V to use melee weapon
+	- Double V to use melee weapon
+	- Hold V to hold melee weapon
 - F12 to change Fika Core settings such as health bar, damage multiplier, and AI range
 	- T to ping
 	- F9 to enter free cam
@@ -131,7 +131,7 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 ### Patch Note & Downloads
 
 ##### 3.8.3_2.1
-[Patch Download](http://www.mediafire.com/view/qdk1z02d4ja10ik)
+[Patch Download](http://www.mediafire.com/view/llta75ixppmc5bf)
 
 Added Realism Mod
 Added AutoDeposit
