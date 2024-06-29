@@ -131,7 +131,7 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 ### Patch Note & Downloads
 
 ##### 3.8.3_2.1
-[Patch Download](http://www.mediafire.com/view/llta75ixppmc5bf)
+[Patch Download](http://www.mediafire.com/view/mo206ofnyx98v8d)
 
 Added Realism Mod
 Added AutoDeposit
