@@ -70,6 +70,7 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 [Backdoor Bandit](https://hub.sp-tarkov.com/files/file/1154-backdoor-bandit-bb/#overview) 🍌🥒 (Shoot open doors)
 [Josh Mate's Better Backpacks](https://hub.sp-tarkov.com/files/file/772-josh-mate-s-better-backpacks/#overview) 🥒 (Backpack rebalance)
 [Shiny Airdrop Guns!](https://hub.sp-tarkov.com/files/file/1572-shiny-airdrop-guns/) 🥒 (Some guns have innate stats)
+[Quick Throw Grenades](https://hub.sp-tarkov.com/files/file/1695-quick-throw-grenades/?highlight=grenade#overview) 🍌
 [Headshot Damage Redirection](https://hub.sp-tarkov.com/files/file/1809-headshot-damage-redirection-hdr/) 🍌 (Portion of head damage distributed)
 [Use Items Anywhere](https://hub.sp-tarkov.com/files/file/1416-use-items-anywhere/) 🍌 (Hotkey backpack items)
 [Boss Notifier](https://hub.sp-tarkov.com/files/file/1737-boss-notifier/#overview) 🍌 (Inter center level 1-3 unlocks)
@@ -109,6 +110,7 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 - C to mount weapon
 	- Ctrl + M4 to dial optic in
 	- Ctrl + M5 to dial optic out
+- G to quick throw grenades
 - Ctrl to look around
 	- Ctrl + Scroll to cycle High-ready Low-ready stance
 	- M5 to Active Aim stance
@@ -131,10 +133,11 @@ To join local server, change URL back to `http://127.0.0.1:6969`.
 ### Patch Note & Downloads
 
 ##### 3.8.3_2.1
-[Patch Download](http://www.mediafire.com/view/mo206ofnyx98v8d)
+[Patch Download](http://www.mediafire.com/view/xnpknlefpj1gwz6)
 
 Added Realism Mod
 Added AutoDeposit
+Added Quick Throw Grenade
 Updated Looting Bots
 Updated Borkel's Realistic Night Vision Goggles
 Updated Late to the Party
@@ -142,6 +145,8 @@ Updated Fontaine's FOV Fix & Variable Optics
 Updated Dynamic Maps
 Updated That's Lit
 Updated That's Lit Sync
+Updated UI Fixes
+Updated Stash Search
 ##### 3.8.3_2
 [Package](http://www.mediafire.com/view/msx1i8v7aqdoxwk)
 [Profile](http://www.mediafire.com/view/7i0apd7w7ax9rm1)
