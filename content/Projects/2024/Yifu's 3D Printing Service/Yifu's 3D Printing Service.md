@@ -11,6 +11,12 @@ status: DONE
 
 *Cheaper, better, and faster than Stratasys PLA!*
 
+### 100% satisfaction guarantee
+*Get a full reprint or 100% Refund if you are not happy with your order*
+
+> [!tip]
+> We will inspect your uploaded files to ensure they will print correctly. If you are not happy with the quality of the product you purchased, and this is due to factors under our control, we will replace or refund your purchase fully. For factors that we don’t control, such as incorrect models or scale, we will strive to find a solution. For any issues contact Yifu within 14 days of delivery.
+
 Pick up at Daniels or 404-Major Mackenzie Dr E.
 
 ### Machine
