@@ -24,19 +24,18 @@ FDM Bambu P1S with AMS
 *Get a full reprint or 100% Refund if you are not happy with your order.*
 
 > [!tip]
-> We will inspect your files to ensure they will print correctly. If you are not happy with the quality of the product you purchased, and this is due to factors under our control, we will replace or refund your purchase fully. For factors that we don’t control, such as incorrect models or scale, we will strive to find a solution. For any issues contact Yifu within 14 days of delivery.
+> We will inspect your files to ensure they will print correctly. If you are not happy with the quality of the product you purchased, and this is due to factors under our control, we will replace or refund your purchase fully. For factors that we don’t control, such as incorrect models or scale, we will strive to find a solution. For any issues contact Yifu within 14 days of delivery. 
 
 Pick up at Daniels or 404-Major Mackenzie Dr E.
+Invoice available upon request. 
 
 ### Service Charge
 
 Grand Total = File Setup + Plates + Printing Minutes + Filament Grams + HST
 
-
-
-| Plate Slicing & Setup | Time                                          | Filament             |
-| :-------------------- | --------------------------------------------- | -------------------- |
-| \$8 + $4/plate        | %%<span style="color:red;">\$3</span>%% $3/hr | As cheap as it gets! |
+| File Setup | Plates    | Printing                                          | Filament                 |
+| ---------- | :-------- | ------------------------------------------------- | ------------------------ |
+| \$8        | \$4/plate | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament\|See Table]] |
 
 > [!info]
 > Slicing fee is discounted or waived depending on complexity.
@@ -46,7 +45,7 @@ Grand Total = File Setup + Plates + Printing Minutes + Filament Grams + HST
 ### Getting Started
 
 1. Follow [[Yifu Design Lab#File Preparation|File Preparation]] and export files.
-2. Choose your [[Yifu Design Lab#Filament|Filament]].
+2. Choose your [[Yifu Design Lab#Filament|See Table]].
 3. Choose from one of the [[Yifu Design Lab#Quality Presets|Quality Presets]].
 4. Adjust [[Yifu Design Lab#Slicing Options|Slicing Options]] as needed.
 5. Send your **ZIP** file, **filament**, **preset**, and **custom options** to Yifu Ding over Teams or [Email](mailto:yifu.ding@mail.utoronto.ca) for an estimate.
