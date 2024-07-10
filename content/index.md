@@ -3,10 +3,13 @@ title: Home
 tags: 
 share: true
 ---
-Welcome to my pages. 
+Hi there, thanks for stopping by (人´∀\`)
 
-You might be looking for:
+I'm a creator offering:
+Architecture & Design Services 
+[Peer 3D Printing Service](bit.ly/45WKQSC) 
+[Blender Files & Scripts](https://30salt.gumroad.com/) 
 
-[[./Projects/2024/Yifu Design Lab/Yifu Design Lab|My Peer 3D Printing Service]],
-A guide on using [[./Projects/2024/Escape From Tarkov/Escape From Tarkov|SPT]],
-Or other Obsidian related [[./Configs/Guides/Guides|Guides]].
+Or... you might be looking for:
+A guide on using [[./Projects/2024/Escape From Tarkov/Escape From Tarkov|SPT]] 
+Or other Obsidian related [[./Configs/Guides/Guides|Guides]] 
