@@ -1,4 +1,5 @@
 ---
+title: Yifu Design Lab
 tags:
   - project
 share: true
@@ -8,10 +9,18 @@ status: DONE
 %% https://bit.ly/3KXxaNK %%
 
 %%<span style="font-size:2em;color:red;background-color:gree;">End of Year 50% Off!</span>%%
+*Cheaper, better, and faster than Stratasys FDM!*
+### Service
+#### Machine
 
-### 100% satisfaction guarantee
+FDM Bambu P1S with AMS
+- Up to 4 filaments per plate
+- Build volume XYZ: 225mm * 225mm * 250mm | 8.85in * 8.85in * 9.85in
+- 0.4 mm hardened steel nozzle
+- Bambu Studio slicer
 
-*Cheaper, better, and faster than Stratasys PLA!*
+#### 100% satisfaction guarantee
+
 *Get a full reprint or 100% Refund if you are not happy with your order.*
 
 > [!tip]
@@ -19,18 +28,15 @@ status: DONE
 
 Pick up at Daniels or 404-Major Mackenzie Dr E.
 
-### Machine
-
-FDM Bambu P1S with AMS
-- Up to 4 filaments per plate
-- Build volume XYZ: 225mm * 225mm * 250mm | 8.85in * 8.85in * 9.85in
-- 0.4 mm hardened steel nozzle
-- Bambu Studio slicer
 ### Service Charge
+
+Grand Total = File Setup + Plates + Printing Minutes + Filament Grams + HST
+
+
 
 | Plate Slicing & Setup | Time                                          | Filament             |
 | :-------------------- | --------------------------------------------- | -------------------- |
-| \$8 + $4/plate        | %%<span style="color:red;">\$3</span>%% $6/hr | As cheap as it gets! |
+| \$8 + $4/plate        | %%<span style="color:red;">\$3</span>%% $3/hr | As cheap as it gets! |
 
 > [!info]
 > Slicing fee is discounted or waived depending on complexity.
@@ -76,26 +82,26 @@ Files should be exported as **STL in millimetres**.
 
 | PLA                       |   $/kg | Hex Code                                                     |
 | :------------------------ | -----: | ------------------------------------------------------------ |
-| Matte Ivory White         |  29.37 | <span style="background: #FFFFFF;">FFFFFF</span>             |
-| Matte Charcoal Black      |  29.37 | <span style="background: #000000;color:white;">000000</span> |
-| Matte Sakura Pink         |  29.37 | <span style="background: #E8AFCF;">E8AFCF</span>             |
-| Matte Lilac Purple        |  29.37 | <span style="background: #AE96D4;">AE96D4                    |
-| Basic Bambu Green         |  29.37 | <span style="background: #00AE42;">00AE42                    |
-| Marble White              |  44.06 | <span style="background: #F7F3F0;">F7F3F0                    |
-| Silk Gold                 |  44.06 | <span style="background: #E5B03D;">E5B03D                    |
-| Sparkle Crimson Red       |  44.06 | <span style="background: #792B36;color:white;">792B36        |
-| Metal Iron Gray           |  44.06 | <span style="background: #43403D;color:white;">43403D        |
-| Breakaway Support         | 101.68 |                                                              |
-| PVA Water-soluble Support | 115.24 |                                                              |
+| Matte Ivory White         |  25.99 | <span style="background: #FFFFFF;">FFFFFF</span>             |
+| Matte Charcoal Black      |  25.99 | <span style="background: #000000;color:white;">000000</span> |
+| Matte Sakura Pink         |  25.99 | <span style="background: #E8AFCF;">E8AFCF</span>             |
+| Matte Lilac Purple        |  25.99 | <span style="background: #AE96D4;">AE96D4                    |
+| Basic Bambu Green         |  25.99 | <span style="background: #00AE42;">00AE42                    |
+| Marble White              |  38.99 | <span style="background: #F7F3F0;">F7F3F0                    |
+| Silk Gold                 |  38.99 | <span style="background: #E5B03D;">E5B03D                    |
+| Sparkle Crimson Red       |  38.99 | <span style="background: #792B36;color:white;">792B36        |
+| Metal Iron Gray           |  38.99 | <span style="background: #43403D;color:white;">43403D        |
+| Breakaway Support         |  89.98 |                                                              |
+| PVA Water-soluble Support | 101.98 |                                                              |
 
 | ABS         |  $/kg | Hex Code                                         |
 | :---------- | ----: | ------------------------------------------------ |
-| Basic White | 36.15 | <span style="background: #FFFFFF;">FFFFFF</span> |
+| Basic White | 29.99 | <span style="background: #FFFFFF;">FFFFFF</span> |
 
 | PETG        |  $/kg | Hex Code                                         |
 | :---------- | ----: | ------------------------------------------------ |
-| Basic White | 36.15 | <span style="background: #FFFFFF;">FFFFFF</span> |
-| Basic Clear | 36.15 |                                                  |
+| Basic White | 29.99 | <span style="background: #FFFFFF;">FFFFFF</span> |
+| Basic Clear | 29.99 |                                                  |
 
 > [!info]
 > Other filaments may be available upon request.
