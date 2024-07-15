@@ -6,11 +6,10 @@ share: true
 status: DONE
 ---
 %%[parents:: [[../../../../Yifu Ding|Yifu Ding]]]%%
-%% https://bit.ly/3KXxaNK %%
 
+### Service
 %%<span style="font-size:2em;color:red;background-color:gree;">End of Year 50% Off!</span>%%
 *Cheaper, better, and faster than Stratasys FDM!*
-### Service
 #### Machine
 
 FDM Bambu P1S with AMS

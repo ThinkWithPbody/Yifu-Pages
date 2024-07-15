@@ -1,23 +1,18 @@
 ---
+title: Plex Media Server
 tags:
-  - note_daily
+  - project
+status: DONE
+priority: medium
+start: 2024-07-10
+due: 
+completion: 2024-07-10
 share: true
 ---
-(parents:: [[2024-07|2024-07]])
-(prev:: [[Periodic Notes/Daily/2024-07-05|2024-07-05]]) | (next:: [[Periodic Notes/Daily/2024-07-07|2024-07-07]])
-
-## Daily Tasks
-
-- [x] Finish Daily Note 07-06  [due:: 2024-07-06]  [completion:: 2024-07-06]
-
-## Timelog
-
-
-## Daily Summary
-
-Moved Plex Media Server to Pi4.
+## Moving Plex Media Server to Pi4
 
 [Move an Install to Another System](https://support.plex.tv/articles/201370363-move-an-install-to-another-system/)
+
 1. `sudo apt update`
 2. `sudo apt upgrade`
 3. `curl https://downloads.plex.tv/plex-keys/PlexSign.key | gpg --dearmor | sudo tee /usr/share/keyrings/plex-archive-keyring.gpg >/dev/null`
@@ -30,8 +25,10 @@ Moved Plex Media Server to Pi4.
 10. `sudo nano /etc/fstab`
 11. `UUID= /mnt/usb ext4 defaults 0 0`
 12. `sudo rm -r "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server"`
-13. `sudo ln -s "/mnt/usb/_twp/Software/Plex/Plex Media Server" "/var/lib/plexmediaserver/Library/Application Support/"`
+13. `sudo ln -s "/mnt/usb/<path_to_custom_library>/Plex Media Server" "/var/lib/plexmediaserver/Library/Application Support/"`
 14. `ls -l "/var/lib/plexmediaserver/Library/Application Support"`
 15. `sudo reboot`
 16. `sudo service plexmediaserver start`
 17. [Command Line Loudness Analysis](https://www.reddit.com/r/PleX/comments/yytqdy/forcing_loudness_analysis/), [via cron](https://forums.plex.tv/t/make-media-analysis-stop-wasting-cpu-on-duplicate-repeated-analysis/853275)
+
+

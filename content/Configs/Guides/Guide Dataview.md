@@ -5,6 +5,7 @@ share: true
 ---
 ## Standard Fields
 status: string = TODO, IN_PROGRESS, DONE, CANCELLED
+priority: string = lowest, low, normal, medium, high, highest
 
 ## Dataview Basics
 For active projects:
@@ -29,7 +30,7 @@ release-date:: 2024-06-18T12:00
 ```
 \- until release!!
 ```
-P-5DT-11H-12M-44.978S until release!!
+P-3W-6DT-4H-29M-39.931S until release!!
 
 ## DataviewJS
 
