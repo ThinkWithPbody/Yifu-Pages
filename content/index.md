@@ -15,7 +15,7 @@ Architecture & Design Services
 
 Or... you might be looking for:
 
-My [[./Configs/Files/Resonant Orbit Calculator.py|Resonant Orbit Calculator]]
+My [[./Configs/Files/Resonant Orbit Calculator.py|Resonant Orbit Calculator]] 
 A guide on using [[./Projects/2024/Escape From Tarkov/Escape From Tarkov|SPT]] 
 Or other Obsidian related [[./Configs/Guides/Guides|Guides]] 
 
