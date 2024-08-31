@@ -54,3 +54,55 @@ if (existing) {
 _%>`
 ```
 `[[<% createdFileDisplay %>]]`
+
+### Yearly Tasks
+
+```
+<%*
+const lastMonthOfYear = tp.date.now("YYYY-MM-DD", "P1Y-1M", tp.file.title, "YYYY");
+
+let currentMonth = tp.date.now("YYYY-MM-DD", 0, tp.file.title, "YYYY");
+while (currentMonth <= lastMonthOfYear) {
+	let currentMonthNum = tp.date.now("MM", 0, currentMonth, "YYYY-MM-DD")
+	if ( (currentMonthNum - 1) % 3 == 0) {
+	// Quarterly
+	_%>
+### Q<% Math.floor(currentMonthNum / 3) + 1 %>
+- [ ] Pay Parking: <% tp.date.now("YYYY MMM", "P3M", currentMonth, "YYYY-MM-DD") %> - <% tp.date.now("MMM", "P5M", currentMonth, "YYYY-MM-DD") %> [due:: <% tp.date.now("YYYY-MM-DD", "P3M-1W", currentMonth, "YYYY-MM-DD") %>] [start:: <% tp.date.now("YYYY-MM-DD", "P3M-2W", currentMonth, "YYYY-MM-DD") %>]
+<%*
+	}
+	// Monthly
+_%>
+#### <% tp.date.now("MMMM", 0, currentMonth, "YYYY-MM-DD")%>
+- [ ] Pay Rent: <% tp.date.now("YYYY MMMM", "P1M", currentMonth, "YYYY-MM-DD") %>  [due:: <% tp.date.now("YYYY-MM-DD", "P1M", currentMonth, "YYYY-MM-DD") %>] [start:: <% tp.date.now("YYYY-MM-DD", "P1M-1W", currentMonth, "YYYY-MM-DD") %>]
+<%*
+	let lastDayOfMonth = tp.date.now("YYYY-MM-DD", "P1M-1D", currentMonth, "YYYY-MM-DD");
+	let mondays = [];
+	let currentDay = tp.date.now("YYYY-MM-DD", 0, currentMonth, "YYYY-MM-DD");
+	let foundFirstMonday = false;
+	
+	while (currentDay <= lastDayOfMonth) {
+		let dayOfWeek = tp.date.now("E", 0, currentDay, "YYYY-MM-DD");
+		
+		if (foundFirstMonday) {
+			mondays.push(currentDay);
+			currentDay = tp.date.now("YYYY-MM-DD", 7, currentDay, "YYYY-MM-DD");
+			} else if (!foundFirstMonday && dayOfWeek === "1") {
+			mondays.push(currentDay);
+			foundFirstMonday = true;
+			currentDay = tp.date.now("YYYY-MM-DD", 7, currentDay, "YYYY-MM-DD");
+			} else {
+			currentDay = tp.date.now("YYYY-MM-DD", 1, currentDay, "YYYY-MM-DD");
+		}
+	}
+	
+	for (let monday of mondays) { 
+	// Weekly
+_%>
+- [ ] Check TD My Advantage [due:: <% tp.date.now("YYYY-MM-DD", "P-1D", monday, "YYYY-MM-DD") %>] [start:: <% tp.date.now("YYYY-MM-DD", "P-2D", monday, "YYYY-MM-DD") %>]
+<%* }
+	
+	currentMonth = tp.date.now("YYYY-MM-DD", "P1M", currentMonth, "YYYY-MM-DD");
+}
+_%>
+```
