@@ -24,4 +24,5 @@ What have I been up to?
 
 Bugging Petras to update [OpenNest](https://discourse.mcneel.com/t/opennest-for-rhino8-plugin-update/183261/33?u=yifu_ding)
 Closely stalking [TURD](https://forum.kerbalspaceprogram.com/topic/174188-112x-textures-unlimited-recolour-depot/) updates so I can blow Jeb up with style
+Converting luminous flux to radiant flux so Blender can use IES properly
 Eating lots of steamed lobster
