@@ -27,8 +27,22 @@ _Italic_
 2. Numbered List
 	1. Nested Numbered List
 - [x] Checkbox  [completion:: 2024-01-01]
+- [p] Pro
+- [c] Con
+- [I] Idea
+	Reason
 >Quote
 >Multi line
+
+> [!Note]+ Callout
+
+This[^1] is a simple[^2] footnote[^note].
+
+[^1]: This is the referenced text.
+[^2]: Add 2 spaces at the start of each new line.
+  This lets you write footnotes that span multiple lines.
+  Referenced footnote will appear at the bottom of the page in Reading View.
+[^note]: Named footnotes still appear as numbers, but can make it easier to identify and link references.
 
 Break Line
 ___

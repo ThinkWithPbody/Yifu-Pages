@@ -41,7 +41,7 @@ def main():
             relays = int(relay_minimum)
             periapsis = input(f"Actual altitude to use: [{altitude_collect + altitude_tolerance}] ") or str(altitude_collect + altitude_tolerance)
 
-        print(f"Put your {str(relays)} {"relays" if use_connect == True else "scanners"} at a periapsis of {periapsis}km and create a circularization node, record your post-burn period as Days-Hours-Minutes-Seconds.")
+        print(f"Create a circularization node at an altitude of {periapsis}km and record your post-burn period as Days-Hours-Minutes-Seconds(.Miliseconds).")
         time_input = input("D-H-M-S: ") or "0-1-45-45"
         time = time_input.split("-")
         time_input_seconds = ((float(time[0]) * 24 + float(time[1])) * 60 + float(time[2])) * 60 + float(time[3])
@@ -54,8 +54,9 @@ def main():
         period_hours = round(period_hours)
         period_minutes = round(period_minutes)
         period_seconds = round(period_seconds * 1000) / 1000
-        print(f"Adjust your apoapsis so that your period is {str(period_days)}D {str(period_hours)}H {str(period_minutes)}M {str(period_seconds)}S (resonant orbit of {relays + 1}/{relays}), and circularize one relay each time you reach periapsis.")
-        print("Don't forget to put solar panels into optimal orientation!")
+        print(f"Adjust your apoapsis so that your period is {str(period_days)}D {str(period_hours)}H {str(period_minutes)}M {str(period_seconds)}S (resonant orbit of {relays + 1}/{relays}).")
+        print(f"Then, detach one relay each time you're about to pass periapsis, and circularize it to an orbital period of {time[0]}D {time[1]}H {time[2]}M {time[3]}S.")
+        print("Don't forget to put solar panels into optimal orientation and enable instruments!")
 
         restart = input("Restart? [True] ") or "True"
         if restart != "True":
