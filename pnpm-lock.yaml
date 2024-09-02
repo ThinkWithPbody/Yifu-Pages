@@ -78,7 +78,7 @@ importers:
         specifier: ^0.4.5
         version: 0.4.5
       preact:
-        specifier: ^10.23.1
+        specifier: ^10.23.2
         version: 10.23.2
       preact-render-to-string:
         specifier: ^6.5.5
