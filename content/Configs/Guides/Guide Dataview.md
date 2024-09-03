@@ -26,11 +26,11 @@ file.inlinks AS "Mentions"
 = date(2024-06-19T10:00) - date(2024-06-19T09:00)
 
 ### Inline Calculations
-release-date:: 2024-06-18T12:00
+release-date:: 2027-06-18T12:00
 ```
 \- until release!!
 ```
-P-3W-6DT-4H-29M-39.931S until release!!
+P2Y9M2WT18H9M28.299S until release!!
 
 ## DataviewJS
 
