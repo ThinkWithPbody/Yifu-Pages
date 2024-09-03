@@ -26,7 +26,7 @@ FDM Bambu P1S with AMS
 
 #### Service Charge
 
-Total = Setup + Printing Minutes + Filament Grams + HST
+Total = Setup + Printing Minutes + Filament Grams
 
 Invoice available upon request.
 
@@ -81,8 +81,12 @@ Invoice available upon request.
 | Basic Clear | 29.99 |                                                  |
 
 > [!info]
+> Filament prices listed reflect bulk purchasing savings and are offered without any markup.
+> 
+> HST will be added to the total charge.
+> 
 > Other filaments may be available upon request.
-> [Bambu Lab Filament](https://ca.store.bambulab.com/collections/pla?skr=yes)
+> [Bambu Lab](https://ca.store.bambulab.com/collections/pla?skr=yes)
 
 #### Quality Presets
 
