@@ -7,9 +7,9 @@ completion: 2024-04-01
 people:
   - "[[People/Dave Bowick|People/Dave Bowick]]"
   - "[[People/Shannon Hilchie|People/Shannon Hilchie]]"
-location: DA 200
-weekday: 3
-time: 09:00:00
+location: DA200
+weekday: 5
+time: 900
 share: true
 ---
 ## Course Brief
