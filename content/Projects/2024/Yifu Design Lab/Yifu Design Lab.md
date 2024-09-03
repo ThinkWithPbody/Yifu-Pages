@@ -102,7 +102,7 @@ For 1 inch hollow cube with 2 walls:
 > [!info]
 >  Default value in parenthesis.
 >  
->  Recommended settings are marked with ❗.
+>  Critical settings are marked with ❗.
 >  
 >  Recommended values are marked with ⭕.
 
