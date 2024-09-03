@@ -25,23 +25,24 @@ FDM Bambu P1S with AMS
 *Get a full reprint or 100% Refund if you are not happy with your order.*
 
 > [!tip]
-> We will inspect your files to ensure they will print correctly. If you are not happy with the quality of the product you purchased, and this is due to factors under our control, we will replace or refund your purchase fully. For factors that we don’t control, such as incorrect models or scale, we will strive to find a solution. For any issues contact Yifu within 14 days of delivery. 
+> We will inspect your files to ensure they will print correctly. If you are not happy with the quality of the product you purchased, and this is due to factors under our control, we will replace or refund your purchase fully. For factors that we don’t control, such as incorrect models or scale, we will strive to find a solution. For any issues contact Yifu within 7 days of job completion. 
 
 Pick up at Daniels or 404-Major Mackenzie Dr E.
-Invoice available upon request. 
 
 ### Service Charge
 
-Grand Total = File Setup + Plates + Printing Minutes + Filament Grams + HST
+Total = Setup + Printing Minutes + Filament Grams + HST
 
-| File Setup | Plates    | Printing                                          | Filament                 |
-| ---------- | :-------- | ------------------------------------------------- | ------------------------ |
-| \$8        | \$4/plate | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament\|See Table]] |
+Invoice available upon request.
+
+| File Setup | Printing                                          | Filament                 |
+| ---------- | ------------------------------------------------- | ------------------------ |
+| \$8        | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament\|See Table]] |
 
 > [!info]
-> Slicing fee is discounted or waived depending on complexity.
+> Setup fee is discounted or waived depending on complexity.
 > 
-> Slicing fee is waived for Bambu Studio sliced .3mf files, print failures are not covered and no support will be provided. If you understand the risks and seek complete control, use this [template](http://www.mediafire.com/view/rgq6dceauc22jln) to get started.
+> Setup fee is waived for Bambu Studio sliced .3mf files - print failures are not covered and no support will be provided. If you understand the risks and seek complete control, use this [template](http://www.mediafire.com/view/rgq6dceauc22jln) to get started.
 
 ### Getting Started
 
