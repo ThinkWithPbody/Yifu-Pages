@@ -30,9 +30,9 @@ Total = Setup + Printing Minutes + Filament Grams + HST
 
 Invoice available upon request.
 
-| File Setup | Printing                                          | Filament                 |
-| ---------- | ------------------------------------------------- | ------------------------ |
-| \$12       | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament\|See Table]] |
+| File Setup | Printing                                          | Filament      |
+| ---------- | ------------------------------------------------- | ------------- |
+| \$12       | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament|Filament]] |
 
 > [!info]
 > Setup fee is discounted or waived depending on complexity.
@@ -49,7 +49,7 @@ Invoice available upon request.
 ### Getting Started
 
 1. Follow [[Yifu Design Lab#File Preparation|File Preparation]] and export files.
-2. Choose your [[Yifu Design Lab#Filament|See Table]].
+2. Choose your [[Yifu Design Lab#Filament|Filament]].
 3. Choose from one of the [[Yifu Design Lab#Quality Presets|Quality Presets]].
 4. Adjust [[Yifu Design Lab#Slicing Options|Slicing Options]] as needed.
 5. Send your **ZIP** file, **filament**, **preset**, and any **custom options** to Yifu Ding over Teams or [Email](mailto:yifu.ding@mail.utoronto.ca) to place job order.
