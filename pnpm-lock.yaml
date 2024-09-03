@@ -99,7 +99,7 @@ importers:
         specifier: ^2.0.0
         version: 2.1.1
       rehype-katex:
-        specifier: ^7.0.0
+        specifier: ^7.0.1
         version: 7.0.1
       rehype-mathjax:
         specifier: ^6.0.0
