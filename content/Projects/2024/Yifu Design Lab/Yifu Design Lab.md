@@ -10,8 +10,12 @@ status: DONE
 %%https://thinkwithpbody.github.io/Yifu-Pages/Projects/2024/Yifu-Design-Lab/Yifu-Design-Lab%%
 
 ### Service
+
 %%<span style="font-size:2em;color:red;background-color:gree;">End of Year 50% Off!</span>%%
 *Cheaper, better, and faster than Stratasys FDM!*
+
+Pick up at Daniels or 404-Major Mackenzie Dr E.
+
 #### Machine
 
 FDM Bambu P1S with AMS
@@ -20,16 +24,7 @@ FDM Bambu P1S with AMS
 - 0.4 mm hardened steel nozzle
 - Bambu Studio slicer
 
-#### 100% satisfaction guarantee
-
-*Get a full reprint or 100% Refund if you are not happy with your order.*
-
-> [!tip]
-> We will inspect your files to ensure they will print correctly. If you are not happy with the quality of the product you purchased, and this is due to factors under our control, we will replace or refund your purchase fully. For factors that we don’t control, such as incorrect models or scale, we will strive to find a solution. For any issues contact Yifu within 7 days of job completion. 
-
-Pick up at Daniels or 404-Major Mackenzie Dr E.
-
-### Service Charge
+#### Service Charge
 
 Total = Setup + Printing Minutes + Filament Grams + HST
 
@@ -37,12 +32,19 @@ Invoice available upon request.
 
 | File Setup | Printing                                          | Filament                 |
 | ---------- | ------------------------------------------------- | ------------------------ |
-| \$8        | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament\|See Table]] |
+| \$12       | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament\|See Table]] |
 
 > [!info]
 > Setup fee is discounted or waived depending on complexity.
 > 
 > Setup fee is waived for Bambu Studio sliced .3mf files - print failures are not covered and no support will be provided. If you understand the risks and seek complete control, use this [template](http://www.mediafire.com/view/rgq6dceauc22jln) to get started.
+
+#### 100% satisfaction guarantee
+
+*Get a full reprint or 100% Refund if you are not happy with your order.*
+
+> [!tip]
+> We will inspect your files to ensure they will print correctly. If you are not happy with the quality of the product you purchased, and this is due to factors under our control, we will replace or refund your purchase fully. For factors that we don’t control, such as incorrect models or scale, we will strive to find a solution. For any issues contact Yifu within 7 days of job completion. 
 
 ### Getting Started
 
@@ -50,34 +52,8 @@ Invoice available upon request.
 2. Choose your [[Yifu Design Lab#Filament|See Table]].
 3. Choose from one of the [[Yifu Design Lab#Quality Presets|Quality Presets]].
 4. Adjust [[Yifu Design Lab#Slicing Options|Slicing Options]] as needed.
-5. Send your **ZIP** file, **filament**, **preset**, and **custom options** to Yifu Ding over Teams or [Email](mailto:yifu.ding@mail.utoronto.ca) for an estimate.
+5. Send your **ZIP** file, **filament**, **preset**, and any **custom options** to Yifu Ding over Teams or [Email](mailto:yifu.ding@mail.utoronto.ca) to place job order.
 6. Email transfer fees to yifuding.twp@gmail.com
-
-#### File Preparation
-
-![[./Attachments/Yifu Design Lab/2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino).gif|2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino)]]
-
-##### Orientate
-
-Choose printing **orientation** for maximum smoothness. 
-- Printing a thin, organic piece vertically provides smoother detail and needs less support than laying it flat on the bed.
-
-##### Divide
-
-Divide large models exceeding the **build volume** with a **planar** cutter to provide **flat surfaces** that will adhere to the print bed nicely.
-- Each model need to be a closed solid with no non-manifold geometry. They should be **watertight**.
-- For pieces that are thin and tall, height is recommended to not exceed 100 mm.
-- Keep in mind that any **overhang** exceeding 25 degrees will need substantial support structure which could be reduced or eliminated if they were divided and orientated differently.
-- **WireCut** is a great command for this purpose. If WireCut didn't work on your model, chances are it isn't watertight and it won't print properly either.
-
-##### Export
-
-Files should be exported as **STL in millimetres**.
-- Rhino files or incorrectly scaled STL will not be accepted.
-- **Each separated body should be one file** regardless of which plate they may be on, to maximize nesting potential.
-	- When relative positioning is important, add a small bridge with a cross section of 0.5-1mm² (depending on strength requirement) directly on the print bed and boolean union all connected bodies.
-- For multiple objects, use the Rhino command **RunPythonScript** with the [[Projects/2024/Yifu's 3D Printing Service/Attachments/Yifu Design Lab/BatchExportSTLByObj.py|Batch Export Python Script]] to export all selected files at once.
-- Deliver more than one .stl files as a **ZIP**.
 
 #### Filament
 
@@ -108,7 +84,6 @@ Files should be exported as **STL in millimetres**.
 > Other filaments may be available upon request.
 > [Bambu Lab Filament](https://ca.store.bambulab.com/collections/pla?skr=yes)
 
-
 #### Quality Presets
 
 For 1 inch hollow cube with 2 walls:
@@ -121,7 +96,6 @@ For 1 inch hollow cube with 2 walls:
 | Standard          |       0.20        | 15:42 |            1.77             |
 | Draft             |       0.24        | 13:10 |            1.44             |
 | Extra Draft       |       0.28        | 11:34 |            1.28             |
-
 
 #### Slicing Options
 
@@ -229,6 +203,32 @@ Scarf Joint Seam (Contour And Hole)
 2. Contour
 3. Contour And Hole
 
+### File Preparation
+
+![[./Attachments/Yifu Design Lab/2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino).gif|2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino)]]
+
+#### Orientate
+
+Choose printing **orientation** for maximum smoothness. 
+- Printing a thin, organic piece vertically provides smoother detail and needs less support than laying it flat on the bed.
+
+#### Divide
+
+Divide large models exceeding the **build volume** with a **planar** cutter to provide **flat surfaces** that will adhere to the print bed nicely.
+- Each model need to be a closed solid with no non-manifold geometry. They should be **watertight**.
+- For pieces that are thin and tall, height is recommended to not exceed 100 mm.
+- Keep in mind that any **overhang** exceeding 25 degrees will need substantial support structure which could be reduced or eliminated if they were divided and orientated differently.
+- **WireCut** is a great command for this purpose. If WireCut didn't work on your model, chances are it isn't watertight and it won't print properly either.
+
+#### Export
+
+Files should be exported as **STL in millimetres**.
+- Rhino files or incorrectly scaled STL will not be accepted.
+- **Each separated body should be one file** regardless of which plate they may be on, to maximize nesting potential.
+	- When relative positioning is important, add a small bridge with a cross section of 0.5-1mm² (depending on strength requirement) directly on the print bed and boolean union all connected bodies.
+- For multiple objects, use the Rhino command **RunPythonScript** with the [[Projects/2024/Yifu's 3D Printing Service/Attachments/Yifu Design Lab/BatchExportSTLByObj.py|Batch Export Python Script]] to export all selected files at once.
+- Deliver more than one .stl files as a **ZIP**.
+
 ### Showcase
 
 ![[./Attachments/Yifu Design Lab/DSCF4947.jpg|400]]
@@ -237,7 +237,7 @@ by Arjay Asuncion - 2024
 
 ### FAQ
 
-###### *Why is there a setup fee? For each plate?*
+###### *Why is there a setup fee?*
 
 This setup fee allows me to take more care optimizing your print file and compensates me for my continued presence. Optimizations can massively reduce your print time and filament, lowering total cost, but each job is different and it takes time. I try my best to provide affordable and environmentally responsible printing service, which is why I offer my time and expertise at a modest fee. You'll always have the option to slice it by yourself and I am pleased to waive the setup fee for such cases, but current success rate for this option is only 0%.
 ![[./Attachments/Yifu Design Lab/2024-04-10T00_15_05.jpg|200]]
