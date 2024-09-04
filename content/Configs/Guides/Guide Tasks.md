@@ -20,20 +20,35 @@ NOT (path includes Templater)
 NOT (tag includes HideFromTasks)
 ```
 
-### Due
+### Tasks Page Dataview Setup
+
 ```
-group by due
-has due date
-(scheduled before next 2 week) OR (no scheduled date)
-```
-### Scheduled
-```
-group by scheduled
-no due date
-scheduled before next 2 week OR no scheduled date
-NOT (tag includes shopping)
-```
-### Shopping
-```
-tag includes shopping
+%%[parent:: [[index]]]%%
+
+> [!blue]+ Active Projects
+>  - [[Projects/2024/ICPS_Research/ICPS_Research.md|ICPS_Research]]
+> - [[Courses/2024/ARC2013Y-Architectural_Design_Studio_3/ARC2013Y-Architectural_Design_Studio_3.md|ARC2013Y-Architectural_Design_Studio_3]]
+> - [[Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/ARC2047H-Building_Science_Materials_and_Construction_3.md|ARC2047H-Building_Science_Materials_and_Construction_3]]
+> - [[Courses/2024/ARC2023H-Design_Technology_2/ARC2023H-Design_Technology_2.md|ARC2023H-Design_Technology_2]]
+> - [[Courses/2024/ARC2017H-Research_Methods/ARC2017H-Research_Methods.md|ARC2017H-Research_Methods]]
+> 
+
+> [!yellow]+ Due
+> ```tasks
+> has due date
+> (scheduled before next 2 week) OR (no scheduled date)
+> ```
+
+> [!pink]+ Scheduled
+> ```tasks
+> no due date
+> scheduled before next 2 week OR no scheduled date
+> NOT (tag includes shopping)
+> ```
+
+> [!green]+ Shopping
+> ```tasks
+> tag includes shopping
+> ```
+
 ```
