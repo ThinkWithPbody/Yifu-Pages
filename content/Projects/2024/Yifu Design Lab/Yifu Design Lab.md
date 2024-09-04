@@ -229,7 +229,7 @@ Files should be exported as **STL in millimetres**.
 - Rhino files or incorrectly scaled STL will not be accepted.
 - **Each separated body should be one file** regardless of which plate they may be on, to maximize nesting potential.
 	- When relative positioning is important, add a small bridge with a cross section of 0.5-1mm² (depending on strength requirement) directly on the print bed and boolean union all connected bodies.
-- For multiple objects, use the Rhino command **RunPythonScript** with the [[Projects/2024/Yifu's 3D Printing Service/Attachments/Yifu Design Lab/BatchExportSTLByObj.py|Batch Export Python Script]] to export all selected files at once.
+- For multiple objects, use the Rhino command **RunPythonScript** with the [[./Attachments/Yifu Design Lab/BatchExportSTLByObj.py|Batch Export Python Script]] to export all selected files at once.
 - Deliver more than one .stl files as a **ZIP**.
 
 ### Showcase
