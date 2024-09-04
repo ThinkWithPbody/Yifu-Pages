@@ -16,6 +16,12 @@ status: DONE
 
 Pick up at Daniels or 404-Major Mackenzie Dr E.
 
+
+> [!tip]+ 100% satisfaction guarantee
+> *Get a full reprint or 100% Refund if you are not happy with your order.*
+> 
+> We will inspect your files to ensure they will print correctly. If you are not happy with the quality of the product you purchased, and this is due to factors under our control, we will replace or refund your print fully. For factors that we don’t control, such as incorrect models or scale, we will strive to find a solution. For any issues contact Yifu within 7 days of job completion. 
+
 #### Machine
 
 FDM Bambu P1S with AMS
@@ -35,16 +41,9 @@ Invoice available upon request.
 | \$12       | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament|Filament]] |
 
 > [!info]
-> Setup fee is discounted or waived depending on complexity.
+> Setup fee may be discounted or waived depending on complexity.
 > 
-> Setup fee is waived for Bambu Studio sliced .3mf files - print failures are not covered and no support will be provided. If you understand the risks and seek complete control, use this [template](http://www.mediafire.com/view/rgq6dceauc22jln) to get started.
-
-#### 100% satisfaction guarantee
-
-*Get a full reprint or 100% Refund if you are not happy with your order.*
-
-> [!tip]
-> We will inspect your files to ensure they will print correctly. If you are not happy with the quality of the product you purchased, and this is due to factors under our control, we will replace or refund your purchase fully. For factors that we don’t control, such as incorrect models or scale, we will strive to find a solution. For any issues contact Yifu within 7 days of job completion. 
+> Setup fee will be waived for Bambu Studio sliced .3mf files. However, please be aware that the outcome of the initial print will be final, as no adjustments or reprints will be provided for these waived jobs. The standard "100% satisfaction guarantee," which includes the option for a full reprint or refund if you are not satisfied with your order, does not apply to these waived jobs. If you accept these conditions and wish to proceed with complete control over the print process, please use the following [template](http://www.mediafire.com/view/rgq6dceauc22jln) to get started.
 
 ### Getting Started
 
