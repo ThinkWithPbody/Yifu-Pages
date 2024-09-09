@@ -214,7 +214,7 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3
       tsx:
-        specifier: ^4.18.0
+        specifier: ^4.19.0
         version: 4.19.0
       typescript:
         specifier: ^5.5.4
