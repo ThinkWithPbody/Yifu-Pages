@@ -9,7 +9,7 @@ share: true
 ---
 ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
 Version: mcc-1.20.1-forge-1.2
-Server Address: 173.32.64.239:25565
+Server Address: 99.140.56.170:25565
 
 # Install
 
