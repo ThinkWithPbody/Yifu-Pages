@@ -9,7 +9,7 @@ Hi there, thanks for stopping by (人´∀\`)
 I'm a creator offering:
 
 Architecture & Design Services 
-[[../Yifu Design Lab|Peer 3D Printing Service]] 
+[[./Projects/2024/Yifu Design Lab/Yifu Design Lab|Peer 3D Printing Service]] 
 [Blender Files & Scripts](https://30salt.gumroad.com/) 
 
 
