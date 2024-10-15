@@ -11,10 +11,6 @@ weekday: 2
 time: 1000
 share: true
 ---
-	## Tasks
-
-- [ ] Paper mate pen  [due:: 2024-10-05]
-
 ## Modules
 
 ### Q1
