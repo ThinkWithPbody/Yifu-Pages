@@ -6,6 +6,7 @@ tags:
 parents: "[[index]]"
 share: true
 ---
+- [[../../../Guide Advanced Slides|Guide Advanced Slides]]
 - [[./Guide Dataview|Guide Dataview]]
 - [[./Guide Excalibrain|Guide Excalibrain]]
 - [[./Guide Obsidian|Guide Obsidian]]
