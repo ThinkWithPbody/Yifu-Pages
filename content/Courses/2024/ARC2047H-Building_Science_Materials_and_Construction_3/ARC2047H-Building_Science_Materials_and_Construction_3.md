@@ -515,22 +515,20 @@ Annual Cost of Cooling = 222343 × 1224 × (1/20) × (0.22/1000) = 2993
 
 ## Tagged `#Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3`
 
-<pre class="dataview dataview-error">Evaluation Error: SyntaxError: Invalid or unexpected token
-    at DataviewInlineApi.eval (plugin:dataview:18885:21)
-    at evalInContext (plugin:dataview:18886:7)
-    at asyncEvalInContext (plugin:dataview:18893:16)
-    at DataviewJSRenderer.render (plugin:dataview:18922:19)
-    at DataviewJSRenderer.onload (plugin:dataview:18464:14)
-    at e.load (app://obsidian.md/app.js:1:1166456)
-    at DataviewApi.executeJs (plugin:dataview:19465:18)
-    at DataviewCompiler.dataviewJS (plugin:obsidian-mkdocs-publisher:27:160343)
-    at convertDataviewQueries (plugin:obsidian-mkdocs-publisher:30:1351)
-    at mainConverting (plugin:obsidian-mkdocs-publisher:42:1672)
-    at async GithubBranch.publish (plugin:obsidian-mkdocs-publisher:42:5734)
-    at async shareAllMarkedNotes (plugin:obsidian-mkdocs-publisher:27:139602)
-    at async shareAllEditedNotes (plugin:obsidian-mkdocs-publisher:27:142777)
-    at async uploadAllEditedNotes (plugin:obsidian-mkdocs-publisher:27:141675)
-    at async Object.callback (plugin:obsidian-mkdocs-publisher:27:141460)</pre>
+<pre class="dataview dataview-error">Evaluation Error: eval@[native code]
+@
+asyncEvalInContext@
+@
+render@
+onload@
+@capacitor://localhost/app.js:1:1171666
+@
+executeJs@
+@
+dataviewJS@
+@
+convertDataviewQueries@
+@</pre>
 ## Course Brief
 
 code:: ARC2047HF
