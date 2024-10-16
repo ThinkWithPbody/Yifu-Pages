@@ -130,8 +130,8 @@ Thermal comfort directly affects productivity
 		- Use mixed air stream T>dry to determine point on line
 		- T1 \* R1 + T2 \* R2 = T3, R1 + R2 = 1
 	- Dry air mass (kg) = Room volume (m^3) / SV (m^3/kg)
-	- Water (g) = Dry air mass (kg) * HR (g/kg)
-	- Energy (kJ) = Dry air mass (kg) * Enthalpy (kJ/kg)
+	- Water (g) = Dry air mass (kg) × HR (g/kg)
+	- Energy (kJ) = Dry air mass (kg) × Enthalpy (kJ/kg)
 	- Sensible Heat (): H>s
 	- Total Head (): H
 
@@ -142,8 +142,8 @@ h2=65.5kJ/kg
 V=450m^3
 Dry air mass1 (kg) = Room volume (m^3) / SV1 0.825 (m^3/kg) = 545.4545
 Dry air mass2 (kg) = Room volume (m^3) / SV2 0.868 (m^3/kg) = 518.4332
-Energy1 (kJ) = Dry air mass1 (kg) * Enthalpy (kJ/kg) = 14,836.3624
-Energy2 (kJ) = Dry air mass2 (kg) * Enthalpy (kJ/kg) = 33,957.3746
+Energy1 (kJ) = Dry air mass1 (kg) × Enthalpy (kJ/kg) = 14,836.3624
+Energy2 (kJ) = Dry air mass2 (kg) × Enthalpy (kJ/kg) = 33,957.3746
 Excess = 19,121.0122 kJ
 
 
@@ -180,45 +180,39 @@ Excess = 19,121.0122 kJ
 - **VSA = arctan(tan(altitude)/cos(HSA))** (Calculator in degrees)
 	- tan(VSA) = tan(altitude)/cos(HSA)
 - **Horizontal Projection = Window Height / tan(VSA)**
-	- **Lateral Projection = tan(HSA) * Horizontal Projection**
+	- **Lateral Projection = tan(HSA) × Horizontal Projection**
 - **Vertical Projection = Window Depth-Width / tan(HSA)**
 ### Q2
 
 #### Module 04
 
-T_balance point = T_indoor - Heat gain rate / Heat losses rate per degree T
-T_balance point = T_inside - Q_inside Heat Gain / UA_total Heat Loss
+![Table+of+heat+gains+from+people+and+equipment+-MEEB+Appendix+G1 2024-09-24 14_40_29.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C04%5CTable+of+heat+gains+from+people+and+equipment+-MEEB+Appendix+G1%202024-09-24%2014_40_29.jpg)
+
+![Table+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1 2024-09-24 14_40_24.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C04%5CTable+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1%202024-09-24%2014_40_24.jpg)
+
+- Balance Point Temperature, BPT ^ba60bb
+	- When Q_i = q_total
+	- BPT = T_indoor - Heat gain rate / Heat losses rate per T_delta
+		- T_delta = (T_indoor - T_outdoor)
+		- q_total = q_skin + q_infiltration = UA_total × T_delta
+	- BPT = T_indoor - Q_i / UA_total
+		- Q_i: Internal Heat Gain (Btu/h) = q_solar + q_internal
+			- q_solar = Solar Insolation (BTU/(day-ft^2)) \* Surface Area South (ft^2) × 1d/24h
+			- q_internal = A: Floor Area (ft2) × (q_people + q_equipment + q_lights) (Btu/(h·ft2))
+		- UA_total: Heat Loss (Btu/(h\*oF)) = UA_envelope + UA_infiltration
+			- UA_envelope = U-value × Area (ft^2)
+				- U (Btu/(h\*ft^2\*^oF)) (W/m^2 ^oK) = 1 / R 
+				- U = k: Conductivity / Thickness
+				- U-Value = 1 / R-Value
+				- 0 ^oC = 273.15 \^oK
+			- UA_infiltration = ACH (h^-1) × Indoor Air Volume (ft^3) × Heat Capacity of Air (Btu / (ft^3 \* ^oF)) (J/(m^3 \* ^oK))
+				- ACH: Air Changes per Hour ?= 0.44 (h^-1)
+				- Heat Capacity of Air (Btu / (ft^3 × ^oF)) = Density of Air × Specific Heat of Air = 0.075 lb/ft^3 × 0.24 Btu/(lb × ^oF) = 0.018 Btu/(ft^3·°F)
 
 Units of Power: Btu/h, W
 Units of Energy: Btu, kWh
 W = J / s
 1 kWh = 3600000 J
-
-q_total = q_skin + q_inf = UA_total * T_delta
-T_delta = (T_inside - T_outside)
-Q_i = q_solar + q_internal
-
-q_solar (Btu/h) = Solar Insolation (BTU/(day-ft^2)) * Surface Area South (ft^2) * 1d/24h
-
-q_internal
-![Table+of+heat+gains+from+people+and+equipment+-MEEB+Appendix+G1 2024-09-24 14_40_29.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C04%5CTable+of+heat+gains+from+people+and+equipment+-MEEB+Appendix+G1%202024-09-24%2014_40_29.jpg)
-
-![Table+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1 2024-09-24 14_40_24.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C04%5CTable+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1%202024-09-24%2014_40_24.jpg)
-
-When Q_i = q_total
-T_outside = T_inside - Q_i / UA_total
-
-UA_total = UA_envelope + UA_infiltration
-
-UA_envelope = U-value * Area (ft^2)
-U (Btu/(h\*ft^2\*^oF)) (W/m^2 ^oK) = 1 / R 
-U = k: Conductivity / Thickness
-U-Value = 1 / R-Value
-0 ^oC = 273.15 \^oK
-
-UA_infiltration = ACH (h^-1) * Indoor Air Volume (ft^3) * Heat Capacity of Air (Btu / (ft^3 \* ^oF)) (J/(m^3 \* ^oK))
-ACH: Air Changes per Hour = 0.44 (h^-1)
-Heat Capacity of Air (Btu / (ft^3 * ^oF)) = Density of Air * Specific Heat of Air = 0.075 lb/ft^3 * 0.24 Btu/(lb * ^oF) = 0.018 Btu/(ft^3·°F)
 
 ##### Lab
 ![[./ARC2047H-Building_Science_Materials_and_Construction_3 2024-09-24 14.21.08.svg|ARC2047H-Building_Science_Materials_and_Construction_3 2024-09-24 14.21.08.excalidraw]]
@@ -267,6 +261,7 @@ Biogenic Carbon?
 ![Appendix+G4+MEEB+Inf+and+Vent+Factors 2024-10-08 14_13_19.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+G4+MEEB+Inf+and+Vent+Factors%202024-10-08%2014_13_19.jpg)
 ![MEEB+Fig+12-23+Latent+heat+gains 2024-10-08 14_13_15.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CMEEB+Fig+12-23+Latent+heat+gains%202024-10-08%2014_13_15.jpg)
 
+##### Lecture
 
 - Cooling Loads
 	- **q_total: Total Heat Gain = q_sensible + q_latent**
@@ -274,32 +269,32 @@ Biogenic Carbon?
 		- Ton of cooling is the rate of heat transfer (power) 
 		- 12000 Btu/h needed to melt one ton of ice in 24 hours.
 	- **Sensible Heat Gain**
-		- **q_sensible = q_skin+q_glass+q_inf+q_vent+q_internal**
+		- **q_sensible = q_skin + q_glass + q_infiltration + q_vent + q_internal**
 		- **Envelope** 
 			- Roof and Wall
-				- q_skin (Btu/h) = U (Btu/(h\*ft^2\*°𝐹)): U_Value * A * **DETD** (°𝐹): Design Equivalent Temperature Difference
+				- q_skin (Btu/h) = U (Btu/(h\*ft^2\*°𝐹)): U_Value × A × **DETD** (°𝐹): Design Equivalent Temperature Difference
 					- DETD **M**: 16 to 25°F (9 to 14°C)
 			- Glass
-				- q_glass (Btu/h) = A * **DCLF** (Btu/h-ft2): Design Cooling Load Factors
+				- q_glass (Btu/h) = A × **DCLF** (Btu/h-ft2): Design Cooling Load Factors
 		- **Air** 
 			- Air infiltration
 				- q_inf (Btu/h) = A_exposed × Infiltration Factor (Btu/(h-ft2))
 			- Mechanical ventilation
 				- q_vent (Btu/h) = Volumetric Flow Rate × Ventilation Factor (Btu/(h-cfm))
 					- CFM: Cubic feet per minute of fresh air
-						- 5 CFM/person * 20 People = 100 CFM
+						- 5 CFM/person × 20 People = 100 CFM
 		- **PEL: Poole Equipment Lighting** 
-			- q_internal (Btu/h) = A: Floor Area * (q_people + q_equipment + q_lights (Btu/(h·ft2))
+			- q_internal (Btu/h) = A: Floor Area × (q_people + q_equipment + q_lights (Btu/(h·ft2))
 	- **Latent Heat Gain**
 		- q_latent = percentage of q_sensible
 			- estimated using design dry-bulb temperature and coincident wet-bulb temperature from Table B.1
 
-Lab
+##### Lab
 NYC 83.5 L 74.6
 DETD = 14 + (83.5-85)* ((85-90)/(14-19)) = 12.5
 U_Value = 0.0490
 3,155
-q_skin (Btu/h) = U: U_Value * A * DETD (°𝐹) = 0.0490 * 3,155ft2 * 12.5F = 1932.437
+q_skin (Btu/h) = U: U_Value × A × DETD (°𝐹) = 0.0490 × 3,155ft2 × 12.5F = 1932.437
 
 DETD = 30 + (83.5-85)* ((30-35)/(85-90)) = 28.5
 
@@ -316,7 +311,7 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 
 (3.4 + 5.1)* 29426* 12 / 24
 
-132765 * 1.25
+132765 × 1.25
 
 ### Q3
 
@@ -327,6 +322,8 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 [ARC2047HF+Homework+4+Solutions+-+final 2024-10-15 14_11_40.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047HF+Homework+4+Solutions+-+final%202024-10-15%2014_11_40.pdf)
 [ARC2047HF+HW5+Self+Study 2024-10-15 14_11_45.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047HF+HW5+Self+Study%202024-10-15%2014_11_45.pdf)
 [Week 7 study questions.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CWeek%207%20study%20questions.pdf)
+
+##### Lecture
 
 > [!PDF|yellow] [[./Attachments/2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29.pdf#page=4&selection=36,0,53,28&color=yellow|2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29, p.4]]
 > > qcross ventilation = V × 1.08 Btu·min/(ft3·°F·h) × ∆T q cross ventilation is in units of power (Btu/h)
@@ -343,7 +340,7 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 			- v = velocity of the wind in feet per minute 
 				- 1 mile per hour (mph) = 88 feet per minute (fpm) ^ff7bf9
 	- heat capacity of air Btu·min/(ft3·°F·h) = 0.018 Btu/(ft3·°F)  × 60 min/h = **1.08 Btu·min/(ft3·°F·h)**
-		- OR heat capacity of air (Btu/(ft3·°F)) = density (pounds per cubic ft) * specific heat of air (Btu/(lb·°F))
+		- OR heat capacity of air (Btu/(ft3·°F)) = density (pounds per cubic ft) × specific heat of air (Btu/(lb·°F))
 	- ∆T is temperature difference between inside and outside air
 		- At least 3°F for cross ventilation to be feasible
 
@@ -360,14 +357,14 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 
 **Cost of Thermal Comfort (Heating and Cooling)**
 - Heating
-	- Annual Heat Needed = UA_total (Btu/h\*^o𝐹) × HDD × 24 hours
-	- Annual Fuel Needed, E = Annual Heat (Btu) / (AFUE × heat value of fuel (Btu/ft^3))
+	- Annual Heat Needed (Btu)= UA_total (Btu/h\*^o𝐹) × HDD × 24 hours ^359eb9
+	- Annual Fuel Needed, E (ft3) = Annual Heat (Btu) / (AFUE × heat value of fuel (Btu/ft3)) ^591155
 		- Specific to the fuel source and equipment
 		- AFUE is the Annual Fuel Utilization Efficiency
 			- Assume 95%
-		- Natural gas furnaces have an AFUE range between 80% to 98.5%
+			- Natural gas furnaces have an AFUE range between 80% to 98.5%
 		- Heat value for natural gas is **1050 Btu/ft3**
-	- Cost of Heating = E × Cost of Fuel
+	- **Annual Cost of Heating** (\$) = E × Cost of Fuel ($/ft3) ^423ef7
 		- Currently (October 2024) the effective gas supply rate is about 7.7043 cents per cubic meter for commercial customers of Enbridge in Toronto. 1 m3 = 35.315 ft3, thus 0.218 cents per ft3 or  $0.00218/ft3 or $2.18/1000 ft3
 - Cooling
 	- Summer BPT needed for Summer Cooling Cost
@@ -376,13 +373,13 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 			-  If we can provide shading to some of the south glass we can improve the Summer BPT.
 			- assume 80% effective shading, thus allowing 20% of the solar gain.
 		- T_balance = T_desired: 78°F  (25.6°C) - Q_i: Heat gain / UA_total: Heat loss
-	- **Annual Cooling Cost = Cooling Load (Btu/h) × CLH (h) × 1/SEER (W/Btu/h) × cost of electricity ($/Wh)**
+	- **Annual Cost of Cooling** (\$) = Cooling Load (Btu/h) × CLH (h) × 1/SEER (W/Btu/h) × cost of electricity ($/Wh) ^8fe61e
 		- Cooling Load (Btu/h) From W6
 			- July Solar insolation for vertical surface, south facing glazing is 1,035 Btu/(day·ft2) in Toronto
 				- q_insolation cube summer@80%shade = 3,996 ft2 × 0.20 × 1,035 Btu/(day·ft2) × (day/24 h) = 34,687 Btu/h
 				- Only change solar insulation q_solar_summer_shaded, q_internal remains same
-		- CLH: Cooling Load Hours (h) = CDD * 24 (h/day) / (Design Temperature - Summer BPT)
-		- SEER: Seasonal Energy Efficiency Ratio (W/Btu/h)
+		- CLH: Cooling Load Hours (h) = CDD × 24 (h/day) / (Design Temperature - Summer BPT) ^f100e8
+		- SEER: Seasonal Energy Efficiency Ratio ((Btu/h)/W)
 			- Btu/h heat rejected per Watt of electricity used
 			- For example AHU: Air Handling Unit could be 14
 		- Cost of Electricity for example use 15 cents per kWh,  $0.15/1000Wh
@@ -393,17 +390,20 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 1. If the total summer cooling load for a 25,000 ft2 building is determined to be 23.4 tons **what volume (flow rate)** of outdoor air is required to provide adequate cooling via cross ventilation if the outdoor air temperature is 68.9F and the desired indoor air temperature is 76F?  Provide your answer in cubic feet per minute (cfm) as an integer.  Do not write units in your answer.
 
 ![[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
+
 q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
-23.4 tons * 12000 = 280,800 Btu/h
-280,800 = V * 1.08 * 7.1
+23.4 tons × 12000 = 280,800 Btu/h
+280,800 = V × 1.08 × 7.1
 V = 36619 cfm
 
 2. If the total summer cooling load for a building can be cooled using cross ventilation with a volumetric flow rate of 60,645 cubic feet per minute, determine the **area of openings needed** on the windward side of the building if the average wind speed is 13.2 mph and the wind approaches at a 45 degree angle to the opening. Assume that the building has an equal amount of openings on the windward and leeward sides of the building. Provide your answer in square feet as an integer.  Do not write units in your answer.
 
 ![[ARC2047H-Building_Science_Materials_and_Construction_3#^8218c4|^8218c4]]
+
 ![[ARC2047H-Building_Science_Materials_and_Construction_3#^ff7bf9|^ff7bf9]]
-13.2 mph * 88 = 1,161.6 fpm
-60,645 cfm = 0.3 * A * 1,161.6 fpm
+
+13.2 mph × 88 = 1,161.6 fpm
+60,645 cfm = 0.3 × A × 1,161.6 fpm
 A = 174 ft2
 
 3. Given:
@@ -413,20 +413,79 @@ A = 174 ft2
 4) there are 103 ft2 of clear window openings for ventilation on the windward side of the building and 600 ft2 of clear window openings for ventilation on the leeward side of the building.
 Find the required **average windspeed needed** to adequately cool the building via cross ventilation if the wind approaches the building perpendicular to the openings.  Provide your answer in miles per hour (mph) with one decimal place value.  Do not write units in your answer.
 
-239,762 = V * 1.08 * 6.3 
-V = 0.55 * 103 * v
+239,762 = V × 1.08 × 6.3 
+V = 0.55 × 103 × v
 v = 622 fpm = 7.0686 mph
 
-4. If the **Winter** Balance Point Temperature is 52F and the following table shows the High and Low temperatures for three days in winter. Determine the total number of **heating degree days** for the three-day period.  Provide your answer in (degrees F * days) with one decimal place value.  Do not write units in your answer.
+4. If the **Winter** Balance Point Temperature is 52F and the following table shows the High and Low temperatures for three days in winter. Determine the total number of **heating degree days** for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
 
-|          | Sunday | Monday | Tuesday |
-| -------- | ------ | ------ | ------- |
-| High     | 44F    | 46F    | 71F     |
-| Low      | 34F    | 36F    | 57F     |
-| **Mean** | 61     | 64     | 64      |
+|         | Sunday | Monday | Tuesday |
+| ------- | ------ | ------ | ------- |
+| High    | 44F    | 46F    | 71F     |
+| Low     | 34F    | 36F    | 57F     |
+| **Ave** | 39     | 41     | 64      |
 
 ![[ARC2047H-Building_Science_Materials_and_Construction_3#^2e7c60|^2e7c60]]
 
+HDD = 13 + 11 = 24 °F·days
+
+5. If the **Summer** Balance Point Temperature is 64.8F and the following table shows the High and Low temperatures for three days in summer.  Determine the total number of **cooling** **degree days** for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
+
+|         | Sunday | Monday | Tuesday |
+| ------- | ------ | ------ | ------- |
+| High    | 60F    | 79F    | 80F     |
+| Low     | 51F    | 62F    | 68F     |
+| **Ave** | 55.5   | 70.5   | 74      |
+CDD = 5.7 + 14.9 = 20.6 °F·days
+
+6. For a given building that has a UA_total = 3,382 Btu/(h × F) and an HDD of 414 F*days determine the **Annual Heat Needed** in Btu.  Provide your answer as an integer.  Do not write units in your answer.
+
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^359eb9|^359eb9]]
+
+Annual Heat Needed = 3382 × 414 × 24 = 33,603,552 Btu
+
+7. For a given building in Toronto that has an Annual Heat Needed of 139,818,553 Btu, a natural gas furnace running at 98% efficiency and purchases natural gas for $11.38 per thousand cubic feet, determine the **annual cost of heating** the building.  Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
+
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^591155|^591155]]
+
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^423ef7|^423ef7]]
+
+Annual Cost = (139818553 / (98% × 1050)) × 11.38 / 1000 = 135.88
+
+8. A building located in Vancouver, British Columbia with solar insolation data found in the link below has the following:
+1) Heat gains from people, equipment, and lights = 20,982 Btu/h.
+2) South Facing Windows with an area of 3,991 square feet.
+3) Summer external shading devices provide 76% to the south windows.
+4) UAtotal = 4,185 Btu/(h*F).
+5) A desired indoor summer temperature of 72F.
+Find the approximate **Summer Balance Point Temperature** for the building in degrees F. Use one decimal place value in your answer.  Do not write units in your answer.
+![[./Attachments/solar insolation.jpg|solar insolation]]
+
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^ba60bb|^ba60bb]]
+
+Q_i = (1239 × 3991 /24 × (1-0.76)) + 20982 = 70,430.49
+BPT = 72 - (Q_i / 4185) = 55.17 oF
+
+9. For a given building located in Ottawa, Ontario find the **cooling load hours (CLH)** using Table B.1 (linked below) if:
+1) CDD = 1,513 F*days 
+2) Summer BPT = 56.7F
+Provide your answer in hours as an integer.  Do not write units in your answer.
+![[./Attachments/Appendix B1 MEEB Climatic Conditions.jpg|500]]
+
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^f100e8|^f100e8]]
+
+CLH = 1513 × 24 / (80.6 - 56.7) = 1519 h
+
+10. For a given building what is the **annual cost of cooling** if:
+1) Cooling Load = 222,343 Btu/h
+2) Cooling Load Hours = 1,224 hours
+3) Seasonal Energy Efficiency Ratio of the AHU = 20 (Btu/h)/W
+4) Utility rate = $0.22 per kWh
+Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
+
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^8fe61e|^8fe61e]]
+
+Annual Cost of Cooling = 222343 × 1224 × (1/20) × (0.22/1000) = 2993
 
 
 #### Module 08
@@ -455,9 +514,22 @@ v = 622 fpm = 7.0686 mph
 
 ## Tagged `#Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3`
 
-<span><span><div data-callout-metadata="" data-callout-fold="+" data-callout="white" class="callout is-collapsible node-insert-event"><div class="callout-title" dir="auto"><div class="callout-icon"><svg width="16" height="16"></svg></div><div class="callout-title-inner">Timelog:</div><div class="callout-fold"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg></div></div><div class="callout-content">
-<p dir="auto">Total: 0 Hours, 0 Minutes</p>
-</div></div></span></span>
+<pre class="dataview dataview-error">Evaluation Error: SyntaxError: Invalid or unexpected token
+    at DataviewInlineApi.eval (plugin:dataview:18885:21)
+    at evalInContext (plugin:dataview:18886:7)
+    at asyncEvalInContext (plugin:dataview:18893:16)
+    at DataviewJSRenderer.render (plugin:dataview:18922:19)
+    at DataviewJSRenderer.onload (plugin:dataview:18464:14)
+    at e.load (app://obsidian.md/app.js:1:1166456)
+    at DataviewApi.executeJs (plugin:dataview:19465:18)
+    at DataviewCompiler.dataviewJS (plugin:obsidian-mkdocs-publisher:27:160343)
+    at convertDataviewQueries (plugin:obsidian-mkdocs-publisher:30:1351)
+    at mainConverting (plugin:obsidian-mkdocs-publisher:42:1672)
+    at async GithubBranch.publish (plugin:obsidian-mkdocs-publisher:42:5734)
+    at async shareAllMarkedNotes (plugin:obsidian-mkdocs-publisher:27:139602)
+    at async shareAllEditedNotes (plugin:obsidian-mkdocs-publisher:27:142777)
+    at async uploadAllEditedNotes (plugin:obsidian-mkdocs-publisher:27:141675)
+    at async Object.callback (plugin:obsidian-mkdocs-publisher:27:141460)</pre>
 ## Course Brief
 
 code:: ARC2047HF
