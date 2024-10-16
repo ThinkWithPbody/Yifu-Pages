@@ -105,7 +105,7 @@ Thermal comfort directly affects productivity
 - metrics and terminology
 	- air temperature
 	- humidity and dewpoint
-		- Relative humidity: the actual water vapour in the air / the total water vapour that could be in the air
+		- Relative humidity: the actual water vapour in the air ÷ the total water vapour that could be in the air
 	- metabolism & clothing: met & clo
 	- dry bulb & wet bulb temperature
 	- surface temperatures
@@ -129,7 +129,7 @@ Thermal comfort directly affects productivity
 	- Draw straight line between two air states representing linear interpolation of every possible mix of two air streams
 		- Use mixed air stream T>dry to determine point on line
 		- T1 \* R1 + T2 \* R2 = T3, R1 + R2 = 1
-	- Dry air mass (kg) = Room volume (m^3) / SV (m^3/kg)
+	- Dry air mass (kg) = Room volume (m^3) ÷ SV (m^3/kg)
 	- Water (g) = Dry air mass (kg) × HR (g/kg)
 	- Energy (kJ) = Dry air mass (kg) × Enthalpy (kJ/kg)
 	- Sensible Heat (): H>s
@@ -140,8 +140,8 @@ For a well-sealed and highly insulated room with a wall air conditioner, how muc
 h1=27.2kJ/kg
 h2=65.5kJ/kg
 V=450m^3
-Dry air mass1 (kg) = Room volume (m^3) / SV1 0.825 (m^3/kg) = 545.4545
-Dry air mass2 (kg) = Room volume (m^3) / SV2 0.868 (m^3/kg) = 518.4332
+Dry air mass1 (kg) = Room volume (m^3) ÷ SV1 0.825 (m^3/kg) = 545.4545
+Dry air mass2 (kg) = Room volume (m^3) ÷ SV2 0.868 (m^3/kg) = 518.4332
 Energy1 (kJ) = Dry air mass1 (kg) × Enthalpy (kJ/kg) = 14,836.3624
 Energy2 (kJ) = Dry air mass2 (kg) × Enthalpy (kJ/kg) = 33,957.3746
 Excess = 19,121.0122 kJ
@@ -179,9 +179,9 @@ Excess = 19,121.0122 kJ
 		- HSA = azimuth
 - **VSA = arctan(tan(altitude)/cos(HSA))** (Calculator in degrees)
 	- tan(VSA) = tan(altitude)/cos(HSA)
-- **Horizontal Projection = Window Height / tan(VSA)**
+- **Horizontal Projection = Window Height ÷ tan(VSA)**
 	- **Lateral Projection = tan(HSA) × Horizontal Projection**
-- **Vertical Projection = Window Depth-Width / tan(HSA)**
+- **Vertical Projection = Window Depth-Width ÷ tan(HSA)**
 ### Q2
 
 #### Module 04
@@ -192,26 +192,26 @@ Excess = 19,121.0122 kJ
 
 - Balance Point Temperature, BPT ^ba60bb
 	- When Q_i = q_total
-	- BPT = T_indoor - Heat gain rate / Heat losses rate per T_delta
+	- BPT = T_indoor - Heat gain rate ÷ Heat losses rate per T_delta
 		- T_delta = (T_indoor - T_outdoor)
 		- q_total = q_skin + q_infiltration = UA_total × T_delta
-	- BPT = T_indoor - Q_i / UA_total
+	- BPT = T_indoor - Q_i ÷ UA_total
 		- Q_i: Internal Heat Gain (Btu/h) = q_solar + q_internal
 			- q_solar = Solar Insolation (BTU/(day-ft^2)) \* Surface Area South (ft^2) × 1d/24h
 			- q_internal = A: Floor Area (ft2) × (q_people + q_equipment + q_lights) (Btu/(h·ft2))
 		- UA_total: Heat Loss (Btu/(h\*oF)) = UA_envelope + UA_infiltration
 			- UA_envelope = U-value × Area (ft^2)
-				- U (Btu/(h\*ft^2\*^oF)) (W/m^2 ^oK) = 1 / R 
-				- U = k: Conductivity / Thickness
-				- U-Value = 1 / R-Value
+				- U (Btu/(h\*ft^2\*^oF)) (W/m^2 ^oK) = 1 ÷ R 
+				- U = k: Conductivity ÷ Thickness
+				- U-Value = 1 ÷ R-Value
 				- 0 ^oC = 273.15 \^oK
-			- UA_infiltration = ACH (h^-1) × Indoor Air Volume (ft^3) × Heat Capacity of Air (Btu / (ft^3 \* ^oF)) (J/(m^3 \* ^oK))
+			- UA_infiltration = ACH (h^-1) × Indoor Air Volume (ft^3) × Heat Capacity of Air (Btu ÷ (ft^3 \* ^oF)) (J/(m^3 \* ^oK))
 				- ACH: Air Changes per Hour ?= 0.44 (h^-1)
-				- Heat Capacity of Air (Btu / (ft^3 × ^oF)) = Density of Air × Specific Heat of Air = 0.075 lb/ft^3 × 0.24 Btu/(lb × ^oF) = 0.018 Btu/(ft^3·°F)
+				- Heat Capacity of Air (Btu ÷ (ft^3 × ^oF)) = Density of Air × Specific Heat of Air = 0.075 lb/ft^3 × 0.24 Btu/(lb × ^oF) = 0.018 Btu/(ft^3·°F)
 
 Units of Power: Btu/h, W
 Units of Energy: Btu, kWh
-W = J / s
+W = J ÷ s
 1 kWh = 3600000 J
 
 ##### Lab
@@ -265,7 +265,7 @@ Biogenic Carbon?
 
 - Cooling Loads
 	- **q_total: Total Heat Gain = q_sensible + q_latent**
-	- **Tons of cooling** = q_total / 12000 ^caf758
+	- **Tons of cooling** = q_total ÷ 12000 ^caf758
 		- Ton of cooling is the rate of heat transfer (power) 
 		- 12000 Btu/h needed to melt one ton of ice in 24 hours.
 	- **Sensible Heat Gain**
@@ -309,7 +309,7 @@ Infiltration Factor = 0.7 - 1.5* ((0.7-1.1)/-5) = 0.58
 
 Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 
-(3.4 + 5.1)* 29426* 12 / 24
+(3.4 + 5.1)* 29426* 12 ÷ 24
 
 132765 × 1.25
 
@@ -358,7 +358,7 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 **Cost of Thermal Comfort (Heating and Cooling)**
 - Heating
 	- Annual Heat Needed (Btu)= UA_total (Btu/h\*^o𝐹) × HDD × 24 hours ^359eb9
-	- Annual Fuel Needed, E (ft3) = Annual Heat (Btu) / (AFUE × heat value of fuel (Btu/ft3)) ^591155
+	- Annual Fuel Needed, E (ft3) = Annual Heat (Btu) ÷ (AFUE × heat value of fuel (Btu/ft3)) ^591155
 		- Specific to the fuel source and equipment
 		- AFUE is the Annual Fuel Utilization Efficiency
 			- Assume 95%
@@ -372,13 +372,13 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 			- Historically 50°F was used as the base temperature for calculating annual cooling.
 			-  If we can provide shading to some of the south glass we can improve the Summer BPT.
 			- assume 80% effective shading, thus allowing 20% of the solar gain.
-		- T_balance = T_desired: 78°F  (25.6°C) - Q_i: Heat gain / UA_total: Heat loss
+		- T_balance = T_desired: 78°F  (25.6°C) - Q_i: Heat gain ÷ UA_total: Heat loss
 	- **Annual Cost of Cooling** (\$) = Cooling Load (Btu/h) × CLH (h) × 1/SEER (W/Btu/h) × cost of electricity ($/Wh) ^8fe61e
 		- Cooling Load (Btu/h) From W6
 			- July Solar insolation for vertical surface, south facing glazing is 1,035 Btu/(day·ft2) in Toronto
 				- q_insolation cube summer@80%shade = 3,996 ft2 × 0.20 × 1,035 Btu/(day·ft2) × (day/24 h) = 34,687 Btu/h
 				- Only change solar insulation q_solar_summer_shaded, q_internal remains same
-		- CLH: Cooling Load Hours (h) = CDD × 24 (h/day) / (Design Temperature - Summer BPT) ^f100e8
+		- CLH: Cooling Load Hours (h) = CDD × 24 (h/day) ÷ (Design Temperature - Summer BPT) ^f100e8
 		- SEER: Seasonal Energy Efficiency Ratio ((Btu/h)/W)
 			- Btu/h heat rejected per Watt of electricity used
 			- For example AHU: Air Handling Unit could be 14
@@ -436,7 +436,7 @@ HDD = 13 + 11 = 24 °F·days
 | High    | 60F    | 79F    | 80F     |
 | Low     | 51F    | 62F    | 68F     |
 | **Ave** | 55.5   | 70.5   | 74      |
-CDD = 5.7 + 14.9 = 20.6 °F·days
+CDD = 5.7 + 9.2 = 14.9 °F·days
 
 6. For a given building that has a UA_total = 3,382 Btu/(h × F) and an HDD of 414 F*days determine the **Annual Heat Needed** in Btu.  Provide your answer as an integer.  Do not write units in your answer.
 
@@ -450,7 +450,8 @@ Annual Heat Needed = 3382 × 414 × 24 = 33,603,552 Btu
 
 ![[ARC2047H-Building_Science_Materials_and_Construction_3#^423ef7|^423ef7]]
 
-Annual Cost = (139818553 / (98% × 1050)) × 11.38 / 1000 = 135.88
+E = 139818553 ÷ (0.98 × 1050) = 135,878
+Annual Cost = E × (11.38 ÷ 1000) = 1546.29
 
 8. A building located in Vancouver, British Columbia with solar insolation data found in the link below has the following:
 1) Heat gains from people, equipment, and lights = 20,982 Btu/h.
@@ -464,7 +465,7 @@ Find the approximate **Summer Balance Point Temperature** for the building in 
 ![[ARC2047H-Building_Science_Materials_and_Construction_3#^ba60bb|^ba60bb]]
 
 Q_i = (1239 × 3991 /24 × (1-0.76)) + 20982 = 70,430.49
-BPT = 72 - (Q_i / 4185) = 55.17 oF
+BPT = 72 - (Q_i ÷ 4185) = 55.17 oF
 
 9. For a given building located in Ottawa, Ontario find the **cooling load hours (CLH)** using Table B.1 (linked below) if:
 1) CDD = 1,513 F*days 
@@ -474,7 +475,7 @@ Provide your answer in hours as an integer.  Do not write units in your answer.
 
 ![[ARC2047H-Building_Science_Materials_and_Construction_3#^f100e8|^f100e8]]
 
-CLH = 1513 × 24 / (80.6 - 56.7) = 1519 h
+CLH = 1513 × 24 ÷ (80.6 - 56.7) = 1519 h
 
 10. For a given building what is the **annual cost of cooling** if:
 1) Cooling Load = 222,343 Btu/h
