@@ -73,11 +73,6 @@ share: true
 	- energy & carbon
 
 
-
-- [x] Jacob new to bambu  [completion:: 2024-09-03]
-- [ ] One click LCA student license application
-- [x] Send demo to dad  [completion:: 2024-09-03]
-- [x] Readings  [due:: 2024-09-04]  [completion:: 2024-09-05]
 [Energy+and+the+Environment+Chapter+1+-+Ristinen+Kraushaar+Brack 2024-09-03 14_49_52.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C01%5CEnergy+and+the+Environment+Chapter+1+-+Ristinen+Kraushaar+Brack%202024-09-03%2014_49_52.pdf)
 [Thermal+Delight+-+chapter+1+-+Heschong 2024-09-03 14_49_32.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C01%5CThermal+Delight+-+chapter+1+-+Heschong%202024-09-03%2014_49_32.pdf)
 
@@ -327,8 +322,17 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 
 #### Module 07
 
+[2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5C2024+10+14+ARC2047+week+7+slides+v1%202024-10-15%2014_11_29.pdf)
+[ARC2047+-+Cross+Ventilation%2C+Degree+Days%2C+Cost+-+Metric+Example 2024-10-15 14_11_35.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047+-+Cross+Ventilation%2C+Degree+Days%2C+Cost+-+Metric+Example%202024-10-15%2014_11_35.pdf)
+[ARC2047HF+Homework+4+Solutions+-+final 2024-10-15 14_11_40.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047HF+Homework+4+Solutions+-+final%202024-10-15%2014_11_40.pdf)
+[ARC2047HF+HW5+Self+Study 2024-10-15 14_11_45.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047HF+HW5+Self+Study%202024-10-15%2014_11_45.pdf)
+[Week 7 study questions.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CWeek%207%20study%20questions.pdf)
+
+> [!PDF|yellow] [[./Attachments/2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29.pdf#page=4&selection=36,0,53,28&color=yellow|2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29, p.4]]
+> > qcross ventilation = V × 1.08 Btu·min/(ft3·°F·h) × ∆T q cross ventilation is in units of power (Btu/h)
+
 **Cooling via Cross Ventilation (Natural Ventilation)** 
-- q_ventilation = V × (heat capacity of air) × ∆T
+- q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
 	- A unit of power
 	- Requires openings on both sides and wind perpendicular to the opening surface
 	- V: Volumetric flow rate (cfm cubic feet per minute)
@@ -338,7 +342,7 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 				- Bottleneck is the smaller of the two
 			- v = velocity of the wind in feet per minute 
 				- 1 mile per hour (mph) = 88 feet per minute (fpm)
-	- heat capacity of air Btu·min/(ft3·°F·h) = 0.018 Btu/(ft3·°F)  × 60 min/h = 1.08 Btu·min/(ft3·°F·h)
+	- heat capacity of air Btu·min/(ft3·°F·h) = 0.018 Btu/(ft3·°F)  × 60 min/h = **1.08 Btu·min/(ft3·°F·h)**
 		- OR heat capacity of air (Btu/(ft3·°F)) = density (pounds per cubic ft) * specific heat of air (Btu/(lb·°F))
 	- ∆T is temperature difference between inside and outside air
 		- At least 3°F for cross ventilation to be feasible
