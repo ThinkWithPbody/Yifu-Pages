@@ -242,7 +242,7 @@ by Arjay Asuncion - 2024
 
 ### FAQ
 
-##### Why is there a setup fee
+###### Why is there a setup fee
 
 This setup fee allows me to take more care optimizing your print file and compensates me for my continued presence. Optimizations can massively reduce your print time and filament use, lowering total cost, but each job is different and it takes time. I try my best to provide affordable and environmentally responsible printing service, which is why I offer my time and expertise at a modest fee. You'll always have the option to slice it by yourself and I am pleased to waive the setup fee for such cases, but current success rate for this option is only 0%.
 ![[./Attachments/Yifu Design Lab/2024-04-10T00_15_05.jpg|400]]
