@@ -270,7 +270,7 @@ Biogenic Carbon?
 
 - Cooling Loads
 	- **q_total: Total Heat Gain = q_sensible + q_latent**
-	- **Tons of cooling** = q_total / 12000
+	- **Tons of cooling** = q_total / 12000 ^caf758
 		- Ton of cooling is the rate of heat transfer (power) 
 		- 12000 Btu/h needed to melt one ton of ice in 24 hours.
 	- **Sensible Heat Gain**
@@ -336,12 +336,12 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 	- A unit of power
 	- Requires openings on both sides and wind perpendicular to the opening surface
 	- V: Volumetric flow rate (cfm cubic feet per minute)
-		- V = Cv × A × v
+		- V = Cv × A × v ^8218c4
 			- Cv = is the coefficient for wind direction compared to the opening: 0.55 perpendicular, 0.3 angled 
 			- A = area of the opening (ft^2) 
 				- Bottleneck is the smaller of the two
 			- v = velocity of the wind in feet per minute 
-				- 1 mile per hour (mph) = 88 feet per minute (fpm)
+				- 1 mile per hour (mph) = 88 feet per minute (fpm) ^ff7bf9
 	- heat capacity of air Btu·min/(ft3·°F·h) = 0.018 Btu/(ft3·°F)  × 60 min/h = **1.08 Btu·min/(ft3·°F·h)**
 		- OR heat capacity of air (Btu/(ft3·°F)) = density (pounds per cubic ft) * specific heat of air (Btu/(lb·°F))
 	- ∆T is temperature difference between inside and outside air
@@ -349,12 +349,12 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 
 **Degree Days** 
 - Has units of (degrees · days)
-- HDD
+- HDD ^2e7c60
 	- HDD = BPT - Ave Temp
 		- HDD for the day is ignored if outside temperature is warmer than balance point temperature
 - CDD
 	- CDD = Ave Temp - BPT
-		- CDD for the day is ignored if outside temperature is warmer than balance point temperature
+		- CDD for the day is ignored if outside temperature is cooler than balance point temperature
 - [degreeedays](http://degreedays.net)
 
 
@@ -387,6 +387,44 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 			- For example AHU: Air Handling Unit could be 14
 		- Cost of Electricity for example use 15 cents per kWh,  $0.15/1000Wh
 
+##### Lab
+
+
+1. If the total summer cooling load for a 25,000 ft2 building is determined to be 23.4 tons **what volume (flow rate)** of outdoor air is required to provide adequate cooling via cross ventilation if the outdoor air temperature is 68.9F and the desired indoor air temperature is 76F?  Provide your answer in cubic feet per minute (cfm) as an integer.  Do not write units in your answer.
+
+[[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
+q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
+23.4 tons * 12000 = 280,800 Btu/h
+280,800 = V * 1.08 * 7.1
+V = 36619 cfm
+
+2. If the total summer cooling load for a building can be cooled using cross ventilation with a volumetric flow rate of 60,645 cubic feet per minute, determine the **area of openings needed** on the windward side of the building if the average wind speed is 13.2 mph and the wind approaches at a 45 degree angle to the opening. Assume that the building has an equal amount of openings on the windward and leeward sides of the building. Provide your answer in square feet as an integer.  Do not write units in your answer.
+
+[[ARC2047H-Building_Science_Materials_and_Construction_3#^8218c4|^8218c4]]
+[[ARC2047H-Building_Science_Materials_and_Construction_3#^ff7bf9|^ff7bf9]]
+13.2 mph * 88 = 1,161.6 fpm
+60,645 cfm = 0.3 * A * 1,161.6 fpm
+A = 174 ft2
+
+3. Given:
+1) total summer cooling load for a building is 239,762 Btu/h,
+2) the outdoor air temperature is 67.2F,
+3) the desired indoor air temperature is 73.5F,
+4) there are 103 ft2 of clear window openings for ventilation on the windward side of the building and 600 ft2 of clear window openings for ventilation on the leeward side of the building.
+Find the required **average windspeed needed** to adequately cool the building via cross ventilation if the wind approaches the building perpendicular to the openings.  Provide your answer in miles per hour (mph) with one decimal place value.  Do not write units in your answer.
+
+239,762 = V * 1.08 * 6.3 
+V = 0.55 * 103 * v
+v = 622 fpm = 7.0686 mph
+
+4. If the **Winter** Balance Point Temperature is 52F and the following table shows the High and Low temperatures for three days in winter. Determine the total number of **heating degree days** for the three-day period.  Provide your answer in (degrees F * days) with one decimal place value.  Do not write units in your answer.
+
+|      | Sunday | Monday | Tuesday |
+| ---- | ------ | ------ | ------- |
+| High | 44F    | 46F    | 71F     |
+| Low  | 34F    | 36F    | 57F     |
+
+[[ARC2047H-Building_Science_Materials_and_Construction_3#^2e7c60|^2e7c60]]
 
 
 
