@@ -351,10 +351,10 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 - Has units of (degrees · days)
 - HDD ^2e7c60
 	- HDD = BPT - Ave Temp
-		- HDD for the day is ignored if outside temperature is warmer than balance point temperature
+		- HDD for the day is ignored if average outside temperature is warmer than balance point temperature
 - CDD
 	- CDD = Ave Temp - BPT
-		- CDD for the day is ignored if outside temperature is cooler than balance point temperature
+		- CDD for the day is ignored if average outside temperature is cooler than balance point temperature
 - [degreeedays](http://degreedays.net)
 
 
@@ -392,7 +392,7 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 
 1. If the total summer cooling load for a 25,000 ft2 building is determined to be 23.4 tons **what volume (flow rate)** of outdoor air is required to provide adequate cooling via cross ventilation if the outdoor air temperature is 68.9F and the desired indoor air temperature is 76F?  Provide your answer in cubic feet per minute (cfm) as an integer.  Do not write units in your answer.
 
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
 q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
 23.4 tons * 12000 = 280,800 Btu/h
 280,800 = V * 1.08 * 7.1
@@ -400,8 +400,8 @@ V = 36619 cfm
 
 2. If the total summer cooling load for a building can be cooled using cross ventilation with a volumetric flow rate of 60,645 cubic feet per minute, determine the **area of openings needed** on the windward side of the building if the average wind speed is 13.2 mph and the wind approaches at a 45 degree angle to the opening. Assume that the building has an equal amount of openings on the windward and leeward sides of the building. Provide your answer in square feet as an integer.  Do not write units in your answer.
 
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^8218c4|^8218c4]]
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^ff7bf9|^ff7bf9]]
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^8218c4|^8218c4]]
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^ff7bf9|^ff7bf9]]
 13.2 mph * 88 = 1,161.6 fpm
 60,645 cfm = 0.3 * A * 1,161.6 fpm
 A = 174 ft2
@@ -419,13 +419,13 @@ v = 622 fpm = 7.0686 mph
 
 4. If the **Winter** Balance Point Temperature is 52F and the following table shows the High and Low temperatures for three days in winter. Determine the total number of **heating degree days** for the three-day period.  Provide your answer in (degrees F * days) with one decimal place value.  Do not write units in your answer.
 
-|      | Sunday | Monday | Tuesday |
-| ---- | ------ | ------ | ------- |
-| High | 44F    | 46F    | 71F     |
-| Low  | 34F    | 36F    | 57F     |
+|          | Sunday | Monday | Tuesday |
+| -------- | ------ | ------ | ------- |
+| High     | 44F    | 46F    | 71F     |
+| Low      | 34F    | 36F    | 57F     |
+| **Mean** | 61     | 64     | 64      |
 
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^2e7c60|^2e7c60]]
-
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^2e7c60|^2e7c60]]
 
 
 
