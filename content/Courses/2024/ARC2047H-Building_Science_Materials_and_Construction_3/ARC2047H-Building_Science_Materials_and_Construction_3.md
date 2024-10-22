@@ -515,32 +515,32 @@ HVAC Distribution
 	- Turning radius is usually twice the duct diameter
 	- Air Velocity (fpm) at each section of duct
 		- V_each = SUM($V_tributary)
-		- Total pressure loss of critical path = Critical path equivalent length (ft) × Friction Loss (in. wtr./100ft) + Loss at diffuser: 0.04 in. wtr.
-			- This needs to be **less than 0.5 inches of water** to maintain efficiency of the system. If the pressure loss is too high, we need to use a slower velocity than 350 fpm
-			- Critical Path equivalent length = Longest Equivalent Length ^2bf58f
-				- Equivalent Length (ft) = Duct Length + Equivalent Fitting Length
-					- None: +0ft
-					- Diffuser: +0ft
-					- Entry: +10ft
-					- 90° elbow: +35ft
-						- Count the final one too
-				- Include vertical duct from basement AHU
-			- Friction Loss (in. wtr/100ft) from Friction chart
-				- Air Velocity (fpm)
-					- Chosen from NC-25
-						- Limited by shortest distance from AHU to openings
-				- V (cfm): Volumetric Flow Rate ^a2dc5f
-					- Is governed by the greater of cooling or heating loads
-						- [[ARC2047H-Building_Science_Materials_and_Construction_3#^2de642|q_cooling load (Btu/h | tons)]]
-						- q_heating load (Btu/h | tons) = [[ARC2047H-Building_Science_Materials_and_Construction_3#^6c9468|UA_total (Btu/h F)]] × ∆T 
-							- ∆T = BPT - Design Dry Bulb Winter
-					- V_sum = Loads (ton) × V/ton
-						- V/ton
-							- Assume 400 V/ton
-							- q_1ton (Btu/h) = V/ton × Heat Capacity of Air (Btu·min/ft3·F·h) × ∆T
-								- 12000 = V/ton × 1.08 × ∆T_register
-									- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=3&selection=30,0,36,2|(p.3)]]
-					- V_each = V_sum / number of vent openings
+			- **Total pressure loss** of critical path (in. wtr.) = Critical path equivalent length (ft) × Friction Loss (in. wtr./100ft) + Loss at diffuser: 0.04 in. wtr. ^b2baf5
+				- This needs to be **less than 0.5 inches of water** to maintain efficiency of the system. If the pressure loss is too high, we need to use a slower velocity than 350 fpm
+				- Critical Path equivalent length = Longest Equivalent Length ^2bf58f
+					- Equivalent Length (ft) = Duct Length + Equivalent Fitting Length
+						- None: +0ft
+						- Diffuser: +0ft
+						- Entry: +10ft
+						- 90° elbow: +35ft
+							- Count the final one too
+					- Include vertical duct from basement AHU
+				- Friction Loss (in. wtr/100ft) from Friction chart
+					- Air Velocity (fpm)
+						- Chosen from NC-25
+							- Limited by shortest distance from AHU to openings
+					- V (cfm): Volumetric Flow Rate ^a2dc5f
+						- Is governed by the greater of cooling or heating loads
+							- [[ARC2047H-Building_Science_Materials_and_Construction_3#^2de642|q_cooling load (Btu/h | tons)]]
+							- q_heating load (Btu/h | tons) = [[ARC2047H-Building_Science_Materials_and_Construction_3#^6c9468|UA_total (Btu/h F)]] × ∆T 
+								- ∆T = BPT - Design Dry Bulb Winter
+						- V_sum = Loads (ton) × V/ton
+							- V/ton
+								- Assume 400 V/ton
+								- q_1ton (Btu/h) = V/ton × Heat Capacity of Air (Btu·min/ft3·F·h) × ∆T
+									- 12000 = V/ton × 1.08 × ∆T_register
+										- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=3&selection=30,0,36,2|(p.3)]]
+						- V_each = V_sum / number of vent openings
 
 ##### Lab
 
@@ -565,7 +565,7 @@ V = 183819 / 12000 * V/ton = 6127
 
 For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below, find the average volumetric **flow rate of air per vent** opening if the summer cooling load for the building is 11,522 Btu/h and the winter heating load is 29,722 Btu/h.  Assume all vent opening are the same size and have the same flow rate.  Provide your answer in cubic feet per minute using one decimal place value.  Do not write units in your answer.
 
-![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|lab riser diagram A C D E F blank]]
+![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]]
 
 V = 29722 / 12000 * 400 = 990.73 cfm
 V_each = V / 12 = 82.6 cfm
@@ -580,7 +580,6 @@ E = 10.4 feet
 F = 10.6 feet 
 Assume all terminal vent openings have an equal flow rate. Provide your answer in feet with one decimal place value. Do not write units in your answer. _It may be helpful to setup a table similar to the one used in the lecture._
 
-![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|lab riser diagram A C D E F blank]]
 
 [[ARC2047H-Building_Science_Materials_and_Construction_3#^2bf58f|^2bf58f]]
 Equivalent Length (ft) = Duct Length + Equivalent Fitting Length = 208.3
@@ -592,7 +591,7 @@ Equivalent Fitting Length = 10 + 35 + 35 + 35 + 35 = 150
 For a given building the acoustic design of the HVAC system is desired to achieve NC-25 Background Levels. **What should the friction loss (in inches of water per 100 ft) be** for the supply duct work if the volumetric flow rate for the vent opening at the end of the critical path = 487 cfm?  See the acoustics table and friction chart links below.  Provide your answer in inches of water per 100 ft **using three decimal place values**.  Do not write units in your answer.
 
 ![[./Attachments/Lab/acoustics.jpg|acoustics]]
-![[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|friction loss chart ASHRAE 2021]]
+![[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]]
 0.013 in. wtr./100ft
 
 ---
@@ -607,7 +606,19 @@ E = 10.6 feet
 F = 10.2 feet 
 Assume all terminal vent openings have an equal flow rate. Provide your answer in inches of water with three decimal place values.  Do not write units in your answer.
 
-![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|lab riser diagram A C D E F blank]]
+
+Equivalent Length (ft) = Duct Length + Equivalent Fitting Length = 206.9
+Duct Length = A + B=6 + C + D + E + F + G=2= 56.9
+Equivalent Fitting Length = 10 + 35 + 35 + 35 + 35 = 150
+
+[[ARC2047H-Building_Science_Materials_and_Construction_3#^b2baf5|^b2baf5]]
+Pressure Loss = Critical path equivalent length (ft) × Friction Loss (in. wtr./100ft) + Loss at diffuser: 0.04 in. wtr. = 206.9 * 0.074 / 100 + 0.04 = 0.193
+
+---
+
+For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the velocity of air for duct C** if the volume of air flow at each vent opening is 85 cfm. Use 0.024 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
+
+
 
 
 
