@@ -199,7 +199,7 @@ Excess = 19,121.0122 kJ
 		- Q_i: Internal Heat Gain (Btu/h) = q_solar + q_internal
 			- q_solar = Solar Insolation (BTU/(day-ft^2)) \* Surface Area South (ft^2) × 1d/24h
 			- q_internal = A: Floor Area (ft2) × (q_people + q_equipment + q_lights) (Btu/(h·ft2))
-		- UA_total: Heat Loss (Btu/(h\*oF)) = UA_envelope + UA_infiltration
+		- UA_total: Heat Loss (Btu/(h\*oF)) = UA_envelope + UA_infiltration ^6c9468
 			- UA_envelope = U-value × Area (ft^2)
 				- U (Btu/(h\*ft^2\*^oF)) (W/m^2 ^oK) = 1 ÷ R 
 				- U = k: Conductivity ÷ Thickness
@@ -263,7 +263,7 @@ Biogenic Carbon?
 
 ##### Lecture
 
-- Cooling Loads
+- Cooling Loads ^2de642
 	- **q_total: Total Heat Gain = q_sensible + q_latent**
 	- **Tons of cooling** = q_total ÷ 12000 ^caf758
 		- Ton of cooling is the rate of heat transfer (power) 
@@ -329,7 +329,7 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 > > qcross ventilation = V × 1.08 Btu·min/(ft3·°F·h) × ∆T q cross ventilation is in units of power (Btu/h)
 
 **Cooling via Cross Ventilation (Natural Ventilation)** 
-- q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
+- q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F) ^bd2f04
 	- A unit of power
 	- Requires openings on both sides and wind perpendicular to the opening surface
 	- V: Volumetric flow rate (cfm cubic feet per minute)
@@ -491,6 +491,132 @@ Annual Cost of Cooling = 222343 × 1224 × (1/20) × (0.22/1000) = 2993
 
 #### Module 08
 
+[[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf|2024+10+22+week+8+slides+v3 2024-10-22 14_37_23]]
+
+[[./Attachments/20241022 week 8 slides v3 2024-10-22 14_42_07.pdf|20241022 week 8 slides v3 2024-10-22 14_42_07]]
+
+[[./Attachments/ARC2047HF+HVAC+Distribution+Metric+Example 2024-10-22 14_29_56.pdf|ARC2047HF+HVAC+Distribution+Metric+Example 2024-10-22 14_29_56]]
+
+[[./Attachments/ARC2047HF+HW5+Solutions 2024-10-22 14_30_05.pdf|ARC2047HF+HW5+Solutions 2024-10-22 14_30_05]]
+
+[[./Attachments/ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution 2024-10-22 14_30_15.pdf|ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution 2024-10-22 14_30_15]]
+
+[[./Attachments/Week+8+Charts+and+Tables 2024-10-22 14_29_53.pdf|Week+8+Charts+and+Tables 2024-10-22 14_29_53]]
+
+##### Lecture
+
+HVAC Distribution
+- 
+	- Pressure in ducts measured in Pascal or inches of water
+		- 1 inch of water = 248.84 Pa
+- Diameter at each section of duct, Circular vs. Rectangular vs. Rectangular With Insulation
+	- ==Critical Path: Duct Size and Shape== [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=31&selection=0,34,0,34|(p.31)]]
+	- 2in of insulation on each surface 
+	- Turning radius is usually twice the duct diameter
+	- Air Velocity (fpm) at each section of duct
+		- V_each = SUM($V_tributary)
+		- Total pressure loss of critical path = Critical path equivalent length (ft) × Friction Loss (in. wtr./100ft) + Loss at diffuser: 0.04 in. wtr.
+			- This needs to be **less than 0.5 inches of water** to maintain efficiency of the system. If the pressure loss is too high, we need to use a slower velocity than 350 fpm
+			- Critical Path equivalent length = Longest Equivalent Length ^2bf58f
+				- Equivalent Length (ft) = Duct Length + Equivalent Fitting Length
+					- None: +0ft
+					- Diffuser: +0ft
+					- Entry: +10ft
+					- 90° elbow: +35ft
+						- Count the final one too
+				- Include vertical duct from basement AHU
+			- Friction Loss (in. wtr/100ft) from Friction chart
+				- Air Velocity (fpm)
+					- Chosen from NC-25
+						- Limited by shortest distance from AHU to openings
+				- V (cfm): Volumetric Flow Rate ^a2dc5f
+					- Is governed by the greater of cooling or heating loads
+						- [[ARC2047H-Building_Science_Materials_and_Construction_3#^2de642|q_cooling load (Btu/h | tons)]]
+						- q_heating load (Btu/h | tons) = [[ARC2047H-Building_Science_Materials_and_Construction_3#^6c9468|UA_total (Btu/h F)]] × ∆T 
+							- ∆T = BPT - Design Dry Bulb Winter
+					- V_sum = Loads (ton) × V/ton
+						- V/ton
+							- Assume 400 V/ton
+							- q_1ton (Btu/h) = V/ton × Heat Capacity of Air (Btu·min/ft3·F·h) × ∆T
+								- 12000 = V/ton × 1.08 × ∆T_register
+									- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=3&selection=30,0,36,2|(p.3)]]
+					- V_each = V_sum / number of vent openings
+
+##### Lab
+
+For a given building located in Albany, New York the winter balance point temperature is 33.5F and the winter design temperature can be found in Table B.1 (see link below).  If the building has a UAtotal = of 3,753 Btu/(h*F), what volumetric flow rate of air is needed to adequately heat the building with a forced air system?  Provide your answer in cubic feet per minute as an integer.  Do not write units in your answer.
+
+![[./Attachments/Lab/Table B1 New York State.jpg|Table B1 New York State]]
+
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^a2dc5f|^a2dc5f]]
+T_delta = 33.5 - 2.2 = 31.3
+q = 3753 * 31.3 = 117,468.9 Btu
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
+q = 9.789075 tons
+V =  9.789075 tons * 400 cfm/ton = 3916 cfm
+
+---
+
+For a given building located in Albany, New York the winter heating load is 133,980 Btu/h and the summer cooling load is 183,819 Btu/h.  Determine the volumetric flow rate of air needed in a forced air system to work effectively.  Provide your answer in cubic feet per minute as an integer.  Do not write units in your answer. Note that this is for the entire building, not just one vent.
+
+V = 183819 / 12000 * V/ton = 6127
+
+---
+
+For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below, find the average volumetric **flow rate of air per vent** opening if the summer cooling load for the building is 11,522 Btu/h and the winter heating load is 29,722 Btu/h.  Assume all vent opening are the same size and have the same flow rate.  Provide your answer in cubic feet per minute using one decimal place value.  Do not write units in your answer.
+
+![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|lab riser diagram A C D E F blank]]
+
+V = 29722 / 12000 * 400 = 990.73 cfm
+V_each = V / 12 = 82.6 cfm
+
+---
+
+For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below find the total equivalent length of the critical path ductwork if:
+A = 5 feet
+C = 8.4 feet
+D = 15.9 feet
+E = 10.4 feet
+F = 10.6 feet 
+Assume all terminal vent openings have an equal flow rate. Provide your answer in feet with one decimal place value. Do not write units in your answer. _It may be helpful to setup a table similar to the one used in the lecture._
+
+![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|lab riser diagram A C D E F blank]]
+
+![[ARC2047H-Building_Science_Materials_and_Construction_3#^2bf58f|^2bf58f]]
+
+Equivalent Length (ft) = Duct Length + Equivalent Fitting Length = 208.3
+Duct Length = A + B=6 + C + D + E + F + G=2= 58.3
+Equivalent Fitting Length = 10 + 35 + 35 + 35 + 35 = 150
+
+---
+
+For a given building the acoustic design of the HVAC system is desired to achieve NC-25 Background Levels. **What should the friction loss (in inches of water per 100 ft) be** for the supply duct work if the volumetric flow rate for the vent opening at the end of the critical path = 487 cfm?  See the acoustics table and friction chart links below.  Provide your answer in inches of water per 100 ft **using three decimal place values**.  Do not write units in your answer.
+
+![[./Attachments/Lab/acoustics.jpg|acoustics]]
+![[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|friction loss chart ASHRAE 2021]]
+![[./ARC2047H-Building_Science_Materials_and_Construction_3 2024-09-24 14.21.08.svg#^group=oBypA2cO|Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/ARC2047H-Building_Science_Materials_and_Construction_3 2024-09-24 14.21.08.excalidraw.md > ^group=oBypA2cO]]
+0.013 in. wtr./100ft
+
+---
+
+For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below **find the pressure loss in the longest duct run** if:
+friction loss = 0.074 inches water/100ft
+loss at diffuser = 0.04 inches of water
+ A = 9.9 feet
+C = 8.2 feet
+D = 10 feet
+E = 10.6 feet
+F = 10.2 feet 
+Assume all terminal vent openings have an equal flow rate. Provide your answer in inches of water with three decimal place values.  Do not write units in your answer.
+
+![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|lab riser diagram A C D E F blank]]
+
+
+
+
+
+
+
 #### Module 09
 
 ### Q4
@@ -515,20 +641,22 @@ Annual Cost of Cooling = 222343 × 1224 × (1/20) × (0.22/1000) = 2993
 
 ## Tagged `#Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3`
 
-<pre class="dataview dataview-error">Evaluation Error: eval@[native code]
-@
-asyncEvalInContext@
-@
-render@
-onload@
-@capacitor://localhost/app.js:1:1171666
-@
-executeJs@
-@
-dataviewJS@
-@
-convertDataviewQueries@
-@</pre>
+<pre class="dataview dataview-error">Evaluation Error: SyntaxError: Invalid or unexpected token
+    at DataviewInlineApi.eval (plugin:dataview:18885:21)
+    at evalInContext (plugin:dataview:18886:7)
+    at asyncEvalInContext (plugin:dataview:18893:16)
+    at DataviewJSRenderer.render (plugin:dataview:18922:19)
+    at DataviewJSRenderer.onload (plugin:dataview:18464:14)
+    at e.load (app://obsidian.md/app.js:1:1230132)
+    at DataviewApi.executeJs (plugin:dataview:19465:18)
+    at DataviewCompiler.dataviewJS (plugin:obsidian-mkdocs-publisher:27:160343)
+    at convertDataviewQueries (plugin:obsidian-mkdocs-publisher:30:1351)
+    at mainConverting (plugin:obsidian-mkdocs-publisher:42:1672)
+    at async GithubBranch.publish (plugin:obsidian-mkdocs-publisher:42:5734)
+    at async shareAllMarkedNotes (plugin:obsidian-mkdocs-publisher:27:139602)
+    at async shareAllEditedNotes (plugin:obsidian-mkdocs-publisher:27:142777)
+    at async uploadAllEditedNotes (plugin:obsidian-mkdocs-publisher:27:141675)
+    at async Object.callback (plugin:obsidian-mkdocs-publisher:27:141460)</pre>
 ## Course Brief
 
 code:: ARC2047HF
