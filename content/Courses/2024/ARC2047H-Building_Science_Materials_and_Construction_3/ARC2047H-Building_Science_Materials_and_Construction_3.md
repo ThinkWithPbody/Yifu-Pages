@@ -548,10 +548,10 @@ For a given building located in Albany, New York the winter balance point temper
 
 ![[./Attachments/Lab/Table B1 New York State.jpg|Table B1 New York State]]
 
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^a2dc5f|^a2dc5f]]
+[[ARC2047H-Building_Science_Materials_and_Construction_3#^a2dc5f|^a2dc5f]]
 T_delta = 33.5 - 2.2 = 31.3
 q = 3753 * 31.3 = 117,468.9 Btu
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
+[[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
 q = 9.789075 tons
 V =  9.789075 tons * 400 cfm/ton = 3916 cfm
 
@@ -582,8 +582,7 @@ Assume all terminal vent openings have an equal flow rate. Provide your answer i
 
 ![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|lab riser diagram A C D E F blank]]
 
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^2bf58f|^2bf58f]]
-
+[[ARC2047H-Building_Science_Materials_and_Construction_3#^2bf58f|^2bf58f]]
 Equivalent Length (ft) = Duct Length + Equivalent Fitting Length = 208.3
 Duct Length = A + B=6 + C + D + E + F + G=2= 58.3
 Equivalent Fitting Length = 10 + 35 + 35 + 35 + 35 = 150
@@ -594,7 +593,6 @@ For a given building the acoustic design of the HVAC system is desired to achie
 
 ![[./Attachments/Lab/acoustics.jpg|acoustics]]
 ![[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|friction loss chart ASHRAE 2021]]
-![[./ARC2047H-Building_Science_Materials_and_Construction_3 2024-09-24 14.21.08.svg#^group=oBypA2cO|Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/ARC2047H-Building_Science_Materials_and_Construction_3 2024-09-24 14.21.08.excalidraw.md > ^group=oBypA2cO]]
 0.013 in. wtr./100ft
 
 ---
@@ -602,7 +600,7 @@ For a given building the acoustic design of the HVAC system is desired to achie
 For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below **find the pressure loss in the longest duct run** if:
 friction loss = 0.074 inches water/100ft
 loss at diffuser = 0.04 inches of water
- A = 9.9 feet
+A = 9.9 feet
 C = 8.2 feet
 D = 10 feet
 E = 10.6 feet
