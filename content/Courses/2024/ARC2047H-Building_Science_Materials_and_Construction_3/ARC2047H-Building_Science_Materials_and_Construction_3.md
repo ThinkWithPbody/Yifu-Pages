@@ -544,7 +544,7 @@ HVAC Distribution
 
 ##### Lab
 
-For a given building located in Albany, New York the winter balance point temperature is 33.5F and the winter design temperature can be found in Table B.1 (see link below).  If the building has a UAtotal = of 3,753 Btu/(h*F), what volumetric flow rate of air is needed to adequately heat the building with a forced air system?  Provide your answer in cubic feet per minute as an integer.  Do not write units in your answer.
+1. For a given building located in Albany, New York the winter balance point temperature is 33.5F and the winter design temperature can be found in Table B.1 (see link below).  If the building has a UAtotal = of 3,753 Btu/(h*F), what volumetric flow rate of air is needed to adequately heat the building with a forced air system?  Provide your answer in cubic feet per minute as an integer.  Do not write units in your answer.
 
 ![[./Attachments/Lab/Table B1 New York State.jpg|Table B1 New York State]]
 
@@ -557,13 +557,13 @@ V =  9.789075 tons * 400 cfm/ton = 3916 cfm
 
 ---
 
-For a given building located in Albany, New York the winter heating load is 133,980 Btu/h and the summer cooling load is 183,819 Btu/h.  Determine the volumetric flow rate of air needed in a forced air system to work effectively.  Provide your answer in cubic feet per minute as an integer.  Do not write units in your answer. Note that this is for the entire building, not just one vent.
+2. For a given building located in Albany, New York the winter heating load is 133,980 Btu/h and the summer cooling load is 183,819 Btu/h.  Determine the volumetric flow rate of air needed in a forced air system to work effectively.  Provide your answer in cubic feet per minute as an integer.  Do not write units in your answer. Note that this is for the entire building, not just one vent.
 
 V = 183819 / 12000 * V/ton = 6127
 
 ---
 
-For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below, find the average volumetric **flow rate of air per vent** opening if the summer cooling load for the building is 11,522 Btu/h and the winter heating load is 29,722 Btu/h.  Assume all vent opening are the same size and have the same flow rate.  Provide your answer in cubic feet per minute using one decimal place value.  Do not write units in your answer.
+3. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below, find the average volumetric **flow rate of air per vent** opening if the summer cooling load for the building is 11,522 Btu/h and the winter heating load is 29,722 Btu/h.  Assume all vent opening are the same size and have the same flow rate.  Provide your answer in cubic feet per minute using one decimal place value.  Do not write units in your answer.
 
 ![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]]
 
@@ -572,7 +572,7 @@ V_each = V / 12 = 82.6 cfm
 
 ---
 
-For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below find the total equivalent length of the critical path ductwork if:
+4. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below find the total equivalent length of the critical path ductwork if:
 A = 5 feet
 C = 8.4 feet
 D = 15.9 feet
@@ -588,7 +588,7 @@ Equivalent Fitting Length = 10 + 35 + 35 + 35 + 35 = 150
 
 ---
 
-For a given building the acoustic design of the HVAC system is desired to achieve NC-25 Background Levels. **What should the friction loss (in inches of water per 100 ft) be** for the supply duct work if the volumetric flow rate for the vent opening at the end of the critical path = 487 cfm?  See the acoustics table and friction chart links below.  Provide your answer in inches of water per 100 ft **using three decimal place values**.  Do not write units in your answer.
+5. For a given building the acoustic design of the HVAC system is desired to achieve NC-25 Background Levels. **What should the friction loss (in inches of water per 100 ft) be** for the supply duct work if the volumetric flow rate for the vent opening at the end of the critical path = 487 cfm?  See the acoustics table and friction chart links below.  Provide your answer in inches of water per 100 ft **using three decimal place values**.  Do not write units in your answer.
 
 ![[./Attachments/Lab/acoustics.jpg|acoustics]]
 ![[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]]
@@ -596,7 +596,7 @@ For a given building the acoustic design of the HVAC system is desired to achie
 
 ---
 
-For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below **find the pressure loss in the longest duct run** if:
+6. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below **find the pressure loss in the longest duct run** if:
 friction loss = 0.074 inches water/100ft
 loss at diffuser = 0.04 inches of water
 A = 9.9 feet
@@ -616,7 +616,7 @@ Pressure Loss = Critical path equivalent length (ft) × Friction Loss (in. wtr./
 
 ---
 
-For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the velocity of air for duct C** if the volume of air flow at each vent opening is 85 cfm. Use 0.024 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
+7. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the velocity of air for duct C** if the volume of air flow at each vent opening is 85 cfm. Use 0.024 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
 
 
 
