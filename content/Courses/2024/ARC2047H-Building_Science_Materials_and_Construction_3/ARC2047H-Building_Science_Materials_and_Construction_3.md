@@ -511,6 +511,7 @@ HVAC Distribution
 		- 1 inch of water = 248.84 Pa
 - Diameter at each section of duct, Circular vs. Rectangular vs. Rectangular With Insulation
 	- ==Critical Path: Duct Size and Shape== [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=31&selection=0,34,0,34|(p.31)]]
+		- 
 	- 2in of insulation on each surface 
 	- Turning radius is usually twice the duct diameter
 	- Air Velocity (fpm) at each section of duct
@@ -618,12 +619,33 @@ Pressure Loss = Critical path equivalent length (ft) × Friction Loss (in. wtr./
 
 7. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the velocity of air for duct C** if the volume of air flow at each vent opening is 85 cfm. Use 0.024 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
 
+85 * 3 = 255 cfm
+fpm @ 255 cfm @ 0.024 in. wtr./100ft ~= 390 fpm
+
+---
+
+8. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the velocity of air for duct B** if the volume of air flow at each vent opening is 174 cfm. Use 0.028 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
+
+174 * 6 = 1044 cfm
+fpm @ 1044 cfm @ 0.028 in. wtr./100ft ~= 590 fpm
+
+---
+
+9. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the clear inside diameter for duct A** if the volume of air flow at each vent opening is 170 cfm. Use 0.025 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in inches within one decimal place value.  Do not use units in your answer.  Note that duct A is the vertical duct between the AHU and ducts B.  Assume duct A is round.
+
+170 * 12 = 2040 cfm
+diameter @ 2040 cfm @ 0.025 in. wtr./100ft ~= 23.9 in
 
 
+---
 
 
+10. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] to **determine the minimum outside diameter for duct D** if the volume of air flow at each vent opening is 80 cfm. Use 0.044 inches of water/100ft as the friction loss for the ductwork.  Assume 2-inch-thick insulation lining the inside of the duct. Provide your answer in inches within one decimal place value.  Do not use units in your answer.  Assume duct D is round.
 
+80 * 3 = 240 cfm
+diameter @ 240 cfm @ 0.044 in/. wtr./100ft ~= 9.5 in
 
+9.5 + 2 * 2 = 13.5 in
 
 
 #### Module 09
