@@ -5,32 +5,34 @@ share: true
 ---
 ### Keyboard
 
-| Key | Command Macro                                                                                   |
-| --- | ----------------------------------------------------------------------------------------------- |
-| F1  | ! _PointsOn                                                                                     |
-| F2  | ! _PointsOff                                                                                    |
-| F3  | '_DisableOsnap _Toggle                                                                          |
-| F4  | '_Snap                                                                                          |
-| F5  | ! _GumballAlignment _Cycle                                                                      |
-| F6  | ! _Camera _Toggle                                                                               |
-| F7  | noecho -_Grid _ShowGrid _ShowGridAxes _Enter  -_RunScript (Rhino.Print "Grid Display Toggled.") |
-| F8  | noecho PrintDisplay _State  _Toggle _Enter -_RunScript (Rhino.Print "PrintDisplay Toggled.")    |
-| F9  | ! _CommandHistory                                                                               |
-| F10 | ! _DocumentProperties                                                                           |
-| F11 | '_Help                                                                                          |
-| F12 | '_DigClick                                                                                      |
+| Key | Command Macro                                                                                                                     |
+| --- | --------------------------------------------------------------------------------------------------------------------------------- |
+| F1  | ! _PointsOn                                                                                                                       |
+| F2  | ! _PointsOff                                                                                                                      |
+| F3  | '_DisableOsnap _Toggle                                                                                                            |
+| F4  | '_Snap                                                                                                                            |
+| F5  | ! _GumballAlignment _Cycle                                                                                                        |
+| F6  | ! _Camera _Toggle                                                                                                                 |
+| F7  | noecho -_Grid _ShowGrid _ShowGridAxes _Enter  -_RunScript (Rhino.Print "Grid Display Toggled.")                                   |
+| F8  | noecho _PrintDisplay _State  _Toggle _Color _Display _Scale 10000 _Enter _Enter -_RunScript (Rhino.Print "PrintDisplay Toggled.") |
+| F9  | ! _CommandHistory                                                                                                                 |
+| F10 | ! _DocumentProperties                                                                                                             |
+| F11 | '_Help                                                                                                                            |
+| F12 | '_DigClick                                                                                                                        |
 
 
 ### Aliases
 
-| Alias | Command Macro                |
-| ----- | ---------------------------- |
-| MV    | ! _Move _Pause _Vertical=Yes |
-| SC    | Scale                        |
-| S1    | Scale1D                      |
-| S2    | Scale2D                      |
-| RO    | Rotate                       |
-| R3    | Rotate3D                     |
+| Alias | Command Macro         |
+| ----- | --------------------- |
+| COi   | '_Copy _Inplace       |
+| CB    | ! \_CurveBoolean      |
+| MV    | ! _Move _Vertical=Yes |
+| SC    | '_Scale               |
+| S1    | '_Scale1D             |
+| S2    | '_Scale2D             |
+| RO    | '_Rotate              |
+| R3    | '_Rotate3D            |
 
 
 ### Package Manager:
