@@ -23,16 +23,22 @@ share: true
 
 ### Aliases
 
-| Alias | Command Macro         |
-| ----- | --------------------- |
-| COi   | '_Copy _Inplace       |
-| CB    | ! \_CurveBoolean      |
-| MV    | ! _Move _Vertical=Yes |
-| SC    | '_Scale               |
-| S1    | '_Scale1D             |
-| S2    | '_Scale2D             |
-| RO    | '_Rotate              |
-| R3    | '_Rotate3D            |
+| Alias | Command Macro           |
+| ----- | ----------------------- |
+| B2    | '_Boolean2Objects       |
+| BD    | '_BooleanDifference     |
+| BI    | '_BooleanIntersection   |
+| BS    | '_BooleanSplit          |
+| BU    | '_BooleanUnion          |
+| COi   | '_Copy _Inplace         |
+| CB    | ! \_CurveBoolean        |
+| MV    | ! _Move _Vertical=Yes   |
+| SC    | '_Scale                 |
+| S1    | '_Scale1D               |
+| S2    | '_Scale2D               |
+| RO    | '_Rotate                |
+| R3    | '_Rotate3D              |
+| RB    | '\_RebuildCrvNonUniform |
 
 
 ### Package Manager:
