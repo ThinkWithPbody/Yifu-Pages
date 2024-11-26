@@ -759,12 +759,13 @@ diameter @ 240 cfm @ 0.044 in/. wtr./100ft ~= 9.5 in
 		- 20 times the building size to do something
 - ==Absorption Refrigeration Cycle== ([[./Attachments/2024 11 12 week 11 slides v3.pdf#page=26&selection=0,0,0,30|p.26]])
 	- Differs from ==Compressive Refrigeration Cycle== ([[./Attachments/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf#page=13&selection=0,0,0,31|p.13]]) and ==Heat Pump== ([[./Attachments/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf#page=19&selection=0,9,0,9|p.19]])
+		- Effective in large scale cooling load of 10 tons +
 	- Refrigerant
 		- Water + Lithium Bromide ==stays above 0°C== ([[./Attachments/2024 11 12 week 11 slides v3.pdf#page=26&selection=5,44,5,59|p.26]])
 		- Water + Ammonia, less damaging leak ==can cycle below 0°C== ([[./Attachments/2024 11 12 week 11 slides v3.pdf#page=26&selection=7,50,7,69|p.26]])
 	- ![[./Attachments/2024 11 12 week 11 slides v3.pdf#page=26&rect=193,18,776,373|p.26]]
 		- Vapour is attracted by the strongly concentrated desiccant solution in the absorber chamber after evaporating via absorbing energy in the evaporator chamber from the building closed loop cooling load (13C > 7C) 
-		- Heated solution evaporates hot water vapour from the generator chamber (could be solar heated) is attracted to the cooler condenser chamber which is usually paired with a chilling tower to reject heat (29C) to outside, with the left over concentrated desiccant solution pumped back into absorber chamber and the condensed chill water pumped into the evaporator chamber
+		- Heated solution evaporates hot water vapour from the generator chamber (desorber) (could be solar or geo heated) is attracted to the cooler condenser chamber which is usually paired with a chilling tower to reject heat (29C) to outside, with the left over concentrated desiccant solution pumped back into absorber chamber and the condensed chill water pumped into the evaporator chamber
 
 ##### Lab
 
@@ -847,7 +848,7 @@ Panels = 189 kWh/m2/yr × 2614 m2 * 1000 W/kW / 0.72 / 365 d/yr / 3.86 h/d / 235
 
 1.65 * (1.15 + 0.23 / 2) = 2.08725 m2/panel
 705 - 959 m2 / 2.08725 m2/panel = 459 panels roof
-459 = 246 panels site
+705 - 459 = 246 panels site
 (459 * 2.35 + 246 * 4.4) panel-$/W * 301 W/panel = 650,476 $
 
 
@@ -882,22 +883,7 @@ Show all faces of PV to reconcile amount of space required
 
 ## Tagged `#Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3`
 
-<pre class="dataview dataview-error">Evaluation Error: SyntaxError: missing ) after argument list
-    at DataviewInlineApi.eval (plugin:dataview:18885:21)
-    at evalInContext (plugin:dataview:18886:7)
-    at asyncEvalInContext (plugin:dataview:18893:16)
-    at DataviewJSRenderer.render (plugin:dataview:18922:19)
-    at DataviewJSRenderer.onload (plugin:dataview:18464:14)
-    at e.load (app://obsidian.md/app.js:1:1230338)
-    at DataviewApi.executeJs (plugin:dataview:19465:18)
-    at DataviewCompiler.dataviewJS (plugin:obsidian-mkdocs-publisher:27:160343)
-    at convertDataviewQueries (plugin:obsidian-mkdocs-publisher:30:1351)
-    at mainConverting (plugin:obsidian-mkdocs-publisher:42:1672)
-    at async GithubBranch.publish (plugin:obsidian-mkdocs-publisher:42:5734)
-    at async shareAllMarkedNotes (plugin:obsidian-mkdocs-publisher:27:139602)
-    at async shareAllEditedNotes (plugin:obsidian-mkdocs-publisher:27:142777)
-    at async uploadAllEditedNotes (plugin:obsidian-mkdocs-publisher:27:141675)
-    at async Object.callback (plugin:obsidian-mkdocs-publisher:27:141460)</pre>
+
 ## Course Brief
 
 code:: ARC2047HF
