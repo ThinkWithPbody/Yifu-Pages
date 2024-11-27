@@ -23,22 +23,23 @@ share: true
 
 ### Aliases
 
-| Alias | Command Macro           |
-| ----- | ----------------------- |
-| B2    | '_Boolean2Objects       |
-| BD    | '_BooleanDifference     |
-| BI    | '_BooleanIntersection   |
-| BS    | '_BooleanSplit          |
-| BU    | '_BooleanUnion          |
-| COi   | '_Copy _Inplace         |
-| CB    | ! \_CurveBoolean        |
-| MV    | ! _Move _Vertical=Yes   |
-| SC    | '_Scale                 |
-| S1    | '_Scale1D               |
-| S2    | '_Scale2D               |
-| RO    | '_Rotate                |
-| R3    | '_Rotate3D              |
-| RB    | '\_RebuildCrvNonUniform |
+| Alias | Command Macro          |
+| ----- | ---------------------- |
+| B2    | '_Boolean2Objects      |
+| BD    | '_BooleanDifference    |
+| BI    | '_BooleanIntersection  |
+| BS    | '_BooleanSplit         |
+| BU    | '_BooleanUnion         |
+| CB    | ! \_CurveBoolean       |
+| COi   | '_Copy _Inplace        |
+| FL    | '_Fillet _Dynamic=Yes  |
+| MV    | ! _Move _Vertical=Yes  |
+| SC    | '_Scale                |
+| S1    | '_Scale1D              |
+| S2    | '_Scale2D              |
+| RO    | '_Rotate               |
+| R3    | '_Rotate3D             |
+| RB    | '_RebuildCrvNonUniform |
 
 
 ### Package Manager:
