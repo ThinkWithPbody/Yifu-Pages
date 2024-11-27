@@ -914,6 +914,8 @@ Show all faces of PV to reconcile amount of space required
 `#Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3`
 
 
+<p><span><p dir="auto">Test</p></span></p>
+
 ## Course Brief
 
 code:: ARC2047HF
