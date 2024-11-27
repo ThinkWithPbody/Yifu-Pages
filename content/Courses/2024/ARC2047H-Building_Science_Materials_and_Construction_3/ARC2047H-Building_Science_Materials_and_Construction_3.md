@@ -869,6 +869,35 @@ Lab due next day 10AM
 Fonts larger than 12 (refer to font sizing daily page ![[../../../../2024-11-09#Font guideline|2024-11-09]])
 Show all faces of PV to reconcile amount of space required
 
+#### Module 13
+
+[BCIT Virtual Tour Nov 2022.mp4](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CBCIT%20Virtual%20Tour%20Nov%202022.mp4)
+[Lab example.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CLab%20example.pdf)
+[Bahen-Centre.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CBahen-Centre.pdf)
+
+> [!blue]- Lab13
+> The assignment is due on Quercus as a PDF (max. size 20MB) upload by **10AM, Wednesday November 22, 2023.**
+> 
+> Produce a PDF document with one 11x17 board in landscape orientation.  Text should not be smaller than 12-point font. Max file size 30MB. Five percent reduction in grade for every MB over 30MB.
+> 
+> There are four parts to this assignment:
+> 
+> 1. A photograph of you and the Geoexchange showing the piping in the background giving a sense of the scale of the Geoexchange system. If there are multiple people in the photo, make sure that you highlight/annotate who you are in the photo.  **This photo should be one quarter of the board and clearly show the expanse and size of the size.** Try to stand in a position that allows you to see as much of the system as you can.
+> 
+> 2. Your name printed on the board and a written statement: State an observation about the mechanical systems and how they should be considered in the design process. This should be no less than two sentences and no more than four sentences.  Try to relate the mechanical systems observation to the curriculum.
+> 
+> 3. Photograph(s) of a commercial, institutional, or multi-family (at least ten units) residential building from your home province/state/region that has a large mechanical system (AHU or cooling tower) and or piping visible on the outside of the building (roof or site mounted). The scale of the mechanical system in comparison to the overall building should be apparent. Make sure that the photo is legible, and that the mechanical system is clearly seen in the image.  **This photo (or series of photos) should be at least one quarter of the board.**  At least one photo should show the overall building massing, and one photo should show the exterior mechanical system.  These can be the same photo or two different photos. **See sample submission posted in the Week 13 module.**
+> 
+> 4. List the project information:
+> 
+> - Location (street address) 
+> - Date built
+> - Architect
+> - Program/Use
+> - Project size (square feet or square meters)
+> - Estimated cooling load in tons.
+> - URL for the project information.
+
 ## Projects
 
 
@@ -891,3 +920,4 @@ title:: Building_Science_Materials_and_Construction_3
 Building Science 3: Environmental Systems
 Course average last year 89
 [ARC2047HF+Chung+Outline+2024+09+02+v3 2024-09-03 14_49_22.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5CARC2047HF+Chung+Outline+2024+09+02+v3%202024-09-03%2014_49_22.pdf)
+
