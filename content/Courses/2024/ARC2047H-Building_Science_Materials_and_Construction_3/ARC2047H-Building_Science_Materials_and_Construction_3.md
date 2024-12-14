@@ -226,6 +226,7 @@ W = J ÷ s
 181 * 5 * 2 = 1,710
 12,532 - 1,556.1 - 1,710 = 9,265.9 ft2
 
+---
 2. Given a 3-story office building with a flat roof determine the surface area of the windows if:
 	1.  The dimensions of the building are 184 ft for North-South walls, 108 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
 	2. The South wall is 58% windows.  The North, East, and West walls have a continuous row of 3 ft high clearstory windows on each floor. 
@@ -235,16 +236,19 @@ W = J ÷ s
 (184 + 108 + 108) * 3 * 3 = 3,600
 SUM = 7,762.08
 
+---
 3. If the U-value for a wall assembly is 0.055 BTU/(h-ft2-F) **determine the R-value** in h-ft2-F/BTU: 
 	Provide your answer with 1 decimal place value. 
 
 1 / 0.055 = 18.18
 
+---
 4. If the R-value for a wall assembly is 39.7 h-ft2-F/BTU **determine the U-value** in BTU/(h-ft2-F):
 	Provide your answer with 4 decimal place values.
 
 1 / 39.7 = 0.02518
 
+---
 5. Given an office building with a flat roof **determine the** **heat loss rate through the envelope** due to conduction, UA_envelope in BTU/(hr-F) if the R-values of the surfaces are:
 	3 h-ft2F/Btu for windows
 	40 h-ft2F/Btu for the roof
@@ -271,6 +275,7 @@ UA_envelope = UA_windows + UA_walls + UA_roof
 	= (2881 + 4036) * 0.33333 + (5285 + 4769 + 8160) * 0.04 + 22429 * 0.025
 	= 3594.94
 
+---
 6. Given a 4-story office building with a flat roof determine the **heat loss from infiltration** if the air infiltration rate is 1.8 h-1.
 	The dimensions of the building are 89 ft for North-South walls, 156 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
 	Provide your answer in BTU/(hr-F) as an integer.
@@ -280,6 +285,7 @@ UA_infiltration = ACH (h^-1) × Indoor Air Volume (ft^3) × Heat Capacity of Air
 	=1.8 * (156 * 89 * 4 * **11**) * 0.018
 	= 19,793.03
 
+---
 7. Given a 4-story office building in the northern hemisphere with a flat roof determine the **hourly average solar heat gain** through the windows in January if the Solar Insolation is 812 BTU/(day-ft2).
 	1.  The dimensions of the building are 160 ft for North-South walls, 64 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
 	2. The South wall is 57% windows.  The North wall has a continuous 3 ft clearstory window on each floor.  The East and West walls have no windows. 
@@ -290,6 +296,7 @@ q_solar = Solar Insolation (BTU/(day-ft^2)) \* Surface Area South (ft^2) × 1d/2
 	= 812 * (160 * 4 * 13 * 0.57) / 24
 	= 160,451.2
 
+---
 8. For a **24-hour period** in a 25,893 square foot US office building find the **average hourly heat gains** for the entire building from **people, equipment, and lights** on a typical day.  Use the tables provided in the links below. Provide your answer in BTU/hr.
 	1. Use the upper range value for people and equipment in Table G1.
 	2. Use a daylight factor (DF) of 2 in Table G1.
@@ -300,6 +307,7 @@ q_internal = A: Floor Area (ft2) × (q_people + q_equipment + q_lights) (Btu/(h�
 	= 139,822
 139,822 * 9 / 24= 52,433.33
 
+---
 9. For an office building during the winter with an internal setpoint at 69.8F and:
 	4,265 BTU/(hr-F) heat loss rate through the envelope (via convection & conduction),
 	7,445 BTU/(hr-F) heat loss rate from air infiltration,
