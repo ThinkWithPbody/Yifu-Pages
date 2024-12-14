@@ -45,9 +45,15 @@ share: true
 
 ### Scripts
 
+#### I/O
 [[../Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/BatchExportSTLByObj.py|BatchExportSTLByObj.py]]
+
+#### View
 [[./Attachments/Rhino/FindAllHiddenClippingPlaneLayers.py|FindAllHiddenClippingPlaneLayers.py]]
 
+#### Geo
+[[./Attachments/Rhino/HatchFromCenterline.py|HatchFromCenterline.py]]
+[[./Attachments/Rhino/PlanarSrfFromClosedCrv.py|PlanarSrfFromClosedCrv.py]]
 
 ### Plugins
 #### Package Manager:
