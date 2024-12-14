@@ -201,13 +201,13 @@ Excess = 19,121.0122 kJ
 			- q_internal = A: Floor Area (ft2) × (q_people + q_equipment + q_lights) (Btu/(h·ft2))
 		- UA_total: Heat Loss (Btu/(h\*oF)) = UA_envelope + UA_infiltration ^6c9468
 			- UA_envelope = U-value × Area (ft^2)
-				- U (Btu/(h\*ft^2\*^oF)) (W/m^2 ^oK) = 1 ÷ R 
+				- U (Btu/(h\*ft^2\*℉)) (W/m^2 °K) = 1 ÷ R 
 				- U = k: Conductivity ÷ Thickness
 				- U-Value = 1 ÷ R-Value
-				- 0 ^oC = 273.15 \^oK
-			- UA_infiltration = ACH (h^-1) × Indoor Air Volume (ft^3) × Heat Capacity of Air (Btu ÷ (ft^3 \* ^oF)) (J/(m^3 \* ^oK))
+				- 0 ℃ = 273.15 °K
+			- UA_infiltration = ACH (h^-1) × Indoor Air Volume (ft^3) × Heat Capacity of Air (Btu ÷ (ft^3 \* ℉)) (J/(m^3 \* °K)) ^668ea3
 				- ACH: Air Changes per Hour ?= 0.44 (h^-1)
-				- Heat Capacity of Air (Btu ÷ (ft^3 × ^oF)) = Density of Air × Specific Heat of Air = 0.075 lb/ft^3 × 0.24 Btu/(lb × ^oF) = 0.018 Btu/(ft^3·°F)
+				- Heat Capacity of Air (Btu ÷ (ft^3 × ℉)) = Density of Air × Specific Heat of Air = 0.075 lb/ft^3 × 0.24 Btu/(lb × ℉) = 0.018 Btu/(ft^3·°F)
 
 Units of Power: Btu/h, W
 Units of Energy: Btu, kWh
@@ -215,8 +215,101 @@ W = J ÷ s
 1 kWh = 3600000 J
 
 ##### Lab
-![[./ARC2047H-Building_Science_Materials_and_Construction_3 2024-09-24 14.21.08.svg|ARC2047H-Building_Science_Materials_and_Construction_3 2024-09-24 14.21.08.excalidraw]]
 
+1. Given a 2-story office building with a flat roof determine the **surface area of the opaque walls** if:
+	1.  The dimensions of the building are 171 ft for North-South walls, 70 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
+	2. The South Wall is 35% windows.  The North wall has a continuous row of 5 ft high windows on each floor.  There are no windows on the East and West walls.
+	Provide your answer in square feet as an integer.
+
+(171+70) * 2 * 13 * 2 = 12,532
+171 * 13 * 2 * 0.35 = 1,556.1
+181 * 5 * 2 = 1,710
+12,532 - 1,556.1 - 1,710 = 9,265.9 ft2
+
+2. Given a 3-story office building with a flat roof determine the surface area of the windows if:
+	1.  The dimensions of the building are 184 ft for North-South walls, 108 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
+	2. The South wall is 58% windows.  The North, East, and West walls have a continuous row of 3 ft high clearstory windows on each floor. 
+	Provide your answer in square feet as an integer.
+
+184 * 3 * 13 * 0.58 = 4,162.08
+(184 + 108 + 108) * 3 * 3 = 3,600
+SUM = 7,762.08
+
+3. If the U-value for a wall assembly is 0.055 BTU/(h-ft2-F) **determine the R-value** in h-ft2-F/BTU: 
+	Provide your answer with 1 decimal place value. 
+
+1 / 0.055 = 18.18
+
+4. If the R-value for a wall assembly is 39.7 h-ft2-F/BTU **determine the U-value** in BTU/(h-ft2-F):
+	Provide your answer with 4 decimal place values.
+
+1 / 39.7 = 0.02518
+
+5. Given an office building with a flat roof **determine the** **heat loss rate through the envelope** due to conduction, UA_envelope in BTU/(hr-F) if the R-values of the surfaces are:
+	3 h-ft2F/Btu for windows
+	40 h-ft2F/Btu for the roof
+	25 h-ft2F/Btu for the opaque walls
+	and the surface areas are as shown below.
+	Provide your answer as an integer.
+
+|                     |                        |
+| ------------------- | ---------------------- |
+| **Surface**         | **Area (square feet)** |
+| North Windows       | 2,881                  |
+| South Windows       | 4,036                  |
+| North Opaque Walls  | 5,285                  |
+| South Opaque Walls  | 4,769                  |
+| East and West Walls | 8,160                  |
+| Roof                | 22,429                 |
+
+U-value = 1 / R-value
+	0.33333 h-ft2F/Btu for windows
+	0.025 h-ft2F/Btu for the roof
+	0.04 h-ft2F/Btu for the opaque walls
+
+UA_envelope = UA_windows + UA_walls + UA_roof
+	= (2881 + 4036) * 0.33333 + (5285 + 4769 + 8160) * 0.04 + 22429 * 0.025
+	= 3594.94
+
+6. Given a 4-story office building with a flat roof determine the **heat loss from infiltration** if the air infiltration rate is 1.8 h-1.
+	The dimensions of the building are 89 ft for North-South walls, 156 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
+	Provide your answer in BTU/(hr-F) as an integer.
+
+UA_infiltration = ACH (h^-1) × Indoor Air Volume (ft^3) × Heat Capacity of Air (Btu ÷ (ft^3 * ℉)) (J/(m^3 * °K))
+==Use ceiling height to calculate indoor air volume==
+	=1.8 * (156 * 89 * 4 * **11**) * 0.018
+	= 19,793.03
+
+7. Given a 4-story office building in the northern hemisphere with a flat roof determine the **hourly average solar heat gain** through the windows in January if the Solar Insolation is 812 BTU/(day-ft2).
+	1.  The dimensions of the building are 160 ft for North-South walls, 64 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
+	2. The South wall is 57% windows.  The North wall has a continuous 3 ft clearstory window on each floor.  The East and West walls have no windows. 
+	Provide your answer in BTU/hour as an integer.
+
+==Only use south windows==
+q_solar = Solar Insolation (BTU/(day-ft^2)) \* Surface Area South (ft^2) × 1d/24h
+	= 812 * (160 * 4 * 13 * 0.57) / 24
+	= 160,451.2
+
+8. For a **24-hour period** in a 25,893 square foot US office building find the **average hourly heat gains** for the entire building from **people, equipment, and lights** on a typical day.  Use the tables provided in the links below. Provide your answer in BTU/hr.
+	1. Use the upper range value for people and equipment in Table G1.
+	2. Use a daylight factor (DF) of 2 in Table G1.
+	3. The building is occupied for 9 hours on a typical day.
+
+q_internal = A: Floor Area (ft2) × (q_people + q_equipment + q_lights) (Btu/(h·ft2))
+	= 25,893 * (2.3 + 1.1 + 2.0)
+	= 139,822
+139,822 * 9 / 24= 52,433.33
+
+9. For an office building during the winter with an internal setpoint at 69.8F and:
+	4,265 BTU/(hr-F) heat loss rate through the envelope (via convection & conduction),
+	7,445 BTU/(hr-F) heat loss rate from air infiltration,
+	109,869 BTU/hr solar heat gains through south facing windows,
+	131,420 BTU/hr heat gains from people, equipment, and lights,
+	**determine the winter balance point temperature** in degrees Fahrenheit. Provide your answer with one decimal place value.
+
+BPT = T_indoor - Q_i ÷ UA_total
+	= 69.8 - (131,420 + 109,869) / (4,265 + 7,445)
+	= 49.19
 
 #### Module 05
 
@@ -357,7 +450,7 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 
 **Cost of Thermal Comfort (Heating and Cooling)**
 - Heating
-	- Annual Heat Needed (Btu)= UA_total (Btu/h\*^o𝐹) × HDD × 24 hours ^359eb9
+	- Annual Heat Needed (Btu)= UA_total (Btu/h\*℉) × HDD × 24 hours ^359eb9
 	- Annual Fuel Needed, E (ft3) = Annual Heat (Btu) ÷ (AFUE × heat value of fuel (Btu/ft3)) ^591155
 		- Specific to the fuel source and equipment
 		- AFUE is the Annual Fuel Utilization Efficiency
@@ -901,7 +994,7 @@ Show all faces of PV to reconcile amount of space required
 ## Projects
 
 
-### [[/Projects/2024/ARC2047H_Project-1/ARC2047H_Project-1| ARC2047H_Project-1]]
+### [[../../../../ARC2047H_Project-1_Cheatsheet|ARC2047H_Project-1_Cheatsheet]]
 
 ### [[/Projects/2024/ARC2047H_Project-2/ARC2047H_Project-2| ARC2047H_Project-2]]
 
