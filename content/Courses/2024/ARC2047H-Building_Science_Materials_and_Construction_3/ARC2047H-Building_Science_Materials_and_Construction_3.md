@@ -633,117 +633,123 @@ Cooling Loads
 
 > [!yellow]- HD / CD Calculator
 > 
+> ```
+> | {BPT} | Sum | Sunday | Monday | Tuesday |
+> | ----- | --- | ------ | ------ | ------- |
+> | High  |     |        |        |         |
+> | Low   |     |        |        |         |
+> | Ave   |     |        |        |         |
+> | HDD   |     |        |        |         |
+> | CDD   |     |        |        |         |
+> <!-- TBLFM: @4$3..@4$>=mean(@I..@3) -->
+> <!-- TBLFM: @5$3..@5$>=if((@<$<-@4)>0,(@<$<-@4),0) -->
+> <!-- TBLFM: @6$3..@6$>=if((@4-@<$<)>0,(@4-@<$<),0) -->
+> <!-- TBLFM: @5$2..@6$2=sum($+1..$>) -->
+> ```
 
-|      | Sum | Sunday | Monday | Tuesday |
-| ---- | --- | ------ | ------ | ------- |
-| High |     |        |        |         |
-| Low  |     |        |        |         |
-| Ave  |     |        |        |         |
-| HDD  |     |        |        |         |
-| CDD  |     |        |        |         |
-<!-- TBLFM: @4$3..@4$>=mean(@I..@3) -->
-<!-- TBLFM: @5$3..@5$>=if((@<$<-@4)>0,(@<$<-@4),0) -->
-<!-- TBLFM: @6$3..@6$>=if((@4-@<$<)>0,(@4-@<$<),0) -->
-<!-- TBLFM: @5$2..@6$2=sum($+1..$>) -->
-
-Lab 6
-1. If the total summer cooling load for a 25,000 ft2 building is determined to be 23.4 tons what volume (flow rate) of outdoor air is required to provide adequate cooling via cross ventilation if the outdoor air temperature is 68.9F and the desired indoor air temperature is 76F?  Provide your answer in cubic feet per minute (cfm) as an integer.  Do not write units in your answer.
-
-q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
-23.4 tons × 12000 = 280,800 Btu/h
-280,800 = V × 1.08 × 7.1
-V = 36619 cfm
-
-2. If the total summer cooling load for a building can be cooled using cross ventilation with a volumetric flow rate of 60,645 cubic feet per minute, determine the area of openings needed on the windward side of the building if the average wind speed is 13.2 mph and the wind approaches at a 45 degree angle to the opening. Assume that the building has an equal amount of openings on the windward and leeward sides of the building. Provide your answer in square feet as an integer.  Do not write units in your answer.
-
-13.2 mph × 88 = 1,161.6 fpm
-V = Cv × A × v
-60,645 cfm = 0.3 × A × 1,161.6 fpm
-A = 174 ft2
-
-3. Given:
-1) total summer cooling load for a building is 239,762 Btu/h,
-2) the outdoor air temperature is 67.2F,
-3) the desired indoor air temperature is 73.5F,
-4) there are 103 ft2 of clear window openings for ventilation on the windward side of the building and 600 ft2 of clear window openings for ventilation on the leeward side of the building.
-Find the required average windspeed needed to adequately cool the building via cross ventilation if the wind approaches the building perpendicular to the openings.  Provide your answer in miles per hour (mph) with one decimal place value.
-
-q_crossvent (Btu/h) = V (cfm) × Heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
-239,762 = V × 1.08 × 6.3
-V = 0.55 × 103 × v = 35,238.3891 cfm
-v = 622 fpm = 7.0686 mph
-
-4. If the Winter Balance Point Temperature is 52F and the following table shows the High and Low temperatures for three days in winter. Determine the total number of heating degree days for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
-
-| 52   | Sum | Sunday | Monday | Tuesday |
-| ---- | --- |:------ |:------ | ------- |
-| High |     | 44     | 46     | 71      |
-| Low  |     | 34     | 36     | 57      |
-| Ave  |     | 39     | 41     | 64      |
-| HDD  | 24  | 13     | 11     | 0       |
-| CDD  | 12  | 0      | 0      | 12      |
-<!-- TBLFM: @4$3..@4$>=mean(@I..@3) -->
-<!-- TBLFM: @5$3..@5$>=if((@<$<-@4)>0,(@<$<-@4),0) -->
-<!-- TBLFM: @6$3..@6$>=if((@4-@<$<)>0,(@4-@<$<),0) -->
-<!-- TBLFM: @5$2..@6$2=sum($+1..$>) -->
-
-HDD = 13 + 11 = 24 °F·days
-
-5. If the Summer Balance Point Temperature is 64.8F and the following table shows the High and Low temperatures for three days in summer.  Determine the total number of cooling degree days for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
-
-| 64.8 | Sum  | Sunday | Monday | Tuesday |
-| ---- | ---- | ------ | ------ | ------- |
-| High |      | 60     | 79     | 80      |
-| Low  |      | 51     | 62     | 68      |
-| Ave  |      | 55.5   | 70.5   | 74      |
-| HDD  | 9.3  | 9.3    | 0      | 0       |
-| CDD  | 14.9 | 0      | 5.7    | 9.2     |
-<!-- TBLFM: @4$3..@4$>=mean(@I..@3) -->
-<!-- TBLFM: @5$3..@5$>=if((@<$<-@4)>0,(@<$<-@4),0) -->
-<!-- TBLFM: @6$3..@6$>=if((@4-@<$<)>0,(@4-@<$<),0) -->
-<!-- TBLFM: @5$2..@6$2=sum($+1..$>) -->
-
-CDD = 5.7 + 9.2 = 14.9 °F·days
-
-6. For a given building that has a UA_total = 3,382 Btu/(h × F) and an HDD of 414 Fdays determine the Annual Heat Needed in Btu.  Provide your answer as an integer.  Do not write units in your answer.
-
-Annual Heat Needed = 3382 × 414 × 24 = 33,603,552 Btu
-
-7. For a given building in Toronto that has an Annual Heat Needed of 139,818,553 Btu, a natural gas furnace running at 98% efficiency and purchases natural gas for $11.38 per thousand cubic feet, determine the annual cost of heating the building.  Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
-
-E = 139818553 ÷ (0.98 × 1050) = 135,878
-Annual Cost = E × (11.38 ÷ 1000) = 1546.29
-
-8. A building located in Vancouver, British Columbia with solar insolation data found in the link below has the following:
-1) Heat gains from people, equipment, and lights = 20,982 Btu/h.
-2) South Facing Windows with an area of 3,991 square feet.
-3) Summer external shading devices provide 76% to the south windows.
-4) UAtotal = 4,185 Btu/(hF).
-5) A desired indoor summer temperature of 72F.
-Find the approximate Summer Balance Point Temperature for the building in degrees F.
-
-![[./Attachments/solar insolation.jpg|solar insolation]]
-
-Q_i = (1239 × 3991 /24 × (1-0.76)) + 20982 = 70,430.49
-BPT = 72 - (Q_i ÷ 4185) = 55.17 oF
-
-9. For a given building located in Ottawa, Ontario find the cooling load hours (CLH) using Table B.1 (linked below) if:
-1) CDD = 1,513 Fdays 
-2) Summer BPT = 56.7F
-
-![[./Attachments/Appendix B1 MEEB Climatic Conditions.jpg|500]]
-
-CLH = 1513 × 24 ÷ (80.6 - 56.7) = 1519 h
-
-10. For a given building what is the annual cost of cooling if:
-1) Cooling Load = 222,343 Btu/h
-2) Cooling Load Hours = 1,224 hours
-3) Seasonal Energy Efficiency Ratio of the AHU = 20 (Btu/h)/W
-4) Utility rate = $0.22 per kWh
-Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
-
-Annual Cost of Cooling = 222343 × 1224 × (1/20) × (0.22/1000) = 2993
-
+> [!abstract]- Lab 6
+> 
+> 1. If the total summer cooling load for a 25,000 ft2 building is determined to be 23.4 tons what volume (flow rate) of outdoor air is required to provide adequate cooling via cross ventilation if the outdoor air temperature is 68.9F and the desired indoor air temperature is 76F?  Provide your answer in cubic feet per minute (cfm) as an integer.  Do not write units in your answer.
+> 
+> q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
+> 23.4 tons × 12000 = 280,800 Btu/h
+> 280,800 = V × 1.08 × 7.1
+> V = 36619 cfm
+> 
+> 2. If the total summer cooling load for a building can be cooled using cross ventilation with a volumetric flow rate of 60,645 cubic feet per minute, determine the area of openings needed on the windward side of the building if the average wind speed is 13.2 mph and the wind approaches at a 45 degree angle to the opening. Assume that the building has an equal amount of openings on the windward and leeward sides of the building. Provide your answer in square feet as an integer.  Do not write units in your answer.
+> 
+> 13.2 mph × 88 = 1,161.6 fpm
+> V = Cv × A × v
+> 60,645 cfm = 0.3 × A × 1,161.6 fpm
+> A = 174 ft2
+> 
+> 3. Given:
+> 1) total summer cooling load for a building is 239,762 Btu/h,
+> 2) the outdoor air temperature is 67.2F,
+> 3) the desired indoor air temperature is 73.5F,
+> 4) there are 103 ft2 of clear window openings for ventilation on the windward side of the building and 600 ft2 of clear window openings for ventilation on the leeward side of the building.
+> Find the required average windspeed needed to adequately cool the building via cross ventilation if the wind approaches the building perpendicular to the openings.  Provide your answer in miles per hour (mph) with one decimal place value.
+> 
+> q_crossvent (Btu/h) = V (cfm) × Heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
+> 239,762 = V × 1.08 × 6.3
+> V = 0.55 × 103 × v = 35,238.3891 cfm
+> v = 622 fpm = 7.0686 mph
+> 
+> 4. If the Winter Balance Point Temperature is 52F and the following table shows the High and Low temperatures for three days in winter. Determine the total number of heating degree days for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
+> 
+> | 52   | Sum | Sunday | Monday | Tuesday |
+> | ---- | --- |:------ |:------ | ------- |
+> | High |     | 44     | 46     | 71      |
+> | Low  |     | 34     | 36     | 57      |
+> | Ave  |     | 39     | 41     | 64      |
+> | HDD  | 24  | 13     | 11     | 0       |
+> | CDD  | 12  | 0      | 0      | 12      |
+> <!-- TBLFM: @4$3..@4$>=mean(@I..@3) -->
+> <!-- TBLFM: @5$3..@5$>=if((@<$<-@4)>0,(@<$<-@4),0) -->
+> <!-- TBLFM: @6$3..@6$>=if((@4-@<$<)>0,(@4-@<$<),0) -->
+> <!-- TBLFM: @5$2..@6$2=sum($+1..$>) -->
+> 
+> HDD = 13 + 11 = 24 °F·days
+> 
+> 5. If the Summer Balance Point Temperature is 64.8F and the following table shows the High and Low temperatures for three days in summer.  Determine the total number of cooling degree days for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
+> 
+> | 64.8 | Sum  | Sunday | Monday | Tuesday |
+> | ---- | ---- | ------ | ------ | ------- |
+> | High |      | 60     | 79     | 80      |
+> | Low  |      | 51     | 62     | 68      |
+> | Ave  |      | 55.5   | 70.5   | 74      |
+> | HDD  | 9.3  | 9.3    | 0      | 0       |
+> | CDD  | 14.9 | 0      | 5.7    | 9.2     |
+> <!-- TBLFM: @4$3..@4$>=mean(@I..@3) -->
+> <!-- TBLFM: @5$3..@5$>=if((@<$<-@4)>0,(@<$<-@4),0) -->
+> <!-- TBLFM: @6$3..@6$>=if((@4-@<$<)>0,(@4-@<$<),0) -->
+> <!-- TBLFM: @5$2..@6$2=sum($+1..$>) -->
+> 
+> CDD = 5.7 + 9.2 = 14.9 °F·days
+> 
+> 6. For a given building that has a UA_total = 3,382 Btu/(h × F) and an HDD of 414 Fdays determine the Annual Heat Needed in Btu.  Provide your answer as an integer.  Do not write units in your answer.
+> 
+> Annual Heat Needed (Btu) = UA_total (Btu/h×℉) × HDD × 24 hours
+> 	= 3382 × 414 × 24 = 33,603,552 Btu
+> 
+> 7. For a given building in Toronto that has an Annual Heat Needed of 139,818,553 Btu, a natural gas furnace running at 98% efficiency and purchases natural gas for $11.38 per thousand cubic feet, determine the annual cost of heating the building.  Provide your answer in dollars with two decimal place values.
+> 
+> E (ft3) = Annual Heat (Btu) ÷ (AFUE × heat value of fuel (Btu/ft3))
+> 	= 139818553 ÷ (0.98 × 1050) = 135,878 ft3
+> Annual Cost = E × (11.38 ÷ 1000) = 1546.29
+> 
+> 8. A building located in Vancouver, British Columbia with solar insolation data found in the link below has the following:
+> 1) Heat gains from people, equipment, and lights = 20,982 Btu/h.
+> 2) South Facing Windows with an area of 3,991 square feet.
+> 3) Summer external shading devices provide 76% to the south windows.
+> 4) UAtotal = 4,185 Btu/(hF).
+> 5) A desired indoor summer temperature of 72F.
+> Find the approximate Summer Balance Point Temperature for the building in degrees F.
+> 
+> ![[../../../../Solar Insolation|Solar Insolation]]
+> 
+> BPT = T_desired - Q_i ÷ UA_total
+> Q_i = (1239 × 3991 ÷ 24 × (1-0.76)) + 20982 = 70,430.49
+> BPT = 72 - (Q_i ÷ 4185) = 55.17 F
+> 
+> 9. For a given building located in Ottawa, Ontario find the cooling load hours (CLH) using Table B.1 (linked below) if:
+> 1) CDD = 1,513 Fdays 
+> 2) Summer BPT = 56.7F
+> 
+> ![[./Attachments/Appendix B1 MEEB Climatic Conditions.jpg|500]]
+> 
+> CLH (h) = CDD × 24 (h/day) ÷ (Design Temperature - Summer BPT)
+> CLH = 1513 × 24 ÷ (80.6 - 56.7) = 1519 h
+> 
+> 10. For a given building what is the annual cost of cooling if:
+> 1) Cooling Load = 222,343 Btu/h
+> 2) Cooling Load Hours = 1,224 hours
+> 3) Seasonal Energy Efficiency Ratio of the AHU = 20 (Btu/h)/W
+> 4) Utility rate = $0.22 per kWh
+> 	Provide your answer in dollars with two decimal place values.
+> 
+> Annual Cost of Cooling (\$) = Cooling Load (Btu/h) × CLH (h) × 1/SEER (W/Btu/h) × Cost of Electricity ($/Wh)
+> 	= 222343 × 1224 × (1/20) × (0.22/1000) = 2993 $
 
 #### Module 08
 
@@ -759,7 +765,6 @@ Annual Cost of Cooling = 222343 × 1224 × (1/20) × (0.22/1000) = 2993
 > [[./Attachments/ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution 2024-10-22 14_30_15.pdf|ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution 2024-10-22 14_30_15]]
 > 
 > [[./Attachments/Week+8+Charts+and+Tables 2024-10-22 14_29_53.pdf|Week+8+Charts+and+Tables 2024-10-22 14_29_53]]
-
 
 HVAC Distribution
 - 
