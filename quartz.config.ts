@@ -27,25 +27,25 @@ const config: QuartzConfig = {
                 code: "Fira Code",
             },
             colors: {
-                darkMode: {
-                    light: "#000000",
-                    lightgray: "#000000",
-                    gray: "#FFFFFF",
-                    darkgray: "#FFFFFF",
-                    dark: "#FFFFFF",
-                    secondary: "#FF00FF", // CMYK Magenta
-                    tertiary: "#89F336", // Lime Green
-                    highlight: "#FFFFFF",
-                },
                 lightMode: {
                     light: "#FFFFFF",
-                    lightgray: "#F0F0F0",
-                    gray: "#A0A0A0",
-                    darkgray: "#505050",
-                    dark: "#202020",
-                    secondary: "#FF00FF", // CMYK Magenta
-                    tertiary: "#89F336", // Lime Green
-                    highlight: "#E6E6E6",
+                    lightgray: "#E1E1E1",
+                    gray: "#8A8A8A",
+                    darkgray: "#050505",
+                    dark: "#000000",
+                    secondary: "#121212",
+                    tertiary: "#FFA000",
+                    highlight: "#D9D9D9",
+                },
+                darkMode: {
+                    light: "#000000",
+                    lightgray: "#1E1E1E",
+                    gray: "#757575",
+                    darkgray: "#FAFAFA",
+                    dark: "#FFFFFF",
+                    secondary: "#EDEDED",
+                    tertiary: "#FFCA42",
+                    highlight: "#262626",
                 },
             }
 
