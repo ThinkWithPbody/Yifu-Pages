@@ -228,12 +228,13 @@ Thermal comfort directly affects productivity
 - **Vertical Projection = Window (Shade) Width ÷ tan(HSA)**
 	- ![[./Attachments/2024 09 16 week 3 slides v1.pdf#page=48&rect=75,4,743,538|p.48]]
 
+![[../../../../32N Sunpath Chart|32N Sunpath Chart]]
 
 > [!abstract]- Lab 2
 > 
 > 1. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in March at the 17th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
 > 
-> ![[../../../../32N Sunpath Chart|32N Sunpath Chart]]
+
 > 12.4392
 > 
 > 2. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in January at the 15th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
@@ -641,6 +642,8 @@ Cooling Loads
 			- 1 kWh = 1000 Wh
 				- **1 $/kWh = 1/1000 $/Wh**
 
+![[../../../../Solar Insolation|Solar Insolation]]
+
 > [!yellow]- HD / CD Calculator
 > 
 > ```
@@ -779,7 +782,9 @@ Cooling Loads
 HVAC Distribution
 - Pressure in ducts measured in Pascal or inches of water
 	- 1 inch of water = 248.84 Pa
-- Diameter at each section of duct, Circular vs. Rectangular vs. Rectangular With Insulation
+	- Flow Efficiency
+		- Circular > Oval | Elliptical > Square > Rectangular
+- Diameter at each section of duct
 	- ==Critical Path: Duct Size and Shape== [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=31&selection=0,34,0,34|(p.31)]]
 	- 2in of insulation on each surface 
 	- Turning radius is usually twice the duct diameter
@@ -807,11 +812,14 @@ HVAC Distribution
 								- ∆T = BPT - Design Dry Bulb Winter
 						- V_sum (cfm) = Loads (ton) × V/ton
 							- V/ton
-								- Assume V/ton = 400 cfm/ton
+								- Assume V/ton = 400 (cfm/ton)
+									- 54 (L/s/kW)
 								- q_1ton (Btu/h) = V/ton × Heat Capacity of Air (Btu·min/ft3·F·h) × ∆T
 									- 12000 = V/ton × 1.08 × ∆T_register
 										- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=3&selection=30,0,36,2|(p.3)]]
 						- V_each = V_sum ÷ number of vent openings
+
+![[../../../../Duct Friction Chart|Duct Friction Chart]]
 
 > [!abstract]- Lab 7
 > 
@@ -1122,7 +1130,6 @@ HVAC Distribution
 > 
 
 #### Module 12
-
 
 > [!abstract]- Lab 9
 > Net Zero PV tour, sign up
