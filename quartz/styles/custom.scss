@@ -133,25 +133,82 @@ ol.overflow:after {
 */
 
 h1 {
-  color: #d04255;
+    color: #d04255;
 }
 
 h2 {
-  color: #d5763f;
+    color: #d5763f;
 }
 
 h3 {
-  color: #e5b567;
+    color: #e5b567;
 }
 
 h4 {
-  color: #a8c373;
+    color: #a8c373;
 }
 
 h5 {
-  color: #6c99bb;
+    color: #6c99bb;
 }
 
 h6 {
-  color: #9e86c8;
+    color: #9e86c8;
+}
+
+
+.callout {
+
+    --callout-icon-white: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-left"><path d="M15 12H3"/><path d="M17 18H3"/><path d="M21 6H3"/></svg>');
+ 
+
+    &[data-callout="white"] {
+        --color: #7F7F7F;
+        --border: #BFBFBF44;
+        --bg: #BFBFBF10;
+        --callout-icon: var(--callout-icon-white);
+    }
+    
+    &[data-callout="grey"] {
+        --color: #7F7F7F;
+        --border: #7F7F7F44;
+        --bg: #7F7F7F10;
+        --callout-icon: var(--callout-icon-grey);
+    }
+    
+    &[data-callout="black"] {
+        --color: #3F3F3F;
+        --border: #3F3F3F44;
+        --bg: #3F3F3F10;
+        --callout-icon: var(--callout-icon-black);
+    }
+    
+    &[data-callout="blue"] {
+        --color: #277DA1;
+        --border: #277DA144;
+        --bg: #277DA110;
+        --callout-icon: var(--callout-icon-blue);
+    }
+    
+    &[data-callout="yellow"] {
+        --color: #F9C74F;
+        --border: #F9C74F44;
+        --bg: #F9C74F10;
+        --callout-icon: var(--callout-icon-yellow);
+    }
+    
+    &[data-callout="pink"] {
+        --color: #F9844A;
+        --border: #F9844A44;
+        --bg: #F9844A10;
+        --callout-icon: var(--callout-icon-pink);
+    }
+    
+    &[data-callout="green"] {
+        --color: #90BE6D;
+        --border: #90BE6D44;
+        --bg: #90BE6D10;
+        --callout-icon: var(--callout-icon-green);
+    }
+
 }
