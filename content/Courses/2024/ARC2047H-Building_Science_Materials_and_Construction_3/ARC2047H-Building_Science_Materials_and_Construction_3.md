@@ -84,7 +84,7 @@ share: true
 > [ARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3 2024-09-10 14_30_31.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3%202024-09-10%2014_30_31.pdf)
 > [ASHRAE Psychrometric Chart SI Lecture Demonstration problem.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI%20Lecture%20Demonstration%20problem.pdf)
 > [ASHRAE Psychrometric Chart SI.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI.pdf)
-> ![[./Attachments/ASHRAE Psychrometric Chart SI.jpg|ASHRAE Psychrometric Chart SI]]
+> ![[./Attachments/ARC2047H-Psychrometric Chart/ASHRAE Psychrometric Chart SI.jpg|ASHRAE Psychrometric Chart SI]]
 > 
 
 Difference between power and energy
@@ -195,7 +195,7 @@ Thermal comfort directly affects productivity
 
 [[./Attachments/2024 09 16 week 3 slides v1.pdf|2024 09 16 week 3 slides v1]]
 
-[[Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/Attachments/ARC2047H-32N Sunpath Chart/32N Sunpath Chart.jpg|32N Sunpath Chart.jpg]]
+[[./Attachments/ARC2047H-32N Sunpath Chart/32N Sunpath Chart.jpg|32N Sunpath Chart.jpg]]
 [[./Attachments/40N Sunpath Chart.pdf|40N Sunpath Chart.pdf]]
 
 
