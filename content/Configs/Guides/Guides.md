@@ -10,6 +10,7 @@ share: true
 - [[./Guide Dataview|Guide Dataview]]
 - [[./Guide Excalibrain|Guide Excalibrain]]
 - [[./Guide Obsidian|Guide Obsidian]]
+- [[../../../Guide PDF++|Guide PDF++]]
 - [[../../../Guide Publisher|Guide Publisher]]
 - [[../../../Guide QuickAdd|Guide QuickAdd]]
 - [[./Guide Tasks|Guide Tasks]]
