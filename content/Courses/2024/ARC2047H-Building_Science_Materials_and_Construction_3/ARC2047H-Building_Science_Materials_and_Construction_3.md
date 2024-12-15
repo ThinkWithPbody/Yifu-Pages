@@ -84,13 +84,15 @@ share: true
 > [ARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3 2024-09-10 14_30_31.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3%202024-09-10%2014_30_31.pdf)
 > [ASHRAE Psychrometric Chart SI Lecture Demonstration problem.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI%20Lecture%20Demonstration%20problem.pdf)
 > [ASHRAE Psychrometric Chart SI.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI.pdf)
+> ![[./Attachments/ARC2047H-Psychrometric Chart/ASHRAE Psychrometric Chart SI.jpg|ASHRAE Psychrometric Chart SI]]
+> 
 
 Difference between power and energy
 - Power is instantaneous kW
 - Energy is total potential kWh 
 
 Readings
-- Energy is associated with GDP cheap energy is the product of a large GDP  economy
+- Energy is associated with GDP cheap energy is the product of a large GDP economy
 - Architecture construction of buildings contribute 40% of all green house gases
 
 Thermal comfort directly affects productivity
@@ -121,78 +123,67 @@ Thermal comfort directly affects productivity
 	- Comfort zone 
 		- air temperature 
 		- Relative humidity
-- Psychrometric chart @101.325 kPa
-	- Dry bulb/Air temperature (C): Tdry
-	- Wet bulb temperature (C): Twet
-	- Dew point (C): Tdew, the temperature the air stream needs to be to reach maximum humidity
-	- Relative Humidity (%)
-	- Humidity ratio (g>w/kg>da): W
-	- Specific volume (m^3/kg): SV
-	- Enthalpy (kJ/kg): h, Total amount of energy in the system
+- **Psychrometric chart @101.325 kPa**
+	- Dry bulb/Air temperature (C): DBT
+	- Wet bulb temperature (C): WBT
+	- Dew point (C): DPT, the temperature the air stream needs to be to reach maximum humidity
+	- Relative Humidity (%): RH
+	- Humidity Ratio (g_water/kg_dryair): W ÷ HR
+	- Specific volume (m^3/kg_dryair): SV
+	- Enthalpy (kJ/kg_dryair): h, Total amount of energy in the system
 	- Draw straight line between two air states representing linear interpolation of every possible mix of two air streams
-		- Use mixed air stream T>dry to determine point on line
-		- T1 \* R1 + T2 \* R2 = T3, R1 + R2 = 1
-	- Dry air mass (kg) = Room volume (m^3) ÷ SV (m^3/kg)
-	- Water (g) = Dry air mass (kg) × HR (g/kg)
-	- Energy (kJ) = Dry air mass (kg) × Enthalpy (kJ/kg)
-	- Sensible Heat (): H>s
-	- Total Head (): H
+		- Use mixed air stream DBT to determine point on line
+		- DBT1 × F1 + DBT2 × F2 = DBT3, F1 + F2 = 1
+		- Dry air mass (kg) = Room volume (m^3) ÷ SV (m^3/kg)
+		- Water (g) = Dry air mass (kg) × HR (g/kg)
+		- Energy (kJ) = Dry air mass (kg) × Enthalpy (kJ/kg)
+		- Sensible Heat (): H_s
+		- Total Heat (): H
 
-> [!question]
-> For a well-sealed and highly insulated room with a wall air conditioner, how much **heat energy** would need to be removed from the room to get from a starting condition where the air is at 31 C and 56% RH to and a ending condition where the air is at 19 and 49% RH?  The room has a width of 10m, a length of 15m and is 3m high. Provide your answer in kJ as an integer.  Do not write the units in your answer.
+![[../../../../ARC2047H-Psychrometric Chart|ARC2047H-Psychrometric Chart]]
+
+> [!abstract] Lab 1
+> 1. Given moist air with a dry-bulb temperature of 27 degrees Celsius and 38% relative humidity use the psychrometric chart to determine the **dewpoint** temperature in degrees Celsius. Provide a numeric answer with one decimal place.
 > 
-> h1=27.2kJ/kg
-> h2=65.5kJ/kg
-> V=450m^3
+> 11.5
+> 
+> 2. Given moist air with a dry-bulb temperature of 27 degrees Celsius and 44% relative humidity use the psychrometric chart to determine the **specific volume** in cubic metre per kilogram dry air. Provide a numeric answer with three decimal places.
+> 
+> 0.863
+> 
+> 3. Given moist air with a dry-bulb temperature of 14 degrees Celsius and 66% relative humidity use the psychrometric chart to determine the **wet-bulb** temperature in degrees Celsius. Provide a numeric answer with one decimal place. 
+> 
+> 10.3
+> 
+> 
+> 4. Given moist air with a dry-bulb temperature of 26 degrees Celsius and 43% relative humidity use the psychrometric chart to determine the **humidity ratio** in (grams of water)/(kilograms of dry air). Provide a numeric answer with one decimal place.
+> 
+> 9
+> 
+> 5. Given moist air with a dry-bulb temperature of 28 degrees Celsius and 34% relative humidity use the psychrometric chart to determine the **enthalpy** in kJ/(kg of dry air). 
+> 
+> 48.6
+> 
+> 6. Given outdoor air with a dry-bulb temperature of 14 degrees Celsius and 21% relative humidity and indoor air with a dry-bulb temperature of 28 degrees Celsius and 78% relative humidity use the psychrometric chart to determine the **relative humidity of the mixed air** if the mixture is 40% outdoor air and 60% indoor air. Provide a numeric answer as an integer.
+> 7. Enter the mixed air temperature in degrees Celsius that you determined in the previous (Mixing Air) problem. 22.4
+> 
+> 70.9
+> 
+> 8. For a well-sealed and highly insulated room with a wall air conditioner, how much **heat energy** would need to be removed from the room to get from a starting condition where the air is at 26 C and 73% RH to and a ending condition where the air is at 16 and 39% RH?  The room has a width of 10m, a length of 15m and is 3m high. Provide your answer in kJ as an integer.
+> 9. Enter the **dry air mass** for the chamber at the **starting** position in kilograms. 518.4332
+> 10. Enter the **dry air mass** for the chamber at the **ending** position in kilograms. 545.4545
+> 11. Enter the **energy** within the chamber at the **starting** position in kJ. 33,957.3746
+> 12. Enter the **energy** within the chamber at the **ending** position in kJ. 14,836.3624
+> 
+> h1 = 27 kJ/kg
+> h2 = 66 kJ/kg
+> V = 450m3
 > Dry air mass1 (kg) = Room volume (m^3) ÷ SV1 0.825 (m^3/kg) = 545.4545
 > Dry air mass2 (kg) = Room volume (m^3) ÷ SV2 0.868 (m^3/kg) = 518.4332
 > Energy1 (kJ) = Dry air mass1 (kg) × Enthalpy (kJ/kg) = 14,836.3624
 > Energy2 (kJ) = Dry air mass2 (kg) × Enthalpy (kJ/kg) = 33,957.3746
 > Excess = 19,121.0122 kJ
 
-1. Given moist air with a dry-bulb temperature of 27 degrees Celsius and 38% relative humidity use the psychrometric chart to determine the **dewpoint** temperature in degrees Celsius. Provide a numeric answer with one decimal place.
-
-11.5
-
-2. Given moist air with a dry-bulb temperature of 27 degrees Celsius and 44% relative humidity use the psychrometric chart to determine the **specific volume** in cubic metre per kilogram dry air. Provide a numeric answer with three decimal places.
-
-0.863
-
-3. Given moist air with a dry-bulb temperature of 14 degrees Celsius and 66% relative humidity use the psychrometric chart to determine the **wet-bulb** temperature in degrees Celsius. Provide a numeric answer with one decimal place. 
-
-10.3
-
-
-4. Given moist air with a dry-bulb temperature of 26 degrees Celsius and 43% relative humidity use the psychrometric chart to determine the **humidity ratio** in (grams of water)/(kilograms of dry air). Provide a numeric answer with one decimal place.
-
-9
-
-5. Given moist air with a dry-bulb temperature of 28 degrees Celsius and 34% relative humidity use the psychrometric chart to determine the **enthalpy** in kJ/(kg of dry air). 
-
-48.6
-
-6. Given outdoor air with a dry-bulb temperature of 14 degrees Celsius and 21% relative humidity and indoor air with a dry-bulb temperature of 28 degrees Celsius and 78% relative humidity use the psychrometric chart to determine the **relative humidity of the mixed air** if the mixture is 40% outdoor air and 60% indoor air. Provide a numeric answer as an integer.
-7. Enter the mixed air temperature in degrees Celsius that you determined in the previous (Mixing Air) problem. 22.4
-
-70.9
-
-8. For a well-sealed and highly insulated room with a wall air conditioner, how much **heat energy** would need to be removed from the room to get from a starting condition where the air is at 26 C and 73% RH to and a ending condition where the air is at 16 and 39% RH?  The room has a width of 10m, a length of 15m and is 3m high. Provide your answer in kJ as an integer.
-9. Enter the **dry air mass** for the chamber at the **starting** position in kilograms. 518.4332
-10. Enter the **dry air mass** for the chamber at the **ending** position in kilograms. 545.4545
-11. Enter the **energy** within the chamber at the **starting** position in kJ. 33,957.3746
-12. Enter the **energy** within the chamber at the **ending** position in kJ. 14,836.3624
-
-h1=27.2kJ/kg
-h2=65.5kJ/kg
-V=450m^3
-Dry air mass1 (kg) = Room volume (m^3) ÷ SV1 0.825 (m^3/kg) = 545.4545
-Dry air mass2 (kg) = Room volume (m^3) ÷ SV2 0.868 (m^3/kg) = 518.4332
-Energy1 (kJ) = Dry air mass1 (kg) × Enthalpy (kJ/kg) = 14,836.3624
-Energy2 (kJ) = Dry air mass2 (kg) × Enthalpy (kJ/kg) = 33,957.3746
-Excess = 19,121.0122 kJ
-
-
-19,115.217
 
 #### Module 03
 
@@ -241,7 +232,8 @@ Excess = 19,121.0122 kJ
 > [!abstract]- Lab 2
 > 
 > 1. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in March at the 17th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
-> ![[./ARC2047H-Building_Science_Materials_and_Construction_3 2024-12-15_03.56.38.svg|ARC2047H-Building_Science_Materials_and_Construction_3 2024-12-15_03.56.38.excalidraw]]
+> 
+> ![[../../../../32N Sunpath Chart|32N Sunpath Chart]]
 > 12.4392
 > 
 > 2. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in January at the 15th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
@@ -269,8 +261,8 @@ Excess = 19,121.0122 kJ
 > 
 > 9. For a window opening with an overhanging shade, the solar position at some point in the day results in an HSA of 27 degrees and an altitude of 83 degrees. Determine the **horizontal** projection required if the overhang is to provide shade to the bottom of the 1 m tall window. Provide you answer in meters with 3 decimal places.  Do not write units in your answer.
 > 
-> VSA = arctan(tan(altitude) / cos(HSA)) = 83.75
-> Horizontal Projection = Window Height / tan(VSA) = 0.109
+> VSA = arctan(tan(altitude) ÷ cos(HSA)) = 83.75
+> Horizontal Projection = Window Height ÷ tan(VSA) = 0.109
 > 
 > 10. For a window opening with an overhanging shade, the solar position at some point in the day results in an HSA of 30 degrees and an altitude of 68 degrees.  Determine the **LATERAL** projection required if the overhang is to provide shade to the bottom and full width of the 9 m tall window. Provide you answer in meters with 3 decimal places.  Do not write units in your answer.
 > 11. Enter the Horizontal Projection that you determined in the problem asking for the Lateral Projection.
@@ -286,7 +278,7 @@ Excess = 19,121.0122 kJ
 
 ![Table+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1 2024-09-24 14_40_24.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C04%5CTable+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1%202024-09-24%2014_40_24.jpg)
 
-- Balance Point Temperature, BPT ^ba60bb
+- Balance Point Temperature, BPT
 	- When Q_i = q_total
 	- BPT = T_indoor - Heat gain rate ÷ Heat losses rate per T_delta
 		- T_delta = (T_indoor - T_outdoor)
@@ -317,9 +309,9 @@ W = J ÷ s
 > 	2. The South Wall is 35% windows.  The North wall has a continuous row of 5 ft high windows on each floor.  There are no windows on the East and West walls.
 > 	Provide your answer in square feet as an integer.
 > 
-> (171+70) * 2 * 13 * 2 = 12,532
-> 171 * 13 * 2 * 0.35 = 1,556.1
-> 181 * 5 * 2 = 1,710
+> (171+70) × 2 × 13 × 2 = 12,532
+> 171 × 13 × 2 × 0.35 = 1,556.1
+> 181 × 5 × 2 = 1,710
 > 12,532 - 1,556.1 - 1,710 = 9,265.9 ft2
 > 
 > ---
@@ -328,21 +320,21 @@ W = J ÷ s
 > 	2. The South wall is 58% windows.  The North, East, and West walls have a continuous row of 3 ft high clearstory windows on each floor. 
 > 	Provide your answer in square feet as an integer.
 > 
-> 184 * 3 * 13 * 0.58 = 4,162.08
-> (184 + 108 + 108) * 3 * 3 = 3,600
+> 184 × 3 × 13 × 0.58 = 4,162.08
+> (184 + 108 + 108) × 3 × 3 = 3,600
 > SUM = 7,762.08
 > 
 > ---
 > 3. If the U-value for a wall assembly is 0.055 BTU/(h-ft2-F) **determine the R-value** in h-ft2-F/BTU: 
 > 	Provide your answer with 1 decimal place value. 
 > 
-> 1 / 0.055 = 18.18
+> 1 ÷ 0.055 = 18.18
 > 
 > ---
 > 4. If the R-value for a wall assembly is 39.7 h-ft2-F/BTU **determine the U-value** in BTU/(h-ft2-F):
 > 	Provide your answer with 4 decimal place values.
 > 
-> 1 / 39.7 = 0.02518
+> 1 ÷ 39.7 = 0.02518
 > 
 > ---
 > 5. Given an office building with a flat roof **determine the** **heat loss rate through the envelope** due to conduction, UA_envelope in BTU/(hr-F) if the R-values of the surfaces are:
@@ -362,13 +354,13 @@ W = J ÷ s
 > | East and West Walls | 8,160                  |
 > | Roof                | 22,429                 |
 > 
-> U-value = 1 / R-value
+> U-value = 1 ÷ R-value
 > 	0.33333 h-ft2F/Btu for windows
 > 	0.025 h-ft2F/Btu for the roof
 > 	0.04 h-ft2F/Btu for the opaque walls
 > 
 > UA_envelope = UA_windows + UA_walls + UA_roof
-> 	= (2881 + 4036) * 0.33333 + (5285 + 4769 + 8160) * 0.04 + 22429 * 0.025
+> 	= (2881 + 4036) × 0.33333 + (5285 + 4769 + 8160) × 0.04 + 22429 × 0.025
 > 	= 3594.94
 > 
 > ---
@@ -376,9 +368,9 @@ W = J ÷ s
 > 	The dimensions of the building are 89 ft for North-South walls, 156 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
 > 	Provide your answer in BTU/(hr-F) as an integer.
 > 
-> UA_infiltration = ACH (h^-1) × Indoor Air Volume (ft^3) × Heat Capacity of Air (Btu ÷ (ft^3 * ℉)) (J/(m^3 * °K))
+> UA_infiltration = ACH (h^-1) × Indoor Air Volume (ft^3) × Heat Capacity of Air (Btu ÷ (ft^3 × ℉)) (J/(m^3 × °K))
 > ==Use ceiling height to calculate indoor air volume==
-> 	=1.8 * (156 * 89 * 4 * **11**) * 0.018
+> 	=1.8 × (156 × 89 × 4 × **11**) × 0.018
 > 	= 19,793.03
 > 
 > ---
@@ -389,7 +381,7 @@ W = J ÷ s
 > 
 > ==Only use south windows==
 > q_solar = Solar Insolation (BTU/(day-ft^2)) \* Surface Area South (ft^2) × 1d/24h
-> 	= 812 * (160 * 4 * 13 * 0.57) / 24
+> 	= 812 × (160 × 4 × 13 × 0.57) ÷ 24
 > 	= 160,451.2
 > 
 > ---
@@ -399,9 +391,9 @@ W = J ÷ s
 > 	3. The building is occupied for 9 hours on a typical day.
 > 
 > q_internal = A: Floor Area (ft2) × (q_people + q_equipment + q_lights) (Btu/(h·ft2))
-> 	= 25,893 * (2.3 + 1.1 + 2.0)
+> 	= 25,893 × (2.3 + 1.1 + 2.0)
 > 	= 139,822
-> 139,822 * 9 / 24= 52,433.33
+> 139,822 × 9 ÷ 24= 52,433.33
 > 
 > ---
 > 9. For an office building during the winter with an internal setpoint at 69.8F and:
@@ -412,7 +404,7 @@ W = J ÷ s
 > 	**determine the winter balance point temperature** in degrees Fahrenheit. Provide your answer with one decimal place value.
 > 
 > BPT = T_indoor - Q_i ÷ UA_total
-> 	= 69.8 - (131,420 + 109,869) / (4,265 + 7,445)
+> 	= 69.8 - (131,420 + 109,869) ÷ (4,265 + 7,445)
 > 	= 49.19
 
 #### Module 05
@@ -477,7 +469,7 @@ Cooling Loads
 			- Mechanical ventilation
 				- q_vent (Btu/h) = Volumetric Flow Rate × Ventilation Factor (Btu/(h-cfm))
 					- Volumetric Flow Rate (CFM: Cubic feet per minute of fresh air)
-						- CFM = CFM/person * People
+						- CFM = CFM/person × People
 						- 5 CFM/person × 20 People = 100 CFM
 		- **PEL: Poole Equipment Lighting** 
 			- q_internal (Btu/h) = A: Floor Area × (q_people + q_equipment + q_lights (Btu/(h·ft2))
@@ -493,27 +485,27 @@ Cooling Loads
 > 13.4F < 16F, hence use **L**ow values from G.2 => Frame Walls and Doors => NE and NW
 > 
 > Summer Design Dry-Bulb = 83.5 < 85, must interpolate DETD
-> DETD = 14 + (83.5 - 85) * ((14 - 19) / (85 - 90)) = 12.5F
-> U_Value = 1 / R-Value = 0.0490
+> DETD = 14 + (83.5 - 85) × ((14 - 19) ÷ (85 - 90)) = 12.5F
+> U_Value = 1 ÷ R-Value = 0.0490
 > Area = 3,155 ft2
 > q_skin (Btu/h) = U_Value × A × DETD (°𝐹) = 0.0490 × 3,155ft2 × 12.5F = 1932.437
 > 
 > 2. Given a building located in **New York City** (NYC) use the climate data in Table B.1 (see link below) and the **DETD** values in Appendix G2 (see link below) to determine the summer heat gains through a **light color** **flat roof** with an opaque area of 4,497 square feet and R-value of 31 h-ft2-F/Btu. Provide your answer in Btu/h as an integer.  Do not write units in your answer.
 > 
-> DETD = 30 + (83.5-85) * ((30-35)/(85-90)) = 28.5
-> (1 / 31) * 4497 * 28.5 = 4,134.34
+> DETD = 30 + (83.5-85) × ((30-35)/(85-90)) = 28.5
+> (1 ÷ 31) × 4497 × 28.5 = 4,134.34
 > 
 > 3. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and the **DCLF** values in Appendix G.3 (see link below) to determine the summer heat gains through regular double glass for windows facing **NorthEast** with an area of 2,460 square feet. The windows have no external or internal shading.
 > 	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
 > 
-> DCLF = 46 + (83.5-85) * ((46-48)/(85-90)) = 45.4
+> DCLF = 46 + (83.5-85) × ((46-48)/(85-90)) = 45.4
 > q_glass (Btu/h) = A × **DCLF** (Btu/h-ft2): Design Cooling Load Factors
 > 	= 111,684
 > 
 > 4. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and the **DCLF** values in Appendix G.3 (see link below) to determine the summer heat gains through regular double glass for windows facing **West** with an area of 1,024 square feet. The windows have no external or internal shading.
 > 	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
 > 
-> DCLF = 68 + (83.5-85) * ((68-70)/(85-90)) = 67.4
+> DCLF = 68 + (83.5-85) × ((68-70)/(85-90)) = 67.4
 > q_glass (Btu/h) = A × **DCLF** (Btu/h-ft2): Design Cooling Load Factors
 > 	= 69,017.6
 > 
@@ -521,14 +513,14 @@ Cooling Loads
 > 	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
 > 
 > ==Fully Shaded: Use Awnings, North for DCLF==
-> DCLF = 13 + (83.5-85) * ((13-15)/(85-90)) = 12.4
+> DCLF = 13 + (83.5-85) × ((13-15)/(85-90)) = 12.4
 > q_glass (Btu/h) = A × **DCLF** (Btu/h-ft2): Design Cooling Load Factors
 > 	= 27,714
 > 
 > 6. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and the **Infiltration Factor** values in Appendix G.4 (see link below) to determine the summer heat gains from air infiltration if the exposed surface area of the walls is 16,073 square feet.
 > 	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
 > 
-> Infiltration Factor = 0.7 - 1.5 * ((0.7-1.1)/-5) = 0.58
+> Infiltration Factor = 0.7 - 1.5 × ((0.7-1.1)/-5) = 0.58
 > q_inf (Btu/h) = A_exposed × Infiltration Factor (Btu/(h-ft2))
 > 	= 9,322.34
 > 
@@ -536,7 +528,7 @@ Cooling Loads
 > 	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
 > 
 > Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
-> CFM = CFM/person * People
+> CFM = CFM/person × People
 > 	= 14 CFM/person × 126 People = 1,764 CFM
 > q_vent (Btu/h) = Volumetric Flow Rate × Ventilation Factor (Btu/(h-cfm))
 > 	= 16,758
@@ -548,7 +540,7 @@ Cooling Loads
 > 	3. The building is occupied for 12 hours on a typical day.
 > 
 > q_internal (Btu/h) = A: Floor Area × (q_people + q_equipment + q_lights (Btu/(h·ft2))
-> 	= 29426 * (2.3 + 1.1 + 5.1) * 12 / 24
+> 	= 29426 × (2.3 + 1.1 + 5.1) × 12 ÷ 24
 > 	= 125,060.5
 > 
 > 9. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and Figure 12.23 (Latent Heat Gains, see link below) to **determine the total heat gains** (sensible + latent) if the building has medium construction tightness and:
@@ -560,8 +552,8 @@ Cooling Loads
 > 	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
 > 
 > q_total = q_sensible + q_latent
-> 	= (q_skin + q_glass + q_infiltration + q_vent + q_internal) * 1.165 (medium construction tightness)
-> 	= 132,765 * 1.165
+> 	= (q_skin + q_glass + q_infiltration + q_vent + q_internal) × 1.165 (medium construction tightness)
+> 	= 132,765 × 1.165
 > 	= 154,671
 > 
 > 10. If a project has a sensible heat gain of 135,186 Btu/h and a latent heat gain of 12,409 Btu/h for it's summer cooling load.  How many **tons of cooling** does the project need in summer?
@@ -584,28 +576,25 @@ Cooling Loads
 > [ARC2047HF+HW5+Self+Study 2024-10-15 14_11_45.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047HF+HW5+Self+Study%202024-10-15%2014_11_45.pdf)
 > [Week 7 study questions.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CWeek%207%20study%20questions.pdf)
 
-> [!PDF|yellow] [[./Attachments/2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29.pdf#page=4&selection=36,0,53,28&color=yellow|2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29, p.4]]
-> > qcross ventilation = V × 1.08 Btu·min/(ft3·°F·h) × ∆T q cross ventilation is in units of power (Btu/h)
-
 **Cooling via Cross Ventilation (Natural Ventilation)** 
-- q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F) ^bd2f04
+- q_crossvent (Btu/h) = V (cfm) × Heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
 	- A unit of power
 	- Requires openings on both sides and wind perpendicular to the opening surface
-	- V: Volumetric flow rate (cfm cubic feet per minute)
-		- V = Cv × A × v ^8218c4
+	- V: Volumetric flow rate (cfm: cubic feet per minute)
+		- **V (cfm) = Cv × A (ft2) × v (fpm)**
 			- Cv = is the coefficient for wind direction compared to the opening: 0.55 perpendicular, 0.3 angled 
-			- A = area of the opening (ft^2) 
+			- A = area of the opening
 				- Bottleneck is the smaller of the two
 			- v = velocity of the wind in feet per minute 
-				- 1 mile per hour (mph) = 88 feet per minute (fpm) ^ff7bf9
-	- heat capacity of air Btu·min/(ft3·°F·h) = 0.018 Btu/(ft3·°F)  × 60 min/h = **1.08 Btu·min/(ft3·°F·h)**
+				- **1 mile per hour (mph) = 88 feet per minute (fpm)**
+	- **Heat capacity of air** Btu·min/(ft3·°F·h) = 0.018 Btu/(ft3·°F)  × 60 min/h = **1.08 Btu·min/(ft3·°F·h)**
 		- OR heat capacity of air (Btu/(ft3·°F)) = density (pounds per cubic ft) × specific heat of air (Btu/(lb·°F))
 	- ∆T is temperature difference between inside and outside air
 		- At least 3°F for cross ventilation to be feasible
 
 **Degree Days** 
 - Has units of (degrees · days)
-- HDD ^2e7c60
+- HDD
 	- HDD = BPT - Ave Temp
 		- HDD for the day is ignored if average outside temperature is warmer than balance point temperature
 - CDD
@@ -613,17 +602,16 @@ Cooling Loads
 		- CDD for the day is ignored if average outside temperature is cooler than balance point temperature
 - [degreeedays](http://degreedays.net)
 
-
 **Cost of Thermal Comfort (Heating and Cooling)**
 - Heating
-	- Annual Heat Needed (Btu)= UA_total (Btu/h\*℉) × HDD × 24 hours ^359eb9
-	- Annual Fuel Needed, E (ft3) = Annual Heat (Btu) ÷ (AFUE × heat value of fuel (Btu/ft3)) ^591155
+	- Annual Heat Needed (Btu)= UA_total (Btu/h\*℉) × HDD × 24 hours
+	- Annual Fuel Needed, E (ft3) = Annual Heat (Btu) ÷ (AFUE × heat value of fuel (Btu/ft3))
 		- Specific to the fuel source and equipment
 		- AFUE is the Annual Fuel Utilization Efficiency
 			- Assume 95%
 			- Natural gas furnaces have an AFUE range between 80% to 98.5%
 		- Heat value for natural gas is **1050 Btu/ft3**
-	- **Annual Cost of Heating** (\$) = E × Cost of Fuel ($/ft3) ^423ef7
+	- **Annual Cost of Heating** (\$) = E × Cost of Fuel ($/ft3)
 		- Currently (October 2024) the effective gas supply rate is about 7.7043 cents per cubic meter for commercial customers of Enbridge in Toronto. 1 m3 = 35.315 ft3, thus 0.218 cents per ft3 or  $0.00218/ft3 or $2.18/1000 ft3
 - Cooling
 	- Summer BPT needed for Summer Cooling Cost
@@ -632,118 +620,129 @@ Cooling Loads
 			-  If we can provide shading to some of the south glass we can improve the Summer BPT.
 			- assume 80% effective shading, thus allowing 20% of the solar gain.
 		- T_balance = T_desired: 78°F  (25.6°C) - Q_i: Heat gain ÷ UA_total: Heat loss
-	- **Annual Cost of Cooling** (\$) = Cooling Load (Btu/h) × CLH (h) × 1/SEER (W/Btu/h) × cost of electricity ($/Wh) ^8fe61e
+	- **Annual Cost of Cooling** (\$) = Cooling Load (Btu/h) × CLH (h) × 1/SEER (W/Btu/h) × cost of electricity ($/Wh)
 		- Cooling Load (Btu/h) From W6
 			- July Solar insolation for vertical surface, south facing glazing is 1,035 Btu/(day·ft2) in Toronto
 				- q_insolation cube summer@80%shade = 3,996 ft2 × 0.20 × 1,035 Btu/(day·ft2) × (day/24 h) = 34,687 Btu/h
 				- Only change solar insulation q_solar_summer_shaded, q_internal remains same
-		- CLH: Cooling Load Hours (h) = CDD × 24 (h/day) ÷ (Design Temperature - Summer BPT) ^f100e8
+		- CLH: Cooling Load Hours (h) = CDD × 24 (h/day) ÷ (Design Temperature - Summer BPT)
 		- SEER: Seasonal Energy Efficiency Ratio ((Btu/h)/W)
 			- Btu/h heat rejected per Watt of electricity used
 			- For example AHU: Air Handling Unit could be 14
 		- Cost of Electricity for example use 15 cents per kWh,  $0.15/1000Wh
 
-> [!abstract]- Lab 6
-> 1. If the total summer cooling load for a 25,000 ft2 building is determined to be 23.4 tons **what volume (flow rate)** of outdoor air is required to provide adequate cooling via cross ventilation if the outdoor air temperature is 68.9F and the desired indoor air temperature is 76F?  Provide your answer in cubic feet per minute (cfm) as an integer.  Do not write units in your answer.
+> [!yellow]- HD / CD Calculator
 > 
-> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
-> 
-> q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
-> 23.4 tons × 12000 = 280,800 Btu/h
-> 280,800 = V × 1.08 × 7.1
-> V = 36619 cfm
-> 
-> 2. If the total summer cooling load for a building can be cooled using cross ventilation with a volumetric flow rate of 60,645 cubic feet per minute, determine the **area of openings needed** on the windward side of the building if the average wind speed is 13.2 mph and the wind approaches at a 45 degree angle to the opening. Assume that the building has an equal amount of openings on the windward and leeward sides of the building. Provide your answer in square feet as an integer.  Do not write units in your answer.
-> 
-> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^8218c4|^8218c4]]
-> 
-> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^ff7bf9|^ff7bf9]]
-> 
-> 13.2 mph × 88 = 1,161.6 fpm
-> 60,645 cfm = 0.3 × A × 1,161.6 fpm
-> A = 174 ft2
-> 
-> 3. Given:
-> 1) total summer cooling load for a building is 239,762 Btu/h,
-> 2) the outdoor air temperature is 67.2F,
-> 3) the desired indoor air temperature is 73.5F,
-> 4) there are 103 ft2 of clear window openings for ventilation on the windward side of the building and 600 ft2 of clear window openings for ventilation on the leeward side of the building.
-> Find the required **average windspeed needed** to adequately cool the building via cross ventilation if the wind approaches the building perpendicular to the openings.  Provide your answer in miles per hour (mph) with one decimal place value.  Do not write units in your answer.
-> 
-> 239,762 = V × 1.08 × 6.3 
-> V = 0.55 × 103 × v
-> v = 622 fpm = 7.0686 mph
-> 
-> 4. If the **Winter** Balance Point Temperature is 52F and the following table shows the High and Low temperatures for three days in winter. Determine the total number of **heating degree days** for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
-> 
-> |         | Sunday | Monday | Tuesday |
-> | ------- | ------ | ------ | ------- |
-> | High    | 44F    | 46F    | 71F     |
-> | Low     | 34F    | 36F    | 57F     |
-> | **Ave** | 39     | 41     | 64      |
-> 
-> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^2e7c60|^2e7c60]]
-> 
-> HDD = 13 + 11 = 24 °F·days
-> 
-> 5. If the **Summer** Balance Point Temperature is 64.8F and the following table shows the High and Low temperatures for three days in summer.  Determine the total number of **cooling** **degree days** for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
-> 
-> |         | Sunday | Monday | Tuesday |
-> | ------- | ------ | ------ | ------- |
-> | High    | 60F    | 79F    | 80F     |
-> | Low     | 51F    | 62F    | 68F     |
-> | **Ave** | 55.5   | 70.5   | 74      |
-> CDD = 5.7 + 9.2 = 14.9 °F·days
-> 
-> 6. For a given building that has a UA_total = 3,382 Btu/(h × F) and an HDD of 414 F*days determine the **Annual Heat Needed** in Btu.  Provide your answer as an integer.  Do not write units in your answer.
-> 
-> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^359eb9|^359eb9]]
-> 
-> Annual Heat Needed = 3382 × 414 × 24 = 33,603,552 Btu
-> 
-> 7. For a given building in Toronto that has an Annual Heat Needed of 139,818,553 Btu, a natural gas furnace running at 98% efficiency and purchases natural gas for $11.38 per thousand cubic feet, determine the **annual cost of heating** the building.  Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
-> 
-> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^591155|^591155]]
-> 
-> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^423ef7|^423ef7]]
-> 
-> E = 139818553 ÷ (0.98 × 1050) = 135,878
-> Annual Cost = E × (11.38 ÷ 1000) = 1546.29
-> 
-> 8. A building located in Vancouver, British Columbia with solar insolation data found in the link below has the following:
-> 1) Heat gains from people, equipment, and lights = 20,982 Btu/h.
-> 2) South Facing Windows with an area of 3,991 square feet.
-> 3) Summer external shading devices provide 76% to the south windows.
-> 4) UAtotal = 4,185 Btu/(h*F).
-> 5) A desired indoor summer temperature of 72F.
-> Find the approximate **Summer Balance Point Temperature** for the building in degrees F. Use one decimal place value in your answer.  Do not write units in your answer.
-> ![[./Attachments/solar insolation.jpg|solar insolation]]
-> 
-> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^ba60bb|^ba60bb]]
-> 
-> Q_i = (1239 × 3991 /24 × (1-0.76)) + 20982 = 70,430.49
-> BPT = 72 - (Q_i ÷ 4185) = 55.17 oF
-> 
-> 9. For a given building located in Ottawa, Ontario find the **cooling load hours (CLH)** using Table B.1 (linked below) if:
-> 1) CDD = 1,513 F*days 
-> 2) Summer BPT = 56.7F
-> Provide your answer in hours as an integer.  Do not write units in your answer.
-> ![[./Attachments/Appendix B1 MEEB Climatic Conditions.jpg|500]]
-> 
-> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^f100e8|^f100e8]]
-> 
-> CLH = 1513 × 24 ÷ (80.6 - 56.7) = 1519 h
-> 
-> 10. For a given building what is the **annual cost of cooling** if:
-> 1) Cooling Load = 222,343 Btu/h
-> 2) Cooling Load Hours = 1,224 hours
-> 3) Seasonal Energy Efficiency Ratio of the AHU = 20 (Btu/h)/W
-> 4) Utility rate = $0.22 per kWh
-> Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
-> 
-> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^8fe61e|^8fe61e]]
-> 
-> Annual Cost of Cooling = 222343 × 1224 × (1/20) × (0.22/1000) = 2993
+
+|      | Sum | Sunday | Monday | Tuesday |
+| ---- | --- | ------ | ------ | ------- |
+| High |     |        |        |         |
+| Low  |     |        |        |         |
+| Ave  |     |        |        |         |
+| HDD  |     |        |        |         |
+| CDD  |     |        |        |         |
+<!-- TBLFM: @4$3..@4$>=mean(@I..@3) -->
+<!-- TBLFM: @5$3..@5$>=if((@<$<-@4)>0,(@<$<-@4),0) -->
+<!-- TBLFM: @6$3..@6$>=if((@4-@<$<)>0,(@4-@<$<),0) -->
+<!-- TBLFM: @5$2..@6$2=sum($+1..$>) -->
+
+Lab 6
+1. If the total summer cooling load for a 25,000 ft2 building is determined to be 23.4 tons what volume (flow rate) of outdoor air is required to provide adequate cooling via cross ventilation if the outdoor air temperature is 68.9F and the desired indoor air temperature is 76F?  Provide your answer in cubic feet per minute (cfm) as an integer.  Do not write units in your answer.
+
+q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
+23.4 tons × 12000 = 280,800 Btu/h
+280,800 = V × 1.08 × 7.1
+V = 36619 cfm
+
+2. If the total summer cooling load for a building can be cooled using cross ventilation with a volumetric flow rate of 60,645 cubic feet per minute, determine the area of openings needed on the windward side of the building if the average wind speed is 13.2 mph and the wind approaches at a 45 degree angle to the opening. Assume that the building has an equal amount of openings on the windward and leeward sides of the building. Provide your answer in square feet as an integer.  Do not write units in your answer.
+
+13.2 mph × 88 = 1,161.6 fpm
+V = Cv × A × v
+60,645 cfm = 0.3 × A × 1,161.6 fpm
+A = 174 ft2
+
+3. Given:
+1) total summer cooling load for a building is 239,762 Btu/h,
+2) the outdoor air temperature is 67.2F,
+3) the desired indoor air temperature is 73.5F,
+4) there are 103 ft2 of clear window openings for ventilation on the windward side of the building and 600 ft2 of clear window openings for ventilation on the leeward side of the building.
+Find the required average windspeed needed to adequately cool the building via cross ventilation if the wind approaches the building perpendicular to the openings.  Provide your answer in miles per hour (mph) with one decimal place value.
+
+q_crossvent (Btu/h) = V (cfm) × Heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
+239,762 = V × 1.08 × 6.3
+V = 0.55 × 103 × v = 35,238.3891 cfm
+v = 622 fpm = 7.0686 mph
+
+4. If the Winter Balance Point Temperature is 52F and the following table shows the High and Low temperatures for three days in winter. Determine the total number of heating degree days for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
+
+| 52   | Sum | Sunday | Monday | Tuesday |
+| ---- | --- |:------ |:------ | ------- |
+| High |     | 44     | 46     | 71      |
+| Low  |     | 34     | 36     | 57      |
+| Ave  |     | 39     | 41     | 64      |
+| HDD  | 24  | 13     | 11     | 0       |
+| CDD  | 12  | 0      | 0      | 12      |
+<!-- TBLFM: @4$3..@4$>=mean(@I..@3) -->
+<!-- TBLFM: @5$3..@5$>=if((@<$<-@4)>0,(@<$<-@4),0) -->
+<!-- TBLFM: @6$3..@6$>=if((@4-@<$<)>0,(@4-@<$<),0) -->
+<!-- TBLFM: @5$2..@6$2=sum($+1..$>) -->
+
+HDD = 13 + 11 = 24 °F·days
+
+5. If the Summer Balance Point Temperature is 64.8F and the following table shows the High and Low temperatures for three days in summer.  Determine the total number of cooling degree days for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
+
+| 64.8 | Sum  | Sunday | Monday | Tuesday |
+| ---- | ---- | ------ | ------ | ------- |
+| High |      | 60     | 79     | 80      |
+| Low  |      | 51     | 62     | 68      |
+| Ave  |      | 55.5   | 70.5   | 74      |
+| HDD  | 9.3  | 9.3    | 0      | 0       |
+| CDD  | 14.9 | 0      | 5.7    | 9.2     |
+<!-- TBLFM: @4$3..@4$>=mean(@I..@3) -->
+<!-- TBLFM: @5$3..@5$>=if((@<$<-@4)>0,(@<$<-@4),0) -->
+<!-- TBLFM: @6$3..@6$>=if((@4-@<$<)>0,(@4-@<$<),0) -->
+<!-- TBLFM: @5$2..@6$2=sum($+1..$>) -->
+
+CDD = 5.7 + 9.2 = 14.9 °F·days
+
+6. For a given building that has a UA_total = 3,382 Btu/(h × F) and an HDD of 414 Fdays determine the Annual Heat Needed in Btu.  Provide your answer as an integer.  Do not write units in your answer.
+
+Annual Heat Needed = 3382 × 414 × 24 = 33,603,552 Btu
+
+7. For a given building in Toronto that has an Annual Heat Needed of 139,818,553 Btu, a natural gas furnace running at 98% efficiency and purchases natural gas for $11.38 per thousand cubic feet, determine the annual cost of heating the building.  Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
+
+E = 139818553 ÷ (0.98 × 1050) = 135,878
+Annual Cost = E × (11.38 ÷ 1000) = 1546.29
+
+8. A building located in Vancouver, British Columbia with solar insolation data found in the link below has the following:
+1) Heat gains from people, equipment, and lights = 20,982 Btu/h.
+2) South Facing Windows with an area of 3,991 square feet.
+3) Summer external shading devices provide 76% to the south windows.
+4) UAtotal = 4,185 Btu/(hF).
+5) A desired indoor summer temperature of 72F.
+Find the approximate Summer Balance Point Temperature for the building in degrees F.
+
+![[./Attachments/solar insolation.jpg|solar insolation]]
+
+Q_i = (1239 × 3991 /24 × (1-0.76)) + 20982 = 70,430.49
+BPT = 72 - (Q_i ÷ 4185) = 55.17 oF
+
+9. For a given building located in Ottawa, Ontario find the cooling load hours (CLH) using Table B.1 (linked below) if:
+1) CDD = 1,513 Fdays 
+2) Summer BPT = 56.7F
+
+![[./Attachments/Appendix B1 MEEB Climatic Conditions.jpg|500]]
+
+CLH = 1513 × 24 ÷ (80.6 - 56.7) = 1519 h
+
+10. For a given building what is the annual cost of cooling if:
+1) Cooling Load = 222,343 Btu/h
+2) Cooling Load Hours = 1,224 hours
+3) Seasonal Energy Efficiency Ratio of the AHU = 20 (Btu/h)/W
+4) Utility rate = $0.22 per kWh
+Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
+
+Annual Cost of Cooling = 222343 × 1224 × (1/20) × (0.22/1000) = 2993
 
 
 #### Module 08
@@ -809,7 +808,6 @@ HVAC Distribution
 > [[ARC2047H-Building_Science_Materials_and_Construction_3#^a2dc5f|^a2dc5f]]
 > T_delta = 33.5 - 2.2 = 31.3
 > q = 3753 × 31.3 = 117,468.9 Btu
-> [[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
 > q = 9.789075 tons
 > V =  9.789075 tons × 400 cfm/ton = 3916 cfm
 > 
@@ -964,7 +962,7 @@ HVAC Distribution
 > Thus, the Annual Electricity for Cooling = Cooling Load × CLH × 1/SEER
 
 
-- EUI conversion ^6f8382
+- **EUI conversion**
 	- ==Energy Use Intensity (EUI): 1 kWh = 3412 Btu== [[./Attachments/2024 11 12 week 11 slides v3.pdf#page=6&selection=0,27,2,16|(p.6)]]
 	- ==1 m 2 = 10.764 ft== [[./Attachments/2024 11 12 week 11 slides v3.pdf#page=6&selection=4,0,9,0|(p.6)]]
 	- TEUI: Annual Total Energy Use Intensity
@@ -1024,10 +1022,6 @@ HVAC Distribution
 > 
 > 2. If the cooling load for a project is expected to be 26 tons, and the project has an expected annual Cooling Load Hours of 1,934 hours, with a Air Handling Unit rated at SEER=15.5 btu/h per W, what is the annual electricity for cooling? Provide your answer in kWh as an integer.  Do not write units in your answer.
 > 
-> [[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
-> 
-> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^8fe61e|^8fe61e]]
-> 
 > Cooling Load = 26 × 12000 = 312000 Btu/h
 > 312000 Btu/h × 1934 h × (1/15.5 W/Btu/h) = 38,929,548 Wk = 38930 kWh
 > 
@@ -1038,7 +1032,6 @@ HVAC Distribution
 > 	The indoor floor area of the project is 2,109 m2
 > 	What is the expected Thermal Energy Demand Intensity? Provide your answer in kWh/m2/year with one decimal place.  Do not write units in your answer.
 > 
-> [[ARC2047H-Building_Science_Materials_and_Construction_3#^6f8382|^6f8382]]
 > 182,168,661 Btu ÷ 3412 = 53,390.58 kWh
 > (53390.58 + 13593) ÷ 2109 = 31.8 kWh/m2/yr
 > 
@@ -1052,7 +1045,7 @@ HVAC Distribution
 > TGS Office T3
 > 	TEUI: 65 kWh/m2
 > 	TEDI: 15 kWh/m2
-> (65-15) * 1650 m2 + (10608 + 19454) = 112562 kWh
+> (65-15) × 1650 m2 + (10608 + 19454) = 112562 kWh
 > 
 > 
 > 5. A solar panel has a length of 1.9 meters and width of 0.9 meters. These panels are intended to be used on a building in Toronto that has a unobstructed rectangular flat roof with an area of 2,397 m2.
@@ -1075,12 +1068,12 @@ HVAC Distribution
 > 
 > [[ARC2047H-Building_Science_Materials_and_Construction_3#^e4bdcc|^e4bdcc]]
 > Annual kWh × 1000 W/kW = Panels × W/panel × PSH × 365 d/yr × LF
-> Panels = 189 kWh/m2/yr × 2614 m2 * 1000 W/kW / 0.72 / 365 d/yr / 3.86 h/d / 235 W/panel =/ 2073
+> Panels = 189 kWh/m2/yr × 2614 m2 × 1000 W/kW ÷ 0.72 ÷ 365 d/yr ÷ 3.86 h/d ÷ 235 W/panel =/ 2073
 > 
 > 
 > 7. For a given building in Toronto with an unobstructed flat rectangular roof area of 461 m2, it has been determined that the building needs 514 PV panels rated at 400W to reach net zero site energy. The panels will be mounted in a 5 degree south facing layout.  The panels have dimensions of 1.76 meters in length and 1.15 meters in width.  It is expected that some panels will have to be site mounted as there is limited roof area compared to the PV needs.  Using the same process as shown in the lecture determine the minimum number of site mounted panels that will be needed.  Provide your answer as an integer.  Do not write units in your answer.
 > 
-> 514 - (461 m2 / (1.76 * (1.15 + 0.28) m2/panel)) =/ 331 panels
+> 514 - (461 m2 ÷ (1.76 × (1.15 + 0.28) m2/panel)) =/ 331 panels
 > 
 > 8. Please enter the effective area per PV panel from question 7.  Provide your answer in square meters with two decimal values.  Do not write units in your answer.
 > 	This question is only used for assigning partial credit in the event that you do not enter the correct answer for Question 7.  When Quercus auto-grades this question it will most likely score this question as incorrect. This question will be manually graded if you do not get the correct answer for Question 7.
@@ -1094,10 +1087,10 @@ HVAC Distribution
 > 	
 > 	The total number of PV panels needed for the project using a 10 degree East-West facing layout is 705 panels. The unobstructed rectangular flat roof of the project has an area of 959 m2. The panels have a dimension of 1.65 meters in length and 1.15 meters in width. Each panel has a rated power of 301 Watts.  The project will maximize the amount of roof mounted PV panels and minimize the amount of site mounted PV panels. Using the same process as shown in the lecture **determine the total cost** for the PV array.  Provide your answer in dollars as an integer.  Do not write units in your answer.
 > 
-> 1.65 * (1.15 + 0.23 / 2) = 2.08725 m2/panel
-> 705 - 959 m2 / 2.08725 m2/panel = 459 panels roof
+> 1.65 × (1.15 + 0.23 ÷ 2) = 2.08725 m2/panel
+> 705 - 959 m2 ÷ 2.08725 m2/panel = 459 panels roof
 > 705 - 459 = 246 panels site
-> (459 * 2.35 + 246 * 4.4) panel-$/W * 301 W/panel = 650,476 $
+> (459 × 2.35 + 246 × 4.4) panel-$/W × 301 W/panel = 650,476 $
 > 
 > 
 > 10. Please enter the effective area per PV panel from question 9.  Provide your answer in square meters with two decimal values.  Do not write units in your answer.
@@ -1163,7 +1156,22 @@ HVAC Distribution
 ## Tagged 
 `#Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3`
 
-
+<pre class="dataview dataview-error">Evaluation Error: SyntaxError: missing ) after argument list
+    at DataviewInlineApi.eval (plugin:dataview:18885:21)
+    at evalInContext (plugin:dataview:18886:7)
+    at asyncEvalInContext (plugin:dataview:18893:16)
+    at DataviewJSRenderer.render (plugin:dataview:18922:19)
+    at DataviewJSRenderer.onload (plugin:dataview:18464:14)
+    at e.load (app://obsidian.md/app.js:1:1230365)
+    at DataviewApi.executeJs (plugin:dataview:19465:18)
+    at DataviewCompiler.dataviewJS (plugin:obsidian-mkdocs-publisher:27:160343)
+    at convertDataviewQueries (plugin:obsidian-mkdocs-publisher:30:1351)
+    at mainConverting (plugin:obsidian-mkdocs-publisher:42:1672)
+    at async GithubBranch.publish (plugin:obsidian-mkdocs-publisher:42:5734)
+    at async shareAllMarkedNotes (plugin:obsidian-mkdocs-publisher:27:139602)
+    at async shareAllEditedNotes (plugin:obsidian-mkdocs-publisher:27:142777)
+    at async uploadAllEditedNotes (plugin:obsidian-mkdocs-publisher:27:141675)
+    at async Object.callback (plugin:obsidian-mkdocs-publisher:27:141460)</pre>
 <p><span><p dir="auto">Test</p></span></p>
 
 ## Course Brief
