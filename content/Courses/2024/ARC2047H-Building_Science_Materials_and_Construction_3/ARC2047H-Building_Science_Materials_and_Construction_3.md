@@ -162,9 +162,8 @@ Thermal comfort directly affects productivity
 
 [[./Attachments/2024 09 16 week 3 slides v1.pdf|2024 09 16 week 3 slides v1]]
 
-![[./Attachments/32N Sunpath Chart.pdf|32N Sunpath Chart]]
-
-![[./Attachments/40N Sunpath Chart.pdf|40N Sunpath Chart]]
+[[./Attachments/32N Sunpath Chart.pdf|32N Sunpath Chart]]
+[[./Attachments/40N Sunpath Chart.pdf|40N Sunpath Chart]]
 
 
 - Always 23.5 degrees between solstice and equinox
@@ -404,7 +403,7 @@ Biogenic Carbon?
 		- **q_sensible = q_skin + q_glass + q_infiltration + q_vent + q_internal**
 		- **Envelope** 
 			- Roof and Wall
-				- q_skin (Btu/h) = U (Btu/(h\*ft^2\*°𝐹)): U_Value × A × **DETD** (°𝐹): Design Equivalent Temperature Difference
+				- q_skin (Btu/h) = U_Value (Btu/(h\*ft^2\*°𝐹)) × A × **DETD** (°𝐹): Design Equivalent Temperature Difference
 					- DETD **M**: 16 to 25°F (9 to 14°C)
 			- Glass
 				- q_glass (Btu/h) = A × **DCLF** (Btu/h-ft2): Design Cooling Load Factors
@@ -425,28 +424,91 @@ Biogenic Carbon?
 >
 > 1. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and the **DETD** values in Appendix G2 (see link below) to determine the summer heat gains through a **NorthEast** facing wall with an opaque area of 3,155 square feet and R-value of 20.4 h-ft2-F/Btu. Provide your answer in Btu/h as an integer.  Do not write units in your answer.
 > 
-> NYC 83.5 L 74.6
-> DETD = 14 + (83.5-85)* ((85-90)/(14-19)) = 12.5
-> U_Value = 0.0490
-> 3,155
-> q_skin (Btu/h) = U: U_Value × A × DETD (°𝐹) = 0.0490 × 3,155ft2 × 12.5F = 1932.437
+> **NYC** Summer Design Dry-Bulb = 83.5F, Mean Daily Range = 13.4F
+> 13.4F < 16F, hence use **L**ow values from G.2 => Frame Walls and Doors => NE and NW
 > 
-> DETD = 30 + (83.5-85)* ((30-35)/(85-90)) = 28.5
+> Summer Design Dry-Bulb = 83.5 < 85, must interpolate DETD
+> DETD = 14 + (83.5 - 85) * ((14 - 19) / (85 - 90)) = 12.5F
+> U_Value = 1 / R-Value = 0.0490
+> Area = 3,155 ft2
+> q_skin (Btu/h) = U_Value × A × DETD (°𝐹) = 0.0490 × 3,155ft2 × 12.5F = 1932.437
 > 
-> DCLF = 46 + (83.5-85)* ((46-48)/(85-90)) 
-> = 46 - 1.5* (?/-5) = 45.4
+
+
+
+DETD = 30 + (83.5-85)* ((30-35)/(85-90)) = 28.5
 > 
-> DCLF = 68 + (83.5-85)* ((68-70)/(85-90)) = 67.4
+
+> 
+> 
 > 
 > 13-15 > 12.4
 > 
-> Infiltration Factor = 0.7 - 1.5* ((0.7-1.1)/-5) = 0.58
+> 
 > 
 > Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 > 
 > (3.4 + 5.1)* 29426* 12 ÷ 24
 > 
 > 132765 × 1.25
+
+2. Given a building located in **New York City** (NYC) use the climate data in Table B.1 (see link below) and the **DETD** values in Appendix G2 (see link below) to determine the summer heat gains through a **light color** **flat roof** with an opaque area of 4,497 square feet and R-value of 31 h-ft2-F/Btu. Provide your answer in Btu/h as an integer.  Do not write units in your answer.
+
+DETD = 30 + (83.5-85) * ((30-35)/(85-90)) = 28.5
+(1 / 31) * 4497 * 28.5 = 4,134.34
+
+3. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and the **DCLF** values in Appendix G.3 (see link below) to determine the summer heat gains through regular double glass for windows facing **NorthEast** with an area of 2,460 square feet. The windows have no external or internal shading.
+	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
+
+DCLF = 46 + (83.5-85) * ((46-48)/(85-90)) = 45.4
+q_glass (Btu/h) = A × **DCLF** (Btu/h-ft2): Design Cooling Load Factors
+	= 111,684
+
+4. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and the **DCLF** values in Appendix G.3 (see link below) to determine the summer heat gains through regular double glass for windows facing **West** with an area of 1,024 square feet. The windows have no external or internal shading.
+	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
+
+DCLF = 68 + (83.5-85) * ((68-70)/(85-90)) = 67.4
+q_glass (Btu/h) = A × **DCLF** (Btu/h-ft2): Design Cooling Load Factors
+	= 69,017.6
+
+5. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and the **DCLF** values in Appendix G.3 (see link below) to determine the summer heat gains through regular double glass for windows facing **South** with an area of 2,235 square feet. The windows are **Fully Shaded by external shading devices**.
+	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
+
+==Fully Shaded: Use Awnings, North for DCLF==
+DCLF = 13 + (83.5-85) * ((13-15)/(85-90)) = 12.4
+q_glass (Btu/h) = A × **DCLF** (Btu/h-ft2): Design Cooling Load Factors
+	= 27,714
+
+6. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and the **Infiltration Factor** values in Appendix G.4 (see link below) to determine the summer heat gains from air infiltration if the exposed surface area of the walls is 16,073 square feet.
+	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
+
+Infiltration Factor = 0.7 - 1.5 * ((0.7-1.1)/-5) = 0.58
+q_inf (Btu/h) = A_exposed × Infiltration Factor (Btu/(h-ft2))
+	= 9,322.34
+
+7. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and the **Ventilation** **Factor** values in Appendix G.4 (see link below) to determine the summer heat gains from mechanical ventilation if the volumetric flow rate is based on an occupancy of 126 people and 14 cubic feet per minute of fresh air per person.
+	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
+
+
+
+8. Given an office building located in New York City (NYC), for a **24-hour period** if the building area is 29,426 square feet, find the **average hourly heat gains** for the entire building from **people, equipment, and lights** on a typical day.  Use the tables provided in the links below. Provide your answer in BTU/hr.
+	1. Use the upper range value for people and equipment in Table G1.
+	2. Use a daylight factor (DF) of 0.7 in Table G1.
+	3. The building is occupied for 12 hours on a typical day.
+
+
+9. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and Figure 12.23 (Latent Heat Gains, see link below) to **determine the total heat gains** (sensible + latent) if the building has medium construction tightness and:
+	qskin=26,185 Btu/h
+	qglass=56,755 Btu/h
+	qinf= 4,100 Btu/h
+	qvent= 15,500 Btu/h
+	qinternal= 30,225 Btu/h
+	Provide your answer in Btu/h as an integer.  Do not write units in your answer.
+
+
+10. If a project has a sensible heat gain of 135,186 Btu/h and a latent heat gain of 12,409 Btu/h for it's summer cooling load.  How many **tons of cooling** does the project need in summer?
+	Provide your answer in tons of cooling using one decimal place value in your answer.  Do not write units in your answer.
+
 
 ### Q3
 
