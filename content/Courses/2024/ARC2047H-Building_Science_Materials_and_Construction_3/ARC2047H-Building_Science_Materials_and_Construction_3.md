@@ -150,7 +150,49 @@ Thermal comfort directly affects productivity
 > Energy2 (kJ) = Dry air mass2 (kg) × Enthalpy (kJ/kg) = 33,957.3746
 > Excess = 19,121.0122 kJ
 
+1. Given moist air with a dry-bulb temperature of 27 degrees Celsius and 38% relative humidity use the psychrometric chart to determine the **dewpoint** temperature in degrees Celsius. Provide a numeric answer with one decimal place.
 
+11.5
+
+2. Given moist air with a dry-bulb temperature of 27 degrees Celsius and 44% relative humidity use the psychrometric chart to determine the **specific volume** in cubic metre per kilogram dry air. Provide a numeric answer with three decimal places.
+
+0.863
+
+3. Given moist air with a dry-bulb temperature of 14 degrees Celsius and 66% relative humidity use the psychrometric chart to determine the **wet-bulb** temperature in degrees Celsius. Provide a numeric answer with one decimal place. 
+
+10.3
+
+
+4. Given moist air with a dry-bulb temperature of 26 degrees Celsius and 43% relative humidity use the psychrometric chart to determine the **humidity ratio** in (grams of water)/(kilograms of dry air). Provide a numeric answer with one decimal place.
+
+9
+
+5. Given moist air with a dry-bulb temperature of 28 degrees Celsius and 34% relative humidity use the psychrometric chart to determine the **enthalpy** in kJ/(kg of dry air). 
+
+48.6
+
+6. Given outdoor air with a dry-bulb temperature of 14 degrees Celsius and 21% relative humidity and indoor air with a dry-bulb temperature of 28 degrees Celsius and 78% relative humidity use the psychrometric chart to determine the **relative humidity of the mixed air** if the mixture is 40% outdoor air and 60% indoor air. Provide a numeric answer as an integer.
+7. Enter the mixed air temperature in degrees Celsius that you determined in the previous (Mixing Air) problem. 22.4
+
+70.9
+
+8. For a well-sealed and highly insulated room with a wall air conditioner, how much **heat energy** would need to be removed from the room to get from a starting condition where the air is at 26 C and 73% RH to and a ending condition where the air is at 16 and 39% RH?  The room has a width of 10m, a length of 15m and is 3m high. Provide your answer in kJ as an integer.
+9. Enter the **dry air mass** for the chamber at the **starting** position in kilograms. 518.4332
+10. Enter the **dry air mass** for the chamber at the **ending** position in kilograms. 545.4545
+11. Enter the **energy** within the chamber at the **starting** position in kJ. 33,957.3746
+12. Enter the **energy** within the chamber at the **ending** position in kJ. 14,836.3624
+
+h1=27.2kJ/kg
+h2=65.5kJ/kg
+V=450m^3
+Dry air mass1 (kg) = Room volume (m^3) ÷ SV1 0.825 (m^3/kg) = 545.4545
+Dry air mass2 (kg) = Room volume (m^3) ÷ SV2 0.868 (m^3/kg) = 518.4332
+Energy1 (kJ) = Dry air mass1 (kg) × Enthalpy (kJ/kg) = 14,836.3624
+Energy2 (kJ) = Dry air mass2 (kg) × Enthalpy (kJ/kg) = 33,957.3746
+Excess = 19,121.0122 kJ
+
+
+19,115.217
 
 #### Module 03
 
@@ -185,10 +227,10 @@ Thermal comfort directly affects productivity
 		- orientation = 0
 		- HSA = azimuth
 - Horizontal Shadow Angle: HSA, determined by the shadow cast by a vertical element in relation to the orientation of the vertical surface (such as a window)
-	- **HSA = azimuth ± orientation
+	- **HSA = azimuth ± orientation**
 - Vertical Shadow Angle: VSA, vertical angle between the ground plane an the shadow cast by the lading edge of an overhang
 	- **VSA = arctan(tan(altitude)/cos(HSA))** (Calculator in degrees)
-		- tan(VSA) = tan(altitude)/cos(HSA)**
+		- tan(VSA) = tan(altitude)/cos(HSA)
 - ![[./Attachments/2024 09 16 week 3 slides v1.pdf#page=26&rect=160,95,725,434|p.26]]
 - **Horizontal Projection = Window Height ÷ tan(VSA)**
 	- **Lateral Projection = tan(HSA) × Horizontal Projection**
@@ -197,43 +239,44 @@ Thermal comfort directly affects productivity
 
 
 > [!abstract]- Lab 2
-1. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in March at the 17th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
-![[./ARC2047H-Building_Science_Materials_and_Construction_3 2024-12-15_03.56.38.svg|ARC2047H-Building_Science_Materials_and_Construction_3 2024-12-15_03.56.38.excalidraw]]
-12.4392
-
-2. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in January at the 15th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
-
-21.5166
-
-3. Using the 32N Sunpath Chart available in the Week 3 module find the solar Azimuth (in degrees) in January at the 14th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer. _Use **Positive** numbers for East of South and **Negative** numbers of West of South._
-
--32.3436
-
-4. Using the 32N Sunpath Chart available in the Week 3 module find the solar Azimuth (in degrees) in February at the 9th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer. _Use **Positive** numbers for East of South and **Negative** numbers of West of South._
-
-52.4208
-
-5. For a wall in a city at 32N latitude that is facing 14 degrees West of South what is the **HSA** at 9AM in April?  Enter the value as an integer, do not write units in your answer. Use the 32N Sunpath chart found on Quercus.
-
-Solar Azimuth @ 9AM in April = 73
-73 + 14 = 87
-
-1. For a wall in a city at 32N latitude that is facing due South what is the **VSA** at 9AM in April? Use the 32N Sunpath chart found on Quercus.
-2. Enter the altitude that you determined in the problem asking for the VSA.  Enter your answer in degrees. 45
-3. Enter the HSA that you determined in the problem asking for the VSA. 73
-
-VSA = arctan(tan(altitude)/cos(HSA)) = 73.70
-
-9. For a window opening with an overhanging shade, the solar position at some point in the day results in an HSA of 27 degrees and an altitude of 83 degrees. Determine the **horizontal** projection required if the overhang is to provide shade to the bottom of the 1 m tall window. Provide you answer in meters with 3 decimal places.  Do not write units in your answer.
-
-VSA = arctan(tan(altitude) / cos(HSA)) = 83.75
-Horizontal Projection = Window Height / tan(VSA) = 0.109
-
-10. For a window opening with an overhanging shade, the solar position at some point in the day results in an HSA of 30 degrees and an altitude of 68 degrees.  Determine the **LATERAL** projection required if the overhang is to provide shade to the bottom and full width of the 9 m tall window. Provide you answer in meters with 3 decimal places.  Do not write units in your answer.
-11. Enter the Horizontal Projection that you determined in the problem asking for the Lateral Projection.
-
-VSA = 70.71, Horizontal Projection = 3.1499
-Lateral Projection = tan(HSA) × Horizontal Projection = 1.818
+> 
+> 1. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in March at the 17th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
+> ![[./ARC2047H-Building_Science_Materials_and_Construction_3 2024-12-15_03.56.38.svg|ARC2047H-Building_Science_Materials_and_Construction_3 2024-12-15_03.56.38.excalidraw]]
+> 12.4392
+> 
+> 2. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in January at the 15th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
+> 
+> 21.5166
+> 
+> 3. Using the 32N Sunpath Chart available in the Week 3 module find the solar Azimuth (in degrees) in January at the 14th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer. _Use **Positive** numbers for East of South and **Negative** numbers of West of South._
+> 
+> -32.3436
+> 
+> 4. Using the 32N Sunpath Chart available in the Week 3 module find the solar Azimuth (in degrees) in February at the 9th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer. _Use **Positive** numbers for East of South and **Negative** numbers of West of South._
+> 
+> 52.4208
+> 
+> 5. For a wall in a city at 32N latitude that is facing 14 degrees West of South what is the **HSA** at 9AM in April?  Enter the value as an integer, do not write units in your answer. Use the 32N Sunpath chart found on Quercus.
+> 
+> Solar Azimuth @ 9AM in April = 73
+> 73 + 14 = 87
+> 
+> 1. For a wall in a city at 32N latitude that is facing due South what is the **VSA** at 9AM in April? Use the 32N Sunpath chart found on Quercus.
+> 2. Enter the altitude that you determined in the problem asking for the VSA.  Enter your answer in degrees. 45
+> 3. Enter the HSA that you determined in the problem asking for the VSA. 73
+> 
+> VSA = arctan(tan(altitude)/cos(HSA)) = 73.70
+> 
+> 9. For a window opening with an overhanging shade, the solar position at some point in the day results in an HSA of 27 degrees and an altitude of 83 degrees. Determine the **horizontal** projection required if the overhang is to provide shade to the bottom of the 1 m tall window. Provide you answer in meters with 3 decimal places.  Do not write units in your answer.
+> 
+> VSA = arctan(tan(altitude) / cos(HSA)) = 83.75
+> Horizontal Projection = Window Height / tan(VSA) = 0.109
+> 
+> 10. For a window opening with an overhanging shade, the solar position at some point in the day results in an HSA of 30 degrees and an altitude of 68 degrees.  Determine the **LATERAL** projection required if the overhang is to provide shade to the bottom and full width of the 9 m tall window. Provide you answer in meters with 3 decimal places.  Do not write units in your answer.
+> 11. Enter the Horizontal Projection that you determined in the problem asking for the Lateral Projection.
+> 
+> VSA = 70.71, Horizontal Projection = 3.1499
+> Lateral Projection = tan(HSA) × Horizontal Projection = 1.818
 
 ### Q2
 
