@@ -162,59 +162,78 @@ Thermal comfort directly affects productivity
 
 [[./Attachments/2024 09 16 week 3 slides v1.pdf|2024 09 16 week 3 slides v1]]
 
-[[./Attachments/32N Sunpath Chart.pdf|32N Sunpath Chart]]
-[[./Attachments/40N Sunpath Chart.pdf|40N Sunpath Chart]]
+[[./Attachments/32N Sunpath Chart.jpg|32N Sunpath Chart.jpg]]
+[[./Attachments/40N Sunpath Chart.pdf|40N Sunpath Chart.pdf]]
 
 
 - Always 23.5 degrees between solstice and equinox
 	- Toronto will never get sun at a degree of 90
 	- For 32N, winters have a narrower arc than summers
+	- ![[./Attachments/2024 09 16 week 3 slides v1.pdf#page=6&rect=96,20,488,410|p.6]]
 - Sunpath horizontal projection, sky vault
-- Equidistant sunpath diagram
-	- polar coordinate system
-- Same fenestration across the corners doesn't make sense
-- Shading as a response to solar geometry
-- Declination
-- Latitude
-- Altitude
+	- Equidistant sunpath diagram
+		- polar coordinate system
+	- Same fenestration across the corners doesn't make sense
+	- Shading as a response to solar geometry
+	- Declination
+	- Latitude
+	- Altitude
 - Azimuth: Angle between due south and the sun
 	- Due south means facing directly south
-- Vertical Shadow Angle: VSA, vertical angle between the ground plane an the shadow cast by the lading edge of an overhang
-- Horizontal Shadow Angle: HSA, determined by the shadow cast by a vertical element in relation to the orientation of the vertical surface (such as a window)
-	- **HSA = azimuth ± orientation**
 - orientation = angle from due south of vertical surface
 	- If wall faces due south: 
 		- orientation = 0
 		- HSA = azimuth
-- **VSA = arctan(tan(altitude)/cos(HSA))** (Calculator in degrees)
-	- tan(VSA) = tan(altitude)/cos(HSA)
+- Horizontal Shadow Angle: HSA, determined by the shadow cast by a vertical element in relation to the orientation of the vertical surface (such as a window)
+	- **HSA = azimuth ± orientation
+- Vertical Shadow Angle: VSA, vertical angle between the ground plane an the shadow cast by the lading edge of an overhang
+	- **VSA = arctan(tan(altitude)/cos(HSA))** (Calculator in degrees)
+		- tan(VSA) = tan(altitude)/cos(HSA)**
+- ![[./Attachments/2024 09 16 week 3 slides v1.pdf#page=26&rect=160,95,725,434|p.26]]
 - **Horizontal Projection = Window Height ÷ tan(VSA)**
 	- **Lateral Projection = tan(HSA) × Horizontal Projection**
-- **Vertical Projection = Window Depth-Width ÷ tan(HSA)**
+- **Vertical Projection = Window (Shade) Width ÷ tan(HSA)**
+	- ![[./Attachments/2024 09 16 week 3 slides v1.pdf#page=48&rect=75,4,743,538|p.48]]
 
 
 > [!abstract]- Lab 2
 1. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in March at the 17th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
+![[./ARC2047H-Building_Science_Materials_and_Construction_3 2024-12-15_03.56.38.svg|ARC2047H-Building_Science_Materials_and_Construction_3 2024-12-15_03.56.38.excalidraw]]
+12.4392
 
 2. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in January at the 15th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
 
+21.5166
+
 3. Using the 32N Sunpath Chart available in the Week 3 module find the solar Azimuth (in degrees) in January at the 14th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer. _Use **Positive** numbers for East of South and **Negative** numbers of West of South._
+
+-32.3436
 
 4. Using the 32N Sunpath Chart available in the Week 3 module find the solar Azimuth (in degrees) in February at the 9th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer. _Use **Positive** numbers for East of South and **Negative** numbers of West of South._
 
+52.4208
 
 5. For a wall in a city at 32N latitude that is facing 14 degrees West of South what is the **HSA** at 9AM in April?  Enter the value as an integer, do not write units in your answer. Use the 32N Sunpath chart found on Quercus.
 
+Solar Azimuth @ 9AM in April = 73
+73 + 14 = 87
 
-6. For a wall in a city at 32N latitude that is facing due South what is the **VSA** at 9AM in April?  Enter the value as an integer, do not write units in your answer. Use the 32N Sunpath chart found on Quercus.
-7. Enter the altitude that you determined in the problem asking for the VSA.  Enter your answer in degrees.  Do not write units in your answer.
-8. Enter the HSA that you determined in the problem asking for the VSA.
+1. For a wall in a city at 32N latitude that is facing due South what is the **VSA** at 9AM in April? Use the 32N Sunpath chart found on Quercus.
+2. Enter the altitude that you determined in the problem asking for the VSA.  Enter your answer in degrees. 45
+3. Enter the HSA that you determined in the problem asking for the VSA. 73
 
+VSA = arctan(tan(altitude)/cos(HSA)) = 73.70
 
-9. For a window opening with an overhanging shade, the solar position at some point in the day results in an HSA of 27 degrees and an altitude of 83 degrees.  Determine the **horizontal** projection required if the overhang is to provide shade to the bottom of the 1 m tall window. Provide you answer in meters with 3 decimal places.  Do not write units in your answer.
+9. For a window opening with an overhanging shade, the solar position at some point in the day results in an HSA of 27 degrees and an altitude of 83 degrees. Determine the **horizontal** projection required if the overhang is to provide shade to the bottom of the 1 m tall window. Provide you answer in meters with 3 decimal places.  Do not write units in your answer.
+
+VSA = arctan(tan(altitude) / cos(HSA)) = 83.75
+Horizontal Projection = Window Height / tan(VSA) = 0.109
 
 10. For a window opening with an overhanging shade, the solar position at some point in the day results in an HSA of 30 degrees and an altitude of 68 degrees.  Determine the **LATERAL** projection required if the overhang is to provide shade to the bottom and full width of the 9 m tall window. Provide you answer in meters with 3 decimal places.  Do not write units in your answer.
 11. Enter the Horizontal Projection that you determined in the problem asking for the Lateral Projection.
+
+VSA = 70.71, Horizontal Projection = 3.1499
+Lateral Projection = tan(HSA) × Horizontal Projection = 1.818
 
 ### Q2
 
