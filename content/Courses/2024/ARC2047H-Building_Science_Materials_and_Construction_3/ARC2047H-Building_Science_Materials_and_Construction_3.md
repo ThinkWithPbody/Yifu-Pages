@@ -195,7 +195,7 @@ Thermal comfort directly affects productivity
 
 [[./Attachments/2024 09 16 week 3 slides v1.pdf|2024 09 16 week 3 slides v1]]
 
-[[./Attachments/32N Sunpath Chart.jpg|32N Sunpath Chart.jpg]]
+[[Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/Attachments/ARC2047H-32N Sunpath Chart/32N Sunpath Chart.jpg|32N Sunpath Chart.jpg]]
 [[./Attachments/40N Sunpath Chart.pdf|40N Sunpath Chart.pdf]]
 
 
@@ -228,7 +228,7 @@ Thermal comfort directly affects productivity
 - **Vertical Projection = Window (Shade) Width ÷ tan(HSA)**
 	- ![[./Attachments/2024 09 16 week 3 slides v1.pdf#page=48&rect=75,4,743,538|p.48]]
 
-![[../../../../32N Sunpath Chart|32N Sunpath Chart]]
+![[../../../../ARC2047H-32N Sunpath Chart|ARC2047H-32N Sunpath Chart]]
 
 > [!abstract]- Lab 2
 > 
@@ -642,7 +642,7 @@ Cooling Loads
 			- 1 kWh = 1000 Wh
 				- **1 $/kWh = 1/1000 $/Wh**
 
-![[../../../../Solar Insolation|Solar Insolation]]
+![[../../../../ARC2047H-Solar Insolation|ARC2047H-Solar Insolation]]
 
 > [!yellow]- HD / CD Calculator
 > 
@@ -739,7 +739,7 @@ Cooling Loads
 > 5) A desired indoor summer temperature of 72F.
 > Find the approximate Summer Balance Point Temperature for the building in degrees F.
 > 
-> ![[../../../../Solar Insolation|Solar Insolation]]
+> ![[../../../../ARC2047H-Solar Insolation|ARC2047H-Solar Insolation]]
 > 
 > BPT = T_desired - Q_i ÷ UA_total
 > Q_i = (1239 × 3991 ÷ 24 × (1-0.76)) + 20982 = 70,430.49
@@ -819,7 +819,7 @@ HVAC Distribution
 										- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=3&selection=30,0,36,2|(p.3)]]
 						- V_each = V_sum ÷ number of vent openings
 
-![[../../../../Duct Friction Chart|Duct Friction Chart]]
+![[../../../../ARC2047H-Duct Friction Chart|ARC2047H-Duct Friction Chart]]
 
 > [!abstract]- Lab 7
 > 
@@ -868,7 +868,7 @@ HVAC Distribution
 > 
 > 5. For a given building the acoustic design of the HVAC system is desired to achieve NC-25 Background Levels. What should the friction loss (in inches of water per 100 ft) be for the supply duct work if the volumetric flow rate for the vent opening at the end of the critical path = 487 cfm?  See the acoustics table and friction chart links below.  Provide your answer in inches of water per 100 ft using three decimal place values. 
 > 
-> ![[../../../../Duct Friction Chart|Duct Friction Chart]]
+> ![[../../../../ARC2047H-Duct Friction Chart|ARC2047H-Duct Friction Chart]]
 > 0.013 in. wtr./100ft
 > 
 > ---
@@ -892,28 +892,28 @@ HVAC Distribution
 > 
 > ---
 > 
-> 7. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to determine the velocity of air for duct C if the volume of air flow at each vent opening is 85 cfm. Use 0.024 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
+> 7. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/ARC2047H-Duct Friction Chart/friction loss chart ASHRAE 2021.jpg|chart]] to determine the velocity of air for duct C if the volume of air flow at each vent opening is 85 cfm. Use 0.024 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
 > 
 > 85 × 3 = 255 cfm
 > fpm @ 255 cfm @ 0.024 in. wtr./100ft ~= 390 fpm
 > 
 > ---
 > 
-> 8. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to determine the velocity of air for duct B if the volume of air flow at each vent opening is 174 cfm. Use 0.028 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
+> 8. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/ARC2047H-Duct Friction Chart/friction loss chart ASHRAE 2021.jpg|chart]] to determine the velocity of air for duct B if the volume of air flow at each vent opening is 174 cfm. Use 0.028 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
 > 
 > 174 × 6 = 1044 cfm
 > fpm @ 1044 cfm @ 0.028 in. wtr./100ft ~= 590 fpm
 > 
 > ---
 > 
-> 9. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to determine the clear inside diameter for duct A if the volume of air flow at each vent opening is 170 cfm. Use 0.025 inches of water/100ft as the friction loss for the ductwork. Provide your answer in inches within one decimal place value. Note that duct A is the vertical duct between the AHU and ducts B. Assume duct A is round.
+> 9. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/ARC2047H-Duct Friction Chart/friction loss chart ASHRAE 2021.jpg|chart]] to determine the clear inside diameter for duct A if the volume of air flow at each vent opening is 170 cfm. Use 0.025 inches of water/100ft as the friction loss for the ductwork. Provide your answer in inches within one decimal place value. Note that duct A is the vertical duct between the AHU and ducts B. Assume duct A is round.
 > 
 > 170 × 12 = 2040 cfm
 > diameter @ 2040 cfm @ 0.025 in. wtr./100ft ~= 23.9 in
 > 
 > ---
 > 
-> 10. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to determine the minimum outside diameter for duct D if the volume of air flow at each vent opening is 80 cfm. Use 0.044 inches of water/100ft as the friction loss for the ductwork. Assume 2-inch-thick insulation lining the inside of the duct. Provide your answer in inches within one decimal place value. Assume duct D is round.
+> 10. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/ARC2047H-Duct Friction Chart/friction loss chart ASHRAE 2021.jpg|chart]] to determine the minimum outside diameter for duct D if the volume of air flow at each vent opening is 80 cfm. Use 0.044 inches of water/100ft as the friction loss for the ductwork. Assume 2-inch-thick insulation lining the inside of the duct. Provide your answer in inches within one decimal place value. Assume duct D is round.
 > 
 > 80 × 3 = 240 cfm
 > diameter @ 240 cfm @ 0.044 in/. wtr./100ft ~= 9.5 in
