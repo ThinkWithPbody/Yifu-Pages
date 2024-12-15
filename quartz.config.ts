@@ -22,20 +22,20 @@ const config: QuartzConfig = {
             fontOrigin: "googleFonts",
             cdnCaching: true,
             typography: {
-                header: "Gentium Plus",
-                body: "Noto Sans",
+                header: "Noto Sans Mono",
+                body: "Fira Code",
                 code: "Fira Code",
             },
             colors: {
                 lightMode: {
-                    light: "#FFFFFF",
+                    light: "#FAFAFA",
                     lightgray: "#E1E1E1",
                     gray: "#8A8A8A",
                     darkgray: "#050505",
                     dark: "#000000",
                     secondary: "#121212",
-                    tertiary: "#FFA000",
-                    highlight: "#D9D9D9",
+                    tertiary: "#FFCA42",
+                    highlight: "#EDEDED",
                 },
                 darkMode: {
                     light: "#000000",
