@@ -77,11 +77,14 @@ share: true
 [Thermal+Delight+-+chapter+1+-+Heschong 2024-09-03 14_49_32.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C01%5CThermal+Delight+-+chapter+1+-+Heschong%202024-09-03%2014_49_32.pdf)
 
 #### Module 02
-[2024+09+10+Class+2+Lecture+Slides 2024-09-10 14_30_10.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5C2024+09+10+Class+2+Lecture+Slides%202024-09-10%2014_30_10.pdf)
-[ARC2047+Self+Study+HW1+Psychrometry 2024-09-10 14_30_26.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CARC2047+Self+Study+HW1+Psychrometry%202024-09-10%2014_30_26.pdf)
-[ARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3 2024-09-10 14_30_31.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3%202024-09-10%2014_30_31.pdf)
-[ASHRAE Psychrometric Chart SI Lecture Demonstration problem.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI%20Lecture%20Demonstration%20problem.pdf)
-[ASHRAE Psychrometric Chart SI.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI.pdf)
+
+> [!blue]- Links
+> [2024+09+10+Class+2+Lecture+Slides 2024-09-10 14_30_10.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5C2024+09+10+Class+2+Lecture+Slides%202024-09-10%2014_30_10.pdf)
+> [ARC2047+Self+Study+HW1+Psychrometry 2024-09-10 14_30_26.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CARC2047+Self+Study+HW1+Psychrometry%202024-09-10%2014_30_26.pdf)
+> [ARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3 2024-09-10 14_30_31.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3%202024-09-10%2014_30_31.pdf)
+> [ASHRAE Psychrometric Chart SI Lecture Demonstration problem.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI%20Lecture%20Demonstration%20problem.pdf)
+> [ASHRAE Psychrometric Chart SI.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI.pdf)
+
 Difference between power and energy
 - Power is instantaneous kW
 - Energy is total potential kWh 
@@ -135,27 +138,34 @@ Thermal comfort directly affects productivity
 	- Sensible Heat (): H>s
 	- Total Head (): H
 
-For a well-sealed and highly insulated room with a wall air conditioner, how much **heat energy** would need to be removed from the room to get from a starting condition where the air is at 31 C and 56% RH to and a ending condition where the air is at 19 and 49% RH?  The room has a width of 10m, a length of 15m and is 3m high. Provide your answer in kJ as an integer.  Do not write the units in your answer.
-
-h1=27.2kJ/kg
-h2=65.5kJ/kg
-V=450m^3
-Dry air mass1 (kg) = Room volume (m^3) ÷ SV1 0.825 (m^3/kg) = 545.4545
-Dry air mass2 (kg) = Room volume (m^3) ÷ SV2 0.868 (m^3/kg) = 518.4332
-Energy1 (kJ) = Dry air mass1 (kg) × Enthalpy (kJ/kg) = 14,836.3624
-Energy2 (kJ) = Dry air mass2 (kg) × Enthalpy (kJ/kg) = 33,957.3746
-Excess = 19,121.0122 kJ
+> [!question]
+> For a well-sealed and highly insulated room with a wall air conditioner, how much **heat energy** would need to be removed from the room to get from a starting condition where the air is at 31 C and 56% RH to and a ending condition where the air is at 19 and 49% RH?  The room has a width of 10m, a length of 15m and is 3m high. Provide your answer in kJ as an integer.  Do not write the units in your answer.
+> 
+> h1=27.2kJ/kg
+> h2=65.5kJ/kg
+> V=450m^3
+> Dry air mass1 (kg) = Room volume (m^3) ÷ SV1 0.825 (m^3/kg) = 545.4545
+> Dry air mass2 (kg) = Room volume (m^3) ÷ SV2 0.868 (m^3/kg) = 518.4332
+> Energy1 (kJ) = Dry air mass1 (kg) × Enthalpy (kJ/kg) = 14,836.3624
+> Energy2 (kJ) = Dry air mass2 (kg) × Enthalpy (kJ/kg) = 33,957.3746
+> Excess = 19,121.0122 kJ
 
 
 
 #### Module 03
 
-[2024 09 16 week 3 slides v1.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5C2024%2009%2016%20week%203%20slides%20v1.pdf)
-[ARC2047 HW1 Solution ASHRAE Psychrometric Chart SI.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5CARC2047%20HW1%20Solution%20ASHRAE%20Psychrometric%20Chart%20SI.pdf)
-[ARC2047 Psychrometric HW 1 Solutions.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5CARC2047%20Psychrometric%20HW%201%20Solutions.pdf)
-[ARC2047 Self Study HW 2 on Solar Position.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5CARC2047%20Self%20Study%20HW%202%20on%20Solar%20Position.pdf)
-[32N Sunpath Chart.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5C32N%20Sunpath%20Chart.pdf)
-[40N Sunpath Chart.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5C40N%20Sunpath%20Chart.pdf)
+> [!blue]- Links
+> [ARC2047 HW1 Solution ASHRAE Psychrometric Chart SI.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5CARC2047%20HW1%20Solution%20ASHRAE%20Psychrometric%20Chart%20SI.pdf)
+> [ARC2047 Psychrometric HW 1 Solutions.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5CARC2047%20Psychrometric%20HW%201%20Solutions.pdf)
+> [ARC2047 Self Study HW 2 on Solar Position.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5CARC2047%20Self%20Study%20HW%202%20on%20Solar%20Position.pdf)
+
+
+[[./Attachments/2024 09 16 week 3 slides v1.pdf|2024 09 16 week 3 slides v1]]
+
+![[./Attachments/32N Sunpath Chart.pdf|32N Sunpath Chart]]
+
+![[./Attachments/40N Sunpath Chart.pdf|40N Sunpath Chart]]
+
 
 - Always 23.5 degrees between solstice and equinox
 	- Toronto will never get sun at a degree of 90
@@ -182,6 +192,31 @@ Excess = 19,121.0122 kJ
 - **Horizontal Projection = Window Height ÷ tan(VSA)**
 	- **Lateral Projection = tan(HSA) × Horizontal Projection**
 - **Vertical Projection = Window Depth-Width ÷ tan(HSA)**
+
+
+> [!abstract]- Lab 2
+1. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in March at the 17th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
+
+2. Using the 32N Sunpath Chart available in the Week 3 module find the solar Altitude (in degrees) in January at the 15th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer.
+
+3. Using the 32N Sunpath Chart available in the Week 3 module find the solar Azimuth (in degrees) in January at the 14th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer. _Use **Positive** numbers for East of South and **Negative** numbers of West of South._
+
+4. Using the 32N Sunpath Chart available in the Week 3 module find the solar Azimuth (in degrees) in February at the 9th hour. (Note that the time is in 24 hour format). Enter the value as an integer, do not write units in your answer. _Use **Positive** numbers for East of South and **Negative** numbers of West of South._
+
+
+5. For a wall in a city at 32N latitude that is facing 14 degrees West of South what is the **HSA** at 9AM in April?  Enter the value as an integer, do not write units in your answer. Use the 32N Sunpath chart found on Quercus.
+
+
+6. For a wall in a city at 32N latitude that is facing due South what is the **VSA** at 9AM in April?  Enter the value as an integer, do not write units in your answer. Use the 32N Sunpath chart found on Quercus.
+7. Enter the altitude that you determined in the problem asking for the VSA.  Enter your answer in degrees.  Do not write units in your answer.
+8. Enter the HSA that you determined in the problem asking for the VSA.
+
+
+9. For a window opening with an overhanging shade, the solar position at some point in the day results in an HSA of 27 degrees and an altitude of 83 degrees.  Determine the **horizontal** projection required if the overhang is to provide shade to the bottom of the 1 m tall window. Provide you answer in meters with 3 decimal places.  Do not write units in your answer.
+
+10. For a window opening with an overhanging shade, the solar position at some point in the day results in an HSA of 30 degrees and an altitude of 68 degrees.  Determine the **LATERAL** projection required if the overhang is to provide shade to the bottom and full width of the 9 m tall window. Provide you answer in meters with 3 decimal places.  Do not write units in your answer.
+11. Enter the Horizontal Projection that you determined in the problem asking for the Lateral Projection.
+
 ### Q2
 
 #### Module 04
@@ -214,110 +249,110 @@ Units of Energy: Btu, kWh
 W = J ÷ s
 1 kWh = 3600000 J
 
-##### Lab
-
-1. Given a 2-story office building with a flat roof determine the **surface area of the opaque walls** if:
-	1.  The dimensions of the building are 171 ft for North-South walls, 70 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
-	2. The South Wall is 35% windows.  The North wall has a continuous row of 5 ft high windows on each floor.  There are no windows on the East and West walls.
-	Provide your answer in square feet as an integer.
-
-(171+70) * 2 * 13 * 2 = 12,532
-171 * 13 * 2 * 0.35 = 1,556.1
-181 * 5 * 2 = 1,710
-12,532 - 1,556.1 - 1,710 = 9,265.9 ft2
-
----
-2. Given a 3-story office building with a flat roof determine the surface area of the windows if:
-	1.  The dimensions of the building are 184 ft for North-South walls, 108 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
-	2. The South wall is 58% windows.  The North, East, and West walls have a continuous row of 3 ft high clearstory windows on each floor. 
-	Provide your answer in square feet as an integer.
-
-184 * 3 * 13 * 0.58 = 4,162.08
-(184 + 108 + 108) * 3 * 3 = 3,600
-SUM = 7,762.08
-
----
-3. If the U-value for a wall assembly is 0.055 BTU/(h-ft2-F) **determine the R-value** in h-ft2-F/BTU: 
-	Provide your answer with 1 decimal place value. 
-
-1 / 0.055 = 18.18
-
----
-4. If the R-value for a wall assembly is 39.7 h-ft2-F/BTU **determine the U-value** in BTU/(h-ft2-F):
-	Provide your answer with 4 decimal place values.
-
-1 / 39.7 = 0.02518
-
----
-5. Given an office building with a flat roof **determine the** **heat loss rate through the envelope** due to conduction, UA_envelope in BTU/(hr-F) if the R-values of the surfaces are:
-	3 h-ft2F/Btu for windows
-	40 h-ft2F/Btu for the roof
-	25 h-ft2F/Btu for the opaque walls
-	and the surface areas are as shown below.
-	Provide your answer as an integer.
-
-|                     |                        |
-| ------------------- | ---------------------- |
-| **Surface**         | **Area (square feet)** |
-| North Windows       | 2,881                  |
-| South Windows       | 4,036                  |
-| North Opaque Walls  | 5,285                  |
-| South Opaque Walls  | 4,769                  |
-| East and West Walls | 8,160                  |
-| Roof                | 22,429                 |
-
-U-value = 1 / R-value
-	0.33333 h-ft2F/Btu for windows
-	0.025 h-ft2F/Btu for the roof
-	0.04 h-ft2F/Btu for the opaque walls
-
-UA_envelope = UA_windows + UA_walls + UA_roof
-	= (2881 + 4036) * 0.33333 + (5285 + 4769 + 8160) * 0.04 + 22429 * 0.025
-	= 3594.94
-
----
-6. Given a 4-story office building with a flat roof determine the **heat loss from infiltration** if the air infiltration rate is 1.8 h-1.
-	The dimensions of the building are 89 ft for North-South walls, 156 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
-	Provide your answer in BTU/(hr-F) as an integer.
-
-UA_infiltration = ACH (h^-1) × Indoor Air Volume (ft^3) × Heat Capacity of Air (Btu ÷ (ft^3 * ℉)) (J/(m^3 * °K))
-==Use ceiling height to calculate indoor air volume==
-	=1.8 * (156 * 89 * 4 * **11**) * 0.018
-	= 19,793.03
-
----
-7. Given a 4-story office building in the northern hemisphere with a flat roof determine the **hourly average solar heat gain** through the windows in January if the Solar Insolation is 812 BTU/(day-ft2).
-	1.  The dimensions of the building are 160 ft for North-South walls, 64 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
-	2. The South wall is 57% windows.  The North wall has a continuous 3 ft clearstory window on each floor.  The East and West walls have no windows. 
-	Provide your answer in BTU/hour as an integer.
-
-==Only use south windows==
-q_solar = Solar Insolation (BTU/(day-ft^2)) \* Surface Area South (ft^2) × 1d/24h
-	= 812 * (160 * 4 * 13 * 0.57) / 24
-	= 160,451.2
-
----
-8. For a **24-hour period** in a 25,893 square foot US office building find the **average hourly heat gains** for the entire building from **people, equipment, and lights** on a typical day.  Use the tables provided in the links below. Provide your answer in BTU/hr.
-	1. Use the upper range value for people and equipment in Table G1.
-	2. Use a daylight factor (DF) of 2 in Table G1.
-	3. The building is occupied for 9 hours on a typical day.
-
-q_internal = A: Floor Area (ft2) × (q_people + q_equipment + q_lights) (Btu/(h·ft2))
-	= 25,893 * (2.3 + 1.1 + 2.0)
-	= 139,822
-139,822 * 9 / 24= 52,433.33
-
----
-9. For an office building during the winter with an internal setpoint at 69.8F and:
-	4,265 BTU/(hr-F) heat loss rate through the envelope (via convection & conduction),
-	7,445 BTU/(hr-F) heat loss rate from air infiltration,
-	109,869 BTU/hr solar heat gains through south facing windows,
-	131,420 BTU/hr heat gains from people, equipment, and lights,
-	**determine the winter balance point temperature** in degrees Fahrenheit. Provide your answer with one decimal place value.
-
-BPT = T_indoor - Q_i ÷ UA_total
-	= 69.8 - (131,420 + 109,869) / (4,265 + 7,445)
-	= 49.19
+> [!abstract]- Lab 3
+> 
+> 1. Given a 2-story office building with a flat roof determine the **surface area of the opaque walls** if:
+> 	1.  The dimensions of the building are 171 ft for North-South walls, 70 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
+> 	2. The South Wall is 35% windows.  The North wall has a continuous row of 5 ft high windows on each floor.  There are no windows on the East and West walls.
+> 	Provide your answer in square feet as an integer.
+> 
+> (171+70) * 2 * 13 * 2 = 12,532
+> 171 * 13 * 2 * 0.35 = 1,556.1
+> 181 * 5 * 2 = 1,710
+> 12,532 - 1,556.1 - 1,710 = 9,265.9 ft2
+> 
+> ---
+> 2. Given a 3-story office building with a flat roof determine the surface area of the windows if:
+> 	1.  The dimensions of the building are 184 ft for North-South walls, 108 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
+> 	2. The South wall is 58% windows.  The North, East, and West walls have a continuous row of 3 ft high clearstory windows on each floor. 
+> 	Provide your answer in square feet as an integer.
+> 
+> 184 * 3 * 13 * 0.58 = 4,162.08
+> (184 + 108 + 108) * 3 * 3 = 3,600
+> SUM = 7,762.08
+> 
+> ---
+> 3. If the U-value for a wall assembly is 0.055 BTU/(h-ft2-F) **determine the R-value** in h-ft2-F/BTU: 
+> 	Provide your answer with 1 decimal place value. 
+> 
+> 1 / 0.055 = 18.18
+> 
+> ---
+> 4. If the R-value for a wall assembly is 39.7 h-ft2-F/BTU **determine the U-value** in BTU/(h-ft2-F):
+> 	Provide your answer with 4 decimal place values.
+> 
+> 1 / 39.7 = 0.02518
+> 
+> ---
+> 5. Given an office building with a flat roof **determine the** **heat loss rate through the envelope** due to conduction, UA_envelope in BTU/(hr-F) if the R-values of the surfaces are:
+> 	3 h-ft2F/Btu for windows
+> 	40 h-ft2F/Btu for the roof
+> 	25 h-ft2F/Btu for the opaque walls
+> 	and the surface areas are as shown below.
+> 	Provide your answer as an integer.
+> 
+> |                     |                        |
+> | ------------------- | ---------------------- |
+> | **Surface**         | **Area (square feet)** |
+> | North Windows       | 2,881                  |
+> | South Windows       | 4,036                  |
+> | North Opaque Walls  | 5,285                  |
+> | South Opaque Walls  | 4,769                  |
+> | East and West Walls | 8,160                  |
+> | Roof                | 22,429                 |
+> 
+> U-value = 1 / R-value
+> 	0.33333 h-ft2F/Btu for windows
+> 	0.025 h-ft2F/Btu for the roof
+> 	0.04 h-ft2F/Btu for the opaque walls
+> 
+> UA_envelope = UA_windows + UA_walls + UA_roof
+> 	= (2881 + 4036) * 0.33333 + (5285 + 4769 + 8160) * 0.04 + 22429 * 0.025
+> 	= 3594.94
+> 
+> ---
+> 6. Given a 4-story office building with a flat roof determine the **heat loss from infiltration** if the air infiltration rate is 1.8 h-1.
+> 	The dimensions of the building are 89 ft for North-South walls, 156 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
+> 	Provide your answer in BTU/(hr-F) as an integer.
+> 
+> UA_infiltration = ACH (h^-1) × Indoor Air Volume (ft^3) × Heat Capacity of Air (Btu ÷ (ft^3 * ℉)) (J/(m^3 * °K))
+> ==Use ceiling height to calculate indoor air volume==
+> 	=1.8 * (156 * 89 * 4 * **11**) * 0.018
+> 	= 19,793.03
+> 
+> ---
+> 7. Given a 4-story office building in the northern hemisphere with a flat roof determine the **hourly average solar heat gain** through the windows in January if the Solar Insolation is 812 BTU/(day-ft2).
+> 	1.  The dimensions of the building are 160 ft for North-South walls, 64 ft for East-West walls. 13 ft floor-to-floor and 11 ft floor-to-ceiling heights.
+> 	2. The South wall is 57% windows.  The North wall has a continuous 3 ft clearstory window on each floor.  The East and West walls have no windows. 
+> 	Provide your answer in BTU/hour as an integer.
+> 
+> ==Only use south windows==
+> q_solar = Solar Insolation (BTU/(day-ft^2)) \* Surface Area South (ft^2) × 1d/24h
+> 	= 812 * (160 * 4 * 13 * 0.57) / 24
+> 	= 160,451.2
+> 
+> ---
+> 8. For a **24-hour period** in a 25,893 square foot US office building find the **average hourly heat gains** for the entire building from **people, equipment, and lights** on a typical day.  Use the tables provided in the links below. Provide your answer in BTU/hr.
+> 	1. Use the upper range value for people and equipment in Table G1.
+> 	2. Use a daylight factor (DF) of 2 in Table G1.
+> 	3. The building is occupied for 9 hours on a typical day.
+> 
+> q_internal = A: Floor Area (ft2) × (q_people + q_equipment + q_lights) (Btu/(h·ft2))
+> 	= 25,893 * (2.3 + 1.1 + 2.0)
+> 	= 139,822
+> 139,822 * 9 / 24= 52,433.33
+> 
+> ---
+> 9. For an office building during the winter with an internal setpoint at 69.8F and:
+> 	4,265 BTU/(hr-F) heat loss rate through the envelope (via convection & conduction),
+> 	7,445 BTU/(hr-F) heat loss rate from air infiltration,
+> 	109,869 BTU/hr solar heat gains through south facing windows,
+> 	131,420 BTU/hr heat gains from people, equipment, and lights,
+> 	**determine the winter balance point temperature** in degrees Fahrenheit. Provide your answer with one decimal place value.
+> 
+> BPT = T_indoor - Q_i ÷ UA_total
+> 	= 69.8 - (131,420 + 109,869) / (4,265 + 7,445)
+> 	= 49.19
 
 #### Module 05
 
@@ -328,7 +363,6 @@ LCA: Life Cycle Analysis
 GWP: Global Warming Potential
 EPD: Environmental Product Declaration
 Biogenic Carbon?
-
 
 > [!black]+ Material Pyramid
 > 
@@ -346,23 +380,20 @@ Biogenic Carbon?
 > Insulation
 > 	Cladding
 
-
-
-
 #### Module 06
 
-[2024+10+08+week+6+slides+v2 2024-10-08 14_18_21.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5C2024+10+08+week+6+slides+v2%202024-10-08%2014_18_21.pdf)
-[ARC2047HF+HW+4+Self+Study+-+Cooling+Load 2024-10-08 14_15_06.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CARC2047HF+HW+4+Self+Study+-+Cooling+Load%202024-10-08%2014_15_06.pdf)[ARC2047+-+Cooling+Load+-+Metric+Example 2024-10-08 14_12_58.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CARC2047+-+Cooling+Load+-+Metric+Example%202024-10-08%2014_12_58.pdf)
-[ARC2047+HW+3+Winter+Balance+Point+Temp+-+Solutions+v1 2024-10-08 14_15_05.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CARC2047+HW+3+Winter+Balance+Point+Temp+-+Solutions+v1%202024-10-08%2014_15_05.pdf)
-
-![Appendix+B1+MEEB+Climatic+Conditions 2024-10-08 14_15_38.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+B1+MEEB+Climatic+Conditions%202024-10-08%2014_15_38.jpg)
-![Table B1 New York State.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CTable%20B1%20New%20York%20State.jpg) 
-![Appendix+G2+MEEB+-+DETD+-+opaque 2024-10-08 14_14_28.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+G2+MEEB+-+DETD+-+opaque%202024-10-08%2014_14_28.jpg)
-![Appendix+G3+MEEB+-+DCLF+-+glass 2024-10-08 14_13_33.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+G3+MEEB+-+DCLF+-+glass%202024-10-08%2014_13_33.jpg)
-![Appendix+G4+MEEB+Inf+and+Vent+Factors 2024-10-08 14_13_19.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+G4+MEEB+Inf+and+Vent+Factors%202024-10-08%2014_13_19.jpg)
-![MEEB+Fig+12-23+Latent+heat+gains 2024-10-08 14_13_15.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CMEEB+Fig+12-23+Latent+heat+gains%202024-10-08%2014_13_15.jpg)
-
-##### Lecture
+> [!blue]- Links
+> [2024+10+08+week+6+slides+v2 2024-10-08 14_18_21.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5C2024+10+08+week+6+slides+v2%202024-10-08%2014_18_21.pdf)
+> [ARC2047HF+HW+4+Self+Study+-+Cooling+Load 2024-10-08 14_15_06.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CARC2047HF+HW+4+Self+Study+-+Cooling+Load%202024-10-08%2014_15_06.pdf)[ARC2047+-+Cooling+Load+-+Metric+Example 2024-10-08 14_12_58.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CARC2047+-+Cooling+Load+-+Metric+Example%202024-10-08%2014_12_58.pdf)
+> [ARC2047+HW+3+Winter+Balance+Point+Temp+-+Solutions+v1 2024-10-08 14_15_05.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CARC2047+HW+3+Winter+Balance+Point+Temp+-+Solutions+v1%202024-10-08%2014_15_05.pdf)
+> 
+> ![Appendix+B1+MEEB+Climatic+Conditions 2024-10-08 14_15_38.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+B1+MEEB+Climatic+Conditions%202024-10-08%2014_15_38.jpg)
+> ![Table B1 New York State.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CTable%20B1%20New%20York%20State.jpg) 
+> ![Appendix+G2+MEEB+-+DETD+-+opaque 2024-10-08 14_14_28.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+G2+MEEB+-+DETD+-+opaque%202024-10-08%2014_14_28.jpg)
+> ![Appendix+G3+MEEB+-+DCLF+-+glass 2024-10-08 14_13_33.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+G3+MEEB+-+DCLF+-+glass%202024-10-08%2014_13_33.jpg)
+> ![Appendix+G4+MEEB+Inf+and+Vent+Factors 2024-10-08 14_13_19.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CAppendix+G4+MEEB+Inf+and+Vent+Factors%202024-10-08%2014_13_19.jpg)
+> ![MEEB+Fig+12-23+Latent+heat+gains 2024-10-08 14_13_15.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C06%5CMEEB+Fig+12-23+Latent+heat+gains%202024-10-08%2014_13_15.jpg)
+> 
 
 - Cooling Loads ^2de642
 	- **q_total: Total Heat Gain = q_sensible + q_latent**
@@ -390,41 +421,44 @@ Biogenic Carbon?
 		- q_latent = percentage of q_sensible
 			- estimated using design dry-bulb temperature and coincident wet-bulb temperature from Table B.1
 
-##### Lab
-NYC 83.5 L 74.6
-DETD = 14 + (83.5-85)* ((85-90)/(14-19)) = 12.5
-U_Value = 0.0490
-3,155
-q_skin (Btu/h) = U: U_Value × A × DETD (°𝐹) = 0.0490 × 3,155ft2 × 12.5F = 1932.437
-
-DETD = 30 + (83.5-85)* ((30-35)/(85-90)) = 28.5
-
-DCLF = 46 + (83.5-85)* ((46-48)/(85-90)) 
-= 46 - 1.5* (?/-5) = 45.4
-
-DCLF = 68 + (83.5-85)* ((68-70)/(85-90)) = 67.4
-
-13-15 > 12.4
-
-Infiltration Factor = 0.7 - 1.5* ((0.7-1.1)/-5) = 0.58
-
-Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
-
-(3.4 + 5.1)* 29426* 12 ÷ 24
-
-132765 × 1.25
+> [!abstract]- Lab 5
+>
+> 1. Given a building located in New York City (NYC) use the climate data in Table B.1 (see link below) and the **DETD** values in Appendix G2 (see link below) to determine the summer heat gains through a **NorthEast** facing wall with an opaque area of 3,155 square feet and R-value of 20.4 h-ft2-F/Btu. Provide your answer in Btu/h as an integer.  Do not write units in your answer.
+> 
+> NYC 83.5 L 74.6
+> DETD = 14 + (83.5-85)* ((85-90)/(14-19)) = 12.5
+> U_Value = 0.0490
+> 3,155
+> q_skin (Btu/h) = U: U_Value × A × DETD (°𝐹) = 0.0490 × 3,155ft2 × 12.5F = 1932.437
+> 
+> DETD = 30 + (83.5-85)* ((30-35)/(85-90)) = 28.5
+> 
+> DCLF = 46 + (83.5-85)* ((46-48)/(85-90)) 
+> = 46 - 1.5* (?/-5) = 45.4
+> 
+> DCLF = 68 + (83.5-85)* ((68-70)/(85-90)) = 67.4
+> 
+> 13-15 > 12.4
+> 
+> Infiltration Factor = 0.7 - 1.5* ((0.7-1.1)/-5) = 0.58
+> 
+> Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
+> 
+> (3.4 + 5.1)* 29426* 12 ÷ 24
+> 
+> 132765 × 1.25
 
 ### Q3
 
 #### Module 07
 
-[2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5C2024+10+14+ARC2047+week+7+slides+v1%202024-10-15%2014_11_29.pdf)
-[ARC2047+-+Cross+Ventilation%2C+Degree+Days%2C+Cost+-+Metric+Example 2024-10-15 14_11_35.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047+-+Cross+Ventilation%2C+Degree+Days%2C+Cost+-+Metric+Example%202024-10-15%2014_11_35.pdf)
-[ARC2047HF+Homework+4+Solutions+-+final 2024-10-15 14_11_40.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047HF+Homework+4+Solutions+-+final%202024-10-15%2014_11_40.pdf)
-[ARC2047HF+HW5+Self+Study 2024-10-15 14_11_45.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047HF+HW5+Self+Study%202024-10-15%2014_11_45.pdf)
-[Week 7 study questions.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CWeek%207%20study%20questions.pdf)
-
-##### Lecture
+> [!Blue]- Links
+> 
+> [2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5C2024+10+14+ARC2047+week+7+slides+v1%202024-10-15%2014_11_29.pdf)
+> [ARC2047+-+Cross+Ventilation%2C+Degree+Days%2C+Cost+-+Metric+Example 2024-10-15 14_11_35.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047+-+Cross+Ventilation%2C+Degree+Days%2C+Cost+-+Metric+Example%202024-10-15%2014_11_35.pdf)
+> [ARC2047HF+Homework+4+Solutions+-+final 2024-10-15 14_11_40.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047HF+Homework+4+Solutions+-+final%202024-10-15%2014_11_40.pdf)
+> [ARC2047HF+HW5+Self+Study 2024-10-15 14_11_45.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CARC2047HF+HW5+Self+Study%202024-10-15%2014_11_45.pdf)
+> [Week 7 study questions.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C07%5CWeek%207%20study%20questions.pdf)
 
 > [!PDF|yellow] [[./Attachments/2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29.pdf#page=4&selection=36,0,53,28&color=yellow|2024+10+14+ARC2047+week+7+slides+v1 2024-10-15 14_11_29, p.4]]
 > > qcross ventilation = V × 1.08 Btu·min/(ft3·°F·h) × ∆T q cross ventilation is in units of power (Btu/h)
@@ -485,126 +519,124 @@ Ventilation Factor = 11 - 1.5* ((11-16)/-5) = 9.5
 			- For example AHU: Air Handling Unit could be 14
 		- Cost of Electricity for example use 15 cents per kWh,  $0.15/1000Wh
 
-##### Lab
-
-
-1. If the total summer cooling load for a 25,000 ft2 building is determined to be 23.4 tons **what volume (flow rate)** of outdoor air is required to provide adequate cooling via cross ventilation if the outdoor air temperature is 68.9F and the desired indoor air temperature is 76F?  Provide your answer in cubic feet per minute (cfm) as an integer.  Do not write units in your answer.
-
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
-
-q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
-23.4 tons × 12000 = 280,800 Btu/h
-280,800 = V × 1.08 × 7.1
-V = 36619 cfm
-
-2. If the total summer cooling load for a building can be cooled using cross ventilation with a volumetric flow rate of 60,645 cubic feet per minute, determine the **area of openings needed** on the windward side of the building if the average wind speed is 13.2 mph and the wind approaches at a 45 degree angle to the opening. Assume that the building has an equal amount of openings on the windward and leeward sides of the building. Provide your answer in square feet as an integer.  Do not write units in your answer.
-
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^8218c4|^8218c4]]
-
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^ff7bf9|^ff7bf9]]
-
-13.2 mph × 88 = 1,161.6 fpm
-60,645 cfm = 0.3 × A × 1,161.6 fpm
-A = 174 ft2
-
-3. Given:
-1) total summer cooling load for a building is 239,762 Btu/h,
-2) the outdoor air temperature is 67.2F,
-3) the desired indoor air temperature is 73.5F,
-4) there are 103 ft2 of clear window openings for ventilation on the windward side of the building and 600 ft2 of clear window openings for ventilation on the leeward side of the building.
-Find the required **average windspeed needed** to adequately cool the building via cross ventilation if the wind approaches the building perpendicular to the openings.  Provide your answer in miles per hour (mph) with one decimal place value.  Do not write units in your answer.
-
-239,762 = V × 1.08 × 6.3 
-V = 0.55 × 103 × v
-v = 622 fpm = 7.0686 mph
-
-4. If the **Winter** Balance Point Temperature is 52F and the following table shows the High and Low temperatures for three days in winter. Determine the total number of **heating degree days** for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
-
-|         | Sunday | Monday | Tuesday |
-| ------- | ------ | ------ | ------- |
-| High    | 44F    | 46F    | 71F     |
-| Low     | 34F    | 36F    | 57F     |
-| **Ave** | 39     | 41     | 64      |
-
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^2e7c60|^2e7c60]]
-
-HDD = 13 + 11 = 24 °F·days
-
-5. If the **Summer** Balance Point Temperature is 64.8F and the following table shows the High and Low temperatures for three days in summer.  Determine the total number of **cooling** **degree days** for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
-
-|         | Sunday | Monday | Tuesday |
-| ------- | ------ | ------ | ------- |
-| High    | 60F    | 79F    | 80F     |
-| Low     | 51F    | 62F    | 68F     |
-| **Ave** | 55.5   | 70.5   | 74      |
-CDD = 5.7 + 9.2 = 14.9 °F·days
-
-6. For a given building that has a UA_total = 3,382 Btu/(h × F) and an HDD of 414 F*days determine the **Annual Heat Needed** in Btu.  Provide your answer as an integer.  Do not write units in your answer.
-
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^359eb9|^359eb9]]
-
-Annual Heat Needed = 3382 × 414 × 24 = 33,603,552 Btu
-
-7. For a given building in Toronto that has an Annual Heat Needed of 139,818,553 Btu, a natural gas furnace running at 98% efficiency and purchases natural gas for $11.38 per thousand cubic feet, determine the **annual cost of heating** the building.  Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
-
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^591155|^591155]]
-
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^423ef7|^423ef7]]
-
-E = 139818553 ÷ (0.98 × 1050) = 135,878
-Annual Cost = E × (11.38 ÷ 1000) = 1546.29
-
-8. A building located in Vancouver, British Columbia with solar insolation data found in the link below has the following:
-1) Heat gains from people, equipment, and lights = 20,982 Btu/h.
-2) South Facing Windows with an area of 3,991 square feet.
-3) Summer external shading devices provide 76% to the south windows.
-4) UAtotal = 4,185 Btu/(h*F).
-5) A desired indoor summer temperature of 72F.
-Find the approximate **Summer Balance Point Temperature** for the building in degrees F. Use one decimal place value in your answer.  Do not write units in your answer.
-![[./Attachments/solar insolation.jpg|solar insolation]]
-
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^ba60bb|^ba60bb]]
-
-Q_i = (1239 × 3991 /24 × (1-0.76)) + 20982 = 70,430.49
-BPT = 72 - (Q_i ÷ 4185) = 55.17 oF
-
-9. For a given building located in Ottawa, Ontario find the **cooling load hours (CLH)** using Table B.1 (linked below) if:
-1) CDD = 1,513 F*days 
-2) Summer BPT = 56.7F
-Provide your answer in hours as an integer.  Do not write units in your answer.
-![[./Attachments/Appendix B1 MEEB Climatic Conditions.jpg|500]]
-
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^f100e8|^f100e8]]
-
-CLH = 1513 × 24 ÷ (80.6 - 56.7) = 1519 h
-
-10. For a given building what is the **annual cost of cooling** if:
-1) Cooling Load = 222,343 Btu/h
-2) Cooling Load Hours = 1,224 hours
-3) Seasonal Energy Efficiency Ratio of the AHU = 20 (Btu/h)/W
-4) Utility rate = $0.22 per kWh
-Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
-
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^8fe61e|^8fe61e]]
-
-Annual Cost of Cooling = 222343 × 1224 × (1/20) × (0.22/1000) = 2993
+> [!abstract]- Lab 6
+> 1. If the total summer cooling load for a 25,000 ft2 building is determined to be 23.4 tons **what volume (flow rate)** of outdoor air is required to provide adequate cooling via cross ventilation if the outdoor air temperature is 68.9F and the desired indoor air temperature is 76F?  Provide your answer in cubic feet per minute (cfm) as an integer.  Do not write units in your answer.
+> 
+> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
+> 
+> q_ventilation (Btu/h) = V (cfm) × heat capacity of air (Btu·min/(ft3·°F·h)) × ∆T (°F)
+> 23.4 tons × 12000 = 280,800 Btu/h
+> 280,800 = V × 1.08 × 7.1
+> V = 36619 cfm
+> 
+> 2. If the total summer cooling load for a building can be cooled using cross ventilation with a volumetric flow rate of 60,645 cubic feet per minute, determine the **area of openings needed** on the windward side of the building if the average wind speed is 13.2 mph and the wind approaches at a 45 degree angle to the opening. Assume that the building has an equal amount of openings on the windward and leeward sides of the building. Provide your answer in square feet as an integer.  Do not write units in your answer.
+> 
+> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^8218c4|^8218c4]]
+> 
+> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^ff7bf9|^ff7bf9]]
+> 
+> 13.2 mph × 88 = 1,161.6 fpm
+> 60,645 cfm = 0.3 × A × 1,161.6 fpm
+> A = 174 ft2
+> 
+> 3. Given:
+> 1) total summer cooling load for a building is 239,762 Btu/h,
+> 2) the outdoor air temperature is 67.2F,
+> 3) the desired indoor air temperature is 73.5F,
+> 4) there are 103 ft2 of clear window openings for ventilation on the windward side of the building and 600 ft2 of clear window openings for ventilation on the leeward side of the building.
+> Find the required **average windspeed needed** to adequately cool the building via cross ventilation if the wind approaches the building perpendicular to the openings.  Provide your answer in miles per hour (mph) with one decimal place value.  Do not write units in your answer.
+> 
+> 239,762 = V × 1.08 × 6.3 
+> V = 0.55 × 103 × v
+> v = 622 fpm = 7.0686 mph
+> 
+> 4. If the **Winter** Balance Point Temperature is 52F and the following table shows the High and Low temperatures for three days in winter. Determine the total number of **heating degree days** for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
+> 
+> |         | Sunday | Monday | Tuesday |
+> | ------- | ------ | ------ | ------- |
+> | High    | 44F    | 46F    | 71F     |
+> | Low     | 34F    | 36F    | 57F     |
+> | **Ave** | 39     | 41     | 64      |
+> 
+> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^2e7c60|^2e7c60]]
+> 
+> HDD = 13 + 11 = 24 °F·days
+> 
+> 5. If the **Summer** Balance Point Temperature is 64.8F and the following table shows the High and Low temperatures for three days in summer.  Determine the total number of **cooling** **degree days** for the three-day period.  Provide your answer in (degrees F × days) with one decimal place value.  Do not write units in your answer.
+> 
+> |         | Sunday | Monday | Tuesday |
+> | ------- | ------ | ------ | ------- |
+> | High    | 60F    | 79F    | 80F     |
+> | Low     | 51F    | 62F    | 68F     |
+> | **Ave** | 55.5   | 70.5   | 74      |
+> CDD = 5.7 + 9.2 = 14.9 °F·days
+> 
+> 6. For a given building that has a UA_total = 3,382 Btu/(h × F) and an HDD of 414 F*days determine the **Annual Heat Needed** in Btu.  Provide your answer as an integer.  Do not write units in your answer.
+> 
+> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^359eb9|^359eb9]]
+> 
+> Annual Heat Needed = 3382 × 414 × 24 = 33,603,552 Btu
+> 
+> 7. For a given building in Toronto that has an Annual Heat Needed of 139,818,553 Btu, a natural gas furnace running at 98% efficiency and purchases natural gas for $11.38 per thousand cubic feet, determine the **annual cost of heating** the building.  Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
+> 
+> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^591155|^591155]]
+> 
+> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^423ef7|^423ef7]]
+> 
+> E = 139818553 ÷ (0.98 × 1050) = 135,878
+> Annual Cost = E × (11.38 ÷ 1000) = 1546.29
+> 
+> 8. A building located in Vancouver, British Columbia with solar insolation data found in the link below has the following:
+> 1) Heat gains from people, equipment, and lights = 20,982 Btu/h.
+> 2) South Facing Windows with an area of 3,991 square feet.
+> 3) Summer external shading devices provide 76% to the south windows.
+> 4) UAtotal = 4,185 Btu/(h*F).
+> 5) A desired indoor summer temperature of 72F.
+> Find the approximate **Summer Balance Point Temperature** for the building in degrees F. Use one decimal place value in your answer.  Do not write units in your answer.
+> ![[./Attachments/solar insolation.jpg|solar insolation]]
+> 
+> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^ba60bb|^ba60bb]]
+> 
+> Q_i = (1239 × 3991 /24 × (1-0.76)) + 20982 = 70,430.49
+> BPT = 72 - (Q_i ÷ 4185) = 55.17 oF
+> 
+> 9. For a given building located in Ottawa, Ontario find the **cooling load hours (CLH)** using Table B.1 (linked below) if:
+> 1) CDD = 1,513 F*days 
+> 2) Summer BPT = 56.7F
+> Provide your answer in hours as an integer.  Do not write units in your answer.
+> ![[./Attachments/Appendix B1 MEEB Climatic Conditions.jpg|500]]
+> 
+> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^f100e8|^f100e8]]
+> 
+> CLH = 1513 × 24 ÷ (80.6 - 56.7) = 1519 h
+> 
+> 10. For a given building what is the **annual cost of cooling** if:
+> 1) Cooling Load = 222,343 Btu/h
+> 2) Cooling Load Hours = 1,224 hours
+> 3) Seasonal Energy Efficiency Ratio of the AHU = 20 (Btu/h)/W
+> 4) Utility rate = $0.22 per kWh
+> Provide your answer in dollars with two decimal place values.  Do not write units in your answer.
+> 
+> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^8fe61e|^8fe61e]]
+> 
+> Annual Cost of Cooling = 222343 × 1224 × (1/20) × (0.22/1000) = 2993
 
 
 #### Module 08
 
-[[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf|2024+10+22+week+8+slides+v3 2024-10-22 14_37_23]]
+> [!blue]- Links
+> [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf|2024+10+22+week+8+slides+v3 2024-10-22 14_37_23]]
+> 
+> [[./Attachments/20241022 week 8 slides v3 2024-10-22 14_42_07.pdf|20241022 week 8 slides v3 2024-10-22 14_42_07]]
+> 
+> [[./Attachments/ARC2047HF+HVAC+Distribution+Metric+Example 2024-10-22 14_29_56.pdf|ARC2047HF+HVAC+Distribution+Metric+Example 2024-10-22 14_29_56]]
+> 
+> [[./Attachments/ARC2047HF+HW5+Solutions 2024-10-22 14_30_05.pdf|ARC2047HF+HW5+Solutions 2024-10-22 14_30_05]]
+> 
+> [[./Attachments/ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution 2024-10-22 14_30_15.pdf|ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution 2024-10-22 14_30_15]]
+> 
+> [[./Attachments/Week+8+Charts+and+Tables 2024-10-22 14_29_53.pdf|Week+8+Charts+and+Tables 2024-10-22 14_29_53]]
 
-[[./Attachments/20241022 week 8 slides v3 2024-10-22 14_42_07.pdf|20241022 week 8 slides v3 2024-10-22 14_42_07]]
-
-[[./Attachments/ARC2047HF+HVAC+Distribution+Metric+Example 2024-10-22 14_29_56.pdf|ARC2047HF+HVAC+Distribution+Metric+Example 2024-10-22 14_29_56]]
-
-[[./Attachments/ARC2047HF+HW5+Solutions 2024-10-22 14_30_05.pdf|ARC2047HF+HW5+Solutions 2024-10-22 14_30_05]]
-
-[[./Attachments/ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution 2024-10-22 14_30_15.pdf|ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution 2024-10-22 14_30_15]]
-
-[[./Attachments/Week+8+Charts+and+Tables 2024-10-22 14_29_53.pdf|Week+8+Charts+and+Tables 2024-10-22 14_29_53]]
-
-##### Lecture
 
 HVAC Distribution
 - 
@@ -644,112 +676,110 @@ HVAC Distribution
 										- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=3&selection=30,0,36,2|(p.3)]]
 						- V_each = V_sum ÷ number of vent openings
 
-##### Lab
 
-1. For a given building located in Albany, New York the winter balance point temperature is 33.5F and the winter design temperature can be found in Table B.1 (see link below).  If the building has a UAtotal = of 3,753 Btu/(h*F), what volumetric flow rate of air is needed to adequately heat the building with a forced air system?  Provide your answer in cubic feet per minute as an integer.  Do not write units in your answer.
-
-![[./Attachments/Lab/Table B1 New York State.jpg|Table B1 New York State]]
-
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^a2dc5f|^a2dc5f]]
-T_delta = 33.5 - 2.2 = 31.3
-q = 3753 × 31.3 = 117,468.9 Btu
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
-q = 9.789075 tons
-V =  9.789075 tons × 400 cfm/ton = 3916 cfm
-
----
-
-2. For a given building located in Albany, New York the winter heating load is 133,980 Btu/h and the summer cooling load is 183,819 Btu/h.  Determine the volumetric flow rate of air needed in a forced air system to work effectively.  Provide your answer in cubic feet per minute as an integer.  Do not write units in your answer. Note that this is for the entire building, not just one vent.
-
-V = 183819 ÷ 12000 × V/ton = 6127
-
----
-
-3. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below, find the average volumetric **flow rate of air per vent** opening if the summer cooling load for the building is 11,522 Btu/h and the winter heating load is 29,722 Btu/h.  Assume all vent opening are the same size and have the same flow rate.  Provide your answer in cubic feet per minute using one decimal place value.  Do not write units in your answer.
-
-![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]]
-
-V = 29722 ÷ 12000 × 400 = 990.73 cfm
-V_each = V ÷ 12 = 82.6 cfm
-
----
-
-4. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below find the total equivalent length of the critical path ductwork if:
-A = 5 feet
-C = 8.4 feet
-D = 15.9 feet
-E = 10.4 feet
-F = 10.6 feet 
-Assume all terminal vent openings have an equal flow rate. Provide your answer in feet with one decimal place value. Do not write units in your answer. _It may be helpful to setup a table similar to the one used in the lecture._
-
-
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^2bf58f|^2bf58f]]
-Equivalent Length (ft) = Duct Length + Equivalent Fitting Length = 208.3
-Duct Length = A + B=6 + C + D + E + F + G=2= 58.3
-Equivalent Fitting Length = 10 + 35 + 35 + 35 + 35 = 150
-
----
-
-5. For a given building the acoustic design of the HVAC system is desired to achieve NC-25 Background Levels. **What should the friction loss (in inches of water per 100 ft) be** for the supply duct work if the volumetric flow rate for the vent opening at the end of the critical path = 487 cfm?  See the acoustics table and friction chart links below.  Provide your answer in inches of water per 100 ft **using three decimal place values**.  Do not write units in your answer.
-
-![[./Attachments/Lab/acoustics.jpg|acoustics]]
-![[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]]
-0.013 in. wtr./100ft
-
----
-
-6. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below **find the pressure loss in the longest duct run** if:
-friction loss = 0.074 inches water/100ft
-loss at diffuser = 0.04 inches of water
-A = 9.9 feet
-C = 8.2 feet
-D = 10 feet
-E = 10.6 feet
-F = 10.2 feet 
-Assume all terminal vent openings have an equal flow rate. Provide your answer in inches of water with three decimal place values.  Do not write units in your answer.
-
-
-Equivalent Length (ft) = Duct Length + Equivalent Fitting Length = 206.9
-Duct Length = A + B=6 + C + D + E + F + G=2= 56.9
-Equivalent Fitting Length = 10 + 35 + 35 + 35 + 35 = 150
-
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^b2baf5|^b2baf5]]
-Pressure Loss = Critical path equivalent length (ft) × Friction Loss (in. wtr./100ft) + Loss at diffuser: 0.04 in. wtr. = 206.9 × 0.074 ÷ 100 + 0.04 = 0.193
-
----
-
-7. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the velocity of air for duct C** if the volume of air flow at each vent opening is 85 cfm. Use 0.024 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
-
-85 × 3 = 255 cfm
-fpm @ 255 cfm @ 0.024 in. wtr./100ft ~= 390 fpm
-
----
-
-8. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the velocity of air for duct B** if the volume of air flow at each vent opening is 174 cfm. Use 0.028 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
-
-174 × 6 = 1044 cfm
-fpm @ 1044 cfm @ 0.028 in. wtr./100ft ~= 590 fpm
-
----
-
-9. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the clear inside diameter for duct A** if the volume of air flow at each vent opening is 170 cfm. Use 0.025 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in inches within one decimal place value.  Do not use units in your answer.  Note that duct A is the vertical duct between the AHU and ducts B.  Assume duct A is round.
-
-170 × 12 = 2040 cfm
-diameter @ 2040 cfm @ 0.025 in. wtr./100ft ~= 23.9 in
-
----
-
-10. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the minimum outside diameter for duct D** if the volume of air flow at each vent opening is 80 cfm. Use 0.044 inches of water/100ft as the friction loss for the ductwork.  Assume 2-inch-thick insulation lining the inside of the duct. Provide your answer in inches within one decimal place value.  Do not use units in your answer.  Assume duct D is round.
-
-80 × 3 = 240 cfm
-diameter @ 240 cfm @ 0.044 in/. wtr./100ft ~= 9.5 in
-
-9.5 + 2 × 2 = 13.5 in
+> [!abstract]- Lab 7
+> 1. For a given building located in Albany, New York the winter balance point temperature is 33.5F and the winter design temperature can be found in Table B.1 (see link below).  If the building has a UAtotal = of 3,753 Btu/(h*F), what volumetric flow rate of air is needed to adequately heat the building with a forced air system?  Provide your answer in cubic feet per minute as an integer.  Do not write units in your answer.
+> 
+> ![[./Attachments/Lab/Table B1 New York State.jpg|Table B1 New York State]]
+> 
+> [[ARC2047H-Building_Science_Materials_and_Construction_3#^a2dc5f|^a2dc5f]]
+> T_delta = 33.5 - 2.2 = 31.3
+> q = 3753 × 31.3 = 117,468.9 Btu
+> [[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
+> q = 9.789075 tons
+> V =  9.789075 tons × 400 cfm/ton = 3916 cfm
+> 
+> ---
+> 
+> 2. For a given building located in Albany, New York the winter heating load is 133,980 Btu/h and the summer cooling load is 183,819 Btu/h.  Determine the volumetric flow rate of air needed in a forced air system to work effectively.  Provide your answer in cubic feet per minute as an integer.  Do not write units in your answer. Note that this is for the entire building, not just one vent.
+> 
+> V = 183819 ÷ 12000 × V/ton = 6127
+> 
+> ---
+> 
+> 3. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below, find the average volumetric **flow rate of air per vent** opening if the summer cooling load for the building is 11,522 Btu/h and the winter heating load is 29,722 Btu/h.  Assume all vent opening are the same size and have the same flow rate.  Provide your answer in cubic feet per minute using one decimal place value.  Do not write units in your answer.
+> 
+> ![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]]
+> 
+> V = 29722 ÷ 12000 × 400 = 990.73 cfm
+> V_each = V ÷ 12 = 82.6 cfm
+> 
+> ---
+> 
+> 4. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below find the total equivalent length of the critical path ductwork if:
+> A = 5 feet
+> C = 8.4 feet
+> D = 15.9 feet
+> E = 10.4 feet
+> F = 10.6 feet 
+> Assume all terminal vent openings have an equal flow rate. Provide your answer in feet with one decimal place value. Do not write units in your answer. _It may be helpful to setup a table similar to the one used in the lecture._
+> 
+> 
+> [[ARC2047H-Building_Science_Materials_and_Construction_3#^2bf58f|^2bf58f]]
+> Equivalent Length (ft) = Duct Length + Equivalent Fitting Length = 208.3
+> Duct Length = A + B=6 + C + D + E + F + G=2= 58.3
+> Equivalent Fitting Length = 10 + 35 + 35 + 35 + 35 = 150
+> 
+> ---
+> 
+> 5. For a given building the acoustic design of the HVAC system is desired to achieve NC-25 Background Levels. **What should the friction loss (in inches of water per 100 ft) be** for the supply duct work if the volumetric flow rate for the vent opening at the end of the critical path = 487 cfm?  See the acoustics table and friction chart links below.  Provide your answer in inches of water per 100 ft **using three decimal place values**.  Do not write units in your answer.
+> 
+> ![[./Attachments/Lab/acoustics.jpg|acoustics]]
+> ![[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]]
+> 0.013 in. wtr./100ft
+> 
+> ---
+> 
+> 6. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below **find the pressure loss in the longest duct run** if:
+> friction loss = 0.074 inches water/100ft
+> loss at diffuser = 0.04 inches of water
+> A = 9.9 feet
+> C = 8.2 feet
+> D = 10 feet
+> E = 10.6 feet
+> F = 10.2 feet 
+> Assume all terminal vent openings have an equal flow rate. Provide your answer in inches of water with three decimal place values.  Do not write units in your answer.
+> 
+> 
+> Equivalent Length (ft) = Duct Length + Equivalent Fitting Length = 206.9
+> Duct Length = A + B=6 + C + D + E + F + G=2= 56.9
+> Equivalent Fitting Length = 10 + 35 + 35 + 35 + 35 = 150
+> 
+> [[ARC2047H-Building_Science_Materials_and_Construction_3#^b2baf5|^b2baf5]]
+> Pressure Loss = Critical path equivalent length (ft) × Friction Loss (in. wtr./100ft) + Loss at diffuser: 0.04 in. wtr. = 206.9 × 0.074 ÷ 100 + 0.04 = 0.193
+> 
+> ---
+> 
+> 7. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the velocity of air for duct C** if the volume of air flow at each vent opening is 85 cfm. Use 0.024 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
+> 
+> 85 × 3 = 255 cfm
+> fpm @ 255 cfm @ 0.024 in. wtr./100ft ~= 390 fpm
+> 
+> ---
+> 
+> 8. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the velocity of air for duct B** if the volume of air flow at each vent opening is 174 cfm. Use 0.028 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
+> 
+> 174 × 6 = 1044 cfm
+> fpm @ 1044 cfm @ 0.028 in. wtr./100ft ~= 590 fpm
+> 
+> ---
+> 
+> 9. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the clear inside diameter for duct A** if the volume of air flow at each vent opening is 170 cfm. Use 0.025 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in inches within one decimal place value.  Do not use units in your answer.  Note that duct A is the vertical duct between the AHU and ducts B.  Assume duct A is round.
+> 
+> 170 × 12 = 2040 cfm
+> diameter @ 2040 cfm @ 0.025 in. wtr./100ft ~= 23.9 in
+> 
+> ---
+> 
+> 10. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/Lab/friction loss chart ASHRAE 2021.jpg|chart]] to **determine the minimum outside diameter for duct D** if the volume of air flow at each vent opening is 80 cfm. Use 0.044 inches of water/100ft as the friction loss for the ductwork.  Assume 2-inch-thick insulation lining the inside of the duct. Provide your answer in inches within one decimal place value.  Do not use units in your answer.  Assume duct D is round.
+> 
+> 80 × 3 = 240 cfm
+> diameter @ 240 cfm @ 0.044 in/. wtr./100ft ~= 9.5 in
+> 
+> 9.5 + 2 × 2 = 13.5 in
 
 
 #### Module 09
-
-##### Lecture
 
 - EUI: Energy Use Intensity
 	- Annual kWh/m2 kBtu/ft2
@@ -791,8 +821,6 @@ diameter @ 240 cfm @ 0.044 in/. wtr./100ft ~= 9.5 in
 		- Far more heat is harvested than generated from burning
 	- Bi-directional Valve
 
-
-
 ### Q4
 
 #### Module 10
@@ -801,13 +829,9 @@ diameter @ 240 cfm @ 0.044 in/. wtr./100ft ~= 9.5 in
 
 #### Module 11
 
-##### Lecture 
 [[./Attachments/2024 11 12 week 11 slides v3.pdf|2024 11 12 week 11 slides v3]]
-
 [[./Attachments/Example of lab submission for Site Visit.pdf|Example of lab submission for Site Visit]]
-
 [[./Attachments/Panasonic 380W panel.pdf|Panasonic 380W panel]]
-
 [[./Attachments/toronto green standard.pdf|toronto green standard]]
 
 > [!PDF|]+ [[./Attachments/2024 11 12 week 11 slides v3.pdf#page=5&selection=2,0,8,27|p.5]]
@@ -868,107 +892,108 @@ diameter @ 240 cfm @ 0.044 in/. wtr./100ft ~= 9.5 in
 		- Vapour is attracted by the strongly concentrated desiccant solution in the absorber chamber after evaporating via absorbing energy in the evaporator chamber from the building closed loop cooling load (13C > 7C) 
 		- Heated solution evaporates hot water vapour from the generator chamber (desorber) (could be solar or geo heated) is attracted to the cooler condenser chamber which is usually paired with a chilling tower to reject heat (29C) to outside, with the left over concentrated desiccant solution pumped back into absorber chamber and the condensed chill water pumped into the evaporator chamber
 
-##### Lab
-
-1. For a Commercial Retail project located in Toronto with 8,894 m2 of indoor floor space and aiming to meet the Toronto Green Standard Tier 2 Energy Use Intensity (see link below), what is the maximum Annual Total Site Energy that the project could use. Provide you answer in kWh as an integer.  Do not write units in your answer.
-
-TGS Retail T2 TEUI: 90 kWh/m2
-8894 × 90 = 800460 kWh
-
-2. If the cooling load for a project is expected to be 26 tons, and the project has an expected annual Cooling Load Hours of 1,934 hours, with a Air Handling Unit rated at SEER=15.5 btu/h per W, what is the annual electricity for cooling? Provide your answer in kWh as an integer.  Do not write units in your answer.
-
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
-
-![[ARC2047H-Building_Science_Materials_and_Construction_3#^8fe61e|^8fe61e]]
-
-Cooling Load = 26 × 12000 = 312000 Btu/h
-312000 Btu/h × 1934 h × (1/15.5 W/Btu/h) = 38,929,548 Wk = 38930 kWh
-
-
-3. For a given office building in Toronto:
-	the annual heat needed is expected to be 182,168,661 Btu
-	the annual electricity for cooling is expected to be 13,593 kWh
-	The indoor floor area of the project is 2,109 m2
-	What is the expected Thermal Energy Demand Intensity? Provide your answer in kWh/m2/year with one decimal place.  Do not write units in your answer.
-
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^6f8382|^6f8382]]
-182,168,661 Btu ÷ 3412 = 53,390.58 kWh
-(53390.58 + 13593) ÷ 2109 = 31.8 kWh/m2/yr
-
-
-4. For a given office building project in Toronto, the building has:
-	Annual Heating Energy Needed = 10,608 kWh
-	Annual Electricity for Cooling = 19,454 kWh
-	Indoor Floor Area = 1,650 m2
-	Using the Toronto Green Standard Tier 3 to estimate Non-Thermal EUI calculate the expect total annual energy use in kWh as an integer.  Do not write units in your answer.
-
-TGS Office T3
-	TEUI: 65 kWh/m2
-	TEDI: 15 kWh/m2
-(65-15) * 1650 m2 + (10608 + 19454) = 112562 kWh
-
-
-5. A solar panel has a length of 1.9 meters and width of 0.9 meters. These panels are intended to be used on a building in Toronto that has a unobstructed rectangular flat roof with an area of 2,397 m2.
-	According to the process used in the lecture, when using an 10 degree East-West layout, approximately how many solar panels can fit on the roof? Provide your answer as an integer. Do not write units in your answer.
-
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^9c0982|^9c0982]]
-2397 m2 ÷ (1.9 m × (0.9 m + 0.23 m ÷ 2)) = 1242
-
-
-6. For a given building in North America with the following parameters:
-	EUI = 189 kWh/m2/yr
-	Indoor floor area = 2,614 m2
-	Peak sun hours for 5 degree south layout = 3.86
-	System Loss Factor = 0.72
-	Using the PV panel shown in the link below determine the number of panels needed if using a 5 degree south layout.  Provide your answer as an integer. Do not write units in your answer.
-
-HIT Power 235S
-	Rated Power (Pmax) 235 W
-	Cell Efficiency 21.1%
-
-[[ARC2047H-Building_Science_Materials_and_Construction_3#^e4bdcc|^e4bdcc]]
-Annual kWh × 1000 W/kW = Panels × W/panel × PSH × 365 d/yr × LF
-Panels = 189 kWh/m2/yr × 2614 m2 * 1000 W/kW / 0.72 / 365 d/yr / 3.86 h/d / 235 W/panel =/ 2073
-
-
-7. For a given building in Toronto with an unobstructed flat rectangular roof area of 461 m2, it has been determined that the building needs 514 PV panels rated at 400W to reach net zero site energy. The panels will be mounted in a 5 degree south facing layout.  The panels have dimensions of 1.76 meters in length and 1.15 meters in width.  It is expected that some panels will have to be site mounted as there is limited roof area compared to the PV needs.  Using the same process as shown in the lecture determine the minimum number of site mounted panels that will be needed.  Provide your answer as an integer.  Do not write units in your answer.
-
-514 - (461 m2 / (1.76 * (1.15 + 0.28) m2/panel)) =/ 331 panels
-
-8. Please enter the effective area per PV panel from question 7.  Provide your answer in square meters with two decimal values.  Do not write units in your answer.
-	This question is only used for assigning partial credit in the event that you do not enter the correct answer for Question 7.  When Quercus auto-grades this question it will most likely score this question as incorrect. This question will be manually graded if you do not get the correct answer for Question 7.
-
-2.27 m2/panel
-
-
-9. For a given project in Ontario the costs of installing PV panels for a commercial project are:
-	$2.35 per W installed for roof mounted
-	$4.4 per W installed for site mounted
-	
-	The total number of PV panels needed for the project using a 10 degree East-West facing layout is 705 panels. The unobstructed rectangular flat roof of the project has an area of 959 m2. The panels have a dimension of 1.65 meters in length and 1.15 meters in width. Each panel has a rated power of 301 Watts.  The project will maximize the amount of roof mounted PV panels and minimize the amount of site mounted PV panels. Using the same process as shown in the lecture **determine the total cost** for the PV array.  Provide your answer in dollars as an integer.  Do not write units in your answer.
-
-1.65 * (1.15 + 0.23 / 2) = 2.08725 m2/panel
-705 - 959 m2 / 2.08725 m2/panel = 459 panels roof
-705 - 459 = 246 panels site
-(459 * 2.35 + 246 * 4.4) panel-$/W * 301 W/panel = 650,476 $
-
-
-10. Please enter the effective area per PV panel from question 9.  Provide your answer in square meters with two decimal values.  Do not write units in your answer.
-
-2.09 m2/panel
-
-11. Please enter the number of site mounted panels needed in Question 9.  Provide your answer as an integer.  Do not write units in your answer.
-
-246 panels site
+> [!abstract]- Lab 8
+> 1. For a Commercial Retail project located in Toronto with 8,894 m2 of indoor floor space and aiming to meet the Toronto Green Standard Tier 2 Energy Use Intensity (see link below), what is the maximum Annual Total Site Energy that the project could use. Provide you answer in kWh as an integer.  Do not write units in your answer.
+> 
+> TGS Retail T2 TEUI: 90 kWh/m2
+> 8894 × 90 = 800460 kWh
+> 
+> 2. If the cooling load for a project is expected to be 26 tons, and the project has an expected annual Cooling Load Hours of 1,934 hours, with a Air Handling Unit rated at SEER=15.5 btu/h per W, what is the annual electricity for cooling? Provide your answer in kWh as an integer.  Do not write units in your answer.
+> 
+> [[ARC2047H-Building_Science_Materials_and_Construction_3#^caf758|^caf758]]
+> 
+> ![[ARC2047H-Building_Science_Materials_and_Construction_3#^8fe61e|^8fe61e]]
+> 
+> Cooling Load = 26 × 12000 = 312000 Btu/h
+> 312000 Btu/h × 1934 h × (1/15.5 W/Btu/h) = 38,929,548 Wk = 38930 kWh
+> 
+> 
+> 3. For a given office building in Toronto:
+> 	the annual heat needed is expected to be 182,168,661 Btu
+> 	the annual electricity for cooling is expected to be 13,593 kWh
+> 	The indoor floor area of the project is 2,109 m2
+> 	What is the expected Thermal Energy Demand Intensity? Provide your answer in kWh/m2/year with one decimal place.  Do not write units in your answer.
+> 
+> [[ARC2047H-Building_Science_Materials_and_Construction_3#^6f8382|^6f8382]]
+> 182,168,661 Btu ÷ 3412 = 53,390.58 kWh
+> (53390.58 + 13593) ÷ 2109 = 31.8 kWh/m2/yr
+> 
+> 
+> 4. For a given office building project in Toronto, the building has:
+> 	Annual Heating Energy Needed = 10,608 kWh
+> 	Annual Electricity for Cooling = 19,454 kWh
+> 	Indoor Floor Area = 1,650 m2
+> 	Using the Toronto Green Standard Tier 3 to estimate Non-Thermal EUI calculate the expect total annual energy use in kWh as an integer.  Do not write units in your answer.
+> 
+> TGS Office T3
+> 	TEUI: 65 kWh/m2
+> 	TEDI: 15 kWh/m2
+> (65-15) * 1650 m2 + (10608 + 19454) = 112562 kWh
+> 
+> 
+> 5. A solar panel has a length of 1.9 meters and width of 0.9 meters. These panels are intended to be used on a building in Toronto that has a unobstructed rectangular flat roof with an area of 2,397 m2.
+> 	According to the process used in the lecture, when using an 10 degree East-West layout, approximately how many solar panels can fit on the roof? Provide your answer as an integer. Do not write units in your answer.
+> 
+> [[ARC2047H-Building_Science_Materials_and_Construction_3#^9c0982|^9c0982]]
+> 2397 m2 ÷ (1.9 m × (0.9 m + 0.23 m ÷ 2)) = 1242
+> 
+> 
+> 6. For a given building in North America with the following parameters:
+> 	EUI = 189 kWh/m2/yr
+> 	Indoor floor area = 2,614 m2
+> 	Peak sun hours for 5 degree south layout = 3.86
+> 	System Loss Factor = 0.72
+> 	Using the PV panel shown in the link below determine the number of panels needed if using a 5 degree south layout.  Provide your answer as an integer. Do not write units in your answer.
+> 
+> HIT Power 235S
+> 	Rated Power (Pmax) 235 W
+> 	Cell Efficiency 21.1%
+> 
+> [[ARC2047H-Building_Science_Materials_and_Construction_3#^e4bdcc|^e4bdcc]]
+> Annual kWh × 1000 W/kW = Panels × W/panel × PSH × 365 d/yr × LF
+> Panels = 189 kWh/m2/yr × 2614 m2 * 1000 W/kW / 0.72 / 365 d/yr / 3.86 h/d / 235 W/panel =/ 2073
+> 
+> 
+> 7. For a given building in Toronto with an unobstructed flat rectangular roof area of 461 m2, it has been determined that the building needs 514 PV panels rated at 400W to reach net zero site energy. The panels will be mounted in a 5 degree south facing layout.  The panels have dimensions of 1.76 meters in length and 1.15 meters in width.  It is expected that some panels will have to be site mounted as there is limited roof area compared to the PV needs.  Using the same process as shown in the lecture determine the minimum number of site mounted panels that will be needed.  Provide your answer as an integer.  Do not write units in your answer.
+> 
+> 514 - (461 m2 / (1.76 * (1.15 + 0.28) m2/panel)) =/ 331 panels
+> 
+> 8. Please enter the effective area per PV panel from question 7.  Provide your answer in square meters with two decimal values.  Do not write units in your answer.
+> 	This question is only used for assigning partial credit in the event that you do not enter the correct answer for Question 7.  When Quercus auto-grades this question it will most likely score this question as incorrect. This question will be manually graded if you do not get the correct answer for Question 7.
+> 
+> 2.27 m2/panel
+> 
+> 
+> 9. For a given project in Ontario the costs of installing PV panels for a commercial project are:
+> 	$2.35 per W installed for roof mounted
+> 	$4.4 per W installed for site mounted
+> 	
+> 	The total number of PV panels needed for the project using a 10 degree East-West facing layout is 705 panels. The unobstructed rectangular flat roof of the project has an area of 959 m2. The panels have a dimension of 1.65 meters in length and 1.15 meters in width. Each panel has a rated power of 301 Watts.  The project will maximize the amount of roof mounted PV panels and minimize the amount of site mounted PV panels. Using the same process as shown in the lecture **determine the total cost** for the PV array.  Provide your answer in dollars as an integer.  Do not write units in your answer.
+> 
+> 1.65 * (1.15 + 0.23 / 2) = 2.08725 m2/panel
+> 705 - 959 m2 / 2.08725 m2/panel = 459 panels roof
+> 705 - 459 = 246 panels site
+> (459 * 2.35 + 246 * 4.4) panel-$/W * 301 W/panel = 650,476 $
+> 
+> 
+> 10. Please enter the effective area per PV panel from question 9.  Provide your answer in square meters with two decimal values.  Do not write units in your answer.
+> 
+> 2.09 m2/panel
+> 
+> 11. Please enter the number of site mounted panels needed in Question 9.  Provide your answer as an integer.  Do not write units in your answer.
+> 
+> 246 panels site
 
 
 #### Module 12
 
-Net Zero PV tour, sign up
-Lab due next day 10AM
 
-Fonts larger than 12 (refer to font sizing daily page ![[../../../../2024-11-09#Font guideline|2024-11-09]])
-Show all faces of PV to reconcile amount of space required
+> [!abstract]- Lab 9
+> Net Zero PV tour, sign up
+> Lab due next day 10AM
+> 
+> Fonts larger than 12 (refer to font sizing daily page ![[../../../../2024-11-09#Font guideline|2024-11-09]])
+> Show all faces of PV to reconcile amount of space required
 
 #### Module 13
 
@@ -976,7 +1001,7 @@ Show all faces of PV to reconcile amount of space required
 [Lab example.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CLab%20example.pdf)
 [Bahen-Centre.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CBahen-Centre.pdf)
 
-> [!blue]- Lab13
+> [!abstract]- Lab 10
 > The assignment is due on Quercus as a PDF (max. size 20MB) upload by **10AM, Wednesday November 22, 2023.**
 > 
 > Produce a PDF document with one 11x17 board in landscape orientation.  Text should not be smaller than 12-point font. Max file size 30MB. Five percent reduction in grade for every MB over 30MB.

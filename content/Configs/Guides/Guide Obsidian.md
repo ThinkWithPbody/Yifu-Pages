@@ -34,8 +34,6 @@ _Italic_
 >Quote
 >Multi line
 
-> [!Note]+ Callout
-
 This[^1] is a simple[^2] footnote[^note].
 
 [^1]: This is the referenced text.
@@ -46,6 +44,50 @@ This[^1] is a simple[^2] footnote[^note].
 
 Break Line
 ___
+
+## Callouts
+
+> [!white] Default Callouts
+> 
+> > [!note]
+>
+> > [!quote]
+>
+> > [!info]
+>
+> > [!question]
+>
+> > [!success]
+>
+> > [!failure]
+>
+> > [!warning]
+>
+> > [!danger]
+> 
+> > [!todo]
+>
+> > [!important]
+> 
+> > [!abstract]
+>
+> > [!example]
+
+> [!white] Custom Callouts
+> 
+> > [!white]
+> 
+> > [!grey]
+> 
+> > [!black]
+> 
+> > [!blue]
+> 
+> > [!yellow]
+> 
+> > [!pink]
+> 
+> > [!green]
 
 ## References
 
