@@ -4,7 +4,7 @@ tags:
 share: true
 ---
 ## Standard Fields
-status: string = TODO, IN_PROGRESS, DONE, CANCELLED
+status: string = TODO, IN_PROGRESS, DONE, CANCELLED, NON_TASK
 priority: string = lowest, low, normal, medium, high, highest
 
 ## Dataview Basics
@@ -30,7 +30,7 @@ release-date:: 2027-06-18T12:00
 ```
 \- until release!!
 ```
-P2Y6M2DT18H24M0.859S until release!!
+P2Y6M2DT16H48M39.113S until release!!
 
 ## DataviewJS
 
