@@ -9,16 +9,16 @@ Hi there, thanks for stopping by (人´∀\`)
 I'm a creator offering:
 
 Architecture & Design Services 
-[Peer 3D Printing Service](./Projects/2024/Yifu%20Design%20Lab/Yifu%20Design%20Lab.md) 
+[[./Projects/2024/Yifu Design Lab/Yifu Design Lab|Peer 3D Printing Service]] 
 [Blender Files & Scripts](https://30salt.gumroad.com/) 
 
 
 Or... you might be looking for:
 
-My [Rhino](./Wiki/Rhino.md) custom settings and scripts
-My [Resonant Orbit Calculator](./Configs/Files/Resonant%20Orbit%20Calculator.py) for KSP
-A guide on using [SPT](../Escape%20From%20Tarkov.md) 
-Or other Obsidian related [Guides](./Configs/Guides/Guides.md) 
+My [[./Wiki/Rhino|Rhino]] custom settings and scripts
+My [[./Configs/Files/Resonant Orbit Calculator.py|Resonant Orbit Calculator]] for KSP
+A guide on using [[../Escape From Tarkov|SPT]] 
+Or other Obsidian related [[./Configs/Guides/Guides|Guides]] 
 
 
 What have I been up to?
