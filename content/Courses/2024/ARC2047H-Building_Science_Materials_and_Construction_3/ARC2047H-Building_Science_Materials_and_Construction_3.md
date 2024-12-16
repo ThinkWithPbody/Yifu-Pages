@@ -5,7 +5,7 @@ start: 2024-09-03
 due: 2025-01-03
 completion: 
 people:
-  - "[Daniel Haeyoung Chung](People/Daniel%20Haeyoung%20Chung.md)"
+  - "[[People/Daniel Haeyoung Chung|People/Daniel Haeyoung Chung]]"
 location: DA200
 weekday: 2
 time: 1000
@@ -84,7 +84,7 @@ share: true
 > [ARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3 2024-09-10 14_30_31.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CARC2047+Week+2+Lecture+Notes+on+Psychrometric+Processes+v3%202024-09-10%2014_30_31.pdf)
 > [ASHRAE Psychrometric Chart SI Lecture Demonstration problem.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI%20Lecture%20Demonstration%20problem.pdf)
 > [ASHRAE Psychrometric Chart SI.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C02%5CASHRAE%20Psychrometric%20Chart%20SI.pdf)
-> ![ASHRAE Psychrometric Chart SI](./Attachments/ARC2047H-Psychrometric%20Chart/ASHRAE%20Psychrometric%20Chart%20SI.jpg)
+> ![[./Attachments/ARC2047H-Psychrometric Chart/ASHRAE Psychrometric Chart SI.jpg|ASHRAE Psychrometric Chart SI]]
 > 
 
 Difference between power and energy
@@ -140,8 +140,9 @@ Thermal comfort directly affects productivity
 		- Sensible Heat (): H_s
 		- Total Heat (): H
 
-[ARC2047H-Psychrometric Chart](../../../../ARC2047H-Psychrometric%20Chart.md)
-![ARC2047H-Psychrometric Chart](../../../../ARC2047H-Psychrometric%20Chart.md)
+[[../../../../ARC2047H-Psychrometric Chart|ARC2047H-Psychrometric Chart]]
+[[../../../../ARC2047H-Psychrometric Chart|ARC2047H-Psychrometric Chart]]
+![[../../../../ARC2047H-Psychrometric Chart|ARC2047H-Psychrometric Chart]]
 
 > [!abstract]- Lab 1
 > 1. Given moist air with a dry-bulb temperature of 27 degrees Celsius and 38% relative humidity use the psychrometric chart to determine the **dewpoint** temperature in degrees Celsius. Provide a numeric answer with one decimal place.
@@ -194,16 +195,16 @@ Thermal comfort directly affects productivity
 > [ARC2047 Self Study HW 2 on Solar Position.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5CARC2047%20Self%20Study%20HW%202%20on%20Solar%20Position.pdf)
 
 
-[2024 09 16 week 3 slides v1](./Attachments/2024%2009%2016%20week%203%20slides%20v1.pdf)
+[[./Attachments/2024 09 16 week 3 slides v1.pdf|2024 09 16 week 3 slides v1]]
 
-[32N Sunpath Chart.jpg](./Attachments/ARC2047H-32N%20Sunpath%20Chart/32N%20Sunpath%20Chart.jpg)
-[40N Sunpath Chart.pdf](./Attachments/40N%20Sunpath%20Chart.pdf)
+[[./Attachments/ARC2047H-32N Sunpath Chart/32N Sunpath Chart.jpg|32N Sunpath Chart.jpg]]
+[[./Attachments/40N Sunpath Chart.pdf|40N Sunpath Chart.pdf]]
 
 
 - Always 23.5 degrees between solstice and equinox
 	- Toronto will never get sun at a degree of 90
 	- For 32N, winters have a narrower arc than summers
-	- ![p.6](./Attachments/2024%2009%2016%20week%203%20slides%20v1.pdf.md#page=6&rect=96,20,488,410)
+	- ![[./Attachments/2024 09 16 week 3 slides v1.pdf#page=6&rect=96,20,488,410|p.6]]
 - Sunpath horizontal projection, sky vault
 	- Equidistant sunpath diagram
 		- polar coordinate system
@@ -223,13 +224,13 @@ Thermal comfort directly affects productivity
 - Vertical Shadow Angle: VSA, vertical angle between the ground plane an the shadow cast by the lading edge of an overhang
 	- **VSA = arctan(tan(altitude)/cos(HSA))** (Calculator in degrees)
 		- tan(VSA) = tan(altitude)/cos(HSA)
-- ![p.26](./Attachments/2024%2009%2016%20week%203%20slides%20v1.pdf.md#page=26&rect=160,95,725,434)
+- ![[./Attachments/2024 09 16 week 3 slides v1.pdf#page=26&rect=160,95,725,434|p.26]]
 - **Horizontal Projection = Window Height ÷ tan(VSA)**
 	- **Lateral Projection = tan(HSA) × Horizontal Projection**
 - **Vertical Projection = Window (Shade) Width ÷ tan(HSA)**
-	- ![p.48](./Attachments/2024%2009%2016%20week%203%20slides%20v1.pdf.md#page=48&rect=75,4,743,538)
+	- ![[./Attachments/2024 09 16 week 3 slides v1.pdf#page=48&rect=75,4,743,538|p.48]]
 
-![ARC2047H-32N Sunpath Chart](../../../../ARC2047H-32N%20Sunpath%20Chart.md)
+![[../../../../ARC2047H-32N Sunpath Chart|ARC2047H-32N Sunpath Chart]]
 
 > [!abstract]- Lab 2
 > 
@@ -643,7 +644,7 @@ Cooling Loads
 			- 1 kWh = 1000 Wh
 				- **1 $/kWh = 1/1000 $/Wh**
 
-![ARC2047H-Solar Insolation](../../../../ARC2047H-Solar%20Insolation.md)
+![[../../../../ARC2047H-Solar Insolation|ARC2047H-Solar Insolation]]
 
 > [!yellow]- HD / CD Calculator
 > 
@@ -740,7 +741,7 @@ Cooling Loads
 > 5) A desired indoor summer temperature of 72F.
 > Find the approximate Summer Balance Point Temperature for the building in degrees F.
 > 
-> ![ARC2047H-Solar Insolation](../../../../ARC2047H-Solar%20Insolation.md)
+> ![[../../../../ARC2047H-Solar Insolation|ARC2047H-Solar Insolation]]
 > 
 > BPT = T_desired - Q_i ÷ UA_total
 > Q_i = (1239 × 3991 ÷ 24 × (1-0.76)) + 20982 = 70,430.49
@@ -750,7 +751,7 @@ Cooling Loads
 > 1) CDD = 1,513 Fdays 
 > 2) Summer BPT = 56.7F
 > 
-> ![500](./Attachments/Appendix%20B1%20MEEB%20Climatic%20Conditions.jpg)
+> ![[./Attachments/Appendix B1 MEEB Climatic Conditions.jpg|500]]
 > 
 > CLH (h) = CDD × 24 (h/day) ÷ (Design Temperature - Summer BPT)
 > CLH = 1513 × 24 ÷ (80.6 - 56.7) = 1519 h
@@ -768,17 +769,17 @@ Cooling Loads
 #### Module 08
 
 > [!blue]- Links
-> [2024+10+22+week+8+slides+v3 2024-10-22 14_37_23](./Attachments/2024+10+22+week+8+slides+v3%202024-10-22%2014_37_23.pdf)
+> [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf|2024+10+22+week+8+slides+v3 2024-10-22 14_37_23]]
 > 
-> [20241022 week 8 slides v3 2024-10-22 14_42_07](./Attachments/20241022%20week%208%20slides%20v3%202024-10-22%2014_42_07.pdf)
+> [[./Attachments/20241022 week 8 slides v3 2024-10-22 14_42_07.pdf|20241022 week 8 slides v3 2024-10-22 14_42_07]]
 > 
-> [ARC2047HF+HVAC+Distribution+Metric+Example 2024-10-22 14_29_56](./Attachments/ARC2047HF+HVAC+Distribution+Metric+Example%202024-10-22%2014_29_56.pdf)
+> [[./Attachments/ARC2047HF+HVAC+Distribution+Metric+Example 2024-10-22 14_29_56.pdf|ARC2047HF+HVAC+Distribution+Metric+Example 2024-10-22 14_29_56]]
 > 
-> [ARC2047HF+HW5+Solutions 2024-10-22 14_30_05](./Attachments/ARC2047HF+HW5+Solutions%202024-10-22%2014_30_05.pdf)
+> [[./Attachments/ARC2047HF+HW5+Solutions 2024-10-22 14_30_05.pdf|ARC2047HF+HW5+Solutions 2024-10-22 14_30_05]]
 > 
-> [ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution 2024-10-22 14_30_15](./Attachments/ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution%202024-10-22%2014_30_15.pdf)
+> [[./Attachments/ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution 2024-10-22 14_30_15.pdf|ARC2047HF+HW6+-+Self+Study+-+HVAC+Distribution 2024-10-22 14_30_15]]
 > 
-> [Week+8+Charts+and+Tables 2024-10-22 14_29_53](./Attachments/Week+8+Charts+and+Tables%202024-10-22%2014_29_53.pdf)
+> [[./Attachments/Week+8+Charts+and+Tables 2024-10-22 14_29_53.pdf|Week+8+Charts+and+Tables 2024-10-22 14_29_53]]
 
 HVAC Distribution
 - Pressure in ducts measured in Pascal or inches of water
@@ -786,7 +787,7 @@ HVAC Distribution
 	- Flow Efficiency
 		- Circular > Oval | Elliptical > Square > Rectangular
 - Diameter at each section of duct
-	- ==Critical Path: Duct Size and Shape== [(p.31)](./Attachments/2024+10+22+week+8+slides+v3%202024-10-22%2014_37_23.pdf.md#page=31&selection=0,34,0,34)
+	- ==Critical Path: Duct Size and Shape== [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=31&selection=0,34,0,34|(p.31)]]
 	- 2in of insulation on each surface 
 	- Turning radius is usually twice the duct diameter
 	- Air Velocity (fpm) at each section of duct
@@ -808,8 +809,8 @@ HVAC Distribution
 							- Limited by shortest distance from AHU to openings
 					- **V (cfm): Volumetric Flow Rate**
 						- Is governed by the greater of cooling or heating loads
-							- [q_cooling load (Btu/h | tons)](ARC2047H-Building_Science_Materials_and_Construction_3.md#^2de642)
-							- q_heating load (Btu/h | tons) = [UA_total (Btu/h F)](ARC2047H-Building_Science_Materials_and_Construction_3.md#^6c9468) × ∆T 
+							- [[ARC2047H-Building_Science_Materials_and_Construction_3#^2de642|q_cooling load (Btu/h | tons)]]
+							- q_heating load (Btu/h | tons) = [[ARC2047H-Building_Science_Materials_and_Construction_3#^6c9468|UA_total (Btu/h F)]] × ∆T 
 								- ∆T = BPT - Design Dry Bulb Winter
 						- V_sum (cfm) = Loads (ton) × V/ton
 							- V/ton
@@ -817,20 +818,20 @@ HVAC Distribution
 									- 54 (L/s/kW)
 								- q_1ton (Btu/h) = V/ton × Heat Capacity of Air (Btu·min/ft3·F·h) × ∆T
 									- 12000 = V/ton × 1.08 × ∆T_register
-										- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [(p.3)](./Attachments/2024+10+22+week+8+slides+v3%202024-10-22%2014_37_23.pdf.md#page=3&selection=30,0,36,2)
+										- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [[./Attachments/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=3&selection=30,0,36,2|(p.3)]]
 						- V_each = V_sum ÷ number of vent openings
 
-![ARC2047H-Duct Friction Chart](../../../../ARC2047H-Duct%20Friction%20Chart.md)
+![[../../../../ARC2047H-Duct Friction Chart|ARC2047H-Duct Friction Chart]]
 
 > [!abstract]- Lab 7
 > 
 > 1. For a given building located in Albany, New York the winter balance point temperature is 33.5F and the winter design temperature can be found in Table B.1 (see link below).  If the building has a UAtotal = of 3,753 Btu/(hF), what volumetric flow rate of air is needed to adequately heat the building with a forced air system?  Provide your answer in cubic feet per minute as an integer. 
 > 
-> ![Table B1 New York State](./Attachments/Lab/Table%20B1%20New%20York%20State.jpg)
+> ![[./Attachments/Lab/Table B1 New York State.jpg|Table B1 New York State]]
 > 
 > ∆T = BPT - Design Dry Bulb Winter
 > 	= 33.5 - 2.2 = 31.3
-> q_heating load (Btu/h | tons) = [UA_total (Btu/h F)](ARC2047H-Building_Science_Materials_and_Construction_3.md#^6c9468) × ∆T
+> q_heating load (Btu/h | tons) = [[ARC2047H-Building_Science_Materials_and_Construction_3#^6c9468|UA_total (Btu/h F)]] × ∆T
 > 	= 3753 × 31.3 = 117,468.9 Btu
 > 	= 9.789075 tons
 > V_sum = Loads (ton) × V/ton
@@ -846,7 +847,7 @@ HVAC Distribution
 > 
 > 3. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork layout shown in the link below, find the average volumetric flow rate of air per vent opening if the summer cooling load for the building is 11,522 Btu/h and the winter heating load is 29,722 Btu/h.  Assume all vent opening are the same size and have the same flow rate. Provide your answer in cubic feet per minute using one decimal place value.
 > 
-> ![layout](./Attachments/Lab/lab%20riser%20diagram%20A%20C%20D%20E%20F%20blank.jpg)
+> ![[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]]
 > 
 > V = 29722 ÷ 12000 × 400 = 990.73 cfm
 > V_each = V ÷ 12 = 82.6 cfm
@@ -869,7 +870,7 @@ HVAC Distribution
 > 
 > 5. For a given building the acoustic design of the HVAC system is desired to achieve NC-25 Background Levels. What should the friction loss (in inches of water per 100 ft) be for the supply duct work if the volumetric flow rate for the vent opening at the end of the critical path = 487 cfm?  See the acoustics table and friction chart links below.  Provide your answer in inches of water per 100 ft using three decimal place values. 
 > 
-> ![ARC2047H-Duct Friction Chart](../../../../ARC2047H-Duct%20Friction%20Chart.md)
+> ![[../../../../ARC2047H-Duct Friction Chart|ARC2047H-Duct Friction Chart]]
 > 0.013 in. wtr./100ft
 > 
 > ---
@@ -893,28 +894,28 @@ HVAC Distribution
 > 
 > ---
 > 
-> 7. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [layout](./Attachments/Lab/lab%20riser%20diagram%20A%20C%20D%20E%20F%20blank.jpg) shown in the link below, use the friction loss [chart](./Attachments/ARC2047H-Duct%20Friction%20Chart/friction%20loss%20chart%20ASHRAE%202021.jpg) to determine the velocity of air for duct C if the volume of air flow at each vent opening is 85 cfm. Use 0.024 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
+> 7. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/ARC2047H-Duct Friction Chart/friction loss chart ASHRAE 2021.jpg|chart]] to determine the velocity of air for duct C if the volume of air flow at each vent opening is 85 cfm. Use 0.024 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
 > 
 > 85 × 3 = 255 cfm
 > fpm @ 255 cfm @ 0.024 in. wtr./100ft ~= 390 fpm
 > 
 > ---
 > 
-> 8. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [layout](./Attachments/Lab/lab%20riser%20diagram%20A%20C%20D%20E%20F%20blank.jpg) shown in the link below, use the friction loss [chart](./Attachments/ARC2047H-Duct%20Friction%20Chart/friction%20loss%20chart%20ASHRAE%202021.jpg) to determine the velocity of air for duct B if the volume of air flow at each vent opening is 174 cfm. Use 0.028 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
+> 8. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/ARC2047H-Duct Friction Chart/friction loss chart ASHRAE 2021.jpg|chart]] to determine the velocity of air for duct B if the volume of air flow at each vent opening is 174 cfm. Use 0.028 inches of water/100ft as the friction loss for the ductwork.  Provide your answer in feet per minute as an integer.  Do not use units in your answer.
 > 
 > 174 × 6 = 1044 cfm
 > fpm @ 1044 cfm @ 0.028 in. wtr./100ft ~= 590 fpm
 > 
 > ---
 > 
-> 9. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [layout](./Attachments/Lab/lab%20riser%20diagram%20A%20C%20D%20E%20F%20blank.jpg) shown in the link below, use the friction loss [chart](./Attachments/ARC2047H-Duct%20Friction%20Chart/friction%20loss%20chart%20ASHRAE%202021.jpg) to determine the clear inside diameter for duct A if the volume of air flow at each vent opening is 170 cfm. Use 0.025 inches of water/100ft as the friction loss for the ductwork. Provide your answer in inches within one decimal place value. Note that duct A is the vertical duct between the AHU and ducts B. Assume duct A is round.
+> 9. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/ARC2047H-Duct Friction Chart/friction loss chart ASHRAE 2021.jpg|chart]] to determine the clear inside diameter for duct A if the volume of air flow at each vent opening is 170 cfm. Use 0.025 inches of water/100ft as the friction loss for the ductwork. Provide your answer in inches within one decimal place value. Note that duct A is the vertical duct between the AHU and ducts B. Assume duct A is round.
 > 
 > 170 × 12 = 2040 cfm
 > diameter @ 2040 cfm @ 0.025 in. wtr./100ft ~= 23.9 in
 > 
 > ---
 > 
-> 10. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [layout](./Attachments/Lab/lab%20riser%20diagram%20A%20C%20D%20E%20F%20blank.jpg) shown in the link below, use the friction loss [chart](./Attachments/ARC2047H-Duct%20Friction%20Chart/friction%20loss%20chart%20ASHRAE%202021.jpg) to determine the minimum outside diameter for duct D if the volume of air flow at each vent opening is 80 cfm. Use 0.044 inches of water/100ft as the friction loss for the ductwork. Assume 2-inch-thick insulation lining the inside of the duct. Provide your answer in inches within one decimal place value. Assume duct D is round.
+> 10. For a given 3,000 ft2 building (three-story above ground with basement AHU) with the supply ductwork [[./Attachments/Lab/lab riser diagram A C D E F blank.jpg|layout]] shown in the link below, use the friction loss [[./Attachments/ARC2047H-Duct Friction Chart/friction loss chart ASHRAE 2021.jpg|chart]] to determine the minimum outside diameter for duct D if the volume of air flow at each vent opening is 80 cfm. Use 0.044 inches of water/100ft as the friction loss for the ductwork. Assume 2-inch-thick insulation lining the inside of the duct. Provide your answer in inches within one decimal place value. Assume duct D is round.
 > 
 > 80 × 3 = 240 cfm
 > diameter @ 240 cfm @ 0.044 in/. wtr./100ft ~= 9.5 in
@@ -929,7 +930,7 @@ HVAC Distribution
 
 > [!blue]- Links
 > 
-> [2024 11 05 week 10 slides EUI and Refrigeration - No LAB](./Attachments/2024%2011%2005%20week%2010%20slides%20EUI%20and%20Refrigeration%20-%20No%20LAB.pdf)
+> [[./Attachments/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf|2024 11 05 week 10 slides EUI and Refrigeration - No LAB]]
 
 - EUI: Energy Use Intensity
 	- Annual kWh/m2 kBtu/ft2
@@ -974,10 +975,10 @@ HVAC Distribution
 #### Module 11
 
 > [!blue]- Links
-> [2024 11 12 week 11 slides v3](./Attachments/2024%2011%2012%20week%2011%20slides%20v3.pdf)
-> [Example of lab submission for Site Visit](./Attachments/Example%20of%20lab%20submission%20for%20Site%20Visit.pdf)
-> [Panasonic 380W panel](./Attachments/Panasonic%20380W%20panel.pdf)
-> [toronto green standard](./Attachments/toronto%20green%20standard.pdf)
+> [[./Attachments/2024 11 12 week 11 slides v3.pdf|2024 11 12 week 11 slides v3]]
+> [[./Attachments/Example of lab submission for Site Visit.pdf|Example of lab submission for Site Visit]]
+> [[./Attachments/Panasonic 380W panel.pdf|Panasonic 380W panel]]
+> [[./Attachments/toronto green standard.pdf|toronto green standard]]
 
 ##### TGS: Toronto Green Standard
 
@@ -991,15 +992,15 @@ HVAC Distribution
 | Mixed Use (Calculated using a weighted average of the above) |        |      |        |      |        |      |
 
 - **EUI conversion**
-	- ==Energy Use Intensity (EUI): 1 kWh = 3412 Btu== [(p.6)](./Attachments/2024%2011%2012%20week%2011%20slides%20v3.pdf.md#page=6&selection=0,27,2,16)
-	- ==1 m2 = 10.764 ft2== [(p.6)](./Attachments/2024%2011%2012%20week%2011%20slides%20v3.pdf.md#page=6&selection=4,0,9,0)
+	- ==Energy Use Intensity (EUI): 1 kWh = 3412 Btu== [[./Attachments/2024 11 12 week 11 slides v3.pdf#page=6&selection=0,27,2,16|(p.6)]]
+	- ==1 m2 = 10.764 ft2== [[./Attachments/2024 11 12 week 11 slides v3.pdf#page=6&selection=4,0,9,0|(p.6)]]
 	- **TEUI: Annual Total Energy Use Intensity**
 		- Average 275
 	- **TEDI: Annual Thermal Energy Demand Intensity**
 		- TEDI (kWh/m2/yr) = Annual Thermal Space Conditioning (kWh) ÷ Area (m2)
 		- Must be below 40 for Tier 1 (mandatory)
 		- Average 162
-		- ==Annual Electricity for Cooling (Wh) = Cooling Load (Btu/h) × CLH (h) × 1/SEER (W/Btu/h)== ([p.5](./Attachments/2024%2011%2012%20week%2011%20slides%20v3.pdf.md#page=5&selection=6,10,8,27))
+		- ==Annual Electricity for Cooling (Wh) = Cooling Load (Btu/h) × CLH (h) × 1/SEER (W/Btu/h)== ([[./Attachments/2024 11 12 week 11 slides v3.pdf#page=5&selection=6,10,8,27|p.5]])
 	- TEUI - TEDI = Annual Non-Thermal Energy EUI
 		- Size renewable **Energy** (kWh/yr) budget using TGS
 - Renewable energies
@@ -1008,7 +1009,7 @@ HVAC Distribution
 			- PSH: Peak Sun Hours
 				- **1 PSH = 1000 W/m2**
 			- Maximize Peak sun hour = 4.64 (hours/day) at 35-degree tilt south in Toronto
-				- ![p.16](./Attachments/2024%2011%2012%20week%2011%20slides%20v3.pdf.md#page=16&rect=59,47,956,387)
+				- ![[./Attachments/2024 11 12 week 11 slides v3.pdf#page=16&rect=59,47,956,387|p.16]]
 				- Most typical configuration is flat or 10 EW or 5 S degrees because of Peak Sun Hours ÷ m2
 				- 35 S casts shadows on the next one
 				- **Commonly spaced to allow maintenance**
@@ -1034,13 +1035,13 @@ HVAC Distribution
 	- Hydro
 	- Wind
 		- 20 times the building size to do something
-- ==Absorption Refrigeration Cycle== ([p.26](./Attachments/2024%2011%2012%20week%2011%20slides%20v3.pdf.md#page=26&selection=0,0,0,30))
-	- Differs from ==Compressive Refrigeration Cycle== ([p.13](./Attachments/2024%2011%2005%20week%2010%20slides%20EUI%20and%20Refrigeration%20-%20No%20LAB.pdf.md#page=13&selection=0,0,0,31)) and ==Heat Pump== ([p.19](./Attachments/2024%2011%2005%20week%2010%20slides%20EUI%20and%20Refrigeration%20-%20No%20LAB.pdf.md#page=19&selection=0,9,0,9))
+- ==Absorption Refrigeration Cycle== ([[./Attachments/2024 11 12 week 11 slides v3.pdf#page=26&selection=0,0,0,30|p.26]])
+	- Differs from ==Compressive Refrigeration Cycle== ([[./Attachments/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf#page=13&selection=0,0,0,31|p.13]]) and ==Heat Pump== ([[./Attachments/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf#page=19&selection=0,9,0,9|p.19]])
 		- Effective in large scale cooling load of 10 tons +
 	- Refrigerant
-		- Water + Lithium Bromide ==stays above 0°C== ([p.26](./Attachments/2024%2011%2012%20week%2011%20slides%20v3.pdf.md#page=26&selection=5,44,5,59))
-		- Water + Ammonia, less damaging leak ==can cycle below 0°C== ([p.26](./Attachments/2024%2011%2012%20week%2011%20slides%20v3.pdf.md#page=26&selection=7,50,7,69))
-	- ![p.26](./Attachments/2024%2011%2012%20week%2011%20slides%20v3.pdf.md#page=26&rect=193,18,776,373)
+		- Water + Lithium Bromide ==stays above 0°C== ([[./Attachments/2024 11 12 week 11 slides v3.pdf#page=26&selection=5,44,5,59|p.26]])
+		- Water + Ammonia, less damaging leak ==can cycle below 0°C== ([[./Attachments/2024 11 12 week 11 slides v3.pdf#page=26&selection=7,50,7,69|p.26]])
+	- ![[./Attachments/2024 11 12 week 11 slides v3.pdf#page=26&rect=193,18,776,373|p.26]]
 		- Vapour is attracted by the strongly concentrated desiccant solution in the absorber chamber after evaporating via absorbing energy in the evaporator chamber from the building closed loop cooling load (13C > 7C) 
 		- Heated solution evaporates hot water vapour from the generator chamber (desorber) (could be solar or geo heated) is attracted to the cooler condenser chamber which is usually paired with a chilling tower to reject heat (29C) to outside, with the left over concentrated desiccant solution pumped back into absorber chamber and the condensed chill water pumped into the evaporator chamber
 
@@ -1136,7 +1137,7 @@ HVAC Distribution
 > Net Zero PV tour, sign up
 > Lab due next day 10AM
 > 
-> Fonts larger than 12 (refer to font sizing daily page ![2024-11-09](../../../../2024-11-09.md#Font%20guideline))
+> Fonts larger than 12 (refer to font sizing daily page ![[../../../../2024-11-09#Font guideline|2024-11-09]])
 > Show all faces of PV to reconcile amount of space required
 
 #### Module 13
@@ -1170,13 +1171,13 @@ HVAC Distribution
 
 ## Projects
 
-### [ARC2047H_Project-1_Cheatsheet](../../../../ARC2047H_Project-1_Cheatsheet.md)
+### [[../../../../ARC2047H_Project-1_Cheatsheet|ARC2047H_Project-1_Cheatsheet]]
 
-### [ ARC2047H_Project-2](/Projects/2024/ARC2047H_Project-2/ARC2047H_Project-2.md)
+### [[/Projects/2024/ARC2047H_Project-2/ARC2047H_Project-2| ARC2047H_Project-2]]
 
-### [ ARC2047H_Project-3](/Projects/2024/ARC2047H_Project-3/ARC2047H_Project-3.md)
+### [[/Projects/2024/ARC2047H_Project-3/ARC2047H_Project-3| ARC2047H_Project-3]]
 
-### [ ARC2047H_Project-4](/Projects/2024/ARC2047H_Project-4/ARC2047H_Project-4.md)
+### [[/Projects/2024/ARC2047H_Project-4/ARC2047H_Project-4| ARC2047H_Project-4]]
 
 
 ## Tagged 
