@@ -140,6 +140,7 @@ Thermal comfort directly affects productivity
 		- Sensible Heat (): H_s
 		- Total Heat (): H
 
+[[../../../../ARC2047H-Psychrometric Chart|ARC2047H-Psychrometric Chart]]
 ![[../../../../ARC2047H-Psychrometric Chart|ARC2047H-Psychrometric Chart]]
 
 > [!abstract]- Lab 1
