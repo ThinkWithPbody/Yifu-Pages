@@ -99,8 +99,12 @@ Inline Reference![[Guide Obsidian#Styles|Configs/Guides/Guide Obsidian > Styles]
 
 Ctrl = Enable Hover Preview On Links
 Ctrl + E = Toggle Source Mode
+Ctrl + R = Toggle Reading Mode
 Alt + E = Templater
 Alt + Q = QuickAdd
+Alt + C = Format Callout
+Alt + D = Excalidraw Deconstruct Selected
+Alt + F = Excalidraw Flip to Back of Note
 Ctrl + Alt + A = Emoji Toolbar
 Ctrl + Alt + T = Modify Task
 Ctrl + Drag + Drop = Embed /  Transclude
