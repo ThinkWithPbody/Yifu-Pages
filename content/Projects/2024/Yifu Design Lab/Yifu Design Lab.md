@@ -5,7 +5,7 @@ tags:
 share: true
 status: DONE
 ---
-%%[parents:: [[../../../../Yifu Ding|Yifu Ding]]]%%
+%%[parents:: [Yifu Ding](../../../../Yifu%20Ding.md)]%%
 %%https://bit.ly/45WKQSC%%
 %%https://thinkwithpbody.github.io/Yifu-Pages/Projects/2024/Yifu-Design-Lab/Yifu-Design-Lab%%
 
@@ -38,19 +38,19 @@ Invoice available upon request.
 
 | File Setup | Printing                                          | Filament      |
 | ---------- | ------------------------------------------------- | ------------- |
-| \$12       | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament|Filament]] |
+| \$12       | %%<span style="color:red;">\$3</span>%%\$0.05/min | [Filament](Yifu%20Design%20Lab.md#Filament) |
 
 > [!info]
-> [[Yifu Design Lab#Why is there a setup fee|Setup fee]] may be discounted or waived depending on complexity.
+> [Setup fee](Yifu%20Design%20Lab.md#Why%20is%20there%20a%20setup%20fee) may be discounted or waived depending on complexity.
 > 
 > Setup fee will be waived for Bambu Studio sliced .3mf files. However, please be aware that the outcome of the initial print will be final, as no adjustments or reprints will be provided for these waived jobs. The standard "100% satisfaction guarantee," which includes the option for a full reprint or refund if you are not satisfied with your order, does not apply to these waived jobs. If you accept these conditions and wish to proceed with complete control over the print process, please use the following [template](http://www.mediafire.com/view/rgq6dceauc22jln) to get started.
 
 ### Getting Started
 
-1. Follow [[Yifu Design Lab#File Preparation|File Preparation]] and export files.
-2. Choose your [[Yifu Design Lab#Filament|Filament]].
-3. Choose from one of the [[Yifu Design Lab#Quality Presets|Quality Presets]].
-4. Adjust [[Yifu Design Lab#Slicing Options|Slicing Options]] as needed.
+1. Follow [File Preparation](Yifu%20Design%20Lab.md#File%20Preparation) and export files.
+2. Choose your [Filament](Yifu%20Design%20Lab.md#Filament).
+3. Choose from one of the [Quality Presets](Yifu%20Design%20Lab.md#Quality%20Presets).
+4. Adjust [Slicing Options](Yifu%20Design%20Lab.md#Slicing%20Options) as needed.
 5. Send your **ZIP** file, **filament**, **preset**, and any **custom options** to Yifu Ding over Teams or [Email](mailto:yifu.ding@mail.utoronto.ca) to place job order.
 6. Email transfer fees to yifuding.twp@gmail.com
 
@@ -208,7 +208,7 @@ Scarf Joint Seam (Contour And Hole)
 
 ### File Preparation
 
-![[./Attachments/Yifu Design Lab/2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino).gif|2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino)]]
+![2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino)](./Attachments/Yifu%20Design%20Lab/2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino).gif)
 *The pricing calculation in this demonstration is outdated.*
 
 #### Orientate
@@ -230,12 +230,12 @@ Files should be exported as **STL in millimetres**.
 - Rhino files or incorrectly scaled STL will not be accepted.
 - **Each separated body should be one file** regardless of which plate they may be on, to maximize nesting potential.
 	- When relative positioning is important, add a small bridge with a cross section of 0.5-1mm² (depending on strength requirement) directly on the print bed and boolean union all connected bodies.
-- For multiple objects, use the Rhino command **RunPythonScript** with the [[../../../Wiki/Attachments/Rhino/BatchExportSTLByObj.py|Batch Export Python Script]] to export all selected files at once.
+- For multiple objects, use the Rhino command **RunPythonScript** with the [Batch Export Python Script](../../../Wiki/Attachments/Rhino/BatchExportSTLByObj.py) to export all selected files at once.
 - Deliver more than one .stl files as a **ZIP**.
 
 ### Showcase
 
-![[./Attachments/Yifu Design Lab/DSCF4947.jpg|400]]
+![400](./Attachments/Yifu%20Design%20Lab/DSCF4947.jpg)
 <iframe title="Speckle" src="https://app.speckle.systems/projects/aefb5374cb/models/a8a8bbe12f#embed=%7B%22isEnabled%22%3Atrue%7D" width="800" height="400" frameborder="0"></iframe>
 
 by Arjay Asuncion - 2024
@@ -245,7 +245,7 @@ by Arjay Asuncion - 2024
 ###### Why is there a setup fee
 
 This setup fee allows me to take more care optimizing your print file and compensates me for my continued presence. Optimizations can massively reduce your print time and filament use, lowering total cost, but each job is different and it takes time. I try my best to provide affordable and environmentally responsible printing service, which is why I offer my time and expertise at a modest fee. You'll always have the option to slice it by yourself and I am pleased to waive the setup fee for such cases, but current success rate for this option is only 0%.
-![[./Attachments/Yifu Design Lab/2024-04-10T00_15_05.jpg|400]]
+![400](./Attachments/Yifu%20Design%20Lab/2024-04-10T00_15_05.jpg)
 
 %%
 ### Tiny Tracker
