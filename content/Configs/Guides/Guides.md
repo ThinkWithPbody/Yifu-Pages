@@ -6,13 +6,13 @@ tags:
 parents: "[[index]]"
 share: true
 ---
-- [[../../../Guide Advanced Slides|Guide Advanced Slides]]
-- [[./Guide Dataview|Guide Dataview]]
-- [[./Guide Excalibrain|Guide Excalibrain]]
-- [[./Guide Obsidian|Guide Obsidian]]
-- [[../../../Guide PDF++|Guide PDF++]]
-- [[../../../Guide Publisher|Guide Publisher]]
-- [[../../../Guide QuickAdd|Guide QuickAdd]]
-- [[./Guide Tasks|Guide Tasks]]
-- [[./Guide Templater|Guide Templater]]
+- [Guide Advanced Slides](../../../Guide%20Advanced%20Slides.md)
+- [Guide Dataview](./Guide%20Dataview.md)
+- [Guide Excalibrain](./Guide%20Excalibrain.md)
+- [Guide Obsidian](./Guide%20Obsidian.md)
+- [Guide PDF++](../../../Guide%20PDF++.md)
+- [Guide Publisher](../../../Guide%20Publisher.md)
+- [Guide QuickAdd](../../../Guide%20QuickAdd.md)
+- [Guide Tasks](./Guide%20Tasks.md)
+- [Guide Templater](./Guide%20Templater.md)
 
