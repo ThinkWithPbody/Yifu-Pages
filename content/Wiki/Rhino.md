@@ -46,15 +46,15 @@ share: true
 ### Scripts
 
 #### I/O
-[[./Attachments/Rhino/BatchExportSTLByObj.py|BatchExportSTLByObj.py]]
+[BatchExportSTLByObj.py](./Attachments/Rhino/BatchExportSTLByObj.py)
 
 #### View
-[[./Attachments/Rhino/FindAllHiddenClippingPlaneLayers.py|FindAllHiddenClippingPlaneLayers.py]]
+[FindAllHiddenClippingPlaneLayers.py](./Attachments/Rhino/FindAllHiddenClippingPlaneLayers.py)
 
 
 #### Geo
-[[./Attachments/Rhino/HatchFromCenterline.py|HatchFromCenterline.py]]
-![[./Attachments/Rhino/HatchFromCenterline.gif|HatchFromCenterline]]
+[HatchFromCenterline.py](./Attachments/Rhino/HatchFromCenterline.py)
+![HatchFromCenterline](./Attachments/Rhino/HatchFromCenterline.gif)
 
 ### Plugins
 #### Package Manager:
