@@ -142,7 +142,7 @@ Thermal comfort directly affects productivity
 
 [ARC2047H-Psychrometric Chart](../../../../ARC2047H-Psychrometric%20Chart.md)
 [ARC2047H-Psychrometric Chart](../../../../ARC2047H-Psychrometric%20Chart.md)
-![ARC2047H-Psychrometric Chart](../../../../ARC2047H-Psychrometric%20Chart.md)
+![Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/ARC2047H-Psychrometric Chart.PNG](./ARC2047H-Psychrometric%20Chart.png)
 
 > [!abstract]- Lab 1
 > 1. Given moist air with a dry-bulb temperature of 27 degrees Celsius and 38% relative humidity use the psychrometric chart to determine the **dewpoint** temperature in degrees Celsius. Provide a numeric answer with one decimal place.
@@ -809,8 +809,8 @@ HVAC Distribution
 							- Limited by shortest distance from AHU to openings
 					- **V (cfm): Volumetric Flow Rate**
 						- Is governed by the greater of cooling or heating loads
-							- [q_cooling load (Btu/h | tons)](ARC2047H-Building_Science_Materials_and_Construction_3.md#^2de642)
-							- q_heating load (Btu/h | tons) = [UA_total (Btu/h F)](ARC2047H-Building_Science_Materials_and_Construction_3.md#^6c9468) × ∆T 
+							- [q_cooling load (Btu/h | tons)](index.md#^2de642)
+							- q_heating load (Btu/h | tons) = [UA_total (Btu/h F)](index.md#^6c9468) × ∆T 
 								- ∆T = BPT - Design Dry Bulb Winter
 						- V_sum (cfm) = Loads (ton) × V/ton
 							- V/ton
@@ -831,7 +831,7 @@ HVAC Distribution
 > 
 > ∆T = BPT - Design Dry Bulb Winter
 > 	= 33.5 - 2.2 = 31.3
-> q_heating load (Btu/h | tons) = [UA_total (Btu/h F)](ARC2047H-Building_Science_Materials_and_Construction_3.md#^6c9468) × ∆T
+> q_heating load (Btu/h | tons) = [UA_total (Btu/h F)](index.md#^6c9468) × ∆T
 > 	= 3753 × 31.3 = 117,468.9 Btu
 > 	= 9.789075 tons
 > V_sum = Loads (ton) × V/ton
