@@ -5,8 +5,8 @@ start: 2024-01-05
 due: 
 completion: 2024-04-01
 people:
-  - "[[People/Dave Bowick|People/Dave Bowick]]"
-  - "[[People/Shannon Hilchie|People/Shannon Hilchie]]"
+  - "[Dave Bowick](People/Dave%20Bowick.md)"
+  - "[Shannon Hilchie](People/Shannon%20Hilchie.md)"
 location: DA200
 weekday: 5
 time: 900
@@ -24,11 +24,11 @@ share: true
 | Steel    | Deck Corrugated Metal             | d: **38**, 76mm                                                                                                                                                                                    | d = l / 50              |                                                                     |
 | Steel    | Deck Concrete on Corrugated Metal | d: **38**, 76 mm + **64** mm                                                                                                                                                                       | d = l / 20              | Concrete is usually normal density                                  |
 | Steel    | Joists Open Web Steel             | d: n * **50** mm (2")                                                                                                                                                                              | d = l / 16              |                                                                     |
-| Steel    | Purlins                           | [[ARC1046H Structures 1#Standard Steel Sizes|Standard Steel Sizes]]                                                                                                                                                                          | d = l / 25; b = d / 2-3 |                                                                     |
-| Steel    | Beams                             | [[ARC1046H Structures 1#Standard Steel Sizes|Standard Steel Sizes]]                                                                                                                                                                          | d = l / 20; b = d / 2-3 |                                                                     |
-| Steel    | Girders                           | [[ARC1046H Structures 1#Standard Steel Sizes|Standard Steel Sizes]]                                                                                                                                                                          | d = l / 15; b = d / 2-3 |                                                                     |
+| Steel    | Purlins                           | [Standard Steel Sizes](ARC1046H%20Structures%201.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | d = l / 25; b = d / 2-3 |                                                                     |
+| Steel    | Beams                             | [Standard Steel Sizes](ARC1046H%20Structures%201.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | d = l / 20; b = d / 2-3 |                                                                     |
+| Steel    | Girders                           | [Standard Steel Sizes](ARC1046H%20Structures%201.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | d = l / 15; b = d / 2-3 |                                                                     |
 | Steel    | Trusses                           | d: n * **50** mm                                                                                                                                                                                   | d = l / 12; b = d / 2-3 |                                                                     |
-| Steel    | Columns                           | [[ARC1046H Structures 1#Standard Steel Sizes|Standard Steel Sizes]]                                                                                                                                                                          | w = h / **20**-40       |                                                                     |
+| Steel    | Columns                           | [Standard Steel Sizes](ARC1046H%20Structures%201.md#Standard%20Steel%20Sizes)                                                                                                                                                                          | w = h / **20**-40       |                                                                     |
 | Wood     | Deck Plywood                      | c/c: 12, **16**, 20, 24; Subfloors: 6.4, 9.5 mm (1/4, 3/8"); Walls: **12.7**, 15.9, 19.1, 22.2, 25.4 mm (**1/2**, 5/8, 3/4, 7/8, 1"); Roof: **12.7** mm (**1/2**"); Floors: **19.1** mm (**3/4**") |                         | 4'x8' sheets                                                        |
 | Wood     | Deck Tongue and Groove            | d: **38**, 64, 89 mm                                                                                                                                                                               | d = l / 40              | Standard size matches wood joists                                   |
 | Wood     | Joists Lumber                     | w: **38**, 89 mm; d: 89, 140, **184**, 235, 286 mm                                                                                                                                                 | d = l / 16              | 16"/400mm c/c                                                       |
@@ -143,12 +143,12 @@ Typical slab on grade: Br > 24 kPa
 [ARC1046 Lecture 01 Strength, Stiffness, Stability.pptx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CLecture%20Slides%5CARC1046%20Lecture%2001%20Strength,%20Stiffness,%20Stability.pptx)
 [Videos](https://www.archdaily.com/797373/these-videos-will-help-you-pass-your-are-structural-exam)
 
-Safe, stable building that is the cheapest possible, while meeting constraints, needs, demands, [[Wiki/NBCC/NBCC|Wiki/NBCC/NBCC]]
+Safe, stable building that is the cheapest possible, while meeting constraints, needs, demands, [NBCC](Wiki/NBCC/NBCC.md)
 Engineers working iteratively with Architects
 
 - [x] Buy reading: Science Builders Structural Engineering  [completion:: 2024-04-09]
 
-Structural engineering considers [[ARC1046H Structures 1#Strength|Strength]], [[ARC1046H Structures 1#Structure|Structure]], [[ARC1046H Structures 1#Stiffness|Stiffness]], [[ARC1046H Structures 1#Stability|Stability]].
+Structural engineering considers [Strength](ARC1046H%20Structures%201.md#Strength), [Structure](ARC1046H%20Structures%201.md#Structure), [Stiffness](ARC1046H%20Structures%201.md#Stiffness), [Stability](ARC1046H%20Structures%201.md#Stability).
 
 #### Structure
 #### Strength
@@ -259,7 +259,7 @@ The state of being stable, or the opposite of in-stable. Instability can be elas
 
 ### Module 2
 
-![[./Attachments/Assignment 02-6.jpg|Assignment 02-6]]
+![Assignment 02-6](./Attachments/Assignment%2002-6.jpg)
 
 Structural drawing
 one should be able to build the entire structure from structural drawings
@@ -300,7 +300,7 @@ Steel and concrete building:
 			- Left
 		- Geo datum as cardinal, others as ordinal
 	- Put the grids in the most convenient place to offset from foundations
-		- [x] ![[./Attachments/ARC1046H Structures 1 2024-01-17.png|ARC1046H Structures 1 2024-01-17]]%%[[../../../../ARC1046H Structures 1 2024-01-17|🖋 Edit in Excalidraw]]%%  [completion:: 2024-04-10]
+		- [x] ![ARC1046H Structures 1 2024-01-17](./Attachments/ARC1046H%20Structures%201%202024-01-17.png)%%[🖋 Edit in Excalidraw](../../../../ARC1046H%20Structures%201%202024-01-17.md)%%  [completion:: 2024-04-10]
 	- Only describe the extent when it’s not obvious
 	- Describe top of steel / beam everywhere (sometimes indicated on schedule)
 		- sometimes, indicate under side of deck, and top of steel is at underside of deck unless noted
@@ -381,7 +381,7 @@ Alternative Construction Techniques (Glass, Fabric, Straw Bale, Rammed Earth)
 	- Multiple storey column lifts (steel)
 	- Minimize transfers
 - Cold and hot rolled steel
-	- [x] ![[./Attachments/ARC1046H Structures 1 2024-01-24.png|ARC1046H Structures 1 2024-01-24]]%%[[../../../../ARC1046H Structures 1 2024-01-24|🖋 Edit in Excalidraw]]%%  [completion:: 2024-04-10]
+	- [x] ![ARC1046H Structures 1 2024-01-24](./Attachments/ARC1046H%20Structures%201%202024-01-24.png)%%[🖋 Edit in Excalidraw](../../../../ARC1046H%20Structures%201%202024-01-24.md)%%  [completion:: 2024-04-10]
 	- Flange thickness and web thickness not necessarily same width, not working as hard as flange
 
 Steel construction
@@ -479,13 +479,13 @@ ULS: Ultimate Limit State
 SLS: Serviceability Limit State
 
 ULS: Strength
-![[./Attachments/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg|2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc)]]
+![2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc)](./Attachments/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg)
 
 SLS: Serviceability
 Stiffness, Deflection
 
 Use SLS Snow Load Importance Factor
-![[./Attachments/2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc).jpg|2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc)]]
+![2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc)](./Attachments/2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc).jpg)
 
 ### Module 8
 
@@ -552,7 +552,7 @@ Mos @ 3/4 L:
 V = -1/2 P
 M = 1/8 PL
 
-![[./Attachments/Pasted image 20240401222128.png|Pasted image 20240401222128]]
+![Pasted image 20240401222128](./Attachments/Pasted%20image%2020240401222128.png)
 
 ---
 
@@ -596,7 +596,7 @@ M = 0
 
 ## Projects
 
-### [[Projects/Structures 1 - Project 1/Structures 1 - Project 1|Project 1]]
+### [Project 1](Projects/Structures%201%20-%20Project%201/Structures%201%20-%20Project%201.md)
 
 - [x] [ARC1046 Project Description.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CAssignments%5CARC1046%20Project%20Description.pdf)  [due:: 2024-04-30]  [completion:: 2024-04-18]
 [ARC1046 Project Drawings.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5C2024-01%5CARC1046H%5CAssignments%5CARC1046%20Project%20Drawings.pdf)
@@ -604,8 +604,8 @@ M = 0
 
 
 
-### [[Projects/Structures 1 - Project 2/Structures 1 - Project 2|Project 2]]
+### [Project 2](Projects/Structures%201%20-%20Project%202/Structures%201%20-%20Project%202.md)
 
-### [[Projects/Structures 1 - Project 3|Project 3]]
+### [Project 3](Projects/Structures%201%20-%20Project%203.md)
 
-### [[Projects/Structures 1 - Project 4|Project 4]]
+### [Project 4](Projects/Structures%201%20-%20Project%204.md)
