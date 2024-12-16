@@ -142,8 +142,6 @@ Thermal comfort directly affects productivity
 
 ![[./ARC2047H-Psychrometric Chart.svg|ARC2047H-Psychrometric Chart.excalidraw]]
 
-![[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/ARC2047H-Psychrometric Chart.excalidraw.png|ARC2047H-Psychrometric Chart.excalidraw]]
-
 > [!abstract]- Lab 1
 > 1. Given moist air with a dry-bulb temperature of 27 degrees Celsius and 38% relative humidity use the psychrometric chart to determine the **dewpoint** temperature in degrees Celsius. Provide a numeric answer with one decimal place.
 > 
@@ -186,7 +184,6 @@ Thermal comfort directly affects productivity
 > Energy2 (kJ) = Dry air mass2 (kg) × Enthalpy (kJ/kg) = 33,957.3746
 > Excess = 19,121.0122 kJ
 
-
 #### Module 03
 
 > [!blue]- Links
@@ -206,6 +203,7 @@ Thermal comfort directly affects productivity
 	- For 32N, winters have a narrower arc than summers
 	- ![[Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 09 16 week 3 slides v1.pdf#page=6&rect=96,20,488,410|p.6]]
 - Sunpath horizontal projection, sky vault
+	- ![[./ARC2047H-32N Sunpath Chart.svg|ARC2047H-32N Sunpath Chart.excalidraw]]
 	- Equidistant sunpath diagram
 		- polar coordinate system
 	- Same fenestration across the corners doesn't make sense
@@ -224,13 +222,11 @@ Thermal comfort directly affects productivity
 - Vertical Shadow Angle: VSA, vertical angle between the ground plane an the shadow cast by the lading edge of an overhang
 	- **VSA = arctan(tan(altitude)/cos(HSA))** (Calculator in degrees)
 		- tan(VSA) = tan(altitude)/cos(HSA)
-- ![[Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 09 16 week 3 slides v1.pdf#page=26&rect=160,95,725,434|p.26]]
+- ![[./Attachments/2024 09 16 week 3 slides v1.pdf#page=26&rect=160,95,725,434|p.26]]
 - **Horizontal Projection = Window Height ÷ tan(VSA)**
 	- **Lateral Projection = tan(HSA) × Horizontal Projection**
 - **Vertical Projection = Window (Shade) Width ÷ tan(HSA)**
-	- ![[Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 09 16 week 3 slides v1.pdf#page=48&rect=75,4,743,538|p.48]]
-
-![[./ARC2047H-32N Sunpath Chart.svg|ARC2047H-32N Sunpath Chart.excalidraw]]
+	- ![[./Attachments/2024 09 16 week 3 slides v1.pdf#page=48&rect=75,4,743,538|p.48]]
 
 > [!abstract]- Lab 2
 > 
@@ -281,7 +277,7 @@ Thermal comfort directly affects productivity
 ![Table+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1 2024-09-24 14_40_24.jpg](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C04%5CTable+of+electric+lighting+heat+gains+-+MEEB+Appendix+G1%202024-09-24%2014_40_24.jpg)
 
 - Balance Point Temperature, BPT
-	- When Q_i = q_total
+- When Q_i = q_total
 	- BPT = T_indoor - Heat gain rate ÷ Heat losses rate per T_delta
 		- T_delta = (T_indoor - T_outdoor)
 		- q_total = q_skin + q_infiltration = UA_total × T_delta
@@ -435,6 +431,17 @@ Biogenic Carbon?
 > Insulation
 > 	Cladding
 
+> [!example]- Quiz 3
+> Which parameters cause the Balance Point Temperature to be different between summer and winter?
+> - [c] mechanical systems
+> - [p] occupant activity
+> - [c] building cladding
+> - [p] occupant clothing
+> - [p] solar gain
+> - [c] building insulation
+> 
+> UA_env in the winter balance point temperature analysis (as shown in class) is the: heat loss rate due to convection and conduction through the envelope
+
 #### Module 06
 
 > [!blue]- Links
@@ -467,7 +474,8 @@ Cooling Loads
 					- DCLF Fully Shaded: Use Awnings, North
 		- **Air** 
 			- Air infiltration
-				- q_infil (Btu/h) = A_exposed × Infiltration Factor (Btu/(h-ft2))
+				- q_infiltration (Btu/h) = A_exposed × Infiltration Factor (Btu/(h-ft2))
+					- A_exposed
 			- Mechanical ventilation
 				- q_vent (Btu/h) = Volumetric Flow Rate × Ventilation Factor (Btu/(h-cfm))
 					- Volumetric Flow Rate (CFM: Cubic feet per minute of fresh air)
@@ -565,6 +573,19 @@ Cooling Loads
 > 	= 147,595
 > Tons of cooling = q_total ÷ 12000
 > 	= 12.29 Tons
+
+> [!example]- Quiz 4
+> When calculating summer heat gains from air infiltration, the A_exposed value is the area of:
+> - [c] all exposed surfaces
+> - [c] exposed opaque roof surfaces
+> - [p] exposed opaque walls
+> - [c] exposed horizontal windows (skylights in roof)
+> - [p] exposed vertical windows (windows in walls)
+> 
+> How does DCLF in the cooling load analysis differ from the use of delta T in Winter Balance Point Temperature analysis?
+> it accounts for orientation; solar radiation; shading; U-values; materials.
+> 
+> For a given building located in Toronto, the building envelope is comprised of masonry walls on the east and west facades, framed walls on the north and south facades, and a light color vented flat roof.  If the building is a cube with the roof and each wall having the same area and U-values, which surface will generate the greatest heat gain? Roof
 
 ### Q3
 
@@ -764,6 +785,21 @@ Cooling Loads
 > Annual Cost of Cooling (\$) = Cooling Load (Btu/h) × CLH (h) × 1/SEER (W/Btu/h) × Cost of Electricity ($/Wh)
 > 	= 222343 × 1224 × (1/20) × (0.22/1000) = 2993 $
 
+> [!example]- Quiz 5
+> When designing most buildings for optimal cross ventilation: opening are needed on all four orientations; air flow is restricted by the smallest area of openings on the windward and leeward sides
+> 
+> Degree Days are used to:
+>  - [c] size cooling equipment
+>  - [c] determine the Balance Point Temperature
+>  - [p] estimate heating and cooling costs
+>  - [p] estimate annual energy needed for heating and cooling
+> 
+> According to the lecture on the Cost of Thermal Comfort, when approximating the Summer Balance Point Temperature one can improve the Summer BPT by: recalculating the heat gain from solar insolation; providing shading for south facing windows; increasing the indoor setpoint temperature to the upper range of the comfort zone
+> 
+> When determining and using Cooling Degree Days for a project, increasing the base temperature by 10 degrees Fahrenheit from 50F to 60F will most likely: 
+> decrease the estimated cost of cooling
+> decrease the CDD value
+
 #### Module 08
 
 > [!blue]- Links
@@ -790,34 +826,34 @@ HVAC Distribution
 	- Turning radius is usually twice the duct diameter
 	- Air Velocity (fpm) at each section of duct
 		- V_each = SUM($V_tributary)
-			- **Total pressure loss of critical path (in. wtr.) = Critical path equivalent length (ft) × Friction Loss (in. wtr./100ft) ÷ 100ft + Loss at diffuser: 0.04 in. wtr.**
-				- This needs to be **less than 0.5 inches of water** to maintain efficiency of the system. If the pressure loss is too high, we need to use a slower velocity than 350 fpm
-				- **Critical Path equivalent length = Longest Equivalent Length**
-					- Equivalent Length (ft) = Duct Length + Equivalent Fitting Length
-						- Equivalent Fitting Length
-							- None: +0ft
-							- Diffuser: +0ft
-							- Entry: +10ft
-							- 90° elbow: +35ft
-								- Count the final one **at diffuser** too
-					- Include vertical duct from basement AHU
-				- Friction Loss (in. wtr/100ft) from Friction chart
-					- Air Velocity (fpm)
-						- Chosen from NC-25
-							- Limited by shortest distance from AHU to openings
-					- **V (cfm): Volumetric Flow Rate**
-						- Is governed by the greater of cooling or heating loads
-							- [[ARC2047H-Building_Science_Materials_and_Construction_3#^2de642|q_cooling load (Btu/h | tons)]]
-							- q_heating load (Btu/h | tons) = [[ARC2047H-Building_Science_Materials_and_Construction_3#^6c9468|UA_total (Btu/h F)]] × ∆T 
-								- ∆T = BPT - Design Dry Bulb Winter
-						- V_sum (cfm) = Loads (ton) × V/ton
-							- V/ton
-								- Assume V/ton = 400 (cfm/ton)
-									- 54 (L/s/kW)
-								- q_1ton (Btu/h) = V/ton × Heat Capacity of Air (Btu·min/ft3·F·h) × ∆T
-									- 12000 = V/ton × 1.08 × ∆T_register
-										- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=3&selection=30,0,36,2|(p.3)]]
-						- V_each = V_sum ÷ number of vent openings
+		- **Total pressure loss of critical path (in. wtr.) = Critical path equivalent length (ft) × Friction Loss (in. wtr./100ft) ÷ 100ft + Loss at diffuser: 0.04 in. wtr.**
+			- This needs to be **less than 0.5 inches of water** to maintain efficiency of the system. If the pressure loss is too high, we need to use a slower velocity than 350 fpm
+			- **Critical Path equivalent length = Longest Equivalent Length**
+				- Equivalent Length (ft) = Duct Length + Equivalent Fitting Length
+					- Equivalent Fitting Length
+						- None: +0ft
+						- Diffuser: +0ft
+						- Entry: +10ft
+						- 90° elbow: +35ft
+							- Count the final one **at diffuser** too
+				- Include vertical duct from basement AHU
+			- Friction Loss (in. wtr/100ft) from Friction chart
+				- Air Velocity (fpm)
+					- Chosen from NC-25
+						- Limited by shortest distance from AHU to openings
+				- **V (cfm): Volumetric Flow Rate**
+					- Is governed by the greater of cooling or heating loads
+						- [[ARC2047H-Building_Science_Materials_and_Construction_3#^2de642|q_cooling load (Btu/h | tons)]]
+						- q_heating load (Btu/h | tons) = [[ARC2047H-Building_Science_Materials_and_Construction_3#^6c9468|UA_total (Btu/h F)]] × ∆T 
+							- ∆T = BPT - Design Dry Bulb Winter
+					- V_sum (cfm) = Loads (ton) × V/ton
+						- V/ton
+							- Assume V/ton = 400 (cfm/ton)
+								- 54 (L/s/kW)
+							- q_1ton (Btu/h) = V/ton × Heat Capacity of Air (Btu·min/ft3·F·h) × ∆T
+								- 12000 = V/ton × 1.08 × ∆T_register
+									- ==Often the difference at the register is about 20°F. Due to losses along the length we can estimate the temperature difference at the air handler to be about 40% greater, 28°F== [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024+10+22+week+8+slides+v3 2024-10-22 14_37_23.pdf#page=3&selection=30,0,36,2|(p.3)]]
+					- V_each = V_sum ÷ number of vent openings
 
 ![[./ARC2047H-Duct Friction Chart.svg|ARC2047H-Duct Friction Chart.excalidraw]]
 
@@ -970,6 +1006,25 @@ HVAC Distribution
 		- Far more heat is harvested than generated from burning
 	- Bi-directional Valve
 
+> [!example]- Quiz 7
+> Based on the lecture on EUI, when speaking about EUI for an office building in North America what is a lower limit that would be considered reasonable when presenting a studio project? 60 kWh/m2/yr
+> 
+> What are some of the primary ways to reduce site EUI during the design of a building? 
+> - [p] High performance glass and insulation
+> - [p] Improving daylighting
+> - [p] Reducing air infiltration
+> - [c] Placing PV panels on site
+> - [c] Using a green roof
+> - [c] Storm water conservation measures
+> 
+> Refrigerants, as discussed in the lecture on EUI and refrigeration, are selected based on their: ability to change phases at a desired temperatures; reduced impact on ozone depletion
+> 
+> Despite the knowledge that Natural Gas is a non-renewable energy source, why is it that such a large amount of energy consumption in Canada is attributed to the burning of natural gas?
+> - [c] Natural gas can create more heat in a shorter period of time than electricity 
+> - [c] Natural gas is more convenient to use than electricity 
+> - [p] Heating demand cannot be entirely met with current electricity production
+> - [p] Natural gas is cheaper to use for heating than electricity
+
 #### Module 11
 
 > [!blue]- Links
@@ -1032,7 +1087,7 @@ HVAC Distribution
 	- Geothermal
 	- Hydro
 	- Wind
-		- 20 times the building size to do something
+		- Needs to be 20 times the building size to do something
 - ==Absorption Refrigeration Cycle== ([[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 12 week 11 slides v3.pdf#page=26&selection=0,0,0,30|p.26]])
 	- Differs from ==Compressive Refrigeration Cycle== ([[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf#page=13&selection=0,0,0,31|p.13]]) and ==Heat Pump== ([[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf#page=19&selection=0,9,0,9|p.19]])
 		- Effective in large scale cooling load of 10 tons +
@@ -1110,24 +1165,29 @@ HVAC Distribution
 > ---
 > 
 > 7. For a given building in Toronto with an unobstructed flat rectangular roof area of 461 m2, it has been determined that the building needs 514 PV panels rated at 400W to reach net zero site energy. The panels will be mounted in a 5 degree south facing layout.  The panels have dimensions of 1.76 meters in length and 1.15 meters in width.  It is expected that some panels will have to be site mounted as there is limited roof area compared to the PV needs.  Using the same process as shown in the lecture determine the minimum number of site mounted panels that will be needed.  Provide your answer as an integer.  Do not write units in your answer.
+> 8. Please enter the effective area per PV panel from question 7.  Provide your answer in square meters with two decimal values. 2.27 m2/panel
 > 
 > 514 - (461 m2 ÷ (1.76 × (1.15 + 0.28) m2/panel)) =/ 331 panels
-> 
-> 8. Please enter the effective area per PV panel from question 7.  Provide your answer in square meters with two decimal values. 2.27 m2/panel
 > 
 > 9. For a given project in Ontario the costs of installing PV panels for a commercial project are:
 > 	$2.35 per W installed for roof mounted
 > 	$4.4 per W installed for site mounted
-> 	
 > 	The total number of PV panels needed for the project using a 10 degree East-West facing layout is 705 panels. The unobstructed rectangular flat roof of the project has an area of 959 m2. The panels have a dimension of 1.65 meters in length and 1.15 meters in width. Each panel has a rated power of 301 Watts.  The project will maximize the amount of roof mounted PV panels and minimize the amount of site mounted PV panels. Using the same process as shown in the lecture **determine the total cost** for the PV array.  Provide your answer in dollars as an integer.  Do not write units in your answer.
-> 	10. Please enter the effective area per PV panel from question 9. Provide your answer in square meters with two decimal values. 2.09 m2/panel
-> 	11. Please enter the number of site mounted panels needed in Question 9. Provide your answer as an integer. 246 panels site
+> 10. Please enter the effective area per PV panel from question 9. Provide your answer in square meters with two decimal values. 2.09 m2/panel
+> 11. Please enter the number of site mounted panels needed in Question 9. Provide your answer as an integer. 246 panels site
 > 
 > 1.65 × (1.15 + 0.23 ÷ 2) = 2.08725 m2/panel
 > 705 - 959 m2 ÷ 2.08725 m2/panel =\ 459 panels roof
 > 705 - 459 = 246 panels site
 > (459 × 2.35 + 246 × 4.4) panel-$/W × 301 W/panel = 650,476 $
 > 
+
+> [!example]- Quiz 8
+> Some of the disadvantages of Absorption Refrigeration systems are: larger equipment; higher initial cost
+> 
+> When comparing the Canadian national average (as shown in the lecture) and the Toronto Green Standard requirements for energy use intensity of office buildings the primary differences are due to: space heating; space cooling
+> 
+> Absorption Refrigeration systems are typically appropriate for buildings (not RVs) that have cooling loads of: 20 tons; 40 tons
 
 #### Module 12
 
@@ -1138,11 +1198,57 @@ HVAC Distribution
 > Fonts larger than 12 (refer to font sizing daily page ![[../../../../2024-11-09#Font guideline|2024-11-09]])
 > Show all faces of PV to reconcile amount of space required
 
+> [!example]- Quiz 9
+> Why are there so many inverter boxes as part of the PV array on the roof of 255 McCaul?
+> 
+> To reduce transmission losses
+> 
+> What obstruction (something that blocks sun to the roof) is likely to have the largest negative impact on the performance of the solar PV array on 255 McCaul?
+> 
+> Tall buildings to the east and southeast
+> 
+> While on the roof of 255 McCaul we discussed the likely portion of the building energy that is offset by the PV array.  What was the estimated annual energy offset from the PV array?
+> 
+> 10-15%
+
 #### Module 13
 
-[BCIT Virtual Tour Nov 2022.mp4](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CBCIT%20Virtual%20Tour%20Nov%202022.mp4)
-[Lab example.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CLab%20example.pdf)
-[Bahen-Centre.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CBahen-Centre.pdf)
+> [!blue]- Links
+> [BCIT Virtual Tour Nov 2022.mp4](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CBCIT%20Virtual%20Tour%20Nov%202022.mp4)
+> [Lab example.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CLab%20example.pdf)
+> [Bahen-Centre.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C13%5CBahen-Centre.pdf)
+
+Geo Exchange
+- Under construction
+    - 250 Tons of heating or cooling currently
+    - 400 - 800 ton eventually
+- Offsets carbon for many buildings - 50% in the next 6 years
+    - 100000 people on campus
+    - Offsets 15000 tons of CO2
+- Preheat or precool the loop
+    - 10-12 C temperature from geoexchange - drastically less delta T
+    - 20C instead of 40C delta T
+    - Use geoexchange both ways, heating or cooling, or you’ll saturate the battery quickly
+    - Geoexchange cannot heat or cool by itself, the buildings need heat pumps for next level of exchange
+- Half the CN tower height going down
+    - 250 meters deep
+        - 372 boreholes
+        - Incredibly small because it goes down vertically instead of spreading out horizontally
+            - much more expensive than conventional but much more capacity and efficiency
+    - 30 Campus buildings connected
+    - 170000 Litres of fluid in the system
+    - 190 km of piping
+        - 300 horse power to overcome skin friction inside pipes
+    - 15.2 million kWh energy stored
+- Garage
+    - level 3 battery operated charger
+        - First in the world
+        - Triple charges at night
+        - Can be used all day - fully charges a car every 30 minutes
+        - Normally level 3 spike in demand has to burn fuel to draw from the grid
+- Canada burns fossil fuel for heating - large carbon footprint
+- Cooling towers are still burning fuel running steam turbine and fossil fuel consumption is large
+- Campus natural gas to electrical
 
 > [!abstract]- Lab 10
 > The assignment is due on Quercus as a PDF (max. size 20MB) upload by **10AM, Wednesday November 22, 2023.**
@@ -1166,6 +1272,23 @@ HVAC Distribution
 > - Project size (square feet or square meters)
 > - Estimated cooling load in tons.
 > - URL for the project information.
+
+> [!example]- Quiz 10
+> The atrium of the BCIT serves as a return air collector
+> BCIT's forced air distribution primarily uses underfloor distribution
+> 
+> The BCIT has seven AHUs in the mechanical penthouse that: 
+> 
+> feed into a common supply plenum
+> can be individually turned on and off to conserve energy instead of working at partial load capacity
+> 
+> ![[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/Pasted image 20241215203501.png|Pasted image 20241215203501]]
+> A: Cooling Towers  B: Chiller Plant
+> C: Return Plenum   D: Air Handling Unit
+> 
+> The two AHUs in the basement of BCIT serve the first two floors of the building
+> 
+> The Geoexchange at Front Campus at U of T has a current heating/cooling capacity of approximately 25 tons
 
 ## Projects
 
