@@ -27,7 +27,6 @@ NOT (tag includes HideFromTasks)
 
 > [!blue]+ Active Projects
 >  - [[Projects/2024/ICPS_Research/ICPS_Research.md|ICPS_Research]]
-> - [[Projects/2024/ARC2047H_Project-1_Cheatsheet/ARC2047H_Project-1_Cheatsheet.md|ARC2047H_Project-1_Cheatsheet]]
 > - [[Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/ARC2047H-Building_Science_Materials_and_Construction_3.md|ARC2047H-Building_Science_Materials_and_Construction_3]]
 > - [[Courses/2024/ARC2017H-Research_Methods/ARC2017H-Research_Methods.md|ARC2017H-Research_Methods]]
 > 
