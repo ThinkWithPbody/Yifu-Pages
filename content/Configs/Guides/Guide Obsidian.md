@@ -97,15 +97,25 @@ Reference to a [[../../../2024-01-01#^025433|Paragraph]]
 Inline Reference![[Guide Obsidian#Styles|Configs/Guides/Guide Obsidian > Styles]]
 ## Shortcuts
 
+### View
 Ctrl = Enable Hover Preview On Links
 Ctrl + E = Toggle Source Mode
 Ctrl + R = Toggle Reading Mode
-Alt + E = Templater
-Alt + Q = QuickAdd
-Alt + C = Format Callout
-Alt + D = Excalidraw Deconstruct Selected
-Alt + F = Excalidraw Flip to Back of Note
-Ctrl + Alt + A = Emoji Toolbar
-Ctrl + Alt + T = Modify Task
+Alt  + R = Reveal File In Navigation
+
+### Edit
+Alt  = [Multiple Cursors](https://help.obsidian.md/Editing+and+formatting/Multiple+cursors)
+Alt  + C = Format Callout
+Alt  + T = Modify Task
+Alt  + A = Emoji Toolbar
 Ctrl + Drag + Drop = Embed /  Transclude
-[Multiple Cursors](https://help.obsidian.md/Editing+and+formatting/Multiple+cursors)
+
+### Format
+Alt  + Q = QuickAdd
+Alt  + E = Templater
+
+### Excalidraw
+Alt  + D = Excalidraw Deconstruct Selected
+Alt  + F = Excalidraw Toggle Back of Note
+Alt  + B = Excalidraw Show Selected Back of Note
+
