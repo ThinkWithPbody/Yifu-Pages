@@ -11,17 +11,13 @@ share: true
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 ---
-# Project Brief
-
-[[./Attachments/ARC2017H_Project-3/ARC2017 2024_Project 3_ Methods Statement.pdf|ARC2017 2024_Project 3_ Methods Statement]]
-
 # Decentralizing the Digital Archive:
 A framework for Preserving Born-Digital Architectural Artifacts
 
 ## Visual Material
 
 
-![[./ARC2017H_Project-3.png|ARC2017H_Project-3]]
+![[./ARC2017H_Project.png|ARC2017H_Project]]
 
 ## Problem Statement
 
@@ -92,7 +88,7 @@ This paper explores the feasibility and implications of implementing such a syst
 
 #### Paper Outline (Revised from Part 2)
 
-- [[ARC2017H_Project-3#^e6566f|Introduction]] (Research Question)
+- [[ARC2017H_Project#^e6566f|Introduction]] (Research Question)
 - Background
 	- Overview of current digital preservation challenges in architecture
 	- Existing initiatives
@@ -119,7 +115,7 @@ This paper explores the feasibility and implications of implementing such a syst
 		- Impact on research, education, and practice
 		- Technical challenges: scalability, interoperability, and long-term sustainability
 		- Ethical considerations: data privacy, intellectual property, and consent
-- [[ARC2017H_Project-3#^2152f3|Conclusion]]
+- [[ARC2017H_Project#^2152f3|Conclusion]]
 
 
 > [!NOTE] Introduction
@@ -132,33 +128,31 @@ This paper explores the feasibility and implications of implementing such a syst
 
 ^2152f3
 
-
-
-
 ## Bibliography
 
 ##### Primary Sources:
 
 ###### Walsh, Tim. 2016. "Archaeology of the Digital and Born-Digital Archives at CCA." Digital Archivist, Canadian Centre for Architecture. April 18, 2016. https://www.unisa.edu.au/contentassets/f41f469f020c461a982043a129d79479/tw_adelaide_18april2016_text.pdf
 
-Presentation by Tim Walsh - in-depth overview of CCA's new approach to preserving and exhibiting born-digital architectural records. Introduces the "Archaeology of the Digital" project, a ==long-term, multifaceted program curated by Greg Lynn and initiated by the CCA in 2012== [[./Attachments/ARC2017H_Project-3/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=2&selection=26,31,27,28|(p.2)]] - multi-year initiative exploring 25 key digital architecture projects from the 1980s to 2000s. The document highlights the need for knowledge of obsolete computing hardware, software, and file systems in archiving complex digital materials. [[./Attachments/ARC2017H_Project-3/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=14&selection=9,13,18,80|(p.14)]] It also demonstrates its highly selective and potentially biased nature. It is evident that their process is labor-intensive and resource-demanding, making it difficult to scale, and any future iteration of the system must demand a certain standard. [[./Attachments/ARC2017H_Project-3/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=14&selection=5,13,9,12|(p.14)]] Also outlined challenges in preserving and accessing CAD and 3D modeling files [[./Attachments/ARC2017H_Project-3/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=16&selection=5,20,6,14|(p.16)]], including the long-term accessibility risks from a reliance on proprietary software and specific hardware.
+Presentation by Tim Walsh - in-depth overview of CCA's new approach to preserving and exhibiting born-digital architectural records. Introduces the "Archaeology of the Digital" project, a ==long-term, multifaceted program curated by Greg Lynn and initiated by the CCA in 2012== [[./Attachments/ARC2017H_Project/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=2&selection=26,31,27,28|(p.2)]] - multi-year initiative exploring 25 key digital architecture projects from the 1980s to 2000s. The document highlights the need for knowledge of obsolete computing hardware, software, and file systems in archiving complex digital materials. [[./Attachments/ARC2017H_Project/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=14&selection=9,13,18,80|(p.14)]] It also demonstrates its highly selective and potentially biased nature. It is evident that their process is labor-intensive and resource-demanding, making it difficult to scale, and any future iteration of the system must demand a certain standard. [[./Attachments/ARC2017H_Project/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=14&selection=5,13,9,12|(p.14)]] Also outlined challenges in preserving and accessing CAD and 3D modeling files [[./Attachments/ARC2017H_Project/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=16&selection=5,20,6,14|(p.16)]], including the long-term accessibility risks from a reliance on proprietary software and specific hardware.
 
 
-> [!PDF|]+ [[./Attachments/ARC2017H_Project-3/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=4&selection=21,0,23,47|Archaeology of the Digital and Born-Digital Archives at CCA, p.4]]
+> [!PDF|]+ [[./Attachments/ARC2017H_Project/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=4&selection=21,0,23,47|Archaeology of the Digital and Born-Digital Archives at CCA, p.4]]
 > The first show consisted of records and artefacts in numerous formats: CAD files in digital and printed paper form, physical models, textual records, and some computing hardware contemporary to the projects being investigated
 
-> [!PDF|]+ [[./Attachments/ARC2017H_Project-3/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=14&selection=2,0,5,12|Archaeology of the Digital and Born-Digital Archives at CCA, p.14]]
+> [!PDF|]+ [[./Attachments/ARC2017H_Project/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=14&selection=2,0,5,12|Archaeology of the Digital and Born-Digital Archives at CCA, p.14]]
 > The biggest lesson to be learned from this example is that the size of the archive does not necessarily correlate to the size of the challenge in investigating, researching, and exploring its records.
 
-> [!PDF|]+ [[./Attachments/ARC2017H_Project-3/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=14&selection=5,13,9,12|Archaeology of the Digital and Born-Digital Archives at CCA, p.14]]
+> [!PDF|]+ [[./Attachments/ARC2017H_Project/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=14&selection=5,13,9,12|Archaeology of the Digital and Born-Digital Archives at CCA, p.14]]
 > CCA’s interest in the early and experimental can greatly increase the amount of work involved in recovering content from obsolete media and combatting file format obsolescence
 
-> [!PDF|]+ [[./Attachments/ARC2017H_Project-3/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=14&selection=9,13,18,80|Archaeology of the Digital and Born-Digital Archives at CCA, p.14]]
+> [!PDF|]+ [[./Attachments/ARC2017H_Project/Archaeology of the Digital and Born-Digital Archives at CCA.pdf#page=14&selection=9,13,18,80|Archaeology of the Digital and Born-Digital Archives at CCA, p.14]]
 >  This underscores the need for knowledge of obsolete computing hardware, software, and file systems; and also the need to have clear file format policies and preservation plans for this type of material: given the amount of work involved in making this material accessible in 2016, we can safely say that unless we take action on these files now to prolong their longevity, such as migrating them to new file formats – there will be no way a researcher in 10 or 20 years will be able to interact with files in the archive.
 
 ###### Digital Preservation Coalition. 2015. "Digital Preservation Handbook, 2nd Edition." [https://www.dpconline.org/handbook](https://www.dpconline.org/handbook).
 
-A guide to digital preservation practices and strategies. It covers preservation planning, metadata, file formats, and storage. Practical approach and up-to-date information on emerging technologies and standards in digital preservation. Also includes a "Data Curation Lifecycle" diagram. <img src="https://libapps.s3.amazonaws.com/accounts/156763/images/lifecycle_web2.png">
+A guide to digital preservation practices and strategies. It covers preservation planning, metadata, file formats, and storage. Practical approach and up-to-date information on emerging technologies and standards in digital preservation. Also includes a "Data Curation Lifecycle" diagram. 
+<img src="https://libapps.s3.amazonaws.com/accounts/156763/images/lifecycle_web2.png">
 
 ###### Krahn, Konrad. "Looking Under the Hood: Unraveling the Content, Structure, and Context of Functional Requirements for Electronic Recordkeeping Systems" Master's thesis, University of Manitoba, 2012. https://mspace.lib.umanitoba.ca/server/api/core/bitstreams/181da32e-e109-4a38-9813-116bfa3506c0/content.
 
@@ -173,18 +167,18 @@ Historical context on how the archival field has approached electronic records p
 
 Digital records preservation with a specific focus on algorithmic design. The main argument is that while the architectural community has begun to address the preservation of digital files, there is a pressing need to develop strategies for preserving the memory of the design process, particularly for algorithmic and parametric design - algorithms contain valuable, reusable design intelligence that is at risk of being lost due to software obsolescence and lack of proper archiving methods. Essentially, how to treat architectural archives as multi-dimensional objects, capable of preserving not just the final product but the entire design process. Does not offer a solution but the discussion is very relevant for what I want to achieve. Importantly Sedrez talks about Harvey's idea of architects taking responsibility for preserving one's own work, rather than relying solely on archivists and librarians, which aligns with my vision for the new platform, since they have the best knowledge of the complexities of their projects and what they wish to preserve. Solutions include iterations, duplicates, and alternatives of a project; documenting the entire chain from design to production; an easy method to also archive the codes, scripts, and algorithms used to generate a final geometry; in-line comments that explain the design methods, tools, and strategies used throughout the process similar to best coding practices.
 
-> [!PDF|]+ [[./Attachments/ARC2017H_Project-3/The_future_of_architects_digital_records.pdf#page=1&selection=184,51,194,11|The_future_of_architects_digital_records, p.1]]
+> [!PDF|]+ [[./Attachments/ARC2017H_Project/The_future_of_architects_digital_records.pdf#page=1&selection=184,51,194,11|The_future_of_architects_digital_records, p.1]]
 > Rothenberg (1999) states “our digital documents are far more fragile than paper” due to accessibility of files and fast changes on technologie
 
-> [!PDF|]+ [[./Attachments/ARC2017H_Project-3/The_future_of_architects_digital_records.pdf#page=2&selection=290,0,308,1|The_future_of_architects_digital_records, p.2]]
+> [!PDF|]+ [[./Attachments/ARC2017H_Project/The_future_of_architects_digital_records.pdf#page=2&selection=290,0,308,1|The_future_of_architects_digital_records, p.2]]
 > The quantity, fragility and ephemerality of digital architectural documents needs to be tackled by using different archiving strategies for each type of file. Moreover, architects need to plan how to protect and preserve their own work, as stated by Harvey (2005) “[r]esponsibility for the preservation of these digital materials must be shared among creators and users of digital information, and not remain solely the concern of librarians and archivist”
 
-> [!PDF|]+ [[./Attachments/ARC2017H_Project-3/The_future_of_architects_digital_records.pdf#page=2&selection=310,0,311,4|The_future_of_architects_digital_records, p.2]]
+> [!PDF|]+ [[./Attachments/ARC2017H_Project/The_future_of_architects_digital_records.pdf#page=2&selection=310,0,311,4|The_future_of_architects_digital_records, p.2]]
 > Factors influencing the preservation of digital architecture file
 
-![[./Attachments/ARC2017H_Project-3/The_future_of_architects_digital_records.pdf#page=3&rect=298,230,539,344|The_future_of_architects_digital_records, p.3]]
+![[./Attachments/ARC2017H_Project/The_future_of_architects_digital_records.pdf#page=3&rect=298,230,539,344|The_future_of_architects_digital_records, p.3]]
 
-![[./Attachments/ARC2017H_Project-3/The_future_of_architects_digital_records.pdf#page=5&rect=302,615,537,753|The_future_of_architects_digital_records, p.5]]
+![[./Attachments/ARC2017H_Project/The_future_of_architects_digital_records.pdf#page=5&rect=302,615,537,753|The_future_of_architects_digital_records, p.5]]
 
 ###### Smithsonian Institution Archives. "Preservation Strategies for Born-Digital Material." Accessed October 19, 2024. https://siarchives.si.edu/what-we-do/digital-curation/preservation-strategies-born-digital-materials.
 
@@ -210,6 +204,7 @@ A non-profit digital library offering free access to millions of books, movies, 
 
 Lemieux's article critically examines the potential of blockchain technology for ensuring the trustworthiness of digital records. It explores the challenges of maintaining authenticity and reliability in digital recordkeeping systems and evaluates whether blockchain can address these issues. Highly relevant for understanding the intersection of emerging technologies and traditional recordkeeping principles. P2P systems based on blockchain technology could provide secure and controlled access to architectural records, ensuring that only authorized parties can view or modify sensitive information.
 
+---
 # Excalidraw Data
 ## Text Elements
 Digitalization of Architectural Practice ^m2F4a2yS
@@ -379,19 +374,19 @@ Version Control System ^7tZP1sxf
 Testing and Evaluation ^lDtvlz5l
 
 ## Embedded Files
-6eaf1e00c4ad330598d8742d2ae278e8093d0d29: [[./Attachments/ARC2017H_Project-3/image.png|image]]
+6eaf1e00c4ad330598d8742d2ae278e8093d0d29: [[./Attachments/ARC2017H_Project/image.png|image]]
 
-b91d81ebadfca4cce2ef5e49f77894c77d821c1c: [[./Attachments/ARC2017H_Project-3/image_0.png|image_0]]
+b91d81ebadfca4cce2ef5e49f77894c77d821c1c: [[./Attachments/ARC2017H_Project/image_0.png|image_0]]
 
-9d6f4587f321b776aa12e43759596cfbf2fa91f6: [[./Attachments/ARC2017H_Project-3/image_1.png|image_1]]
+9d6f4587f321b776aa12e43759596cfbf2fa91f6: [[./Attachments/ARC2017H_Project/image_1.png|image_1]]
 
-b5ffd6b16741e0fca8bf6044bf211495238d958a: [[./Attachments/ARC2017H_Project-3/2024-10-22T08_41_25-05_00_TWP-X570-WIN10(msedge).jpg|2024-10-22T08_41_25-05_00_TWP-X570-WIN10(msedge)]]
+b5ffd6b16741e0fca8bf6044bf211495238d958a: [[./Attachments/ARC2017H_Project/2024-10-22T08_41_25-05_00_TWP-X570-WIN10(msedge).jpg|2024-10-22T08_41_25-05_00_TWP-X570-WIN10(msedge)]]
 
-4a31c377c0c9465de90e7dd64af7a817bc5b7823: [[./Attachments/ARC2017H_Project-3/image_2.png|image_2]]
+4a31c377c0c9465de90e7dd64af7a817bc5b7823: [[./Attachments/ARC2017H_Project/image_2.png|image_2]]
 
-d6eba4033b9ec3b0e680492dafcf4449ef55607c: [[./Attachments/ARC2017H_Project-3/image_3.png|image_3]]
+d6eba4033b9ec3b0e680492dafcf4449ef55607c: [[./Attachments/ARC2017H_Project/image_3.png|image_3]]
 
-8c78cfabe6c5040cd67c401879dd13fed8d4271e: [[./Attachments/ARC2017H_Project-3/image-1.png|image-1]]
+8c78cfabe6c5040cd67c401879dd13fed8d4271e: [[./Attachments/ARC2017H_Project/image-1.png|image-1]]
 
 %%
 ## Drawing
