@@ -1,9 +1,11 @@
 ---
+excalidraw-plugin: parsed
+excalidraw-open-md: true
 tags:
   - course
 start: 2024-09-03
 due: 2025-01-03
-completion: 
+completion: 2024-12-16
 people:
   - "[[People/Daniel Haeyoung Chung|People/Daniel Haeyoung Chung]]"
 location: DA200
@@ -12,6 +14,8 @@ time: 1000
 share: true
 ---
 ## Modules
+
+[[Periodic Notes/Daily/2024-12-19|2024-12-19]]
 
 ### Q1
 
