@@ -1,5 +1,5 @@
 ---
-title: ARC2017H_Project-3
+title: ARC2017H_Project
 tags:
   - project
 start: 2024-11-22
