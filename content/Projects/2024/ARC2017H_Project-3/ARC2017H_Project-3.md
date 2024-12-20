@@ -65,22 +65,32 @@ Each engagement method exemplified offers unique opportunities to disseminate an
 
 While all these methods have merit, a conference paper has been chosen as the primary focus for several reasons. It allows for a comprehensive presentation of the research methodology, findings, and proposed framework to an academic and professional audience. The conference setting facilitates immediate feedback, peer review, and potential collaborations with experts in the field. Moreover, a paper provides a citable, permanent record of the research, contributing to the scholarly discourse on digital preservation in architecture. The rigorous format of a conference paper also aligns well with the technical and theoretical depth of the project, allowing for a detailed exploration of the system's architecture, metadata standards, and potential implications for architectural practice and research.
 
-## Conference Paper
+### Conference Paper
 
-### Title
+#### Title
 
 Decentralizing the Digital Archive:
 A framework for Preserving Born-Digital Architectural Artifacts
 
-### Abstract
+#### Abstract (Revised from Part 2)
 
-This paper proposes a novel, decentralized approach to preserving born-digital architectural artifacts. Drawing from blockchain technology and open-source principles, we present a framework that addresses the challenges of digital preservation in architecture, including data integrity, longevity, and comprehensive metadata capture. Our research combines case studies, expert interviews, and prototype development to explore the feasibility and impact of this system on architectural practice, education, and research.
+The rapid digitalization of architectural practice has produced an unprecedented volume of born-digital artifacts, challenging traditional archival methods. While institutions like the Canadian Centre for Architecture have pioneered projects such as "Archaeology of the Digital," these efforts remain labor-intensive and difficult to scale. Current preservation strategies often rely on centralized institutions, facing resource limitations and risks of data loss or cyberattacks. Moreover, the rich contextual information embedded in digital files—including design processes and algorithmic components—is frequently lost due to inadequate metadata standards.
 
-### Key Words
+This research proposes a decentralized, open-source approach to architectural archiving, drawing inspiration from blockchain technology and platforms like Anna's Archive. The proposed system would invite architectural firms, institutions, and individuals to contribute to a distributed network, ensuring data integrity and longevity while democratizing the preservation process. Central to this proposal is the development of comprehensive metadata standards tailored to architectural workflows, capable of capturing the multi-dimensionality of digital projects across various software platforms and design stages.
 
+By combining decentralized storage with standardized metadata protocols, this approach aims to revolutionize the preservation and study of digital architectural heritage. The research employs a mixed-methods approach, including case studies of existing preservation initiatives, interviews with architects and archivists, and prototyping a decentralized archiving system. Key challenges addressed include data privacy, copyright concerns, scalability, and ethical considerations in preserving sensitive architectural data.
 
+This paper explores the feasibility and implications of implementing such a system, examining how it could shift power dynamics in architectural preservation while empowering architects as active participants in safeguarding their digital legacies. Ultimately, this framework seeks to redefine the role of archives in a decentralized landscape, ensuring sustainable access to born-digital architectural artifacts for future generations.
 
-### Paper Outline (Drafted from Part 2)
+#### Key Words
+
+- Born-Digital Architectural Artifacts
+- Architectural Documentation
+- Digital Archiving Technologies
+- Decentralized Archiving
+- Digital Format Interoperability
+
+#### Paper Outline (Revised from Part 2)
 
 - [[ARC2017H_Project-3#^e6566f|Introduction]] (Research Question)
 - Background
