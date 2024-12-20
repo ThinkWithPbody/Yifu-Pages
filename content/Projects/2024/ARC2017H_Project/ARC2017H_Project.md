@@ -204,7 +204,8 @@ A non-profit digital library offering free access to millions of books, movies, 
 
 Lemieux's article critically examines the potential of blockchain technology for ensuring the trustworthiness of digital records. It explores the challenges of maintaining authenticity and reliability in digital recordkeeping systems and evaluates whether blockchain can address these issues. Highly relevant for understanding the intersection of emerging technologies and traditional recordkeeping principles. P2P systems based on blockchain technology could provide secure and controlled access to architectural records, ensuring that only authorized parties can view or modify sensitive information.
 
----
+
+%%
 # Excalidraw Data
 ## Text Elements
 Digitalization of Architectural Practice ^m2F4a2yS
@@ -388,7 +389,6 @@ d6eba4033b9ec3b0e680492dafcf4449ef55607c: [[./Attachments/ARC2017H_Project/image
 
 8c78cfabe6c5040cd67c401879dd13fed8d4271e: [[./Attachments/ARC2017H_Project/image-1.png|image-1]]
 
-%%
 ## Drawing
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQA2bQAOGjoghH0EDihmbgBtcDBQMBLoeHF0QOwojmVg1JLIRhZ2LjQARgB2flLm1k4AOU4xbk6eeM6kgGYABiSAFh7IQg5i
