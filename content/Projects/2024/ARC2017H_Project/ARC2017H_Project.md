@@ -11,8 +11,7 @@ share: true
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 ---
-# Decentralizing the Digital Archive:
-A framework for Preserving Born-Digital Architectural Artifacts
+# Decentralizing the Digital Archive: A framework for Preserving Born-Digital Architectural Artifacts
 
 ## Visual Material
 
