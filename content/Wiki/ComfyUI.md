@@ -13,6 +13,7 @@ share: true
 | 1    | [**ComfyUI-Manager**](https://github.com/ltdrdata/ComfyUI-Manager)                                       |
 | 2    | [**ComfyUI Impact Pack**](https://github.com/ltdrdata/ComfyUI-Impact-Pack)                               |
 | 8    | [**ComfyUI's ControlNet Auxiliary Preprocessors**](https://github.com/Fannovel16/comfyui_controlnet_aux) |
+| 25   | [**WAS Node Suite**](https://github.com/WASasquatch/was-node-suite-comfyui)                              |
 | 52   | [**ComfyUI-GGUF**](https://github.com/city96/ComfyUI-GGUF)                                               |
 | 60   | [**ComfyUI WD 1.4 Tagger**](https://github.com/pythongosssss/ComfyUI-WD14-Tagger)                        |
 | 61   | [**pythongosssss/ComfyUI-Custom-Scripts**](https://github.com/pythongosssss/ComfyUI-Custom-Scripts)      |
@@ -31,6 +32,9 @@ share: true
 | 1294 | [**x-flux-comfyui**](https://github.com/XLabs-AI/x-flux-comfyui)                                         |
 | 1304 | [**ControlAltAI Nodes**](https://github.com/gseth/ControlAltAI-Nodes)                                    |
 | 1309 | [**ComfyUI-eesahesNodes**](https://github.com/EeroHeikkinen/ComfyUI-eesahesNodes)                        |
+## Github
+
+- git clone https://github.com/TheMistoAI/MistoControlNet-Flux-dev.git
 
 ## Module Manager
 
