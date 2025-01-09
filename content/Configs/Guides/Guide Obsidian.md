@@ -98,13 +98,13 @@ Inline Reference![[Guide Obsidian#Styles|Configs/Guides/Guide Obsidian > Styles]
 ## Shortcuts
 
 ### View
-Ctrl = Enable Hover Preview On Links
+Ctrl     = Enable Hover Preview On Links
 Ctrl + E = Toggle Source Mode
 Ctrl + R = Toggle Reading Mode
 Alt  + R = Reveal File In Navigation
 
 ### Edit
-Alt  = [Multiple Cursors](https://help.obsidian.md/Editing+and+formatting/Multiple+cursors)
+Alt      = [Multiple Cursors](https://help.obsidian.md/Editing+and+formatting/Multiple+cursors)
 Alt  + C = Format Callout
 Alt  + T = Modify Task
 Alt  + A = Emoji Toolbar
