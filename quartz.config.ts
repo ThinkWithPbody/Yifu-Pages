@@ -39,21 +39,21 @@ const config: QuartzConfig = {
                 },
                 darkMode: {
                     // Original: #000000 | New: #1C2022 editor.background
-                    light: "#1C2022",
+                    light: "rgb(28,32,34)",
                     // Original: #1E1E1E | New: #111518 editorGroup.border (tick box or graph view border)
-                    lightgray: "#EDEDED",
+                    lightgray: "rgb(100,100,100)",
                     // Original: #757575 | New: #C0C0C0 input.foreground (subtitle)
-                    gray: "#FFFFFF",
+                    gray: "rgb(255,255,255)",
                     // Original: #FAFAFA | New: #C0C0C0 menu.foreground (main text)
-                    darkgray: "#EDEDED",
+                    darkgray: "rgb(237,237,237)",
                     // Original: #FFFFFF | New: #24282A menu.selectionBackground (secondary menu items and table of contents)
-                    dark: "#EDEDED",
+                    dark: "rgb(237,237,237)",
                     // Original: #EDEDED | New: #1C2022 activityBar.background (main menu items)
-                    secondary: "#FFFFFF",
+                    secondary: "rgb(255,255,255)",
                     // Original: #FFCA42 | New: #40a8f348 ditor.selectionBackground
-                    tertiary: "#FFCA42",
+                    tertiary: "rgb(255,202,66)",
                     // Original: #262626 | New: #191d1f sideBar.background (background for secondary)
-                    highlight: "#374140",
+                    highlight: "rgb(55,65,64)",
                 },
             }
 
