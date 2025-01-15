@@ -38,14 +38,22 @@ const config: QuartzConfig = {
                     highlight: "#EDEDED",
                 },
                 darkMode: {
-                    light: "#000000",
-                    lightgray: "#1E1E1E",
-                    gray: "#757575",
-                    darkgray: "#FAFAFA",
-                    dark: "#FFFFFF",
-                    secondary: "#EDEDED",
-                    tertiary: "#FFCA42",
-                    highlight: "#262626",
+                    // Original: #000000 | New: editor.background
+                    light: "#1C2022",
+                    // Original: #1E1E1E | New: editorGroup.border (tick box or graph view border)
+                    lightgray: "#111518",
+                    // Original: #757575 | New: input.foreground (subtitle)
+                    gray: "#C0C0C0",
+                    // Original: #FAFAFA | New: menu.foreground (main text)
+                    darkgray: "#C0C0C0",
+                    // Original: #FFFFFF | New: menu.selectionBackground (secondary menu items and table of contents)
+                    dark: "#24282A",
+                    // Original: #EDEDED | New: activityBar.background (main menu items)
+                    secondary: "#1C2022",
+                    // Original: #FFCA42 | New: editor.selectionBackground
+                    tertiary: "#40a8f348",
+                    // Original: #262626 | New: sideBar.background (background for secondary)
+                    highlight: "#191d1f",
                 },
             }
 
