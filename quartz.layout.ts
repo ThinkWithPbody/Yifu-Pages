@@ -11,22 +11,10 @@ const iconsOptions: IconFolderOptions = {
   },
 };
 
-
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [
-    Component.MobileOnly(
-      Component.ExplorerBurger({
-        folderDefaultState: "open",
-                folderClickBehavior: "collapse",// link, collapse
-        iconSettings: iconsOptions,
-      }),
-    ),
-    Component.MobileOnly(Component.PageTitle()),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-  ],
+  header: [],
+  afterBody: [],
   footer: Component.Footer({
     links: {
             "Email": "mailto:yifuding.twp@gmail.com",
@@ -45,29 +33,30 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.DesktopOnly(Component.PageTitle()),
-    Component.DesktopOnly(
-      Component.ExplorerBurger({
-                folderClickBehavior: "collapse",// link, collapse
-        folderDefaultState: "collapsed",
-        useSavedState: true,
-        title: "",
-        iconSettings: iconsOptions,
-      }),
-    ),
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
+    Component.Darkmode(),
+    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.DesktopOnly(Component.Graph()),
-    Component.TableOfContents(),
-    Component.DesktopOnly(Component.Backlinks()),
+    Component.Graph(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
   ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: defaultContentPageLayout.beforeBody,
-  left: defaultContentPageLayout.left,
-  right: [],
+    beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+    left: [
+      Component.PageTitle(),
+      Component.MobileOnly(Component.Spacer()),
+      Component.Search(),
+      Component.Darkmode(),
+      Component.DesktopOnly(Component.Explorer()),
+    ],
+    right: [],
 }
 
 // Graph

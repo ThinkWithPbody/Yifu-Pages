@@ -87,7 +87,6 @@ const config: QuartzConfig = {
             Plugin.CreatedModifiedDate({
                 priority: ["frontmatter", "filesystem"],
             }),
-            Plugin.Latex({ renderEngine: "katex" }),
             Plugin.SyntaxHighlighting({
                 theme: {
                     light: "github-light",
@@ -95,11 +94,12 @@ const config: QuartzConfig = {
                 },
                 keepBackground: false,
             }),
-            Plugin.ObsidianFlavoredMarkdown({ comments: true }),
+            Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
             Plugin.GitHubFlavoredMarkdown(),
             Plugin.TableOfContents(),
             Plugin.CrawlLinks({ markdownLinkResolution: "relative" }),// relative, absolute, shortest
             Plugin.Description(),
+            Plugin.Latex({ renderEngine: "katex" }),
             Plugin.HardLineBreaks(),
         ],
         filters: [Plugin.RemoveDrafts()],

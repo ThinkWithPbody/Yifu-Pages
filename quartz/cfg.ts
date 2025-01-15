@@ -1,8 +1,9 @@
-import { ValidDateType } from "./components/Date";
-import { QuartzComponent } from "./components/types";
-import { ValidLocale } from "./i18n";
-import { PluginTypes } from "./plugins/types";
-import { Theme } from "./util/theme";
+import { ValidDateType } from "./components/Date"
+import { QuartzComponent } from "./components/types"
+import { ValidLocale } from "./i18n"
+import { PluginTypes } from "./plugins/types"
+import { SocialImageOptions } from "./util/og"
+import { Theme } from "./util/theme"
 
 export type Analytics =
   | null
@@ -38,9 +39,14 @@ export type Analytics =
       provider: "cabin"
       host?: string
     }
+  | {
+      provider: "clarity"
+      projectId?: string
+    }
 
 export interface GlobalConfiguration {
   pageTitle: string
+  pageTitleSuffix?: string
   /** Whether to enable single-page-app style rendering. this prevents flashes of unstyled content and improves smoothness of Quartz */
   enableSPA: boolean
   /** Whether to display Wikipedia-style popovers when hovering over links */
@@ -56,15 +62,14 @@ export interface GlobalConfiguration {
    */
   baseUrl?: string
   /**
-   * Folder where the og-image is located. If not set, Quartz will use the default og-image.png
-   * baseUrl will be happenend as follow: `https://${baseUrl}/${ogImageDir}/${image}`
+   * Whether to generate social images (Open Graph and Twitter standard) for link previews
    */
-  ogImageDir?: string
+  generateSocialImages: boolean | Partial<SocialImageOptions>
   theme: Theme
   /**
    * Allow to translate the date in the language of your choice.
    * Also used for UI translation (default: en-US)
-   * Need to be formated following BCP 47: https://en.wikipedia.org/wiki/IETF_language_tag
+   * Need to be formatted following BCP 47: https://en.wikipedia.org/wiki/IETF_language_tag
    * The first part is the language (en) and the second part is the script/region (US)
    * Language Codes: https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
    * Region Codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
