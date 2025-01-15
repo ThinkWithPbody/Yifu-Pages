@@ -28,6 +28,7 @@ share: true
 | 342  | [**Image Resize for ComfyUI**](https://github.com/palant/image-resize-comfyui)                           |
 | 433  | [**ComfyUI Easy Use**](https://github.com/yolain/ComfyUI-Easy-Use)                                       |
 | 492  | [**Crystools**](https://github.com/crystian/ComfyUI-Crystools)                                           |
+| 904  | [**ComfyUI-==Flowty==-LDSR**](https://github.com/flowtyone/ComfyUI-Flowty-LDSR)                          |
 | 1014 | [**img2txt-comfyui-nodes**](https://github.com/christian-byrne/img2txt-comfyui-nodes)                    |
 | 1294 | [**x-flux-comfyui**](https://github.com/XLabs-AI/x-flux-comfyui)                                         |
 | 1304 | [**ControlAltAI Nodes**](https://github.com/gseth/ControlAltAI-Nodes)                                    |
