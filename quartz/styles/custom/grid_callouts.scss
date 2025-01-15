@@ -124,7 +124,7 @@ body {
   margin: 0;
   margin: 0 8px;
   width: 30vh;
-  float: left;
+  float: right;
   padding: 1px;
   border: 1px solid var(--table, var(--background-modifier-border));
   border-radius: var(--radius, var(--co-radius));
@@ -177,8 +177,8 @@ body {
     }
   }
 
-  .wiki-right & {
-    float: right;
+  .wiki-left & {
+    float: left;
   }
 
   .is-collapsed {
@@ -262,6 +262,7 @@ body {
   border: 0;
   margin: 0;
   box-shadow: none;
+  width: $pageWidth;
 
   & {
     display: block;
@@ -276,15 +277,16 @@ body {
 
     p:not(.callout-title) {
       display: grid;
-      grid-template-columns: repeat(2, minmax(19vw, 1fr));
+      grid-template-columns: 2fr;
       grid-template-rows: repeat(1, 1fr);
       grid-gap: 15px;
     }
 
     img {
       padding: 1px;
-      margin:0;
-      
+      margin: 0;
+      grid-row: x / span y;
+
       &:hover {
         transform: scaleX(2) scaleY(2);
       }
@@ -369,15 +371,14 @@ body {
   }
 
   table {
-    th {
-      background-color: var(--aside-bg, rgba(var(--callout-color), 0.5));
-    }
-
     --tbl-td-h: 0;
     --tbl-td-w: 5px;
     white-space: nowrap;
     margin: 0;
     width: 100%;
+    th {
+      background-color: var(--aside-bg, rgba(var(--callout-color), 0.5));
+    }
   }
 
   p:last-child {
@@ -398,7 +399,9 @@ body {
     border: 0;
     text-align: center;
     padding: 0;
-
+    padding: 0px;
+    margin: auto;
+    overflow-y: hidden;
     &.is-collapsible:not(.is-collapsed) {
       display: flex;
       flex-direction: row-reverse;
@@ -421,10 +424,6 @@ body {
         }
       }
     }
-
-    padding: 0px;
-    margin: auto;
-    overflow-y: hidden;
 
     &:is([data-callout-metadata~="tbl-cln"], [data-callout-metadata~="table-clean"]) {
       table :is(td, tr, th) {
