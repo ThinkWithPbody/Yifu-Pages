@@ -41,7 +41,7 @@ const config: QuartzConfig = {
                     // Original: #000000 | New: #1C2022 editor.background
                     light: "#1C2022",
                     // Original: #1E1E1E | New: #111518 editorGroup.border (tick box or graph view border)
-                    lightgray: "#111518",
+                    lightgray: "#FFFFFF",
                     // Original: #757575 | New: #C0C0C0 input.foreground (subtitle)
                     gray: "#C0C0C0",
                     // Original: #FAFAFA | New: #C0C0C0 menu.foreground (main text)
