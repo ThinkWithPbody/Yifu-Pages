@@ -38,22 +38,22 @@ const config: QuartzConfig = {
                     highlight: "#EDEDED",
                 },
                 darkMode: {
-                    // Original: #000000 | New: editor.background
+                    // Original: #000000 | New: #1C2022 editor.background
                     light: "#1C2022",
-                    // Original: #1E1E1E | New: editorGroup.border (tick box or graph view border)
+                    // Original: #1E1E1E | New: #111518 editorGroup.border (tick box or graph view border)
                     lightgray: "#111518",
-                    // Original: #757575 | New: input.foreground (subtitle)
+                    // Original: #757575 | New: #C0C0C0 input.foreground (subtitle)
                     gray: "#C0C0C0",
-                    // Original: #FAFAFA | New: menu.foreground (main text)
+                    // Original: #FAFAFA | New: #C0C0C0 menu.foreground (main text)
                     darkgray: "#C0C0C0",
-                    // Original: #FFFFFF | New: menu.selectionBackground (secondary menu items and table of contents)
-                    dark: "#24282A",
-                    // Original: #EDEDED | New: activityBar.background (main menu items)
-                    secondary: "#1C2022",
-                    // Original: #FFCA42 | New: editor.selectionBackground
-                    tertiary: "#40a8f348",
-                    // Original: #262626 | New: sideBar.background (background for secondary)
-                    highlight: "#191d1f",
+                    // Original: #FFFFFF | New: #24282A menu.selectionBackground (secondary menu items and table of contents)
+                    dark: "#C0C0C0",
+                    // Original: #EDEDED | New: #1C2022 activityBar.background (main menu items)
+                    secondary: "#FFFFFF",
+                    // Original: #FFCA42 | New: #40a8f348 ditor.selectionBackground
+                    tertiary: "#FFCA42",
+                    // Original: #262626 | New: #191d1f sideBar.background (background for secondary)
+                    highlight: "#374140",
                 },
             }
 
