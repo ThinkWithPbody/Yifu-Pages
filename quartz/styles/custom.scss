@@ -7,8 +7,6 @@
 
 // Put your custom CSS here!
 
-/*
-
 header {
   gap: 1vw;
 }
@@ -19,10 +17,10 @@ ol.overflow {
 }
 
 .page .page-header {
-  padding: 1px;
+  padding: 1px 1px 1px 1dvw;
   width: auto;
-  margin-left: -4dvw;
-  margin-right: 0;
+  margin-left: -1dvw;
+  margin-right: -1dvw;
 }
 
 @media all and (max-width: $fullPageWidth) {
@@ -53,7 +51,7 @@ ol.overflow {
   top: 0;
   border-bottom: 1px solid var(--lightgray);
   background-color: var(--light);
-  z-index: 100;
+  z-index: 1;
   margin-top: 0 !important;
 
   &.fixed {
@@ -74,8 +72,8 @@ hr {
   width: 10em;
 }
 
-.wiki-right .callout[data-callout$="wiki"] h1,
-.wiki-right .callout[data-callout$="wiki"] h3 {
+.wiki-left .callout[data-callout$="wiki"] h1,
+.wiki-left .callout[data-callout$="wiki"] h3 {
   background-color: var(--lightgray);
 }
 
@@ -130,7 +128,11 @@ ol.overflow:after {
   left: -0.15em;
 }
 
-*/
+
+
+
+
+
 
 h1 {
     color: #d04255;
