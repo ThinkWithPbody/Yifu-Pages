@@ -33,10 +33,10 @@ export default {
       title: 'Explorer',
     },
     footer: {
-      createdWith: 'Created by Yifu with',
+      createdWith: 'Created with',
     },
     graph: {
-      title: 'Nodes',
+      title: 'Graph View',
     },
     recentNotes: {
       title: 'Recent Notes',
