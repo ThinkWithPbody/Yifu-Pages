@@ -41,13 +41,13 @@ const config: QuartzConfig = {
                     // Original: #000000 | New: #1C2022 editor.background
                     light: "#1C2022",
                     // Original: #1E1E1E | New: #111518 editorGroup.border (tick box or graph view border)
-                    lightgray: "#C0C0C0",
+                    lightgray: "#EDEDED",
                     // Original: #757575 | New: #C0C0C0 input.foreground (subtitle)
                     gray: "#FFFFFF",
                     // Original: #FAFAFA | New: #C0C0C0 menu.foreground (main text)
-                    darkgray: "#C0C0C0",
+                    darkgray: "#EDEDED",
                     // Original: #FFFFFF | New: #24282A menu.selectionBackground (secondary menu items and table of contents)
-                    dark: "#C0C0C0",
+                    dark: "#EDEDED",
                     // Original: #EDEDED | New: #1C2022 activityBar.background (main menu items)
                     secondary: "#FFFFFF",
                     // Original: #FFCA42 | New: #40a8f348 ditor.selectionBackground
