@@ -479,7 +479,7 @@ ULS: Ultimate Limit State
 SLS: Serviceability Limit State
 
 ULS: Strength
-![[./Attachments/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg|2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc)]]
+![[../../2025/ARC2046H/Attachments/ARC2046H/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg|2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc)]]
 
 SLS: Serviceability
 Stiffness, Deflection
@@ -488,17 +488,6 @@ Use SLS Snow Load Importance Factor
 ![[./Attachments/2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc).jpg|2024-03-05T16_07_18-05_00_TWP-X570-WIN10(vlc)]]
 
 ### Module 8
-
-Static: Not moving
-
-| Title | Here | What |
-| ---- | ---- | ---- |
-| -4.4588 | 4.0147 |  |
-| 1.6126 | 4.2011 |  |
-| 8.8082 | 3.5587 |  |
-|  |  |  |
-| 5.962 | 11.7745 |  |
-|  |  |  |
 
 ### Module 9
 
