@@ -208,30 +208,36 @@ Scarf Joint Seam (Contour And Hole)
 
 ### File Preparation
 
-![[./Attachments/Yifu Design Lab/2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino).gif|2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino)]]
-*The pricing calculation in this demonstration is outdated.*
+#### 1. Scale
 
-#### Orientate
+Scale the model to printed size
+- Double check document tolerances before scaling to avoid inaccuracies.
+
+#### 2. Orientate
 
 Choose printing **orientation** for maximum smoothness. 
 - Printing a thin, organic piece vertically provides smoother detail and needs less support than laying it flat on the bed.
 
-#### Divide
+#### 3. Divide
 
 Divide large models exceeding the **build volume** with a **planar** cutter to provide **flat surfaces** that will adhere to the print bed nicely.
 - Each model need to be a closed solid with no non-manifold geometry. They should be **watertight**.
-- For pieces that are thin and tall, height is recommended to not exceed 100 mm.
+- For pieces that are thin and tall, width-height ratio is recommended to not exceed 1:8.
 - Keep in mind that any **overhang** exceeding 25 degrees will need substantial support structure which could be reduced or eliminated if they were divided and orientated differently.
-- **WireCut** is a great command for this purpose. If WireCut didn't work on your model, chances are it isn't watertight and it won't print properly either.
+- `WireCut` is a great command for dividing your model. If `WireCut` didn't work on your model, chances are it isn't watertight and it won't print properly either.
 
-#### Export
+#### 4. Export
 
-Files should be exported as **STL in millimetres**.
+Files should be exported as **STL** in **millimetres**.
 - Rhino files or incorrectly scaled STL will not be accepted.
-- **Each separated body should be one file** regardless of which plate they may be on, to maximize nesting potential.
-	- When relative positioning is important, add a small bridge with a cross section of 0.5-1mm² (depending on strength requirement) directly on the print bed and boolean union all connected bodies.
-- For multiple objects, use the Rhino command **RunPythonScript** with the [[../../../Wiki/Attachments/Rhino/BatchExportSTLByObj.py|Batch Export Python Script]] to export all selected files at once.
+- **Each separated body should be one .stl file** to maximize nesting potential.
+	- When relative positioning is important but adding a base plate is too costly, add a small flat connecting bridge with a height of 1 to 2 `LayerHeight` directly on the print bed and `BooleanUnion` all connected bodies.
+- To export objects, use `RunPythonScript` with the [[../../../Wiki/Attachments/Rhino/BatchExportSTLByObj.py|Batch Export Python Script]] to export all selected files at once.
 - Deliver more than one .stl files as a **ZIP**.
+
+> [!green]- Demonstration
+> ![[./Attachments/Yifu Design Lab/2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino).gif|2024-04-10T21_01_21-05_00_TWP-X570-WIN10(Rhino)]]
+> *The pricing calculation in this demonstration is outdated.*
 
 ### Showcase
 
