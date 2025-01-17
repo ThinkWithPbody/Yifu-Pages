@@ -3,7 +3,6 @@ function toggleCallout(this: HTMLElement) {
     outerBlock.classList.toggle("is-collapsed")
     const collapsed = outerBlock.classList.contains("is-collapsed")
     const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight
-    outerBlock.offsetHeight
     outerBlock.style.maxHeight = height + "px"
 
     // walk and adjust height of all parents
@@ -15,7 +14,7 @@ function toggleCallout(this: HTMLElement) {
         }
 
         const collapsed = parent.classList.contains("is-collapsed")
-        const height = collapsed ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight
+        const height = collapsed ? parent.scrollHeight : parent.offsetHeight + current.scrollHeight
         parent.style.maxHeight = height + "px"
 
         current = parent
