@@ -24,19 +24,25 @@ function adjustParentHeights(element: HTMLElement) {
 }
 
 function setupCallout() {
-    const collapsible = document.getElementsByClassName(
-        `callout is-collapsible`,
-    ) as HTMLCollectionOf<HTMLElement>
+    const collapsible = document.getElementsByClassName("callout is-collapsible") as HTMLCollectionOf<HTMLElement>;
     for (const div of collapsible) {
-        const title = div.firstElementChild
-
+        const title = div.firstElementChild;
         if (title) {
-            title.addEventListener("click", toggleCallout)
-            window.addCleanup(() => title.removeEventListener("click", toggleCallout))
+            title.addEventListener("click", toggleCallout);
+            window.addCleanup(() => title.removeEventListener("click", toggleCallout));
 
-            const collapsed = div.classList.contains("is-collapsed")
-            const height = collapsed ? title.scrollHeight : div.scrollHeight
-            div.style.maxHeight = height + "px"
+            const collapsed = div.classList.contains("is-collapsed");
+            const height = collapsed ? title.scrollHeight : div.scrollHeight;
+            div.style.maxHeight = height + "px";
+
+            // Add mutation observer
+            const observer = new MutationObserver(() => {
+                if (!div.classList.contains("is-collapsed")) {
+                    div.style.maxHeight = div.scrollHeight + "px";
+                    adjustParentHeights(div);
+                }
+            });
+            observer.observe(div, { childList: true, subtree: true });
         }
     }
 }
