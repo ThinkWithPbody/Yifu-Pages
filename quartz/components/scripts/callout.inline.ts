@@ -3,49 +3,55 @@ function toggleCallout(this: HTMLElement) {
     outerBlock.classList.toggle("is-collapsed");
     const collapsed = outerBlock.classList.contains("is-collapsed");
     
-    // Delay height calculation
+    // Use setTimeout to allow content to render fully
     setTimeout(() => {
         const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
         outerBlock.style.maxHeight = height + "px";
-        adjustParentHeights(outerBlock);
-    }, 50); // Adjust delay as needed
-}
 
-function adjustParentHeights(element: HTMLElement) {
-    let current = element;
-    let parent = element.parentElement;
-    while (parent && parent.classList.contains("callout")) {
-        const collapsed = parent.classList.contains("is-collapsed");
-        const height = collapsed ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
-        parent.style.maxHeight = height + "px";
-        current = parent;
-        parent = parent.parentElement;
-    }
+        // walk and adjust height of all parents
+        let current = outerBlock;
+        let parent = outerBlock.parentElement;
+        while (parent) {
+            if (!parent.classList.contains("callout")) {
+                return;
+            }
+
+            const collapsed = parent.classList.contains("is-collapsed");
+            const height = collapsed ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+            parent.style.maxHeight = height + "px";
+
+            current = parent;
+            parent = parent.parentElement;
+        }
+    }, 0);
 }
 
 function setupCallout() {
-    const collapsible = document.getElementsByClassName("callout is-collapsible") as HTMLCollectionOf<HTMLElement>;
+    const collapsible = document.getElementsByClassName(
+        "callout is-collapsible"
+    ) as HTMLCollectionOf<HTMLElement>;
+    
     for (const div of collapsible) {
         const title = div.firstElementChild;
+
         if (title) {
             title.addEventListener("click", toggleCallout);
             window.addCleanup(() => title.removeEventListener("click", toggleCallout));
 
             const collapsed = div.classList.contains("is-collapsed");
-            const height = collapsed ? title.scrollHeight : div.scrollHeight;
-            div.style.maxHeight = height + "px";
-
-            // Add mutation observer
-            const observer = new MutationObserver(() => {
-                if (!div.classList.contains("is-collapsed")) {
-                    div.style.maxHeight = div.scrollHeight + "px";
-                    adjustParentHeights(div);
-                }
-            });
-            observer.observe(div, { childList: true, subtree: true });
+            
+            // Use setTimeout to allow content to render fully
+            setTimeout(() => {
+                const height = collapsed ? title.scrollHeight : div.scrollHeight;
+                div.style.maxHeight = height + "px";
+            }, 0);
         }
     }
 }
 
-document.addEventListener("nav", setupCallout)
-window.addEventListener("resize", setupCallout)
+document.addEventListener("nav", setupCallout);
+window.addEventListener("resize", setupCallout);
+
+// Add a mutation observer to handle dynamically added content
+const observer = new MutationObserver(setupCallout);
+observer.observe(document.body, { childList: true, subtree: true });
