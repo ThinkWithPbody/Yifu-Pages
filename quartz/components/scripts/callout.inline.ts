@@ -34,8 +34,10 @@ function setupCallout() {
             window.addCleanup(() => title.removeEventListener("click", toggleCallout))
 
             const collapsed = div.classList.contains("is-collapsed")
-            const height = collapsed ? title.scrollHeight : div.offsetHeight
-            div.style.maxHeight = height + "px"
+            requestAnimationFrame(() => {
+                const height = collapsed ? title.scrollHeight : div.scrollHeight
+                div.style.maxHeight = height + "px"
+            })
         }
     }
 }
