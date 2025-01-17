@@ -14,7 +14,7 @@ function toggleCallout(this: HTMLElement) {
         }
 
         const collapsed = parent.classList.contains("is-collapsed")
-        const height = collapsed ? parent.scrollHeight : parent.offsetHeight + current.scrollHeight
+        const height = collapsed ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight
         parent.style.maxHeight = height + "px"
 
         current = parent
@@ -34,7 +34,7 @@ function setupCallout() {
             window.addCleanup(() => title.removeEventListener("click", toggleCallout))
 
             const collapsed = div.classList.contains("is-collapsed")
-            const height = collapsed ? title.scrollHeight : div.scrollHeight
+            const height = collapsed ? title.scrollHeight : div.offsetHeight
             div.style.maxHeight = height + "px"
         }
     }
