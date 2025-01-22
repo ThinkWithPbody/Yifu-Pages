@@ -34,7 +34,7 @@ function setupCallout() {
             window.addCleanup(() => title.removeEventListener("click", toggleCallout))
 
             const collapsed = div.classList.contains("is-collapsed")
-            const height = collapsed ? title.scrollHeight + "px" : "100%"
+            const height = collapsed ? title.scrollHeight + "px" : div.scrollHeight + "px"
             div.style.maxHeight = height
         }
     }
