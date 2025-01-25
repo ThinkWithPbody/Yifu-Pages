@@ -24,7 +24,7 @@ share: true
 
 ![[ARC2048H_Visits.png|ARC2048H_Visits.png]]
 
-
+[ARC4502 - Visits to Local Architecture Practices - Google Sheets](https://docs.google.com/spreadsheets/d/1D2HO3dXyIKx3PRvVWm8rmGdOG9tHkKComak2VuM-pNE/edit?gid=0#gid=0)
 
 ---
 
