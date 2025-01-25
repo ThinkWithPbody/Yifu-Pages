@@ -14,7 +14,14 @@ share: true
 ---
 # Tasks
 
-- [x] Complete Project Page: ARC2048H_Visits  [priority:: low]  [scheduled:: 2025-01-24]  [completion:: 2025-01-24]
+- [x] **KPMB** Architects  [due:: 2025-01-23]  [completion:: 2025-01-24]
+- [ ] **ENFORM** Architects  [due:: 2025-01-30]
+- [ ] **MJMA**  [due:: 2025-02-06]
+- [ ] **BDP Q**uadrangle  [due:: 2025-02-13]
+- [ ] **SvN** Architects + Planners  [due:: 2025-03-06]
+- [ ] **M**ontgomery **S**isam **A**rchitects  [due:: 2025-03-13]
+- [ ] **D**iamond **S**chmitt **A**rchitects  [due:: 2025-03-20]
+- [ ] **DIALOG**  [due:: 2025-03-27]
 
 # Tagged
 `#Projects/2025/ARC2048H_Visits`
@@ -22,9 +29,25 @@ share: true
 
 # Project Brief
 
-![[ARC2048H_Visits.png|ARC2048H_Visits.png]]
-
+ARC4502 - Visits to Local Architecture Practices
 [ARC4502 - Visits to Local Architecture Practices - Google Sheets](https://docs.google.com/spreadsheets/d/1D2HO3dXyIKx3PRvVWm8rmGdOG9tHkKComak2VuM-pNE/edit?gid=0#gid=0)
+Arrival | 6:00 to 6:30
+Program | 6:30 to 8:30
+
+
+| Date         | Firm                                    | Location                            | URL                                                                    |
+| ------------ | --------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------- |
+| Jan 23, 2025 | **KPMB** Architects                     | 351 King St E Suite 1200            | [https://www.kpmb.com/](https://www.kpmb.com/)                         |
+| Jan 30, 2025 | **ENFORM** Architects                   | 302B – 128A Sterling Road           | [https://www.enformarchitects.com/](https://www.enformarchitects.com/) |
+| Feb 6, 2025  | **MJMA**                                | 135 Liberty Street, Suite 400       | [https://www.mjma.ca/](https://www.mjma.ca/)                           |
+| Feb 13, 2025 | **BDP Q**uadrangle                      | 8 Spadina Avenue, Suite 2100        | [https://www.bdpquadrangle.com/](https://www.bdpquadrangle.com/)       |
+| Mar 6, 2025  | **SvN** Architects + Planners           | 110 Adelaide Street East, 4th Floor | [https://svn-ap.com/](https://svn-ap.com/)                             |
+| Mar 13, 2025 | **M**ontgomery **S**isam **A**rchitects | 110 Adelaide Street East, 4th Floor | [https://www.montgomerysisam.com/](https://www.montgomerysisam.com/)   |
+| Mar 20, 2025 | **D**iamond **S**chmitt **A**rchitects  | 384 Adelaide St W Suite 100         | [https://dsai.ca/](https://dsai.ca/)                                   |
+| Mar 27, 2025 | **DIALOG**                              | 35 John Street, Suite 500           | [https://dialogdesign.ca/](https://dialogdesign.ca/)                   |
+
+
+
 
 ---
 
