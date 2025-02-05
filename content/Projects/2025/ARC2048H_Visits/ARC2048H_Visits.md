@@ -29,6 +29,19 @@ share: true
 
 %%
 
+- **2025-01-23**:
+  ```
+No content available
+  ```
+- **2025-01-24_KPMB - Adaptive Reuse**:
+  ```
+No content available
+  ```
+- **2025-01-30_ENFORM Architects**:
+  ```
+No content available
+  ```
+
 %% DATAVIEW_PUBLISHER: end %%
 
 # Project Brief
