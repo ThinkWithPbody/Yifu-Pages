@@ -94,7 +94,7 @@ ___
 Reference to a [[./Guides|File]]
 Reference to a [[Guide Obsidian#Heading 1|Heading]]
 Reference to a [[../../../2024-01-01#^025433|Paragraph]]
-Inline Reference![[Guide Obsidian#Styles|Configs/Guides/Guide Obsidian > Styles]]
+Inline Reference-> [[Guide Obsidian#Styles|Configs/Guides/Guide Obsidian > Styles]]
 ## Shortcuts
 
 ### View
