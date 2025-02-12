@@ -1072,6 +1072,7 @@ HVAC Distribution
 			- PSH: Peak Sun Hours
 				- **1 PSH = 1000 W/m2**
 			- Maximize Peak sun hour = 4.64 (hours/day) at 35-degree tilt south in Toronto
+				- 3.93 at 10-degree tilt east to west
 				- ![[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 12 week 11 slides v3.pdf#page=16&rect=59,47,956,387|p.16]]
 				- Most typical configuration is flat or 10 EW or 5 S degrees because of Peak Sun Hours ÷ m2
 				- 35 S casts shadows on the next one
