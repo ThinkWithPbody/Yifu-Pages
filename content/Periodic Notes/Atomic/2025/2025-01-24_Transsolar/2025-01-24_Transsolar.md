@@ -3,7 +3,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - excalidraw
-  - note_note
+  - note_atomic
 title: 2025-01-24_Transsolar
 description: 
 date: 2025-01-24
