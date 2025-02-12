@@ -3,7 +3,8 @@ excalidraw-plugin:
 excalidraw-open-md: true
 tags:
   - excalidraw
-  - note_note
+  - note_atomic
+  - Courses_2025_ARC2046H
 title: 2025-02-12_Module 06 Steel - Beam Design
 description: 
 date: 2025-02-12
@@ -16,7 +17,7 @@ share: true
 ---
 %%[parents:: [[2025-02-12_Module 06 Steel - Beam Design|2025-02-12_Module 06 Steel - Beam Design]]]%%
 # Module 06 Steel - Beam Design
-
+ #Courses/2025/ARC2046H
 ![[Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png|Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png]]
 
 ASD asd asd
