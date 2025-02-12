@@ -15,8 +15,8 @@ share: true
 # Tasks
 
 - [x] **KPMB** Architects  [due:: 2025-01-23]  [completion:: 2025-01-24]
-- [ ] **ENFORM** Architects  [due:: 2025-01-30]
-- [ ] **MJMA**  [due:: 2025-02-06]
+- [x] **ENFORM** Architects  [due:: 2025-01-30]  [completion:: 2025-02-12]
+- [x] **MJMA**  [due:: 2025-02-06]  [completion:: 2025-02-12]
 - [ ] **BDP Q**uadrangle  [due:: 2025-02-13]
 - [ ] **SvN** Architects + Planners  [due:: 2025-03-06]
 - [ ] **M**ontgomery **S**isam **A**rchitects  [due:: 2025-03-13]
