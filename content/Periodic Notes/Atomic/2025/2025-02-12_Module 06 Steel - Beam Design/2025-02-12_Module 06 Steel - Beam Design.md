@@ -20,7 +20,8 @@ share: true
  #Courses/2025/ARC2046H
 ![[Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png|Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png]]
 
-ASD asd asd
+- Lateral Torsional Buckling
+- 
 
 ---
 
