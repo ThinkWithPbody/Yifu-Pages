@@ -25,11 +25,9 @@ share: true
 
 # Tagged
 `#Projects/2025/ARC2048H_Visits`
-%% DATAVIEW_PUBLISHER: start
 
-%% 
 
-%% DATAVIEW_PUBLISHER: end %%
+
 
 # Project Brief
 
