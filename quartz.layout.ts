@@ -33,19 +33,35 @@ export const defaultContentPageLayout: PageLayout = {
             folderClickBehavior: "link",
             folderDefaultState: "open",
             filterFn: (node) => {
-                return (
-                    node.file?.frontmatter?.tags?.includes("badtag") !== true &&
-                    node.file?.frontmatter?.hide !== true
-                )
+                const isNodeHidden = (n) => {
+                    if (n.file?.frontmatter?.hide === true) return true;
+                    if (n.children) {
+                        return n.children.every(isNodeHidden);
+                    }
+                    return false;
+                };
+                return !isNodeHidden(node);
             },
             mapFn: (node) => {
+                if (node.children) {
+                    node.children = node.children.filter(child =>
+                        !(child.file?.frontmatter?.hide === true ||
+                            (child.children && child.children.every(grandchild =>
+                                grandchild.file?.frontmatter?.hide === true
+                            ))
+                        )
+                    );
+                }
+                // Merge folder with single child of same name
                 if (node.children?.length === 1 &&
                     node.children[0].file &&
                     node.name === node.children[0].name.replace(/\.md$/, '')) {
-                    // Merge the folder and file nodes
                     node.file = node.children[0].file;
                     node.displayName = node.children[0].displayName;
                     node.children = [];
+                }
+                if (node.children?.length === 0 && !node.file) {
+                    return null;
                 }
                 return node;
             },
