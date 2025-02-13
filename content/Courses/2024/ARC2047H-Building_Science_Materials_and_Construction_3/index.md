@@ -12,6 +12,7 @@ location: DA200
 weekday: 2
 time: 1000
 share: true
+title: ARC2047H-Building_Science_3
 ---
 ## Modules
 
