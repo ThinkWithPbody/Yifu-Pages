@@ -22,29 +22,29 @@ hide: true
 
 - Lateral Torsional Buckling
 	- Local Buckling
-		- Class 1-2 ^36391f
+		- **Class 1-2** ^36391f
 			- Plastic Limit (ignoring local buckling)
-		- Class 3 ^3044ad
+		- **Class 3** ^3044ad
 			- Elastic Limit (experiences local buckling in the plastic range)
 		- Class 4
 			- Local Buckling in Elastic Range
 	- Yielding Moments
-		- Elastic
+		- **Elastic**
 			- $M_y=\sigma S$
-		- Plastic
+		- **Plastic**
 			- $M_p=\sigma Z$
 	- If a beam is continuously braced at the top
-		- Elastic
+		- **Elastic**
 			- $M_r=\phi \cdot fy \cdot S$
-		- Plastic
+		- **Plastic**
 			- $M_r=\phi \cdot fy \cdot Z$
 	- Lateral Buckling Moment
-		- $M_u=\frac{w_2\pi}{L}\sqrt{EI_yGJ+(\frac{\pi E}{L})^2I_yC_w}$
+		- $M_u=\frac{w_2\pi}{L_u}\sqrt{EI_yGJ+(\frac{\pi E}{L})^2I_yC_w}$
 			- $M_u$ = the bending moment which results in lateral buckling of the compression flange. 
 				- U stands for ultimate, but we could say critical.
 			- $w_2$ = 1.0 (if M at middle is greater than M at ends)  (all simply supported beams)
 			- $\pi$ = 3.14
-			- $L$ = the laterally unsupported length of the compression flange
+			- $L_u$ = the laterally unsupported length of the compression flange
 			- $E$ = the modulus of elasticity
 			- $I_y$ = the moment of inertia of the beam in the direction opposite to the applied load
 			- $G$ = the shearing modulus of elasticity, generally 77,000 MPa
@@ -52,25 +52,31 @@ hide: true
 			- $C_w$ = the warping constant (From Beam properties)
 - Total Steel Beam Capacity $V_r$ & $M_r$
 	- Moment (Plastic… If Elastic, $M_p$ becomes $M_y$)
-	- Moment Resistance **[[index#^36391f|Class 1 & 2]]**
-		- If $M_u>0.67M_p$
-			- $M_r=1.15\phi M_p(1-\frac{0.28M_p}{M_u})<=\phi M_p$
-		- Else 
-			- $M_r=\phi M_u$
-		- $\phi=0.9$
-		- $M_u$ = Buckling moment at the unsupported length
-		- $M_p$ = Plastic Moment (with no reduction factor) $Z$
-	- Moment Resistance **[[index#^3044ad|Class 3]]**
-		- If $M_u>0.67M_y$
-			- $M_r=1.15\phi M_y(1-\frac{0.28M_y}{M_u})<=\phi M_y$
-		- Else 
-			- $M_r=\phi M_u$
-		- $\phi=0.9$
-		- $M_u$ = Buckling moment at the unsupported length
-		- $M_y$ = Elastic Moment (with no reduction factor) $S$
-	- Moment Resistance Curve
-		- ![[./Attachments/2025-02-12_Module 06 Steel - Beam Design/image.webp|371x248]]
-	- Shear
+		- **Moment Resistance [[index#^36391f|Class 1 & 2]]**
+			- $M_r$
+				- If $M_u<=0.67M_p$
+					- $M_r=\phi M_u$
+				- Else $M_r=1.15\phi M_p(1-\frac{0.28M_p}{M_u})$
+				- If $M_r>\phi M_p$
+					- $M_r=\phi M_p$
+			- Where
+				- $\phi=0.9$
+				- $M_u$ = Buckling moment at the unsupported length
+				- $M_p$ = Plastic Moment (with no reduction factor) $Z$
+		- **Moment Resistance [[index#^3044ad|Class 3]]**
+			- $M_r$
+				- If $M_u<=0.67M_y$
+					- $M_r=\phi M_u$
+				- Else $M_r=1.15\phi M_y(1-\frac{0.28M_y}{M_u})$
+				- If $M_r>\phi M_y$
+					- $M_r=\phi M_y$
+			- Where
+				- $\phi=0.9$
+				- $M_u$ = Buckling moment at the unsupported length
+				- $M_y$ = Elastic Moment (with no reduction factor) $S$
+		- Moment Resistance Curve
+			- ![[./Attachments/2025-02-12_Module 06 Steel - Beam Design/image.webp|371x248]]
+	- **Shear**
 		- $V_r=\phi A_wF_s$
 			- $V_r$ = Reduced shear resistance
 			- $f$ = Material Reduction Factor for Steel, 0.90
