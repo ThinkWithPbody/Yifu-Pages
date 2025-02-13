@@ -18,6 +18,7 @@ location: DA200
 weekday: 3
 time: 1300
 share: true
+hide: false
 ---
 # Tasks
 
@@ -446,7 +447,7 @@ Stability
 - Line Load (kN/m)
 	- Keep track of Serviceability (kN/m)
 	- Method of Section
-	- ![[Periodic Notes/Daily/2025/2025-01-15|Periodic Notes/Daily/2025/2025-01-15]]
+	- ![[../../../Periodic Notes/Daily/2025/2025-01-15.png|570x655]]
 
 
 ---
