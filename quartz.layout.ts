@@ -35,7 +35,7 @@ export const defaultContentPageLayout: PageLayout = {
             filterFn: (node) => {
                 return (
                     node.file?.frontmatter?.tags?.includes("badtag") !== true &&
-                    node.file?.frontmatter?.hide !== true
+                    (node.file?.frontmatter?.hide !== true || node.file?.frontmatter?.hide !== "true")
                 )
             },
         }),
@@ -86,10 +86,10 @@ export const defaultListPageLayout: PageLayout = {
             folderClickBehavior: "link",
             folderDefaultState: "open",
             filterFn: (node) => {
-                console.log(node.file?.frontmatter);
+                console.log("HIDE VALUE:", node.file?.frontmatter?.hide, "TYPE:", typeof node.file?.frontmatter?.hide);
                 return (
                     node.file?.frontmatter?.tags?.includes("badtag") !== true &&
-                    node.file?.frontmatter?.hide === true
+                    (node.file?.frontmatter?.hide !== true || node.file?.frontmatter?.hide !== "true")
                 )
             },
         }),
