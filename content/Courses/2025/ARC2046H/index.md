@@ -1569,7 +1569,7 @@ Width
 </blockquote>
 
 
-[[../../../Periodic Notes/Atomic/2025/2025-02-12_Assignment 05/index#Assignment 05|Assignment 05]]
+[[../../../Periodic Notes/Atomic/2025/2025-02-12_Assignment 05/index|Assignment 05]]
 
 ### Module 06 Steel - Beam Design
 
