@@ -16,7 +16,7 @@ time:
 share: true
 hide: true
 ---
-%%[parents:: [[index|2025-02-12_Stress and Strain]]]%%
+%%[parents:: [[2025-02-12_Stress and Strain|2025-02-12_Stress and Strain]]]%%
 # Stress and Strain
 
 ![[Periodic Notes/Atomic/2025/2025-02-12_Stress and Strain/2025-02-12_Stress and Strain.png|Periodic Notes/Atomic/2025/2025-02-12_Stress and Strain/2025-02-12_Stress and Strain.png]]

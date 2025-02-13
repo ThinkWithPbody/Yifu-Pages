@@ -16,7 +16,7 @@ time:
 share: true
 hide: true
 ---
-%%[parents:: [[index|2025-02-12_Module 05 Steel - Intro and Column Design]]]%%
+%%[parents:: [[2025-02-12_Module 05 Steel - Intro and Column Design|2025-02-12_Module 05 Steel - Intro and Column Design]]]%%
 # Module 05 Steel - Intro and Column Design
 
 ![[Periodic Notes/Atomic/2025/2025-02-12_Module 05 Steel - Intro and Column Design/2025-02-12_Module 05 Steel - Intro and Column Design.png|Periodic Notes/Atomic/2025/2025-02-12_Module 05 Steel - Intro and Column Design/2025-02-12_Module 05 Steel - Intro and Column Design.png]]

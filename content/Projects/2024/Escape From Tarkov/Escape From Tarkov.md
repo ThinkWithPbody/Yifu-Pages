@@ -4,14 +4,13 @@ tags:
 status: DONE
 share: true
 hide: true
-title: Escape From Tarkov
 ---
 ## SPT Install and Update
 
 1. Use BsgLauncher.exe to install or update official EFT to your best SSD
 2. Download SPT AKI automated installer [here](https://sp-tarkov.com/#download)
 3. Install SPT files in a separate folder affixed with version number
-4. Install this [[index#SPT Modlist|SPT Modlist]]
+4. Install this [[Escape From Tarkov#SPT Modlist|SPT Modlist]]
 %%	- When updating to minor versions without making changes to the modlist, just copy over the old files to the new location.
 		- Game Settings: "/user/sptSettings"
 		- Launcher settings: "/user/launcher"
@@ -32,7 +31,7 @@ Manual install locations are marked with üçå for **"/BepInEx/plugins"** and ü•
 	- Download and install [SPT ModOrganizer Integration](https://hub.sp-tarkov.com/files/file/1314-spt-modorganizer-integration/#overview) by extracting it to the MO install location.
 2. Create a new global instance in your SPT folder. Settings can be kept default, ignore pop-ups.
 	- Under SPT root, edit `sptvfsbridge.bat` and add `REM ` at the start of line 9 and 12 so that it reads for example `REM start "" "%server_path%"`, then save the file. This is so that only the client will run, and instantly.
-3. [[index#Patch Note & Downloads|Download]] a **package** or **patch** and extract files to the MO instance location under `MO\<InstanceName>\`, then refresh MO.
+3. [[Escape From Tarkov#Patch Note & Downloads|Download]] a **package** or **patch** and extract files to the MO instance location under `MO\<InstanceName>\`, then refresh MO.
 	![[./Attachments/Escape From Tarkov/2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian).jpg|2024-06-04T22_27_17-05_00_TWP-X570-WIN10(Obsidian)]]
 	- **Packages** are named `SPT Salt <SPTVersion>_<Package>`. They contain all mods of a major version.
 	- **Patches** are named `SPT Salt <SPTVersion>_<Package>.<Patch>`. They are smaller and incomplete, meant to distribute mod updates quickly.

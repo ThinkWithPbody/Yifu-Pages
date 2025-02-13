@@ -15,7 +15,7 @@ time:
 share: true
 hide: true
 ---
-%%[parents:: [[index|2025-02-12_Module 06 Steel - Beam Design]]]%%
+%%[parents:: [[2025-02-12_Module 06 Steel - Beam Design|2025-02-12_Module 06 Steel - Beam Design]]]%%
 # Module 06 Steel - Beam Design
 
 ![[Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png|Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png]]
@@ -52,7 +52,7 @@ hide: true
 			- $C_w$ = the warping constant (From Beam properties)
 - Total Steel Beam Capacity $V_r$ & $M_r$
 	- Moment (Plastic… If Elastic, $M_p$ becomes $M_y$)
-		- **Moment Resistance [[index#^36391f|Class 1 & 2]]**
+		- **Moment Resistance [[2025-02-12_Module 06 Steel - Beam Design#^36391f|Class 1 & 2]]**
 			- $M_r$
 				- If $M_u<=0.67M_p$
 					- $M_r=\phi M_u$
@@ -63,7 +63,7 @@ hide: true
 				- $\phi=0.9$
 				- $M_u$ = Buckling moment at the unsupported length
 				- $M_p$ = Plastic Moment (with no reduction factor) $Z$
-		- **Moment Resistance [[index#^3044ad|Class 3]]**
+		- **Moment Resistance [[2025-02-12_Module 06 Steel - Beam Design#^3044ad|Class 3]]**
 			- $M_r$
 				- If $M_u<=0.67M_y$
 					- $M_r=\phi M_u$
@@ -83,6 +83,8 @@ hide: true
 			- $A_w$ = Area of Web, d*w
 			- $F_s$ = ultimate shear stress, varies depending on slenderness of web
 				- = $0.66\times Fy$ for stocky members
+	- Tips
+		- Use [[../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/BEAM LOADING DIAGRAMS.pdf|BEAM LOADING DIAGRAMS]] to determine $M_f$ and $V_f$
 
 
 

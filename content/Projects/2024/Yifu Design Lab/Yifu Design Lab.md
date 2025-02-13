@@ -35,18 +35,18 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 
 | File Setup | Printing                                          | Filament      |
 | ---------- | ------------------------------------------------- | ------------- |
-| \$12       | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[index#Filament|Filament]] |
+| \$12       | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament|Filament]] |
 
-> [!info]- [[index#Why is there a setup fee|Setup fee]] may be discounted or waived depending on complexity
+> [!info]- [[Yifu Design Lab#Why is there a setup fee|Setup fee]] may be discounted or waived depending on complexity
 > 
 > Setup fee will be waived for Bambu Studio sliced .3mf files. However, please be aware that the outcome of the initial print will be final, as no adjustments or reprints will be provided for these waived jobs. The standard "100% satisfaction guarantee," which includes the option for a full reprint or refund if you are not satisfied with your order, does not apply to these waived jobs. If you accept these conditions and wish to proceed with complete control over the print process, please use the following [template](http://www.mediafire.com/view/rgq6dceauc22jln) to get started.
 
 ### Getting Started
 
-1. Follow [[index#File Preparation|File Preparation]] and export files.
-2. Choose your [[index#Filament|Filament]].
-3. Choose from one of the [[index#Quality Presets|Quality Presets]].
-4. Adjust [[index#Slicing Options|Slicing Options]] as needed.
+1. Follow [[Yifu Design Lab#File Preparation|File Preparation]] and export files.
+2. Choose your [[Yifu Design Lab#Filament|Filament]].
+3. Choose from one of the [[Yifu Design Lab#Quality Presets|Quality Presets]].
+4. Adjust [[Yifu Design Lab#Slicing Options|Slicing Options]] as needed.
 5. Send your **ZIP** file, **filament**, **preset**, and any **custom options** to Yifu Ding over Teams or [Email](mailto:yifu.ding@mail.utoronto.ca) to place job order.
 6. Email transfer fees to yifuding.twp@gmail.com
 

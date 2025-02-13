@@ -854,8 +854,8 @@ HVAC Distribution
 						- Limited by shortest distance from AHU to openings
 				- **V (cfm): Volumetric Flow Rate**
 					- Is governed by the greater of cooling or heating loads
-						- [[index#^2de642|q_cooling load (Btu/h | tons)]]
-						- q_heating load (Btu/h | tons) = [[index#^6c9468|UA_total (Btu/h F)]] × ∆T 
+						- [[ARC2047H-Building_Science_Materials_and_Construction_3#^2de642|q_cooling load (Btu/h | tons)]]
+						- q_heating load (Btu/h | tons) = [[ARC2047H-Building_Science_Materials_and_Construction_3#^6c9468|UA_total (Btu/h F)]] × ∆T 
 							- ∆T = BPT - Design Dry Bulb Winter
 					- V_sum (cfm) = Loads (ton) × V/ton
 						- V/ton
@@ -876,7 +876,7 @@ HVAC Distribution
 > 
 > ∆T = BPT - Design Dry Bulb Winter
 > 	= 33.5 - 2.2 = 31.3
-> q_heating load (Btu/h | tons) = [[index#^6c9468|UA_total (Btu/h F)]] × ∆T
+> q_heating load (Btu/h | tons) = [[ARC2047H-Building_Science_Materials_and_Construction_3#^6c9468|UA_total (Btu/h F)]] × ∆T
 > 	= 3753 × 31.3 = 117,468.9 Btu
 > 	= 9.789075 tons
 > V_sum = Loads (ton) × V/ton
