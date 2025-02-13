@@ -33,8 +33,10 @@ export const defaultContentPageLayout: PageLayout = {
             folderClickBehavior: "link",
             folderDefaultState: "open",
             filterFn: (node) => {
-                return node.file?.frontmatter?.tags?.includes("badtag") !== true
-                return node.file?.frontmatter?.hide? !== true
+                return (
+                    node.file?.frontmatter?.tags?.includes("badtag") !== true &&
+                    node.file?.frontmatter?.hide !== true
+                )
             },
         }),
     ],
@@ -84,8 +86,10 @@ export const defaultListPageLayout: PageLayout = {
             folderClickBehavior: "link",
             folderDefaultState: "open",
             filterFn: (node) => {
-                return node.file?.frontmatter?.tags?.includes("badtag") !== true
-                return node.file?.frontmatter?.hide !== true
+                return (
+                    node.file?.frontmatter?.tags?.includes("badtag") !== true &&
+                    node.file?.frontmatter?.hide !== true
+                )
             },
         }),
     ],
