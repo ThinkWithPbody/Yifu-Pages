@@ -2,6 +2,7 @@
 tags:
   - guide
 share: true
+title: Guide Obsidian
 ---
 [Markdown Cheatsheet](https://rentry.org/how)
 # Heading 1
