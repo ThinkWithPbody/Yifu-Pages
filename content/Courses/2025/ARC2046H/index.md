@@ -392,7 +392,67 @@ Stability
 > [ARC2046 Lecture 02 Review ARC1046.pptx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C02%5CARC2046%20Lecture%2002%20Review%20ARC1046.pptx)
 > [Lecture 07 Load Combination Example 02.xlsx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C02%5CLecture%2007%20Load%20Combination%20Example%2002.xlsx)
 
-![[../../../../2025-02-12_Module 02 ARC1046 Review#Module 02 ARC1046 Review|Module 02 ARC1046 Review]]
+<blockquote class="callout green is-collapsible is-collapsed" data-callout="green">
+<div class="callout-title">
+<div class="callout-icon"></div>
+<div class="callout-title-inner">
+<p>2025-02-12_Module 02 ARC1046 Review</p>
+</div>
+<div class="fold-callout-icon"></div>
+</div>
+<div class="callout-content">
+# Module 02 ARC1046 Review
+
+![[Periodic Notes/Atomic/2025/2025-02-12_Module 02 ARC1046 Review/2025-02-12_Module 02 ARC1046 Review.png|Periodic Notes/Atomic/2025/2025-02-12_Module 02 ARC1046 Review/2025-02-12_Module 02 ARC1046 Review.png]]
+
+
+- Dead load (kPa)
+	- Hollow Core
+		- ![[Courses/2025/ARC2046H/Attachments/ARC2046H/DEAD LOADS.pdf#page=1&rect=76,462,158,484|DEAD LOADS, p.1|100]]
+		- Do not require interpolation - use 8" as is for standard, flick back and forth
+- Snow load (kPa)
+	- ==S = Is \[Ss (Cb Cw C s Ca ) + Sr \]== ([[Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=134,0,156,1|p.1]])
+		-  ==Is = importance factor for snow load as provided in Table 4.1.6.2.,== ([[Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=158,0,164,62|p.1]])
+		- ==Ss = 1-in-50-year ground snow load, in kPa, determined in accordance with Subsection 1.1.2.,== ([[Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=165,0,170,87|p.1]])
+		- ==Cb = basic roof snow load factor in Sentence (2),== ([[Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=1&selection=171,0,176,44|p.1]])
+			- Usually 0.8
+			- A certain amount of snow falls down from the roof, the given snow load is for ground and needs to be factored
+			- Will rise towards 1.0 if roof is very large or is internal
+		- ==Cw = wind exposure factor in Sentences (3) and (4),== ([[Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=1,0,6,46|p.2]])
+			- Usually 1.0
+		- ==Cs = slope factor in Sentences (5), (6) and (7),== ([[Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=7,0,12,43|p.2]])
+			- Usually 1.0
+			- ==(5) Except as provided for in Sentences (6) and (7), the slope factor, Cs , shall be, (a) 1.0 where the roof slope, , is equal to or less than 30°, (b) (70° - )/40° where  is greater than 30° but not greater than 70°, and (c) 0 where  exceeds 70°. (6) The slope factor, Cs , for unobstructed slippery roofs where snow and ice can slide completely off the roof shall be, (a) 1.0 when the roof slope, , is equal to or less than 15°, (b) (60° - )/45° when  is greater than 15°, but not greater than 60°, and (c) 0 when  exceeds 60°. (7) The slope factor, Cs , shall be 1.0 when used in conjunction with shape factors for increased snow loads as given in Clauses (8)(b) and (e).== ([[Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=183,0,237,23|p.2]])
+		- ==Ca = shape factor in Sentence (8),== ([[Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=13,0,18,29|p.2]])
+			- Usually 1.0
+			- Accumulation factor
+		- ==Sr = 1-in-50-year associated rain load, in kPa, determined in accordance with Subsection 1.1.2., but not greater than Ss (Cb C w Cs Ca )== ([[Courses/2025/ARC2046H/Attachments/ARC2046H/SNOW LOAD.pdf#page=2&selection=19,0,41,1|p.2]])
+- Ultimate Limit States
+	- UDSL likely govern
+	- UD = 1.4DL
+	- UDL = 1.25DL + 1.5LL
+	- UDS = 1.25DL + 1.5SL
+	- UDLS = 1.25DL + 1.5LL + 1.0SL
+	- UDSL = 1.25DL  + 1.5SL + 1.0LL
+	- ![[./Attachments/ARC2046H/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg|400]]
+	- Have to check all combinations
+- Serviceability
+	- Uses different SL from Importance Factor
+	- Do not look for worst case, track all
+	- SDL = DL + LL
+	- SDS = DL + SL
+	- SL = LL
+	- SS = SL
+- Line Load (kN/m)
+	- Keep track of Serviceability (kN/m)
+	- Method of Section
+	- ![[Periodic Notes/Daily/2025/2025-01-15|Periodic Notes/Daily/2025/2025-01-15]]
+
+
+---
+
+</div>
+</blockquote>
 
 #### Ultimate Limit States Calculator
 
@@ -1509,203 +1569,14 @@ Width
 </blockquote>
 
 
-<blockquote class="callout green is-collapsible is-collapsed" data-callout="green">
-<div class="callout-title">
-<div class="callout-icon"></div>
-<div class="callout-title-inner">
-<p>2025-02-12_Assignment 05</p>
-</div>
-<div class="fold-callout-icon"></div>
-</div>
-<div class="callout-content">
-# Assignment 05
-
-![[Periodic Notes/Atomic/2025/2025-02-12_Assignment 05/2025-02-12_Assignment 05.png|Periodic Notes/Atomic/2025/2025-02-12_Assignment 05/2025-02-12_Assignment 05.png]]
-
-Questions 1 to 8
-
-For the following Structural Steel sections, provide the depth d, width b and theoretical mass (where nominal and theoretical are listed use Theoretical):
-
-**Question 1**
-W250x28
-
-depth 260 mm (no decimal places)
-width 102 mm (no decimal places)
-nominal mass 29 kg/m (no decimal places)
-
----
-
-**Question 2**
-W610x195
-
-depth 622 mm (no decimal places)
-width 327 mm (no decimal places)
-nominal mass 196 kg/m (no decimal places)
-
----
-
-**Question 3**
-HP250x85
-
-depth 254 mm (no decimal places)
-width 260 mm (no decimal places)
-nominal mass 85 kg/m (no decimal places)
-
----
-
-**Question 4**
-C150x19
-
-depth 152 mm (no decimal places)
-width 54 mm (no decimal places)
-nominal mass 19 kg/m (no decimal places)
-
----
-
-**Question 5**
-L152x102x7.9
-
-depth 152 mm (no decimal places)
-width 102 mm (no decimal places)
-mass 5.3 kg/m (one decimal place)
-
----
-
-
-**Question 6**
-WT205x23
-
-depth 202 mm (no decimal places)
-width 140 mm (no decimal places)
-nominal mass 23 kg/m (no decimal places)
-
----
-
-
-**Question 7**
-HSS254x152x9.5
-
-depth 254 mm (no decimal places)
-width 152 mm (no decimal places)
-mass 56.1 kg/m (one decimal place)
-
----
-
-
-**Question 8**
-HSS152x6.4
-
-depth 152 mm (no decimal places)
-width 152 mm (no decimal places)
-mass 5.7 kg/m (one decimal place)
-
----
-
-**Question 9**
-The following tension brace has a bolt hole, 20mm in diameter through it. What is the load the steel brace can handle? Assume 300W steel in the elastic zone. 
-
-![[./Attachments/ARC2046H/Pasted image 20250205175554.png|300]]
-
-
-4,002 kN
-4,447 kN
-3,938 kN
-✔️3,543 kN
-
-$T_r=\phi A_g f_y=0.9\times(175mm\times75mm)\times300MPa|N/mm^2=3,543,750N=3,544kN$
-$T_r=0.85\times\phi A_\text{ne}f_u=0.85\times0.9\times((175mm-20mm)\times75mm)\times450MPa|N/mm^2=4,001,906N=4,002kN$
-
-
----
-
-**Question 10**
-Match the Loading Diagram with the appropriate bending shape of the column
-(Note that the colours and days of the week are to aid those with dyslexia)
-
-Loading Diagrams
-
-![[./Attachments/ARC2046H/Pasted image 20250205175705.png|300]]
-
-Bent Shapes
-
-![[./Attachments/ARC2046H/Pasted image 20250205175714.png|300]]
-
-
-Monday    <span style="color:purple">Purple</span>
-Tuesday   <span style="color:magenta">Pink</span>
-Wednesday <span style="color:orange">Orange</span>
-Thursday  <span style="color:lightblue">Blue</span>
-
----
-
-For Questions 11 to 16, what is the Compressive Resistance (Cr, kN) of each column?
-
-Assume Pinned-Pinned. You may use the Steel Column Tables for this question. You may need to interpolate, though.
-
-Write all the answers in kN to no decimal places.
-
-**Question 11**
-W200x31, KL=4.0m
-
-383
-
-**Question 12**
-W200x31, KL=6.0m
-
-190
-
-**Question 13**
-W200x42, KL=4.0m
-
-735
-
-**Question 14**
-W360x79, KL=5.75m
-
-1068
-
-**Question 15**
-WWF400x202, KL=8.0m
-
-5680
-
-**Question 16**
-HSS152x152x8.0, KL=4.4m
-
-829
-
----
-
-This question is for you to try on your own. There are no points associated with this question.
-
-Plot the loading capacity verses height for a W250x58. Draw the curve connecting these points. You may use the published Steel Column Tables for this question.
-
----
-
-**Question 17**
-You are working on an existing building and are adding a Green Roof. There is a W250x58 that will now carry more load. You know the new factored load (ie we already applied our load factors) is Cf=750kN and the column is 6.0 tall. You would use your handbook to look up the capacity of the column at this height, but the building was built in 1950. Looking through old codes, you see that the fy of steel then was 230MPa and the fu was 410MPa. Will the column work with the new load? (Hint: You know E is the same, and the material factor f=0.9). You have to use the full, long equation to calculate Cr.
-
-Yes
-✔️No
-Sometimes
-Can not complete
-
-$C_r=\phi\cdot A \cdot f_y \cdot (1 + \lambda^\text{2n})^\frac{-1}{n}$
-$\lambda = \frac{kL}{r}\cdot\sqrt{\frac{fy}{\pi^2E}}$
-
-$C_r=0.9\cdot 7420mm^2 \cdot 230N/mm^2 \cdot (1 + (\frac{6000mm}{50.4mm}\cdot\sqrt{\frac{230N/mm^2}{3.1415926^2\cdot 200000N/mm^2}})^{2\times1.34})^\frac{-1}{1.34}=683,655N=684kN$
-
----
-
-</div>
-</blockquote>
+[[../../../Periodic Notes/Atomic/2025/2025-02-12_Assignment 05/index#Assignment 05|Assignment 05]]
 
 ### Module 06 Steel - Beam Design
 
 > [!blue]- Links
 > [06_Shannon Hilchie_ARC2046 2021 Lecture 05.mkv](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5CARC2046%202022%20Lectures%20Shannon%20Hilchie%5C06_Shannon%20Hilchie_ARC2046%202021%20Lecture%2005.mkv)
 > [ARC2046 Lecture 06 Steel Design - Beams.pptx](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C06%5CARC2046%20Lecture%2006%20Steel%20Design%20-%20Beams.pptx)
-> [STEEL BEAM TABLES.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2025-01%5CARC2046H%5CFiles%5C06%5CSTEEL%20BEAM%20TABLES.pdf)
+> ![[./Attachments/STEEL BEAM TABLES.pdf|STEEL BEAM TABLES]]
 
 <blockquote class="callout green is-collapsible is-collapsed" data-callout="green">
 <div class="callout-title">
@@ -1722,34 +1593,70 @@ $C_r=0.9\cdot 7420mm^2 \cdot 230N/mm^2 \cdot (1 + (\frac{6000mm}{50.4mm}\cdot\sq
 
 - Lateral Torsional Buckling
 	- Local Buckling
-		- Class 1-2
+		- **Class 1-2**
 			- Plastic Limit (ignoring local buckling)
-		- Class 3
+		- **Class 3**
 			- Elastic Limit (experiences local buckling in the plastic range)
 		- Class 4
 			- Local Buckling in Elastic Range
 	- Yielding Moments
-		- Elastic
+		- **Elastic**
 			- $M_y=\sigma S$
-		- Plastic
+		- **Plastic**
 			- $M_p=\sigma Z$
 	- If a beam is continuously braced at the top
-		- Elastic
+		- **Elastic**
 			- $M_r=\phi \cdot fy \cdot S$
-		- Plastic
+		- **Plastic**
 			- $M_r=\phi \cdot fy \cdot Z$
 	- Lateral Buckling Moment
-		- $M_u=\frac{w_2\pi}{L}\sqrt{EI_yGJ+(\frac{\pi E}{L})^2I_yC_w}$
+		- $M_u=\frac{w_2\pi}{L_u}\sqrt{EI_yGJ+(\frac{\pi E}{L})^2I_yC_w}$
 			- $M_u$ = the bending moment which results in lateral buckling of the compression flange. 
 				- U stands for ultimate, but we could say critical.
 			- $w_2$ = 1.0 (if M at middle is greater than M at ends)  (all simply supported beams)
 			- $\pi$ = 3.14
-			- $L$ = the laterally unsupported length of the compression flange
+			- $L_u$ = the laterally unsupported length of the compression flange
 			- $E$ = the modulus of elasticity
 			- $I_y$ = the moment of inertia of the beam in the direction opposite to the applied load
 			- $G$ = the shearing modulus of elasticity, generally 77,000 MPa
 			- $J$ = the polar moment of inertia (From Beam properties)
 			- $C_w$ = the warping constant (From Beam properties)
+- Total Steel Beam Capacity $V_r$ & $M_r$
+	- Moment (Plastic… If Elastic, $M_p$ becomes $M_y$)
+		- **Moment Resistance [[#^36391f|Class 1 & 2]]**
+			- $M_r$
+				- If $M_u<=0.67M_p$
+					- $M_r=\phi M_u$
+				- Else $M_r=1.15\phi M_p(1-\frac{0.28M_p}{M_u})$
+				- If $M_r>\phi M_p$
+					- $M_r=\phi M_p$
+			- Where
+				- $\phi=0.9$
+				- $M_u$ = Buckling moment at the unsupported length
+				- $M_p$ = Plastic Moment (with no reduction factor) $Z$
+		- **Moment Resistance [[#^3044ad|Class 3]]**
+			- $M_r$
+				- If $M_u<=0.67M_y$
+					- $M_r=\phi M_u$
+				- Else $M_r=1.15\phi M_y(1-\frac{0.28M_y}{M_u})$
+				- If $M_r>\phi M_y$
+					- $M_r=\phi M_y$
+			- Where
+				- $\phi=0.9$
+				- $M_u$ = Buckling moment at the unsupported length
+				- $M_y$ = Elastic Moment (with no reduction factor) $S$
+		- Moment Resistance Curve
+			- ![[../../../Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/Attachments/2025-02-12_Module 06 Steel - Beam Design/image.webp|371x248]]
+	- **Shear**
+		- $V_r=\phi A_wF_s$
+			- $V_r$ = Reduced shear resistance
+			- $f$ = Material Reduction Factor for Steel, 0.90
+			- $A_w$ = Area of Web, d*w
+			- $F_s$ = ultimate shear stress, varies depending on slenderness of web
+				- = $0.66\times Fy$ for stocky members
+
+
+
 
 
 ---
