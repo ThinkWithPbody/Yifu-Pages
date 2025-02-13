@@ -86,7 +86,7 @@ export const defaultListPageLayout: PageLayout = {
             folderClickBehavior: "link",
             folderDefaultState: "open",
             filterFn: (node) => {
-                console.log("Processing:", node.name, node.displayName, "HIDE VALUE:", node.file?.frontmatter?.hide, "TYPE:", typeof node.file?.frontmatter?.hide);
+                console.log("Full Frontmatter:", node.file?.frontmatter);
                 return (
                     node.file?.frontmatter?.tags?.includes("badtag") !== true &&
                     node.file?.frontmatter?.hide !== true
