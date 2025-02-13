@@ -32,23 +32,9 @@ export const defaultContentPageLayout: PageLayout = {
         Component.Explorer({
             folderClickBehavior: "link",
             folderDefaultState: "open",
-            useSavedState: true,
             filterFn: (node) => {
-                // exclude files with the tag "badtag"
                 return node.file?.frontmatter?.tags?.includes("badtag") !== true
             },
-            mapFn: (node) => {
-                // dont change name of root node
-                if (node.depth > 0) {
-                    // set emoji for file/folder
-                    if (node.file) {
-                        node.displayName = "📄 " + node.displayName
-                    } else {
-                        node.displayName = "📁 " + node.displayName
-                    }
-                }
-            },
-            order: ["filter", "sort", "map"],
         }),
     ],
     right: [
@@ -96,23 +82,9 @@ export const defaultListPageLayout: PageLayout = {
         Component.Explorer({
             folderClickBehavior: "link",
             folderDefaultState: "open",
-            useSavedState: true,
             filterFn: (node) => {
-                // exclude files with the tag "badtag"
                 return node.file?.frontmatter?.tags?.includes("badtag") !== true
             },
-            mapFn: (node) => {
-                // dont change name of root node
-                if (node.depth > 0) {
-                    // set emoji for file/folder
-                    if (node.file) {
-                        node.displayName = "📄 " + node.displayName
-                    } else {
-                        node.displayName = "📁 " + node.displayName
-                    }
-                }
-            },
-            order: ["filter", "sort", "map"],
         }),
     ],
     right: [],
