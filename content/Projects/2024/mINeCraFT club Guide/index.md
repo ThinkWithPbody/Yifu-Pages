@@ -6,6 +6,7 @@ priority: medium
 due: 
 completion: 2024-06-10
 share: true
+title: mINeCraFT club Guide
 ---
 ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
 Version: mcc-1.20.1-forge-1.2
