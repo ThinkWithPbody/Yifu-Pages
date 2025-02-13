@@ -1728,6 +1728,16 @@ $C_r=0.9\cdot 7420mm^2 \cdot 230N/mm^2 \cdot (1 + (\frac{6000mm}{50.4mm}\cdot\sq
 			- Elastic Limit (experiences local buckling in the plastic range)
 		- Class 4
 			- Local Buckling in Elastic Range
+	- Yielding Moments
+		- Elastic
+			- $M_y=\sigma S$
+		- Plastic
+			- $M_p=\sigma Z$
+	- If a beam is continuously braced at the top
+		- Elastic
+			- $M_r=\phi \cdot fy \cdot S$
+		- Plastic
+			- $M_r=\phi \cdot fy \cdot Z$
 
 ---
 
