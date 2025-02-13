@@ -71,14 +71,14 @@ Component.Explorer({
     //     return !omit.has(node.name.toLowerCase())
     // },
 
-    filterFn: (node) => {
-        // exclude files with the tag "badtag"
-        return node.file?.frontmatter?.tags?.includes("badtag") !== true
-    },
+    // filterFn: (node) => {
+    //     // exclude files with the tag "badtag"
+    //     return node.file?.frontmatter?.tags?.includes("badtag") !== true
+    // },
 
-    mapFn: (node) => {
-        node.displayName = node.displayName.toUpperCase()
-    },
+    // mapFn: (node) => {
+    //     node.displayName = node.displayName.toUpperCase()
+    // },
 
     // mapFn: (node) => {
     //     // dont change name of root node
