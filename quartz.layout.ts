@@ -61,33 +61,37 @@ export const defaultListPageLayout: PageLayout = {
 
 // Explorer
 Component.Explorer({
-    // folderClickBehavior: "link", // what happens when you click a folder ("link" to navigate to folder page on click or "collapse" to collapse folder on click)
-    // folderDefaultState: "open", // default state of folders ("collapsed" or "open")
-    // useSavedState: true, // whether to use local storage to save "state" (which folders are opened) of explorer
+    folderClickBehavior: "link", // what happens when you click a folder ("link" to navigate to folder page on click or "collapse" to collapse folder on click)
+    folderDefaultState: "open", // default state of folders ("collapsed" or "open")
+    useSavedState: true, // whether to use local storage to save "state" (which folders are opened) of explorer
+
     // filterFn: (node) => {
     //     // set containing names of everything you want to filter out
     //     const omit = new Set(["tags", "hosting"])
     //     return !omit.has(node.name.toLowerCase())
     // },
-    // filterFn: (node) => {
-    //     // exclude files with the tag "badtag"
-    //     return node.file?.frontmatter?.tags?.includes("badtag") !== true
-    // },
-    // mapFn: (node) => {
-    //     node.displayName = node.displayName.toUpperCase()
-    // },
-    mapFn: (node) => {
-        // dont change name of root node
-        if (node.depth > 0) {
-            // set emoji for file/folder
-            if (node.file) {
-                node.displayName = "📄 " + node.displayName
-            } else {
-                node.displayName = "📁 " + node.displayName
-            }
-        }
+
+    filterFn: (node) => {
+        // exclude files with the tag "badtag"
+        return node.file?.frontmatter?.tags?.includes("badtag") !== true
     },
-    order: ["filter", "sort", "map"],
+
+    mapFn: (node) => {
+        node.displayName = node.displayName.toUpperCase()
+    },
+
+    // mapFn: (node) => {
+    //     // dont change name of root node
+    //     if (node.depth > 0) {
+    //         // set emoji for file/folder
+    //         if (node.file) {
+    //             node.displayName = "📄 " + node.displayName
+    //         } else {
+    //             node.displayName = "📁 " + node.displayName
+    //         }
+    //     }
+    // },
+    // order: ["filter", "sort", "map"],
 })
 
 
