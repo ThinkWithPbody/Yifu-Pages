@@ -67,7 +67,19 @@ Component.Explorer({
     useSavedState: true, // whether to use local storage to save "state" (which folders are opened) of explorer
     // Sort order: folders first, then files. Sort folders and files alphabetically
     sortFn: (a, b) => {
-      ... // default implementation shown later
+        if ((!a.file && !b.file) || (a.file && b.file)) {
+            // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
+            // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
+            return a.displayName.localeCompare(b.displayName, undefined, {
+                numeric: true,
+                sensitivity: "base",
+            })
+        }
+        if (a.file && !b.file) {
+            return 1
+        } else {
+            return -1
+        }
     },
     filterFn: filterFn: (node) => node.name !== "tags", // filters out 'tags' folder
     mapFn: undefined,
