@@ -1,6 +1,7 @@
 ---
 tags:
   - guide
+title: Guide Tasks
 share: true
 ---
 [Guide](https://publish.obsidian.md/tasks/Introduction)
