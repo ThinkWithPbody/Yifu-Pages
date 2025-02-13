@@ -7,7 +7,7 @@
  */
 $breakpoints: (
   mobile: 800px,
-  desktop: 1200px,
+  desktop: 1280px,
 );
 
 $mobile: "(max-width: #{map-get($breakpoints, mobile)})";
@@ -46,7 +46,7 @@ $tabletGrid: (
 );
 $desktopGrid: (
   templateRows: "auto auto auto",
-  templateColumns: "#{$sidePanelWidth*2} auto #{$sidePanelWidth}",
+  templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",
   rowGap: "5px",
   columnGap: "5px",
   templateAreas:
