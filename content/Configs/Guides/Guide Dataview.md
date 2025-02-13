@@ -2,6 +2,7 @@
 tags:
   - guide
 share: true
+title: Guide Dataview
 ---
 ## Standard Fields
 status: string = TODO, IN_PROGRESS, DONE, CANCELLED, NON_TASK
@@ -30,7 +31,7 @@ release-date:: 2027-06-18T12:00
 ```
 \- until release!!
 ```
-P2Y4M5DT14H39M13.136S until release!!
+P2Y4M5DT12H19M35.239S until release!!
 
 ## DataviewJS
 

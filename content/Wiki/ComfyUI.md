@@ -1,7 +1,9 @@
 ---
 tags:
   - wiki
+title: ComfyUI
 share: true
+hide: 
 ---
 
 # ComfyUI Manager

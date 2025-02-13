@@ -1,7 +1,9 @@
 ---
 tags:
   - wiki
+title: Rhino
 share: true
+hide: false
 ---
 ### Keyboard
 

@@ -50,6 +50,23 @@ hide: true
 			- $G$ = the shearing modulus of elasticity, generally 77,000 MPa
 			- $J$ = the polar moment of inertia (From Beam properties)
 			- $C_w$ = the warping constant (From Beam properties)
+	- Moment Resistance **Class 1 & 2**
+		- If $M_u>0.67M_p$
+			- $M_r=1.15\phi M_p(1-\frac{0.28M_p}{M_u})<=\phi M_p$
+		- Else 
+			- $M_r=\phi M_u$
+		- $\phi=0.9$
+		- $M_u$ = Buckling moment at the unsupported length
+		- $M_p$ = Plastic Moment (with no reduction factor) $Z$
+	- Moment Resistance **Class 3**
+		- If $M_u>0.67M_y$
+			- $M_r=1.15\phi M_y(1-\frac{0.28M_y}{M_u})<=\phi M_y$
+		- Else 
+			- $M_r=\phi M_u$
+		- $\phi=0.9$
+		- $M_u$ = Buckling moment at the unsupported length
+		- $M_y$ = Elastic Moment (with no reduction factor) $S$
+
 
 
 ---

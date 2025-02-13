@@ -1,6 +1,7 @@
 ---
 tags:
   - guide
+title: Guide Templater
 share: true
 ---
 ## Date
