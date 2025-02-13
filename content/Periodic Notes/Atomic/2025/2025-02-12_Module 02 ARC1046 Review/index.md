@@ -61,7 +61,7 @@ hide: true
 - Line Load (kN/m)
 	- Keep track of Serviceability (kN/m)
 	- Method of Section
-	- ![[../../../../../2025-01-15|2025-01-15]]
+	- ![[../../../Daily/2025/2025-01-15.png|570x655]]
 
 
 ---
