@@ -61,22 +61,22 @@ export const defaultListPageLayout: PageLayout = {
 
 // Explorer
 Component.Explorer({
-    folderClickBehavior: "link", // what happens when you click a folder ("link" to navigate to folder page on click or "collapse" to collapse folder on click)
-    folderDefaultState: "collapsed", // default state of folders ("collapsed" or "open")
-    useSavedState: true, // whether to use local storage to save "state" (which folders are opened) of explorer
+    // folderClickBehavior: "link", // what happens when you click a folder ("link" to navigate to folder page on click or "collapse" to collapse folder on click)
+    // folderDefaultState: "open", // default state of folders ("collapsed" or "open")
+    // useSavedState: true, // whether to use local storage to save "state" (which folders are opened) of explorer
     // filterFn: (node) => {
     //     // set containing names of everything you want to filter out
     //     const omit = new Set(["tags", "hosting"])
     //     return !omit.has(node.name.toLowerCase())
     // },
-    filterFn: (node) => {
-        // exclude files with the tag "badtag"
-        return node.file?.frontmatter?.tags?.includes("badtag") !== true
-    },
+    // filterFn: (node) => {
+    //     // exclude files with the tag "badtag"
+    //     return node.file?.frontmatter?.tags?.includes("badtag") !== true
+    // },
     mapFn: (node) => {
         node.displayName = node.displayName.toUpperCase()
     },
-    order: ["filter", "map", "sort"],
+    // order: ["filter", "map", "sort"],
 })
 
 
