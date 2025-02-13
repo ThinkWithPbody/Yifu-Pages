@@ -73,10 +73,21 @@ Component.Explorer({
     //     // exclude files with the tag "badtag"
     //     return node.file?.frontmatter?.tags?.includes("badtag") !== true
     // },
+    // mapFn: (node) => {
+    //     node.displayName = node.displayName.toUpperCase()
+    // },
     mapFn: (node) => {
-        node.displayName = node.displayName.toUpperCase()
+        // dont change name of root node
+        if (node.depth > 0) {
+            // set emoji for file/folder
+            if (node.file) {
+                node.displayName = "📄 " + node.displayName
+            } else {
+                node.displayName = "📁 " + node.displayName
+            }
+        }
     },
-    // order: ["filter", "map", "sort"],
+    order: ["filter", "sort", "map"],
 })
 
 
