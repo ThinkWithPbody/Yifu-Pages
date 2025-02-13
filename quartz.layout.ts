@@ -76,11 +76,11 @@ Component.Explorer({
             return -1
         }
     },
-    filterFn: (node) => {
-        // set containing names of everything you want to filter out
-        const omit = new Set(["tags", "hosting"])
-        return !omit.has(node.name.toLowerCase())
-    },
+    // filterFn: (node) => {
+    //     // set containing names of everything you want to filter out
+    //     const omit = new Set(["tags", "hosting"])
+    //     return !omit.has(node.name.toLowerCase())
+    // },
     filterFn: (node) => {
         // exclude files with the tag "badtag"
         return node.file?.frontmatter?.tags?.includes("badtag") !== true
