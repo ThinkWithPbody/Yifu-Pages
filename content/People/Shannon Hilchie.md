@@ -3,6 +3,7 @@ tags:
   - people
   - UTOR
 share: true
+hide: true
 ---
 people_email:: Shannon.Hilchie@daniels.utoronto.ca
 people_phone:: 
