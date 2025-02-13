@@ -4,7 +4,7 @@ excalidraw-open-md: true
 tags:
   - excalidraw
   - course
-title: 
+title: ARC2046H-Structures_2
 description: 
 code: ARC2046H
 name: Structures_2
@@ -1738,6 +1738,19 @@ $C_r=0.9\cdot 7420mm^2 \cdot 230N/mm^2 \cdot (1 + (\frac{6000mm}{50.4mm}\cdot\sq
 			- $M_r=\phi \cdot fy \cdot S$
 		- Plastic
 			- $M_r=\phi \cdot fy \cdot Z$
+	- Lateral Buckling Moment
+		- $M_u=\frac{w_2\pi}{L}\sqrt{EI_yGJ+(\frac{\pi E}{L})^2I_yC_w}$
+			- $M_u$ = the bending moment which results in lateral buckling of the compression flange. 
+				- U stands for ultimate, but we could say critical.
+			- $w_2$ = 1.0 (if M at middle is greater than M at ends)  (all simply supported beams)
+			- $\pi$ = 3.14
+			- $L$ = the laterally unsupported length of the compression flange
+			- $E$ = the modulus of elasticity
+			- $I_y$ = the moment of inertia of the beam in the direction opposite to the applied load
+			- $G$ = the shearing modulus of elasticity, generally 77,000 MPa
+			- $J$ = the polar moment of inertia (From Beam properties)
+			- $C_w$ = the warping constant (From Beam properties)
+
 
 ---
 
