@@ -15,7 +15,7 @@ time:
 share: true
 hide: true
 ---
-%%[parents:: [[2025-02-12_Module 06 Steel - Beam Design|2025-02-12_Module 06 Steel - Beam Design]]]%%
+%%[parents:: [[index|2025-02-12_Module 06 Steel - Beam Design]]]%%
 # Module 06 Steel - Beam Design
 
 ![[Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png|Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png]]

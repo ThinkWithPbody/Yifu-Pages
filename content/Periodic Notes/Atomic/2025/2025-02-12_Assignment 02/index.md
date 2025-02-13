@@ -15,7 +15,7 @@ time:
 share: true
 hide: true
 ---
-%%[parents:: [[../../../../Courses/2025/ARC2046H/ARC2046H|ARC2046H]]]%%
+%%[parents:: [[../../../../Courses/2025/ARC2046H/index|ARC2046H]]]%%
 # Assignment 02
 
 ![[Periodic Notes/Atomic/2025/2025-02-12_Assignment 02/2025-02-12_Assignment 02.png|Periodic Notes/Atomic/2025/2025-02-12_Assignment 02/2025-02-12_Assignment 02.png]]

@@ -15,7 +15,7 @@ time:
 share: true
 hide: true
 ---
-%%[parents:: [[2025-02-12_Assignment 03|2025-02-12_Assignment 03]]]%%
+%%[parents:: [[index|2025-02-12_Assignment 03]]]%%
 # Assignment 03
 
 ![[Periodic Notes/Atomic/2025/2025-02-12_Assignment 03/2025-02-12_Assignment 03.png|Periodic Notes/Atomic/2025/2025-02-12_Assignment 03/2025-02-12_Assignment 03.png]]
