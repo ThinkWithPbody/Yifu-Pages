@@ -11,6 +11,7 @@ location: DA200
 weekday: 5
 time: 900
 share: true
+title: ARC1046H-Structures_1
 ---
 ## Course Brief
 
