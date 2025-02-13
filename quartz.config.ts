@@ -104,7 +104,7 @@ const config: QuartzConfig = {
         ],
         filters: [
             Plugin.RemoveDrafts(),
-            Plugin.RemoveHidden(),
+            // Plugin.RemoveHidden(),
         ],
         emitters: [
             Plugin.AliasRedirects(),

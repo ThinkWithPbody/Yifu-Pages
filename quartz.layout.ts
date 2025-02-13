@@ -34,6 +34,7 @@ export const defaultContentPageLayout: PageLayout = {
             folderDefaultState: "open",
             filterFn: (node) => {
                 return node.file?.frontmatter?.tags?.includes("badtag") !== true
+                return node.file?.frontmatter?.hide? !== true
             },
         }),
     ],
@@ -84,6 +85,7 @@ export const defaultListPageLayout: PageLayout = {
             folderDefaultState: "open",
             filterFn: (node) => {
                 return node.file?.frontmatter?.tags?.includes("badtag") !== true
+                return node.file?.frontmatter?.hide !== true
             },
         }),
     ],
