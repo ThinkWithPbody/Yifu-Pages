@@ -22,9 +22,9 @@ hide: true
 
 - Lateral Torsional Buckling
 	- Local Buckling
-		- Class 1-2
+		- Class 1-2 ^36391f
 			- Plastic Limit (ignoring local buckling)
-		- Class 3
+		- Class 3 ^3044ad
 			- Elastic Limit (experiences local buckling in the plastic range)
 		- Class 4
 			- Local Buckling in Elastic Range
@@ -50,7 +50,9 @@ hide: true
 			- $G$ = the shearing modulus of elasticity, generally 77,000 MPa
 			- $J$ = the polar moment of inertia (From Beam properties)
 			- $C_w$ = the warping constant (From Beam properties)
-	- Moment Resistance **Class 1 & 2**
+- Total Steel Beam Capacity $V_r$ & $M_r$
+	- Moment (Plastic… If Elastic, $M_p$ becomes $M_y$)
+	- Moment Resistance **[[index#^36391f|Class 1 & 2]]**
 		- If $M_u>0.67M_p$
 			- $M_r=1.15\phi M_p(1-\frac{0.28M_p}{M_u})<=\phi M_p$
 		- Else 
@@ -58,7 +60,7 @@ hide: true
 		- $\phi=0.9$
 		- $M_u$ = Buckling moment at the unsupported length
 		- $M_p$ = Plastic Moment (with no reduction factor) $Z$
-	- Moment Resistance **Class 3**
+	- Moment Resistance **[[index#^3044ad|Class 3]]**
 		- If $M_u>0.67M_y$
 			- $M_r=1.15\phi M_y(1-\frac{0.28M_y}{M_u})<=\phi M_y$
 		- Else 
@@ -66,6 +68,17 @@ hide: true
 		- $\phi=0.9$
 		- $M_u$ = Buckling moment at the unsupported length
 		- $M_y$ = Elastic Moment (with no reduction factor) $S$
+	- Moment Resistance Curve
+		- ![[./Attachments/2025-02-12_Module 06 Steel - Beam Design/image.webp|371x248]]
+	- Shear
+		- $V_r=\phi A_wF_s$
+			- $V_r$ = Reduced shear resistance
+			- $f$ = Material Reduction Factor for Steel, 0.90
+			- $A_w$ = Area of Web, d*w
+			- $F_s$ = ultimate shear stress, varies depending on slenderness of web
+				- = $0.66\times Fy$ for stocky members
+
+
 
 
 
