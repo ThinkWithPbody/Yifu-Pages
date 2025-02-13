@@ -27,6 +27,7 @@ NOT (tag includes HideFromTasks)
 
 > [!blue]+ Active Projects
 >  - [[Projects/2024/ICPS_Research/ICPS_Research.md|ICPS_Research]]
+> - [[Projects/2025/ARC2048H_Visits/ARC2048H_Visits.md|ARC2048H_Visits]]
 > - [[Courses/2025/ARC2014Y/ARC2014Y.md|ARC2014Y]]
 > - [[Courses/2025/LAN3801H/LAN3801H.md|LAN3801H]]
 > - [[Courses/2025/ARC2046H/ARC2046H.md|ARC2046H]]
