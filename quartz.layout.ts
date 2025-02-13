@@ -68,12 +68,7 @@ Component.Explorer({
     // Sort order: folders first, then files. Sort folders and files alphabetically
     sortFn: (a, b) => {
         if ((!a.file && !b.file) || (a.file && b.file)) {
-            // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
-            // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
-            return a.displayName.localeCompare(b.displayName, undefined, {
-                numeric: true,
-                sensitivity: "base",
-            })
+            return a.displayName.localeCompare(b.displayName)
         }
         if (a.file && !b.file) {
             return 1
@@ -81,11 +76,20 @@ Component.Explorer({
             return -1
         }
     },
-    filterFn: filterFn: (node) => node.name !== "tags", // filters out 'tags' folder
-    mapFn: undefined,
-    // what order to apply functions in
+    filterFn: (node) => {
+        // set containing names of everything you want to filter out
+        const omit = new Set(["tags", "hosting"])
+        return !omit.has(node.name.toLowerCase())
+    },
+    filterFn: (node) => {
+        // exclude files with the tag "badtag"
+        return node.file?.frontmatter?.tags?.includes("badtag") !== true
+    },
+    mapFn: (node) => {
+        node.displayName = node.displayName.toUpperCase()
+    },
     order: ["filter", "map", "sort"],
-  })
+})
 
 
 // Graph
