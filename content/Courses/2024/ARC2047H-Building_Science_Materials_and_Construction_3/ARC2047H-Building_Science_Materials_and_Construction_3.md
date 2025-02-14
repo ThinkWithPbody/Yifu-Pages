@@ -197,7 +197,7 @@ Thermal comfort directly affects productivity
 > [ARC2047 Self Study HW 2 on Solar Position.pdf](file:///D:%5COneDrive%20-%20University%20of%20Toronto%5C_twp%5CDocument%5CScholar%5CUTOR%5CArchive%5C2024-09%5CARC2047H%5CFiles%5C03%5CARC2047%20Self%20Study%20HW%202%20on%20Solar%20Position.pdf)
 
 
-[[Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 09 16 week 3 slides v1.pdf|Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 09 16 week 3 slides v1.pdf]]
+[[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 09 16 week 3 slides v1.pdf|2024 09 16 week 3 slides v1]]
 
 [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/32N Sunpath Chart.jpg|32N Sunpath Chart.jpg]]
 [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/40N Sunpath Chart.pdf|40N Sunpath Chart.pdf]]
@@ -206,7 +206,7 @@ Thermal comfort directly affects productivity
 - Always 23.5 degrees between solstice and equinox
 	- Toronto will never get sun at a degree of 90
 	- For 32N, winters have a narrower arc than summers
-	- ![[Courses/2024/ARC2047H-Building_Science_Materials_and_Construction_3/Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 09 16 week 3 slides v1.pdf#page=6&rect=96,20,488,410|p.6]]
+	- ![[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 09 16 week 3 slides v1.pdf#page=6&rect=96,20,488,410|p.6]]
 - Sunpath horizontal projection, sky vault
 	- ![[./ARC2047H-32N Sunpath Chart.svg|ARC2047H-32N Sunpath Chart.excalidraw]]
 	- Equidistant sunpath diagram
@@ -227,11 +227,11 @@ Thermal comfort directly affects productivity
 - Vertical Shadow Angle: VSA, vertical angle between the ground plane an the shadow cast by the lading edge of an overhang
 	- **VSA = arctan(tan(altitude)/cos(HSA))** (Calculator in degrees)
 		- tan(VSA) = tan(altitude)/cos(HSA)
-- ![[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 09 16 week 3 slides v1.pdf#page=26&rect=160,95,725,434|p.26]]
+- ![[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 09 16 week 3 slides v1.pdf#page=26&rect=160,95,725,434|p.26]]
 - **Horizontal Projection = Window Height ÷ tan(VSA)**
 	- **Lateral Projection = tan(HSA) × Horizontal Projection**
 - **Vertical Projection = Window (Shade) Width ÷ tan(HSA)**
-	- ![[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 09 16 week 3 slides v1.pdf#page=48&rect=75,4,743,538|p.48]]
+	- ![[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 09 16 week 3 slides v1.pdf#page=48&rect=75,4,743,538|p.48]]
 
 > [!abstract]- Lab 2
 > 
@@ -975,7 +975,7 @@ HVAC Distribution
 
 > [!blue]- Links
 > 
-> [[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf|2024 11 05 week 10 slides EUI and Refrigeration - No LAB]]
+> [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf|2024 11 05 week 10 slides EUI and Refrigeration - No LAB]]
 
 - EUI: Energy Use Intensity
 	- Annual kWh/m2 kBtu/ft2
@@ -1039,7 +1039,7 @@ HVAC Distribution
 #### Module 11
 
 > [!blue]- Links
-> [[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 12 week 11 slides v3.pdf|2024 11 12 week 11 slides v3]]
+> [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 12 week 11 slides v3.pdf|2024 11 12 week 11 slides v3]]
 > [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/Example of lab submission for Site Visit.pdf|Example of lab submission for Site Visit]]
 > [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/Panasonic 380W panel.pdf|Panasonic 380W panel]]
 > [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/toronto green standard.pdf|toronto green standard]]
@@ -1056,15 +1056,15 @@ HVAC Distribution
 | Mixed Use (Calculated using a weighted average of the above) |        |      |        |      |        |      |
 
 - **EUI conversion**
-	- ==Energy Use Intensity (EUI): 1 kWh = 3412 Btu== [[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 12 week 11 slides v3.pdf#page=6&selection=0,27,2,16|(p.6)]]
-	- ==1 m2 = 10.764 ft2== [[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 12 week 11 slides v3.pdf#page=6&selection=4,0,9,0|(p.6)]]
+	- ==Energy Use Intensity (EUI): 1 kWh = 3412 Btu== [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 12 week 11 slides v3.pdf#page=6&selection=0,27,2,16|(p.6)]]
+	- ==1 m2 = 10.764 ft2== [[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 12 week 11 slides v3.pdf#page=6&selection=4,0,9,0|(p.6)]]
 	- **TEUI: Annual Total Energy Use Intensity**
 		- Average 275
 	- **TEDI: Annual Thermal Energy Demand Intensity**
 		- TEDI (kWh/m2/yr) = Annual Thermal Space Conditioning (kWh) ÷ Area (m2)
 		- Must be below 40 for Tier 1 (mandatory)
 		- Average 162
-		- ==Annual Electricity for Cooling (Wh) = Cooling Load (Btu/h) × CLH (h) × 1/SEER (W/Btu/h)== ([[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 12 week 11 slides v3.pdf#page=5&selection=6,10,8,27|p.5]])
+		- ==Annual Electricity for Cooling (Wh) = Cooling Load (Btu/h) × CLH (h) × 1/SEER (W/Btu/h)== ([[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 12 week 11 slides v3.pdf#page=5&selection=6,10,8,27|p.5]])
 	- TEUI - TEDI = Annual Non-Thermal Energy EUI
 		- Size renewable **Energy** (kWh/yr) budget using TGS
 - Renewable energies
@@ -1074,7 +1074,7 @@ HVAC Distribution
 				- **1 PSH = 1000 W/m2**
 			- Maximize Peak sun hour = 4.64 (hours/day) at 35-degree tilt south in Toronto
 				- 3.93 at 10-degree tilt east to west
-				- ![[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 12 week 11 slides v3.pdf#page=16&rect=59,47,956,387|p.16]]
+				- ![[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 12 week 11 slides v3.pdf#page=16&rect=59,47,956,387|p.16]]
 				- Most typical configuration is flat or 10 EW or 5 S degrees because of Peak Sun Hours ÷ m2
 				- 35 S casts shadows on the next one
 				- **Commonly spaced to allow maintenance**
@@ -1100,13 +1100,13 @@ HVAC Distribution
 	- Hydro
 	- Wind
 		- Needs to be 20 times the building size to do something
-- ==Absorption Refrigeration Cycle== ([[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 12 week 11 slides v3.pdf#page=26&selection=0,0,0,30|p.26]])
-	- Differs from ==Compressive Refrigeration Cycle== ([[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf#page=13&selection=0,0,0,31|p.13]]) and ==Heat Pump== ([[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf#page=19&selection=0,9,0,9|p.19]])
+- ==Absorption Refrigeration Cycle== ([[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 12 week 11 slides v3.pdf#page=26&selection=0,0,0,30|p.26]])
+	- Differs from ==Compressive Refrigeration Cycle== ([[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf#page=13&selection=0,0,0,31|p.13]]) and ==Heat Pump== ([[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 05 week 10 slides EUI and Refrigeration - No LAB.pdf#page=19&selection=0,9,0,9|p.19]])
 		- Effective in large scale cooling load of 10 tons +
 	- Refrigerant
-		- Water + Lithium Bromide ==stays above 0°C== ([[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 12 week 11 slides v3.pdf#page=26&selection=5,44,5,59|p.26]])
-		- Water + Ammonia, less damaging leak ==can cycle below 0°C== ([[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 12 week 11 slides v3.pdf#page=26&selection=7,50,7,69|p.26]])
-	- ![[../../../Projects/2024/ARC2047H_Project-1_Cheatsheet/Attachments/ARC2047H_Cheatsheet/2024 11 12 week 11 slides v3.pdf#page=26&rect=193,18,776,373|p.26]]
+		- Water + Lithium Bromide ==stays above 0°C== ([[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 12 week 11 slides v3.pdf#page=26&selection=5,44,5,59|p.26]])
+		- Water + Ammonia, less damaging leak ==can cycle below 0°C== ([[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 12 week 11 slides v3.pdf#page=26&selection=7,50,7,69|p.26]])
+	- ![[./Attachments/ARC2047H-Building_Science_Materials_and_Construction_3/2024 11 12 week 11 slides v3.pdf#page=26&rect=193,18,776,373|p.26]]
 		- Vapour is attracted by the strongly concentrated desiccant solution in the absorber chamber after evaporating via absorbing energy in the evaporator chamber from the building closed loop cooling load (13C > 7C) 
 		- Heated solution evaporates hot water vapour from the generator chamber (desorber) (could be solar or geo heated) is attracted to the cooler condenser chamber which is usually paired with a chilling tower to reject heat (29C) to outside, with the left over concentrated desiccant solution pumped back into absorber chamber and the condensed chill water pumped into the evaporator chamber
 
