@@ -37,26 +37,36 @@ export const defaultContentPageLayout: PageLayout = {
                 return node.file?.frontmatter?.hide !== true;
             },
             mapFn: (node) => {
-                // Check if this is a folder node with a single child file of the same name
-                if (node.children?.length === 1 &&
-                    node.children[0].file &&
-                    node.name === node.children[0].name.replace(/\.md$/, '')) {
-                    // Merge the folder and file nodes
-                    node.file = node.children[0].file;
-                    node.displayName = node.children[0].displayName;
-                    node.children = [];
-                }
+                const processNode = (n) => {
+                    if (n.children) {
+                        // Recursively process children
+                        n.children = n.children.map(processNode).filter(Boolean);
 
-                // Filter out hidden children if it's a folder
-                if (node.children) {
-                    node.children = node.children.filter(child => child.file?.frontmatter?.hide !== true);
-                    // Remove the folder if it becomes empty after filtering
-                    if (node.children.length === 0 && !node.file) {
+                        // Merge folder with single child of same name
+                        if (n.children.length === 1 &&
+                            n.children[0].file &&
+                            n.name === n.children[0].name.replace(/\.md$/, '')) {
+                            return {
+                                ...n.children[0],
+                                displayName: n.displayName
+                            };
+                        }
+
+                        // Remove folder if it's empty after processing
+                        if (n.children.length === 0 && !n.file) {
+                            return null;
+                        }
+                    }
+
+                    // Hide the node if it's a file and marked as hidden
+                    if (n.file?.frontmatter?.hide === true) {
                         return null;
                     }
-                }
 
-                return node;
+                    return n;
+                };
+
+                return processNode(node);
             },
         }),
     ],
