@@ -3,8 +3,7 @@ excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
   - excalidraw
-  - note_atomic
-  - Courses_2025_ARC2046H_Exam
+  - note/atomic
 title: 2025-02-12_Module 05 Steel - Intro and Column Design
 description: 
 date: 2025-02-12
@@ -27,7 +26,7 @@ hide: true
 	- Cold Rolled
 		- 350 MPa
 		- Manufactured from plate 
-	- Naming Concention
+	- Naming Convention
 		- W150x30
 			- ~150mm Deep
 			- 30kg/m
