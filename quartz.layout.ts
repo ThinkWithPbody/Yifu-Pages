@@ -37,23 +37,25 @@ export const defaultContentPageLayout: PageLayout = {
                 return node.file?.frontmatter?.hide !== true;
             },
             mapFn: (node) => {
+                // Check if this is a folder node with a single child file of the same name
+                if (node.children?.length === 1 &&
+                    node.children[0].file &&
+                    node.name === node.children[0].name.replace(/\.md$/, '')) {
+                    // Merge the folder and file nodes
+                    node.file = node.children[0].file;
+                    node.displayName = node.children[0].displayName;
+                    node.children = [];
+                }
+
+                // Filter out hidden children if it's a folder
                 if (node.children) {
-                    // Filter out hidden children
                     node.children = node.children.filter(child => child.file?.frontmatter?.hide !== true);
-
-                    // Merge folder with single child of same name
-                    if (node.children.length === 1 && node.children[0].file && node.name === node.children[0].name.replace(/\.md$/, '')) {
-                        return {
-                            ...node.children[0],
-                            displayName: node.displayName
-                        };
-                    }
-
-                    // Remove empty folders
+                    // Remove the folder if it becomes empty after filtering
                     if (node.children.length === 0) {
                         return null;
                     }
                 }
+
                 return node;
             },
         }),
