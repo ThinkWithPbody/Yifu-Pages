@@ -33,32 +33,29 @@ export const defaultContentPageLayout: PageLayout = {
             folderClickBehavior: "link",
             folderDefaultState: "open",
             filterFn: (node) => {
-                // Hide files with hide: true
-                if (node.file?.frontmatter?.hide === true) {
-                    return false;
-                }
-                // Keep folders for now, we'll handle them in mapFn
-                return true;
+                // Show all nodes except those explicitly hidden
+                return node.file?.frontmatter?.hide !== true;
             },
             mapFn: (node) => {
+                // Check if this is a folder node with a single child file of the same name
+                if (node.children?.length === 1 &&
+                    node.children[0].file &&
+                    node.name === node.children[0].name.replace(/\.md$/, '')) {
+                    // Merge the folder and file nodes
+                    node.file = node.children[0].file;
+                    node.displayName = node.children[0].displayName;
+                    node.children = [];
+                }
+
+                // Filter out hidden children if it's a folder
                 if (node.children) {
-                    // Filter out hidden children
-                    node.children = node.children.filter(child =>
-                        child.file ? child.file.frontmatter?.hide !== true : true
-                    );
-
-                    // Merge folder with single child of same name
-                    if (node.children.length === 1 &&
-                        node.children[0].file &&
-                        node.name === node.children[0].name.replace(/\.md$/, '')) {
-                        return node.children[0];
-                    }
-
-                    // Remove empty folders
-                    if (node.children.length === 0) {
+                    node.children = node.children.filter(child => child.file?.frontmatter?.hide !== true);
+                    // Remove the folder if it becomes empty after filtering
+                    if (node.children.length === 0 && !node.file) {
                         return null;
                     }
                 }
+
                 return node;
             },
         }),
