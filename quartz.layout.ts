@@ -33,23 +33,19 @@ export const defaultContentPageLayout: PageLayout = {
             folderClickBehavior: "link",
             folderDefaultState: "open",
             filterFn: (node) => {
+                // Show all nodes except those explicitly hidden
                 return node.file?.frontmatter?.hide !== true;
             },
             mapFn: (node) => {
                 if (node.children) {
                     // Filter out hidden children
-                    node.children = node.children.filter(child =>
-                        child.file ? child.file.frontmatter?.hide !== true : true
-                    );
+                    node.children = node.children.filter(child => child.file?.frontmatter?.hide !== true);
 
-                    // If this is a folder with a single child file of the same name
-                    if (node.children.length === 1 &&
-                        node.children[0].file &&
-                        node.name === node.children[0].name.replace(/\.md$/, '')) {
-                        // Return the child node instead of the folder node
+                    // Merge folder with single child of same name
+                    if (node.children.length === 1 && node.children[0].file && node.name === node.children[0].name.replace(/\.md$/, '')) {
                         return {
                             ...node.children[0],
-                            displayName: node.displayName // Keep the folder's display name
+                            displayName: node.displayName
                         };
                     }
 
@@ -59,7 +55,7 @@ export const defaultContentPageLayout: PageLayout = {
                     }
                 }
                 return node;
-            }
+            },
         }),
     ],
     right: [
