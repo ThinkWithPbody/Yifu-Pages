@@ -33,35 +33,33 @@ export const defaultContentPageLayout: PageLayout = {
             folderClickBehavior: "link",
             folderDefaultState: "open",
             filterFn: (node) => {
-                const isNodeHidden = (n) => {
-                    if (n.file?.frontmatter?.hide === true) return true;
-                    if (n.children) {
-                        return n.children.every(isNodeHidden);
-                    }
-                    return false;
-                };
-                return !isNodeHidden(node);
+                // If it's a file, show it unless hide is true
+                if (node.file) {
+                    return node.file.frontmatter?.hide !== true;
+                }
+                // If it's a folder, keep it (we'll filter its contents in mapFn)
+                return true;
             },
             mapFn: (node) => {
                 if (node.children) {
+                    // Filter out hidden children
                     node.children = node.children.filter(child =>
-                        !(child.file?.frontmatter?.hide === true ||
-                            (child.children && child.children.every(grandchild =>
-                                grandchild.file?.frontmatter?.hide === true
-                            ))
-                        )
+                        child.file ? child.file.frontmatter?.hide !== true : true
                     );
-                }
-                // Merge folder with single child of same name
-                if (node.children?.length === 1 &&
-                    node.children[0].file &&
-                    node.name === node.children[0].name.replace(/\.md$/, '')) {
-                    node.file = node.children[0].file;
-                    node.displayName = node.children[0].displayName;
-                    node.children = [];
-                }
-                if (node.children?.length === 0 && !node.file) {
-                    return null;
+
+                    // Merge folder with single child of same name
+                    if (node.children.length === 1 &&
+                        node.children[0].file &&
+                        node.name === node.children[0].name.replace(/\.md$/, '')) {
+                        node.file = node.children[0].file;
+                        node.displayName = node.children[0].displayName;
+                        node.children = [];
+                    }
+
+                    // Remove empty folders
+                    if (node.children.length === 0) {
+                        return null;
+                    }
                 }
                 return node;
             },
