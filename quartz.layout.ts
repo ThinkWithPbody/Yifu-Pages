@@ -33,12 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
             folderClickBehavior: "link",
             folderDefaultState: "open",
             filterFn: (node) => {
-                // If it's a file, show it unless hide is true
-                if (node.file) {
-                    return node.file.frontmatter?.hide !== true;
-                }
-                // If it's a folder, keep it (we'll filter its contents in mapFn)
-                return true;
+                return node.file?.frontmatter?.hide !== true;
             },
             mapFn: (node) => {
                 if (node.children) {
@@ -47,13 +42,15 @@ export const defaultContentPageLayout: PageLayout = {
                         child.file ? child.file.frontmatter?.hide !== true : true
                     );
 
-                    // Merge folder with single child of same name
+                    // If this is a folder with a single child file of the same name
                     if (node.children.length === 1 &&
                         node.children[0].file &&
                         node.name === node.children[0].name.replace(/\.md$/, '')) {
-                        node.file = node.children[0].file;
-                        node.displayName = node.children[0].displayName;
-                        node.children = [];
+                        // Return the child node instead of the folder node
+                        return {
+                            ...node.children[0],
+                            displayName: node.displayName // Keep the folder's display name
+                        };
                     }
 
                     // Remove empty folders
@@ -62,7 +59,7 @@ export const defaultContentPageLayout: PageLayout = {
                     }
                 }
                 return node;
-            },
+            }
         }),
     ],
     right: [
