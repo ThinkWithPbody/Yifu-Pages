@@ -37,36 +37,29 @@ export const defaultContentPageLayout: PageLayout = {
                 return node.file?.frontmatter?.hide !== true;
             },
             mapFn: (node) => {
-                const processNode = (n) => {
-                    if (n.children) {
-                        // Recursively process children
-                        n.children = n.children.map(processNode).filter(Boolean);
+                if (node.children) {
+                    // Filter out hidden children
+                    node.children = node.children.filter(child =>
+                        child.file ? child.file.frontmatter?.hide !== true : true
+                    );
 
-                        // Merge folder with single child of same name
-                        if (n.children.length === 1 &&
-                            n.children[0].file &&
-                            n.name === n.children[0].name.replace(/\.md$/, '')) {
-                            return {
-                                ...n.children[0],
-                                displayName: n.displayName
-                            };
-                        }
-
-                        // Remove folder if it's empty after processing
-                        if (n.children.length === 0 && !n.file) {
-                            return null;
-                        }
+                    // Merge folder with single child of same name
+                    if (node.children.length === 1 &&
+                        node.children[0].file &&
+                        node.name === node.children[0].name.replace(/\.md$/, '')) {
+                        return {
+                            ...node.children[0],
+                            displayName: node.displayName
+                        };
                     }
 
-                    // Hide the node if it's a file and marked as hidden
-                    if (n.file?.frontmatter?.hide === true) {
+                    // Remove empty folders
+                    if (node.children.length === 0) {
                         return null;
                     }
+                }
 
-                    return n;
-                };
-
-                return processNode(node);
+                return node;
             },
         }),
     ],
