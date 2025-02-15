@@ -37,50 +37,39 @@ export const defaultContentPageLayout: PageLayout = {
             //     return node.file?.frontmatter?.hide !== true;
             // },
 
-            filterFn: (node) => {
-                // Keep all nodes at this stage
-                return true;
-            },
-            mapFn: (node) => {
+            filterFn: (node) => true,
+            mapFn: function (node) {
                 if (node.children) {
-                    // Process children first
                     node.children = node.children
-                        .map(child => Component.Explorer().mapFn(child))
+                        .map(child => this.mapFn(child))
                         .filter(Boolean);
 
-                    // Handle folder with single child
                     if (node.children.length === 1 && node.children[0].file) {
                         const child = node.children[0];
-
-                        // Merge only if the child is not hidden
-                        if (child.file.frontmatter?.hide !== true) {
-                            if (node.name === child.name.replace(/\.md$/, '')) {
-                                return {
-                                    ...child,
-                                    displayName: child.file.frontmatter?.title || node.displayName,
-                                };
-                            }
+                        if (child.file.frontmatter?.hide !== true &&
+                            node.name === child.name.replace(/\.md$/, '')) {
+                            return {
+                                ...child,
+                                displayName: child.file.frontmatter?.title || node.displayName,
+                            };
                         }
                     }
 
-                    // Remove folder if it's empty or all children are hidden
                     if (node.children.length === 0) {
                         return null;
                     }
                 }
 
-                // Hide individual files marked as hidden
                 if (node.file?.frontmatter?.hide === true) {
                     return null;
                 }
 
-                // Use frontmatter title for display name if available
                 if (node.file?.frontmatter?.title) {
                     node.displayName = node.file.frontmatter.title;
                 }
 
                 return node;
-            },
+            }
         }),
     ],
     right: [
@@ -89,12 +78,12 @@ export const defaultContentPageLayout: PageLayout = {
                 drag: true, // whether to allow panning the view around
                 zoom: true, // whether to allow zooming in and out
                 depth: 2, // how many hops of notes to display
-                scale: 0.5, // default view scale
+                scale: 1.1, // default view scale
                 repelForce: 0.5, // how much nodes should repel each other
                 centerForce: 0.3, // how much force to use when trying to center the nodes
                 linkDistance: 30, // how long should the links be by default?
                 fontSize: 0.6, // what size should the node labels be?
-                opacityScale: 2, // how quickly do we fade out the labels when zooming out?
+                opacityScale: 5, // how quickly do we fade out the labels when zooming out?
                 removeTags: ["navigation"], // what tags to remove from the graph
                 showTags: true, // whether to show tags in the graph
             },
