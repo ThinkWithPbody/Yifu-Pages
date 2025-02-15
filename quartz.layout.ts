@@ -36,6 +36,11 @@ export const defaultContentPageLayout: PageLayout = {
             //     // Show all nodes except those explicitly hidden
             //     return node.file?.frontmatter?.hide !== true;
             // },
+
+            filterFn: (node) => {
+                // Keep all nodes at this stage
+                return true;
+            },
             mapFn: (node) => {
                 if (node.children) {
                     // Process children first
@@ -44,15 +49,17 @@ export const defaultContentPageLayout: PageLayout = {
                         .filter(Boolean);
 
                     // Handle folder with single child
-                    if (node.children.length === 1 &&
-                        node.children[0].file &&
-                        node.name === node.children[0].name.replace(/\.md$/, '')) {
+                    if (node.children.length === 1 && node.children[0].file) {
+                        const child = node.children[0];
+
                         // Merge only if the child is not hidden
-                        if (node.children[0].file.frontmatter?.hide !== true) {
-                            return {
-                                ...node.children[0],
-                                displayName: node.displayName
-                            };
+                        if (child.file.frontmatter?.hide !== true) {
+                            if (node.name === child.name.replace(/\.md$/, '')) {
+                                return {
+                                    ...child,
+                                    displayName: child.file.frontmatter?.title || node.displayName,
+                                };
+                            }
                         }
                     }
 
@@ -65,6 +72,11 @@ export const defaultContentPageLayout: PageLayout = {
                 // Hide individual files marked as hidden
                 if (node.file?.frontmatter?.hide === true) {
                     return null;
+                }
+
+                // Use frontmatter title for display name if available
+                if (node.file?.frontmatter?.title) {
+                    node.displayName = node.file.frontmatter.title;
                 }
 
                 return node;
