@@ -30,7 +30,7 @@ hide: true
 - Class 4
 	- Local Buckling in Elastic Range
 
-### Yielding Moments
+### Yielding Moments (kNm)
 - **Elastic**
 	- $M_y=\sigma S$
 - **Plastic**
@@ -42,7 +42,7 @@ hide: true
 		- $M_r=\phi \cdot fy \cdot Z$
 
 ### Lateral Buckling Moment
-- $M_u=\frac{w_2\pi}{L_u}\sqrt{EI_yGJ+(\frac{\pi E}{L})^2I_yC_w}$
+- $M_u=\frac{w_2\pi}{L_u}\sqrt{EI_yGJ+(\frac{\pi E}{L_u})^2I_yC_w}$
 	- $M_u$ = the bending moment which results in lateral buckling of the compression flange. 
 		- U stands for ultimate, but we could say critical.
 	- $w_2$ = 1.0 (if M at middle is greater than M at ends)  (all simply supported beams)
