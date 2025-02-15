@@ -37,37 +37,13 @@ export const defaultContentPageLayout: PageLayout = {
             //     return node.file?.frontmatter?.hide !== true;
             // },
 
-            filterFn: (node) => true,
-            mapFn: function (node) {
-                if (node.children) {
-                    node.children = node.children
-                        .map(child => this.mapFn(child))
-                        .filter(Boolean);
-
-                    if (node.children.length === 1 && node.children[0].file) {
-                        const child = node.children[0];
-                        if (child.file.frontmatter?.hide !== true &&
-                            node.name === child.name.replace(/\.md$/, '')) {
-                            return {
-                                ...child,
-                                displayName: child.file.frontmatter?.title || node.displayName,
-                            };
-                        }
-                    }
-
-                    if (node.children.length === 0) {
-                        return null;
-                    }
+            filterFn: (node) => node.file?.frontmatter?.hide !== true,
+            mapFn: (node) => {
+                if (node.children?.length === 1 && node.children[0].file &&
+                    node.name === node.children[0].name.replace(/\.md$/, '')) {
+                    return { ...node.children[0], displayName: node.children[0].file.frontmatter?.title || node.displayName };
                 }
-
-                if (node.file?.frontmatter?.hide === true) {
-                    return null;
-                }
-
-                if (node.file?.frontmatter?.title) {
-                    node.displayName = node.file.frontmatter.title;
-                }
-
+                if (node.file?.frontmatter?.title) node.displayName = node.file.frontmatter.title;
                 return node;
             }
         }),
