@@ -32,35 +32,39 @@ export const defaultContentPageLayout: PageLayout = {
         Component.Explorer({
             folderClickBehavior: "link",
             folderDefaultState: "open",
-            filterFn: (node) => {
-                // Show all nodes except those explicitly hidden
-                return node.file?.frontmatter?.hide !== true;
-            },
+            // filterFn: (node) => {
+            //     // Show all nodes except those explicitly hidden
+            //     return node.file?.frontmatter?.hide !== true;
+            // },
             mapFn: (node) => {
                 if (node.children) {
-                    // Filter out hidden children
-                    node.children = node.children.filter(child =>
-                        child.file ? child.file.frontmatter?.hide !== true : true
-                    );
+                    // Process children first
+                    node.children = node.children
+                        .map(child => Component.Explorer().mapFn(child))
+                        .filter(Boolean);
 
-                    // Check if all children are hidden
-                    const allChildrenHidden = node.children.length === 0 &&
-                        node.children.every(child => child.file?.frontmatter?.hide === true);
-
-                    // Remove folder if all children are hidden
-                    if (allChildrenHidden) {
-                        return null;
-                    }
-
-                    // Merge folder with single visible child of same name
+                    // Handle folder with single child
                     if (node.children.length === 1 &&
                         node.children[0].file &&
                         node.name === node.children[0].name.replace(/\.md$/, '')) {
-                        return {
-                            ...node.children[0],
-                            displayName: node.displayName
-                        };
+                        // Merge only if the child is not hidden
+                        if (node.children[0].file.frontmatter?.hide !== true) {
+                            return {
+                                ...node.children[0],
+                                displayName: node.displayName
+                            };
+                        }
                     }
+
+                    // Remove folder if it's empty or all children are hidden
+                    if (node.children.length === 0) {
+                        return null;
+                    }
+                }
+
+                // Hide individual files marked as hidden
+                if (node.file?.frontmatter?.hide === true) {
+                    return null;
                 }
 
                 return node;
