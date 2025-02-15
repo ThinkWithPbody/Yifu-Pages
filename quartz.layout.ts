@@ -43,7 +43,16 @@ export const defaultContentPageLayout: PageLayout = {
                         child.file ? child.file.frontmatter?.hide !== true : true
                     );
 
-                    // Merge folder with single child of same name
+                    // Check if all children are hidden
+                    const allChildrenHidden = node.children.length === 0 &&
+                        node.children.every(child => child.file?.frontmatter?.hide === true);
+
+                    // Remove folder if all children are hidden
+                    if (allChildrenHidden) {
+                        return null;
+                    }
+
+                    // Merge folder with single visible child of same name
                     if (node.children.length === 1 &&
                         node.children[0].file &&
                         node.name === node.children[0].name.replace(/\.md$/, '')) {
@@ -51,11 +60,6 @@ export const defaultContentPageLayout: PageLayout = {
                             ...node.children[0],
                             displayName: node.displayName
                         };
-                    }
-
-                    // Remove empty folders
-                    if (node.children.length === 0) {
-                        return null;
                     }
                 }
 
