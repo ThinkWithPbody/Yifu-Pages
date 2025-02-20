@@ -38,7 +38,15 @@ export const defaultContentPageLayout: PageLayout = {
             // },
 
             filterFn: (node) => {
-                return node.file?.frontmatter?.hide !== true;
+                // Hide files with hide: true
+                if (node.file?.frontmatter?.hide === true) {
+                    return false;
+                }
+                // Hide folders with a single hidden file
+                if (node.children?.length === 1 && node.children[0].file?.frontmatter?.hide === true) {
+                    return false;
+                }
+                return true;
             },
             mapFn: (node) => {
                 if (node.children?.length === 1 &&
