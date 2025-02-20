@@ -38,19 +38,12 @@ export const defaultContentPageLayout: PageLayout = {
             // },
 
             filterFn: (node) => {
-                // Filter out /Periodic Notes/Atomic
-                if (node.path.startsWith("/Periodic Notes/Atomic")) {
-                    return false;
-                }
-                // Show all nodes except those explicitly hidden
                 return node.file?.frontmatter?.hide !== true;
             },
             mapFn: (node) => {
-                // Check if this is a folder node with a single child file of the same name
                 if (node.children?.length === 1 &&
                     node.children[0].file &&
                     node.name === node.children[0].name.replace(/\.md$/, '')) {
-                    // Merge the folder and file nodes
                     node.file = node.children[0].file;
                     node.displayName = node.children[0].displayName;
                     node.children = [];
