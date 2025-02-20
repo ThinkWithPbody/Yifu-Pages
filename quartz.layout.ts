@@ -32,13 +32,13 @@ export const defaultContentPageLayout: PageLayout = {
         Component.Explorer({
             folderClickBehavior: "link",
             folderDefaultState: "open",
-            // filterFn: (node) => {
-            //     // Show all nodes except those explicitly hidden
-            //     return node.file?.frontmatter?.hide !== true;
-            // },
 
             filterFn: (node) => {
                 // Hide files with hide: true
+                if (node.file?.frontmatter?.tags?.includes("badtag")) {
+                    return false;
+                }
+
                 if (node.file?.frontmatter?.hide === true) {
                     return false;
                 }
@@ -105,12 +105,31 @@ export const defaultListPageLayout: PageLayout = {
         Component.Explorer({
             folderClickBehavior: "link",
             folderDefaultState: "open",
+
             filterFn: (node) => {
-                console.log("Full Frontmatter:", node.file?.frontmatter);
-                return (
-                    node.file?.frontmatter?.tags?.includes("badtag") !== true &&
-                    node.file?.frontmatter?.hide !== true
-                )
+                // Hide files with hide: true
+                if (node.file?.frontmatter?.tags?.includes("badtag")) {
+                    return false;
+                }
+
+                if (node.file?.frontmatter?.hide === true) {
+                    return false;
+                }
+                // Hide folders with a single hidden file
+                if (node.children?.length === 1 && node.children[0].file?.frontmatter?.hide === true) {
+                    return false;
+                }
+                return true;
+            },
+            mapFn: (node) => {
+                if (node.children?.length === 1 &&
+                    node.children[0].file &&
+                    node.name === node.children[0].name.replace(/\.md$/, '')) {
+                    node.file = node.children[0].file;
+                    node.displayName = node.children[0].displayName;
+                    node.children = [];
+                }
+                return node;
             },
         }),
     ],
