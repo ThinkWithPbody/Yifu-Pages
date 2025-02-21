@@ -234,3 +234,28 @@ print("✅ Workflow Complete!")
 
 *Created in collaboration with 4o.*
 
+## Post Generation
+
+I use foobar2000 to rename, convert to AAC and add metadata and replaygain.
+
+For .txt lyrics files, I use this script to **batch rename**.
+
+`batch_replace.py`
+```python
+import os
+
+# Define replacements
+replace_from = "The Birth of Tragedy_"
+replace_to = ""
+
+# Process files in the current directory
+for filename in os.listdir():
+    if filename.endswith(".txt") and replace_from in filename:
+        new_name = filename.replace(replace_from, replace_to)
+        os.rename(filename, new_name)
+        print(f"Renamed: {filename} -> {new_name}")
+
+print("✅ Renaming Complete.")
+```
+
+I then use [[../../2024/Plex_Media_Server/Plex_Media_Server|Plex Media Server]] to host them in my Library.
