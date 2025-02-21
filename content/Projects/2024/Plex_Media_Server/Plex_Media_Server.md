@@ -9,6 +9,56 @@ due:
 completion: 2024-07-10
 share: true
 ---
+## Install
+
+### Snap Repo
+
+Add the snappy repository
+```
+sudo zypper addrepo --refresh \
+  https://download.opensuse.org/repositories/system:/snappy/openSUSE_Tumbleweed \
+  snappy
+```
+
+Import GPG key
+```
+sudo zypper --gpg-auto-import-keys refresh
+```
+
+Upgrade the package cache
+```
+sudo zypper dup --from snappy
+```
+
+### Snap
+
+Install snap
+```
+sudo zypper install snapd
+```
+
+Run `source /etc/profile` to have /snap/bin added to PATH.
+
+Start the snapd service
+```
+sudo systemctl enable --now snapd
+```
+
+Enable and start the service
+```
+sudo systemctl enable --now snapd.apparmor
+```
+
+### Plex Media Server
+
+```
+sudo snap install plexmediaserver
+```
+
+
+Page WIP...
+
+
 ## Moving Plex Media Server to Pi4
 
 [Move an Install to Another System](https://support.plex.tv/articles/201370363-move-an-install-to-another-system/)

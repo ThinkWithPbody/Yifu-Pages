@@ -1,8 +1,7 @@
 ---
-excalidraw-plugin: parsed
-excalidraw-open-md: true
+excalidraw-plugin: 
+excalidraw-open-md: false
 tags:
-  - excalidraw
   - project
 title: 
 status: DONE
