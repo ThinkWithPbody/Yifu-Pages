@@ -83,9 +83,17 @@ python -m nltk.downloader averaged_perceptron_tagger_eng
 
 ## Run Script
 
-**Create the folder** `files` under `MeloTTS` and copy your PDF file there.
+**Create the folder** `files` under `MeloTTS` and copy your PDF/TXT file there.
 
-**Rename the PDF** properly.
+**Rename the PDF/TXT** properly.
+
+Set **OpenAI API Key**.
+	
+	Linux macOS
+	`export OPENAI_API_KEY='your_api_key_here'`
+	
+	Windows
+	`set OPENAI_API_KEY=your_api_key_here`
 
 **Review settings** before running the script with `python pdf2wav.py` 
 
@@ -95,13 +103,15 @@ import os
 import subprocess
 import shutil
 import torch
+import openai
 from melo.api import TTS
 
 # ✅ User Configurable Options
-LANGUAGE = input("🌐 Language (default 'EN'): ") or 'EN'
+LANGUAGE = input("🌐 Language (EN, FR, ES, ZH, JP, KR) (default 'EN'): ") or 'EN'
 ACCENT = input("🎙️ Accent (EN-US, EN-BR, EN-INDIA, EN-AU, EN-Default) (default 'EN-US'): ") or 'EN-US'
 SPEED = float(input("⚡ Speed (default 1.0): ") or 1.0)
 USE_EXISTING_TEXT = input("💾 Use existing 'text.txt'? (y/n, default 'n'): ").lower() == 'y'
+CLEAN_TEXT = input("🧹 Clean text using OpenAI API? (y/n, default 'n'): ").lower() == 'y'
 PROCESS_START = int(input("🔢 Process Start Chunk Index (default 0): ") or 0)
 PROCESS_END = int(input("🔢 Process End Chunk Index (-1 for all, default -1): ") or -1)
 GENERATE_TTS = input("🎧 Generate TTS? (y/n, default 'y'): ").lower() != 'n'
@@ -109,6 +119,7 @@ GENERATE_LRC = input("📝 Generate LRC? (y/n, default 'y'): ").lower() != 'n'
 
 # ✅ Internal Settings
 CHUNK_SIZE = {"default": 3000, "ZH": 3000, "EN": 15000}
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # ✅ Device Check
 if torch.cuda.is_available():
@@ -120,24 +131,27 @@ else:
 
 # ✅ 1. Set up paths
 BASE_DIR = os.path.expanduser("./files")
-file_bases = ["input", "decrypted", "text"]
-file_paths = {name: os.path.join(BASE_DIR, f"{name}.pdf" if name != "text" else f"{name}.txt") for name in file_bases}
+file_bases = ["input", "decrypted", "text", "text_cleaned"]
+file_paths = {name: os.path.join(BASE_DIR, f"{name}.pdf" if name in ["input", "decrypted"] else f"{name}.txt") for name in file_bases}
 
-if not USE_EXISTING_TEXT:
-    # ✅ 2. Find and process PDF
-    exclude_files = [f"{name}.pdf" for name in file_bases if name != "text"]
+# ✅ Determine output base name
+exclude_files = ["input.pdf", "decrypted.pdf", "text.txt"]
+if USE_EXISTING_TEXT:
+    text_files = [f for f in os.listdir(BASE_DIR) if f.endswith(".txt") and f not in exclude_files]
+    source_file = text_files[0] if text_files else "text.txt"
+else:
     pdf_files = [f for f in os.listdir(BASE_DIR) if f.endswith(".pdf") and f not in exclude_files]
-
     if not pdf_files:
-        print("❌ No valid PDF files found in 'files/' directory.")
+        print("❌ No valid PDF file found to use as base name.")
         exit()
+    source_file = pdf_files[0]
 
-    original_pdf = pdf_files[0]
-    original_pdf_path = os.path.join(BASE_DIR, original_pdf)
-    output_base = os.path.join(BASE_DIR, os.path.splitext(original_pdf)[0])
+source_path = os.path.join(BASE_DIR, source_file)
+output_base = os.path.join(BASE_DIR, os.path.splitext(source_file)[0])
 
-    shutil.copy2(original_pdf_path, file_paths["input"])
-    print(f"📄 Selected PDF: {original_pdf} -> Renamed to 'input.pdf'")
+if not USE_EXISTING_TEXT and source_file.endswith(".pdf"):
+    shutil.copy2(source_path, file_paths["input"])
+    print(f"📄 Selected PDF: {source_file} -> Renamed to 'input.pdf'")
 
     try:
         subprocess.run(["qpdf", "--decrypt", file_paths["input"], file_paths["decrypted"]], check=True)
@@ -153,11 +167,37 @@ if not USE_EXISTING_TEXT:
         print("❌ Text Extraction Failed.")
         exit()
 else:
-    existing_text_name = os.path.splitext(os.path.basename(file_paths["text"]))[0]
-    output_base = os.path.join(BASE_DIR, existing_text_name)
+    shutil.copy2(source_path, file_paths["text"])
+
+# ✅ 2. Clean Text using OpenAI API
+if CLEAN_TEXT:
+    with open(file_paths["text"], "r", encoding="utf-8") as f:
+        raw_text = f.read()
+
+    try:
+        client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": "You are a meticulous proofreader. Your task is to clean and correct text while preserving the original wording, structure, and meaning as much as possible. Only fix obvious OCR errors, spacing issues, and formatting inconsistencies. Do not paraphrase or rephrase."},
+                {"role": "user", "content": f"Please clean and correct the following text while staying true to the original wording:\n{raw_text}"}
+            ]
+        )
+        cleaned_text = response.choices[0].message.content
+
+
+        with open(file_paths["text_cleaned"], "w", encoding="utf-8") as f:
+            f.write(cleaned_text)
+        print("🧹 Text cleaned and saved to 'text_cleaned.txt'.")
+    except Exception as e:
+        print(f"❌ Text Cleaning Failed: {e}")
+        exit()
+else:
+    shutil.copy2(file_paths["text"], file_paths["text_cleaned"])
 
 # ✅ 3. Split Text into Chunks
-with open(file_paths["text"], "r", encoding="utf-8") as f:
+with open(file_paths["text_cleaned"], "r", encoding="utf-8") as f:
     full_text = f.read()
 
 chunk_size = CHUNK_SIZE.get(LANGUAGE, CHUNK_SIZE["default"])
@@ -192,7 +232,6 @@ chunks = split_text_into_chunks(full_text, chunk_size=chunk_size)
 model = TTS(language=LANGUAGE, device=device)
 speaker_ids = model.hps.data.spk2id
 
-# Ensure speaker_ids behaves like a dictionary
 if not isinstance(speaker_ids, dict):
     speaker_ids = vars(speaker_ids)
 
