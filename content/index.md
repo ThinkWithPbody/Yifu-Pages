@@ -26,4 +26,5 @@ Or some Obsidian related [[./Configs/Guides/Guides|Guides]]
 What have I been up to?
 
 Fixing this website... got note transclusions working
+Drooling over [ROG Flow Z13](https://rog.asus.com/ca-en/laptops/rog-flow/rog-flow-z13-2025/)
 Closely stalking [TURD](https://forum.kerbalspaceprogram.com/topic/174188-112x-textures-unlimited-recolour-depot/) updates... still... so I can blow Jeb up with style
