@@ -14,16 +14,22 @@ hide: false
 ---
 This page walks you through how to generate audio files from PDFs using qpdf, pdfminer, and MeloTTS.
 
+Input: .pdf | .txt
+Output: .wav, .txt
+
 ## Environment
 
-**Install and enable WSL on windows.** Skip this step if you already have a linux environment set up.
+**Install and enable Windows Subsystem for Linux (WSL) on windows.** Skip this step if you already have a linux environment set up. 
+
+Win + X > Windows PowerShell > Enter the following
+`wsl --install`
 
 > [!caution]
-> You may have to enable CPU Virtualization in BIOS.
+> You may have to enable CPU Virtualization in BIOS for WSL to function.
 
-**Install a distro to the WSL.** I use OpenSUSE Tumbleweed. You can do the same by going to Microsoft Store and installing OpenSUSE Tumbleweed.
+**Install a distro to WSL.** I use OpenSUSE Tumbleweed. You can do the same by going to Microsoft Store and installing OpenSUSE Tumbleweed.
 
-**Create this file or append** the following line to allocate more memory:
+Create this file or append the following line to **allocate more memory to WSL**:
 
 `C:\Users\USERNAME\.wslconfig`
 ```
@@ -32,15 +38,15 @@ memory=16GB # Adjust based on your system
 processors=4
 ```
 
-**Start the WSL**
+**Start WSL**
 
 ```bash
 wsl
 ```
 
-Once the WSL is started, I use VSCode with the extension WSL to access files and CLI easily. 
+Once the WSL is started, I use VSCode with the extension `WSL` to access files and CLI easily. 
 
-Simply use the command (F1 Key) `Connect to WSL` then enter this in the terminal.
+Simply use the command (F1 Key) `Connect to WSL`, then enter this in the terminal.
 
 ```
 code .
