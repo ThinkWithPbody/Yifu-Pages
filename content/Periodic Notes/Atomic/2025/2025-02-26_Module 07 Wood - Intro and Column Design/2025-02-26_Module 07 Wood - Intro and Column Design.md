@@ -19,7 +19,9 @@ hide: true
 %%[parents:: [[../../../../Courses/2025/ARC2046H/ARC2046H|ARC2046H]]]%%
 # Module 07 Wood - Intro and Column Design
 
-![[./2025-02-26_Module 07 Wood - Intro and Column Design.svg|2025-02-26_Module 07 Wood - Intro and Column Design]]
+![[Periodic Notes/Atomic/2025/2025-02-26_Module 07 Wood - Intro and Column Design/2025-02-26_Module 07 Wood - Intro and Column Design.svg|Periodic Notes/Atomic/2025/2025-02-26_Module 07 Wood - Intro and Column Design/2025-02-26_Module 07 Wood - Intro and Column Design.svg]]
+
+### Properties
 
 - Wood
 	- Hardwood
@@ -50,6 +52,7 @@ hide: true
 				- 1 1/2 x 11 1/4
 			- 4x4
 				- 3 1/2 x 3 1/2
+				- 89mm x 89mm
 - Applications
 	- Joists and Studs
 	- Beams
@@ -86,9 +89,69 @@ hide: true
 	- Chemicals (Preservation, Fire Retardant)
 	- Lateral Stability (Buckling)
 - Typical Construction
-	- ![[Periodic Notes/Atomic/2025/2025-02-26_Module 07 Wood - Intro and Column Design/Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-1.webp|223x304]]
-	- ![[./image.webp|224x388]]
-	- ![[./image-1.webp|223x304]]
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image.webp|468x260]]
+	- ![[./image-1.webp|308x466]]
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-1-1.webp|293x399]]
+- Lumber Visual Grades
+	- Select Structural
+	- No. 1
+	- No. 2
+	- No. 3
+	- Stud
+	- ![[./image.webp|/Periodic Notes/Atomic/2025/2025-02-26_Module 07 Wood - Intro and Column Design/image.webp]]
+- Strength and Modulus of Elasticity
+	- Look up table A-D [[../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
+		- ![[./image-8.webp|640x384]]
+		- ![[./image-9.webp|640x306]]
+		- ![[./image-10.webp|640x384]]
+		- ![[./image-11.webp|640x379]]
+	- Governed by Applications, Species, Grades
+- $K_D$: Load Duration Factor
+	- Short Term = 1.15
+	- Standard Term = 1.00
+	- Long Term = 0.65
+	- ![[./image-2.webp|640x407]]
+- $K_H$: System Factor
+	- Post / Beam: 1.0
+	- Joist / Stud: Part of a system sharing some loads
+	- ![[./image-7.webp|640x275]]
+	- Case 1 | Case 2
+		- Most floors and walls are Case 2
+		- ![[./image-3.webp|640x375]]
+- $K_S$: Service Condition Factor
+	- A pool would be wet
+	- Always 1.0 if dry
+	- ![[./image-6.webp|640x278]]
+- $K_T$: Treatment Factor
+	- Pressure treated unincised lumber doesn't lose strength
+		- Lumber bathed in a preservative solution and pressurized
+		- Incised meaning punching little holes in the lumber
+	- Fire retardant treated
+	- ![[./image-5.webp|640x403]]
+- $K_Z$: Size Factor
+	- The chances of a hidden defect becomes greater as lumber size increase
+	- Built up members use individual member size to determine size factor - better performance than if the member was full-sized
+	- ![[./image-12.webp|640x428]]
+- $P_r=\phi_c F_c A K_{zc} K_c$: **Compression Resistance Design**
+	- $\phi=0.8$: Resistance Factor for wood compression
+	- $F_c=f_c(K_D K_H K_{SC} K_T)$:
+		- $f_c$: Specified strength (stress) in compression parallel to grain, looked up from Table A-D [[../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
+		- $K_D K_H K_{SC} K_T$: Duration, system, service condition, treatment
+	- $A$: Cross sectional area ($b\times d$ for rectangular section)
+	- $K_{ZC}=6.3(dL_d)^{-0.13}=6.3(bL_b)^{-0.13}<=1.3$: Size Factor
+	- $K_C=[1.0+\frac{F_C K_{ZC} C_C^3}{35 E_{05} K_{SE} K_T}]^{-1}$: Slenderness Factor ($\lambda$)
+	- $C_C=Appropriate (L_b/b | L_d/d) < 50$
+		- $L_b|L_d$: Effective length associated with width $b$ and depth $d$ respectively (unbraced)
+	- Wood and Steel
+		- $P_r=\phi \sigma A + Factors/Buckling$
+		- $C_r=\phi \sigma A + Factors/Buckling$
+		- Essentially the same
+	- ![[./image-4.webp|352x274]]
+
+### Calculations
+
+
+
 
 ---
 
@@ -102,16 +165,16 @@ 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
 
-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
+EDYmuwaieaH+odmEFlwjgNWIwdQeQAuui9eRMqnuBwhEb0YQFVgKrg9rq5QrA8x00WS2Gwgg1rGOr8rii7qd4ujGCx2Fw0CSB0xWJwAHKcMTcOO3HjxHinK6l5gAEXSUDb3BZQgQ6M0wgV/WCmWy6az6KEcGIuB37dQcKue0hi/iy4pHXRRA4bMLYt8F/NhpV3NA9QIMJCgAXweYpSnKCRNBqTQECnNlej1NlCAAeTgSFND1AAlDgYDtX4Wl1eZx
 
-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
+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
 
-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
+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
 
-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
+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
 
-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
+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
 
-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
+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
 ```
 %%
