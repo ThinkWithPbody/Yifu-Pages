@@ -96,6 +96,21 @@ Reference to a [[./Guides|File]]
 Reference to a [[Guide Obsidian#Heading 1|Heading]]
 Reference to a [[../../../2024-01-01#^025433|Paragraph]]
 Inline Reference![[Guide Obsidian#Styles|Configs/Guides/Guide Obsidian > Styles]]
+## Latex
+
+| Meaning        | Symbol | LaTeX Command   |
+| -------------- | ------ | --------------- |
+| Therefore      | ∴      | \therefore      |
+| Because        | ∵      | \because        |
+| Implies        | ⇒      | \Rightarrow     |
+| If and only if | ⇔      | \Leftrightarrow |
+| For all        | ∀      | \forall         |
+| Exists         | ∃      | \exists         |
+| Not Exists     | ∄      | \nexists        |
+| Logical AND    | ∧      | \land           |
+| Logical OR     | ∨      | \lor            |
+| Negation (Not) | ¬      | \neg            |
+
 ## Shortcuts
 
 ### View
