@@ -34,6 +34,7 @@ hide: true
 				- Trim work
 			- Cedar
 				- Decks and exterior applications
+				- Classified as **Northern**
 			- Douglass Fir
 				- Heavy construction, glulam
 		- 95% will be SPF
@@ -79,6 +80,14 @@ hide: true
 	- LVL Laminated Veneer Lumber
 	- Glulam Glue Laminated Timber
 	- CLT Cross Laminated Timber
+- Wood Disadvantages
+	- Has moisture
+	- Shrinks
+	- Is Non-Isotropic
+	- Imperfect
+	- Creeps
+	- Rots (and gets eaten)
+	- Burns
 - Factors that impact wood strength
 	- Species
 	- Grade
@@ -90,7 +99,7 @@ hide: true
 	- Lateral Stability (Buckling)
 - Typical Construction
 	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image.webp|468x260]]
-	- ![[./image-1.webp|308x466]]
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-1.webp|308x466]]
 	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-1-1.webp|293x399]]
 - Lumber Visual Grades
 	- Select Structural
@@ -98,59 +107,68 @@ hide: true
 	- No. 2
 	- No. 3
 	- Stud
-	- ![[./image.webp|/Periodic Notes/Atomic/2025/2025-02-26_Module 07 Wood - Intro and Column Design/image.webp]]
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-2.webp|image-2]]
 - Strength and Modulus of Elasticity
-	- Look up table A-D [[../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
-		- ![[./image-8.webp|640x384]]
-		- ![[./image-9.webp|640x306]]
-		- ![[./image-10.webp|640x384]]
-		- ![[./image-11.webp|640x379]]
+	- Look up table A-D [[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
+		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-8.webp|640x384]]
+		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-9.webp|640x306]]
+		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-10.webp|640x384]]
+		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-11.webp|640x379]]
 	- Governed by Applications, Species, Grades
 - $K_D$: Load Duration Factor
 	- Short Term = 1.15
 	- Standard Term = 1.00
 	- Long Term = 0.65
-	- ![[./image-2.webp|640x407]]
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-2-1.webp|640x407]]
 - $K_H$: System Factor
-	- Post / Beam: 1.0
-	- Joist / Stud: Part of a system sharing some loads
-	- ![[./image-7.webp|640x275]]
+	- 1.0 if not part of a system - Post / Beam
+	- More if part of a system sharing some loads - Joist / Stud
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-7.webp|640x275]]
 	- Case 1 | Case 2
 		- Most floors and walls are Case 2
-		- ![[./image-3.webp|640x375]]
+		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-3.webp|640x375]]
 - $K_S$: Service Condition Factor
-	- A pool would be wet
+	- Outside use or a pool would be wet
 	- Always 1.0 if dry
-	- ![[./image-6.webp|640x278]]
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-6.webp|640x278]]
 - $K_T$: Treatment Factor
 	- Pressure treated unincised lumber doesn't lose strength
 		- Lumber bathed in a preservative solution and pressurized
 		- Incised meaning punching little holes in the lumber
 	- Fire retardant treated
-	- ![[./image-5.webp|640x403]]
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-5.webp|640x403]]
 - $K_Z$: Size Factor
 	- The chances of a hidden defect becomes greater as lumber size increase
 	- Built up members use individual member size to determine size factor - better performance than if the member was full-sized
-	- ![[./image-12.webp|640x428]]
-- $P_r=\phi_c F_c A K_{zc} K_c$: **Compression Resistance Design**
-	- $\phi=0.8$: Resistance Factor for wood compression
-	- $F_c=f_c(K_D K_H K_{SC} K_T)$:
-		- $f_c$: Specified strength (stress) in compression parallel to grain, looked up from Table A-D [[../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
-		- $K_D K_H K_{SC} K_T$: Duration, system, service condition, treatment
-	- $A$: Cross sectional area ($b\times d$ for rectangular section)
-	- $K_{ZC}=6.3(dL_d)^{-0.13}=6.3(bL_b)^{-0.13}<=1.3$: Size Factor
-	- $K_C=[1.0+\frac{F_C K_{ZC} C_C^3}{35 E_{05} K_{SE} K_T}]^{-1}$: Slenderness Factor ($\lambda$)
-	- $C_C=Appropriate (L_b/b | L_d/d) < 50$
-		- $L_b|L_d$: Effective length associated with width $b$ and depth $d$ respectively (unbraced)
-	- Wood and Steel
-		- $P_r=\phi \sigma A + Factors/Buckling$
-		- $C_r=\phi \sigma A + Factors/Buckling$
-		- Essentially the same
-	- ![[./image-4.webp|352x274]]
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-12.webp|640x428]]
+- Wood and Steel
+	- $P_r=\phi \sigma A + Factors/Buckling$
+	- $C_r=\phi \sigma A + Factors/Buckling$
+	- Essentially the same
+	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-4.webp|352x274]]
 
 ### Calculations
 
-
+- $P_{r}(N)=\phi_c \times F_c \times A \times K_{zc} \times K_c$: **Compression Resistance Design**
+	- Calculate both $P_{rb}$ and $P_{rd}$ using different $K_{ZC}$ and $K_{C}$ for strong and weak axis
+	- $\phi(Unitless)=0.8$: Resistance Factor for wood compression
+	- $F_c(MPa)=f_c(K_D K_H K_{SC} K_T)$
+		- $f_c$: Specified strength (stress) in compression parallel to grain, looked up from Table A-D [[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
+		- $K_D K_H K_{SC} K_T$: Duration, system, service condition, treatment
+	- $A(mm^2)$: Cross sectional area ($b\times d$ for rectangular section)
+	- $K_{C}(Unitless)=(1.0+\frac{F_C K_{ZC} {C_{C}}^3}{35 E_{05} K_{SE} K_T})^{-1}$: Slenderness Factor ($\lambda$)
+		- Calculate using $C_{Cb}$ | $C_{Cd}$ and $K_{ZCb}$ | $K_{ZCd}$
+			- $C_{C}(Unitless)=Appropriate (L_b/b | L_d/d) <= 50$
+				- $L_b|L_d$: Effective length (unbraced) associated with width $b$ and depth $d$ respectively
+				- Calculate using $b$ and $d$
+					- $C_{Cb}=L_b/b<= 50$
+					- $C_{Cd}=L_d/d<= 50$
+			- $K_{Cb}=(1.0+\frac{F_C \times K_{ZCb} \times {C_{Cb}}^3}{35 \times E_{05} \times K_{SE} \times K_T})^{-1}$
+			- $K_{Cd}=(1.0+\frac{F_C \times K_{ZCd} \times {C_{Cd}}^3}{35 \times E_{05} \times K_{SE} \times K_T})^{-1}$
+	- $K_{ZC}(Unitless)=6.3(dL_b)^{-0.13}=6.3(bL_d)^{-0.13}<=1.3$: Size Factor
+		- Calculate using $b$ and $d$
+			- $K_{ZCb}=6.3(bL_d)^{-0.13}<=1.3$
+			- $K_{ZCd}=6.3(dL_b)^{-0.13}<=1.3$
 
 
 ---
