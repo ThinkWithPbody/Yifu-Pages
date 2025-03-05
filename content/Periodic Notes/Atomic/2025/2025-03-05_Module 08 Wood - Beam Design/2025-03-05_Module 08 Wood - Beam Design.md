@@ -22,161 +22,28 @@ hide: true
 ![[Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg|Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg]]
 
 - Bending Design
+	- $M_{r}(N)=\phi_b \times F_b \times S \times K_{zb} \times K_L$: **Bending Design**
+		- $\phi_b$ = 0.9 Material reduction factor (higher than compression)
+		- $F_b(MPa)$ = the bending strength – incorporates various factors
+			- $F_b = f_b(K_D K_H K_{Sb} K_T)$
+				- $f_b (MPa)$ = Material strength
+				- $K_D$= Duration Factor
+				- $K_H$= System Factor
+				- $K_{Sb}$ = Service Factor for bending
+				- $K_{Se}$ = Service Factor for stiffness
+				- $K_T$ = Treatment Factor
+		- $S(mm3)$ = Elastic section modulus
+			- Refer to [[../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SECTION PROPERTIES.pdf|SECTION PROPERTIES.pdf]]
+			- Typically rectangles
+				- $S=\frac{bd^2}{6}$
+		- $K_{zb}$ = the size factor in bending
+		- $K_L$ = lateral restraint factor
+
 - Shear Design
 - Stiffness
 - Calculations / Example
 
-
----
-
-> [!quote] 2025-03-05_Assignment 08
-
-# Assignment 08
-
-![[Periodic Notes/Atomic/2025/2025-03-05_Assignment 08/2025-03-05_Assignment 08.svg|Periodic Notes/Atomic/2025/2025-03-05_Assignment 08/2025-03-05_Assignment 08.svg]]
-
-### Questions 1 to 8 make use of the following information:
-
-We are trying to design a 5.4m long beam inside with a uniformly distributed line load of wd=5kN/m and wl=8kN/m. What D.Fir-L No1 sawn timber size would be the best choice? Use L/240 for dead+live deflection criteria and L/360 for live deflection criteria.
-
-## Question 1
-
-What is the factored line load wf (kN/m) on the beam? Write your answer to two decimal places (XX.XX). Do not write the units.
-
-## Question 2
-
-What is the Dead+Live serviceability line load wd+l (kN/m) on the beam? Write your answer to two decimal places (XX.XX). Do not write the units.
-
-## Question 3
-
-What is the Live serviceability line load wl (kN/m) on the beam? Write your answer to two decimal places (X.XX). Do not write the units.
-
-## Question 4
-
-What is the maximum factored moment Mf (kNm) on the beam. You do NOT need to do Method of Sections. Write your answer to two decimal places (XX.XX). Do not write the units.
-
-## Question 5
-
-What is the maximum factored shear Vf (kNm) on the beam. You do NOT need to do Method of Sections. Write your answer to two decimal places (XX.XX). Do not write the units.
-
-## Question 6
-
-What is the minimum EsI the beam requires to meet serviceability requirements?
-
-- 22.5 mm
-- 5905x10^9 Nmm²
-- 15 mm
-- 6397x10^9 Nmm²
-
-## Question 7
-
-From the Beam Tables for Wood members, what is the most efficient D.Fir No1 beam that meets all our structural criteria?
-
-- 241x343
-- 241x292
-- 241x241
-- 241x394
-
-## Question 8
-
-Try to do the Mr, Vr and EsI calculations by hand. See if they match what you found as published values.
-
-- YES I did the Calculation
-
-### The remaining questions make use of the following information:
-
-The bedroom of a modern summer house is cantilevered out over the patio. Since they are not insulating the floor, the architect wants to leave the floor joists exposed to the outside from below as a feature. Note that the major beams cantilever, not the basic members we are designing). She is proposing using 2x8 Cedar SS. Assume normal house live loads and that the assembly is vinyl flooring on 3/4" plywood spanning between the joists (assume typical house construction nailing patterns). You should assume 0.05kPa for mech/elec dead loads. Use deflection criteria of L/240 for D+L and L/360 for L. If the joists are 16" c/c, can they span 3.2m?
-
-## Question 9
-
-Assuming you add up the dead loads (you can do this... all the info is there) and you get a floor Dead Load of 0.32kPa, and you noted that the joists are at 16" c/c, what is the factored line load wf (kN/m) on the joist? Write your answer to two decimal places (X.XX). Do not write the units.
-
-## Question 10
-
-What is the Dead+Live serviceability line load wd+l (kN/m) on the joist? (Dead load in question above, joists still at 16" c/c) Write your answer to three decimal places (X.XXX). Do not write the units.
-
-## Question 11
-
-What is the Live serviceability line load wl (kN/m) on the joist? Write your answer to three decimal places (X.XXX). Do not write the units.
-
-## Question 12
-
-What is the maximum factored moment Mf (kNm) on the joist. You do NOT need to do Method of Sections. Write your answer to two decimal places (X.XX). Do not write the units.
-
-## Question 13
-
-What is the maximum factored shear Vf (kNm) on the joist. You do NOT need to do Method of Sections. Write your answer to two decimal places (X.XX). Do not write the units.
-
-## Question 14
-
-What is the minimum EsI the joist requires to meet serviceability requirements?
-
-- 8.89 mm
-- 92.3x10^9 Nmm²
-- 118.4x10^9 Nmm²
-- 139x10^9 Nmm²
-
-## Question 15
-
-What Grading Category is the member?
-
-- Structural Light Framing
-- Post and timber
-- Structural Joist or Plank
-- Beam and stringer
-
-## Question 16
-
-What is Kd (load duration factor)? (this isn't a trick question)
-
-## Question 17
-
-Khb = (X.X) Khv = (X.X)
-
-## Question 18
-
-Ksb = (X.XX) Ksv = (X.XX) Kse = (X.XX)
-
-## Question 19
-
-Kt = (X.X)
-
-## Question 20
-
-Kzb = (X.X) Kzv = (X.X)
-
-## Question 21
-
-KL = (X.X)
-
-## Question 22
-
-What is Mr (kNm) of the joist? Write your answer to two decimal places (X.XX) Do not write the units.
-
-## Question 23
-
-What is Vr (kNm) of the joist? Write your answer to two decimal places (X.XX) Do not write the units.
-
-## Question 24
-
-What is the actual EsI (Nmm²) of the member?
-
-- 139x10^9 Nmm²
-- 7,500 MPa
-- 118.4x10^9 Nmm²
-- 84.4x10^9 Nmm²
-
-## Question 25
-
-Does the member work?
-
-- No
-- Yes
-
-
----
-
----
+[[../2025-03-05_Assignment 08/2025-03-05_Assignment 08#Assignment 08|Assignment 08]]
 
 ---
 
