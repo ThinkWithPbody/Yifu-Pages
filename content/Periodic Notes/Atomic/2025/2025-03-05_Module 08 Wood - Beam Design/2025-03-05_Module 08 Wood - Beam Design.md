@@ -17,7 +17,7 @@ share: true
 hide: true
 ---
 %%[parents:: [[../../../../Courses/2025/ARC2046H/ARC2046H|ARC2046H]]]%%
-# Module 08 Wood - Beam Design
+### Module 08 Wood - Beam Design
 
 ![[Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg|Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg]]
 

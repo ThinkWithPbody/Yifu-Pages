@@ -17,11 +17,11 @@ share: true
 hide: true
 ---
 %%[parents:: [[../../../../Courses/2025/ARC2046H/ARC2046H|ARC2046H]]]%%
-# Module 07 Wood - Intro and Column Design
+### Module 07 Wood - Intro and Column Design
 
 ![[Periodic Notes/Atomic/2025/2025-02-26_Module 07 Wood - Intro and Column Design/2025-02-26_Module 07 Wood - Intro and Column Design.svg|Periodic Notes/Atomic/2025/2025-02-26_Module 07 Wood - Intro and Column Design/2025-02-26_Module 07 Wood - Intro and Column Design.svg]]
 
-### Properties
+#### Properties
 
 - Wood
 	- Hardwood
@@ -147,7 +147,7 @@ hide: true
 	- Essentially the same
 	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-4.webp|352x274]]
 
-### Calculations
+#### Calculations
 
 - $P_{r}(N)=\phi_c \times F_c \times A \times K_{zc} \times K_c$: **Compression Resistance Design**
 	- Calculate both $P_{rb}$ and $P_{rd}$ using different $K_{ZC}$ and $K_{C}$ for strong and weak axis
