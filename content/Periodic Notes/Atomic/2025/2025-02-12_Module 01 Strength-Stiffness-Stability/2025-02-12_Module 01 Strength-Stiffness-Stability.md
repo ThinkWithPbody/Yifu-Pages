@@ -16,7 +16,7 @@ share: true
 hide: true
 ---
 %%[parents:: [[2025-02-12_Module 01 Strength-Stiffness-Stability|2025-02-12_Module 01 Strength-Stiffness-Stability]]]%%
-# Module 01 Strength-Stiffness-Stability
+### Module 01 Strength-Stiffness-Stability
 
 ![[Periodic Notes/Atomic/2025/2025-02-12_Module 01 Strength-Stiffness-Stability/2025-02-12_Module 01 Strength-Stiffness-Stability.png|Periodic Notes/Atomic/2025/2025-02-12_Module 01 Strength-Stiffness-Stability/2025-02-12_Module 01 Strength-Stiffness-Stability.png]]
 
