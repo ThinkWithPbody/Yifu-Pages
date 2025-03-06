@@ -18,13 +18,13 @@ Server Address: 99.140.56.170:25565
 ## Curse Forge
 
 1. Download Curse Forge Standalone [Here](https://www.curseforge.com/download/app).
-2. Download the mINeCraFT club modpack [Here](http://www.mediafire.com/view/g5aptnqlbbvsxk1).
+2. Download the mINeCraFT club modpack [Here](http://www.mediafire.com/view/k83g1tmaodcerwm).
 3. Install the modpack on Curse Forge.
 	1. Go to Minecraft
 	2. From the top right, Create Custom Profile
 	3. Click the underlined word **import**
 	4. Select the modpack
-4. Click Play, then Play
+4. Click Play
 
 # Default Hotkeys
 ## 1. Movement
@@ -38,11 +38,11 @@ LS = Sprint
 
 Tab = Inventory
 Q = Offhand Swap
-V = Hotbar Swap
-- LS + V = Tetra Use Secondary
-R = Tetra Toolbelt
+%%V = Hotbar Swap
+- LS + V = Tetra Use Secondary%%
+%%R = Tetra Toolbelt
 - LC + R = Tetra Toolbelt Open
-- LS + R = Tetra Toolbelt Restock
+- LS + R = Tetra Toolbelt Restock%%
 E = Sophisticated Backpack
     Mouse3 = Backpack Sort
 - Z = Backpack Upgrade Slot 1
@@ -77,8 +77,8 @@ O = Autofish GUI
 P = List Players (Minimap Icon)
 %%- F = Torch
     > Place torch from hotbar.%%
-K = Quark Placement Orientation Lock
-- *Locks the placement orientation of blocks such as stairs.*
+%%K = Quark Placement Orientation Lock
+- *Locks the placement orientation of blocks such as stairs.*%%
 L = Advancements
 N + Mouse2 = Carry On
 - *Works on entities within a small range.*

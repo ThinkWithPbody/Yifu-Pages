@@ -21,27 +21,56 @@ hide: true
 
 ![[Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg|Periodic Notes/Atomic/2025/2025-03-05_Module 08 Wood - Beam Design/2025-03-05_Module 08 Wood - Beam Design.svg]]
 
-- Bending Design
-	- $M_{r}(N)=\phi_b \times F_b \times S \times K_{zb} \times K_L$: **Bending Design**
-		- $\phi_b$ = 0.9 Material reduction factor (higher than compression)
-		- $F_b(MPa)$ = the bending strength – incorporates various factors
-			- $F_b = f_b(K_D K_H K_{Sb} K_T)$
-				- $f_b (MPa)$ = Material strength
-				- $K_D$= Duration Factor
-				- $K_H$= System Factor
-				- $K_{Sb}$ = Service Factor for bending
-				- $K_{Se}$ = Service Factor for stiffness
-				- $K_T$ = Treatment Factor
-		- $S(mm3)$ = Elastic section modulus
-			- Refer to [[../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SECTION PROPERTIES.pdf|SECTION PROPERTIES.pdf]]
-			- Typically rectangles
-				- $S=\frac{bd^2}{6}$
-		- $K_{zb}$ = the size factor in bending
-		- $K_L$ = lateral restraint factor
+Refer to details outlined in [[../2025-02-26_Module 07 Wood - Intro and Column Design/2025-02-26_Module 07 Wood - Intro and Column Design#Module 07 Wood - Intro and Column Design|Module 07 Wood - Intro and Column Design]]
+#### Bending Design
 
-- Shear Design
-- Stiffness
-- Calculations / Example
+- $M_{r}(Nmm)=\phi_b \times F_b \times S \times K_{zb} \times K_L$: **Bending Design**
+	- $\phi_b$ = 0.9 Material reduction factor (higher than compression)
+	- $F_b(N/mm^2|MPa)$ = the bending strength – incorporates various factors
+		- $F_b = f_b \times (K_D \times K_{Hb} \times K_{Sb} \times K_T)$
+			- $f_b (MPa)$ = Material strength
+			- $K_D$ = Duration Factor
+			- $K_{Hb}$ = System Factor
+			- $K_{Sb}$ = Service Factor for bending
+			- $K_{Se}$ = Service Factor for stiffness
+			- $K_T$ = Treatment Factor
+	- $S(mm3)$ = Elastic section modulus
+		- Refer to [[../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SECTION PROPERTIES.pdf|SECTION PROPERTIES]]
+		- Typically rectangles
+			- $S=\frac{bd^2}{6}$
+	- $K_{zb}$ = the size factor in bending
+	- $K_L$ = lateral restraint factor
+		- $K_L$ = 1.0 provided that the ends are restrained from laterally rotating and the depth to width ratio does not exceed:
+			- 4:1 if no intermediate support is provide on the compression edge
+			- 5:1 if the member is held in line by purlins or tie rods
+			- 6.5:1 if the compression edge is held in line by direct connection of decking or joists spaced not more than 610 mm apart
+			- 7.5:1 if the compression edge is held in line by direct connection of decking or joists spaced not more than 610 mm apart and bridging or blocking is provided at a spacing not exceeding eight times the depth of the member
+			- 9:1 if both edges are held in line
+		- If the above criteria is not met, $K_L$ may be calculated
+	- $1,000,000 Nmm = 1 kNm$
+
+#### Shear Design
+
+- $V_r(N)=\phi_v \times F_v \times (\frac{2}{3}A_n) \times K_{Zv}$: **Shear Design**
+	- $\phi_v$ = 0.9 
+	- $F_v(N/mm^2|MPa)=f_v \times (K_d \times K_{Hv} \times K_{Sv} \times K_T)$
+		- $f_v(MPa)$ = specified strength in shear  
+		- $K_d$ = Duration Factor
+		- $K_{Hv}$ = System Factor
+		- $K_{Sv}$ = Service Factor for shear
+		- $K_T$ = Treatment Factor
+	- $A_n(mm^2)$ = net area of cross section ($b \times d$ for a rectangular section)
+	- $K_{Zv}$ = is the size factor in shear
+	- $1,000N=1kN$
+
+![[./Attachments/2025-03-05_Module 08 Wood - Beam Design/image.webp|640x364]]
+
+#### Stiffness | Serviceability
+
+- $\Delta=\frac{5wL^4}{384\times E I}$
+- $E I=\frac{5wL^4}{384\times \Delta}$
+
+#### Calculations / Example
 
 [[../2025-03-05_Assignment 08/2025-03-05_Assignment 08#Assignment 08|Assignment 08]]
 
