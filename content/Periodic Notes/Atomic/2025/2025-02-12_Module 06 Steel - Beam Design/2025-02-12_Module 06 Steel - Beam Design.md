@@ -16,13 +16,13 @@ share: true
 hide: true
 ---
 %%[parents:: [[2025-02-12_Module 06 Steel - Beam Design|2025-02-12_Module 06 Steel - Beam Design]]]%%
-# Module 06 Steel - Beam Design
+### Module 06 Steel - Beam Design
 
 ![[Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png|Periodic Notes/Atomic/2025/2025-02-12_Module 06 Steel - Beam Design/2025-02-12_Module 06 Steel - Beam Design.png]]
 
-## Lateral Torsional Buckling
+#### Lateral Torsional Buckling
 
-### Local Buckling
+##### Local Buckling
 - **Class 1-2** ^36391f
 	- Plastic Limit (ignoring local buckling)
 - **Class 3** ^3044ad
@@ -30,7 +30,7 @@ hide: true
 - Class 4
 	- Local Buckling in Elastic Range
 
-### Yielding Moments (kNm)
+##### Yielding Moments (kNm)
 - **Elastic**
 	- $M_y=\sigma S$
 - **Plastic**
@@ -41,7 +41,7 @@ hide: true
 	- **Plastic**
 		- $M_r=\phi \cdot fy \cdot Z$
 
-### Lateral Buckling Moment
+##### Lateral Buckling Moment
 - $M_u=\frac{w_2\pi}{L_u}\sqrt{EI_yGJ+(\frac{\pi E}{L_u})^2I_yC_w}$
 	- $M_u$ = the bending moment which results in lateral buckling of the compression flange. 
 		- U stands for ultimate, but we could say critical.
@@ -54,9 +54,9 @@ hide: true
 	- $J$ = the polar moment of inertia (From Beam properties)
 	- $C_w$ = the warping constant (From Beam properties)
 
-## Total Steel Beam Capacity $V_r$ & $M_r$
+#### Total Steel Beam Capacity $V_r$ & $M_r$
 
-### Moment (Plastic… If Elastic, $M_p$ becomes $M_y$)
+##### Moment (Plastic… If Elastic, $M_p$ becomes $M_y$)
 - **Moment Resistance [[2025-02-12_Module 06 Steel - Beam Design#^36391f|Class 1 & 2]]**
 	- $M_r$
 		- If $M_u<=0.67M_p$
@@ -82,7 +82,7 @@ hide: true
 - Moment Resistance Curve
 	- ![[./Attachments/2025-02-12_Module 06 Steel - Beam Design/image.webp|371x248]]
 
-### Shear
+##### Shear
 - $V_r=\phi A_wF_s$
 	- $V_r$ = Reduced shear resistance
 	- $\phi$ = Material Reduction Factor for Steel, 0.90
