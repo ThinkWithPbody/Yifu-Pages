@@ -16,7 +16,7 @@ share: true
 hide: true
 ---
 %%[parents:: [[2025-02-12_Module 05 Steel - Intro and Column Design|2025-02-12_Module 05 Steel - Intro and Column Design]]]%%
-### Module 05 Steel - Intro and Column Design
+### Steel - Intro and Column Design
 
 ![[Periodic Notes/Atomic/2025/2025-02-12_Module 05 Steel - Intro and Column Design/2025-02-12_Module 05 Steel - Intro and Column Design.png|Periodic Notes/Atomic/2025/2025-02-12_Module 05 Steel - Intro and Column Design/2025-02-12_Module 05 Steel - Intro and Column Design.png]]
 
@@ -59,7 +59,7 @@ hide: true
 		- WT Shapes (Structural Tees)
 		- CFC & CFZ (cold formed)
 		- WWF (Welded wide flange)
-- Tension Resistance | Tensile Capacity
+- **Tension Resistance | Tensile Capacity**
 	- $T_r=\phi \cdot A_g \cdot f_y$
 		- Derived from $\sigma=\frac{P}{A}$
 		- $\phi$: The material factor, 0.9 for steel
@@ -69,24 +69,23 @@ hide: true
 	- $T_r=0.85 \cdot \phi \cdot A_\text{ne} \cdot f_u$
 		- $A_\text{ne}$: Net cross sectional area, reduced for bolt holes etc.
 		- $f_u$: Ultimate Strength of Steel = 450 MPa
-- Compression Squashing (Strength)
+- **Compression Squashing** (Strength) ^3a6dc5
 	- $P_y=f_yA$
 		- Derived from $\sigma=\frac{P}{A}$
-- Compression Buckling (Stiffness)
-	- $$P_\text{cr}=\frac{\pi^2\cdot E\cdot I}{(kL)^2}$$
+- **Compression Buckling** (Stiffness)
+	- $P_\text{cr}=\frac{\pi^2\cdot E\cdot I}{(kL)^2}$
 		- $P_\text{cr}$: The critical load, or buckling load
 		- $\pi$: 3.14159
 		- $E$: The modulus of elasticity of the material
 		- $I$: The moment of inertia in the direction that the member is allowed to buckle (often Iyy)
 		- $kL$: The effective length of the member
-- Interaction Diagram
-	- Combine Squashing and Buckling #Courses/2025/ARC2046H/Exam 
-	- $C_r=\phi\cdot A \cdot f_y \cdot (1 + \lambda^{2 \cdot n})^\frac{-1}{n}$
+- **Combine Squashing and Buckling** #Courses/2025/ARC2046H/Exam
+	- $C_r=\phi\cdot A \cdot f_y \cdot (1 + \lambda^{2 \cdot n})^\frac{-1}{n}$ ^779b09
 		- $C_r = 0$ if $kL/r > 200$
 		- $C_r$: the compression capacity
 		 - $\phi$: the material factor (0.9 for steel)
 		- $A$: the cross sectional area
-			- $f_y$: the yield strength of the steel
+		- $f_y$: the yield strength of the steel
 		- $\lambda = \sqrt{fy/fcr}$
 			- $\lambda = \frac{kL}{r}\cdot\sqrt{\frac{fy}{\pi^2 \cdot E}}$
 		- $f_\text{cr}=P_\text{cr}/A$ or the stress at $P_\text{cr}$  ($f$ is the same as $\sigma$)
