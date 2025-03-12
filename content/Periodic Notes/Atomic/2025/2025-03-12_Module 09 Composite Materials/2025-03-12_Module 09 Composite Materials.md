@@ -51,11 +51,42 @@ hide: true
 - Load Sharing Example
 	- We have a steel HSS152x152x9.5 column filled with concrete. What load (kN) does the steel carry and what load does the concrete carry if Ec = 30,000MPa? Take a guess which will carry more load. Steel or Concrete?
 
+- Transformed Sections #Courses/2025/ARC2046H/Exam 
+	- Transform the Steel into Concrete from the previous example
+		- HSS152x152x9.5, filled with concrete with E=30,000MPa
+	- We can think of one of the elements in terms of the other. We “transform” the section
+		- So for ANY object of ANY material (or combo of materials) will act the same as long as S(EA) is the same!
+	- $A_{Transformed}=n \times A_s$
+		- $n=E_s/E_c$: Ratio of Modular of Elasticity
+		- $A_t=E_s \div E_c \times A_s=200,000 MPa \div 30,000 MPa \times 5210 mm^2=34,733 mm^2$
+			- $A_{total}=A_t + A_c=34,733+17,689=52,422 mm^2$
 
-- Transformed Sections
 - Composite Action
-- Calculation Examples
+	- If two objects or materials are combined so that they support load as one, the system is said to be composite.  In order for a system to be considered composite, the materials must be bonded so that they won’t slip relative to each other
+		- In axial loading, this is easy. But in bending, we need to make sure shear can be transferred across the plane where the materials interface
+		- They can be two different materials (like our example) or two pieces of wood (glulam beams)
+	- For bending elements, longitudinal shear is critical
+		- If there is no bond along the interface (or SHEAR PLANE), the elements will slip along that plane. That’s like two small beams sharing load
+		- If we ensure the two planes don’t slip, it’s like we have one deep beam
+	- Composite vs Non-Composite, two 140x140 beams
+		- A (Axial and Shear)
+			- $A_{sharing} = 140 \times 140 + 140 \times 140 = 39,200mm^2$
+			- $A_{composite} = 140 \times 280 = 39,200mm^2$
+			- $A_{composite} = A_{sharing}$
+		- S (Moment)
+			- $S_{sharing} = 140 \times 1402/6 + 140 \times 1402/6 = 0.915 \times 106mm^3$
+			- $S_{composite} = 140 \times 2802/6 = 1.83 \times 106mm^3$
+			- $S_{composite} = 2 \times S_{sharing}$
+		- I (Stiffness)
+			- $I_{sharing} = 140 \times 1403/12 + 140 \times 1403/12 = 64.0 \times 106mm^4$
+			- $I_{composite} = 140 \times 2803/12 = 256 \times 106mm^4$
+			- $I_{composite} = 4 \times I_{sharing}$
+
 - Composite Structural Construction
+	- ![[./Attachments/2025-03-12_Module 09 Composite Materials/image.webp|640x232]]
+	- ![[./Attachments/2025-03-12_Module 09 Composite Materials/image-1.webp|355x298]]
+
+Assignment 09
 
 ---
 
