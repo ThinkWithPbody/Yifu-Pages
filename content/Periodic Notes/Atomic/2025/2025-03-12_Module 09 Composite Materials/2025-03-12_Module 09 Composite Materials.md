@@ -30,18 +30,8 @@ hide: true
 	- To share load at all, they need to move (squash) together
 		- $\sigma=F/A$ | $F=\sigma \times A$
 		- $\varepsilon=\Delta L/L$
-			- ---
-Strain is the relative axial deformation of an element subjected to axial load
-				- $\varepsilon (mm/mm|Unitless)=\frac{\Delta L(mm)}{L(mm)}$
-					- $\varepsilon$: Strain
-					- $\Delta L$: Axial Deformation
-					- $L$: Original Length
-				- Test Piece Coupon Dogbone
-					1. Axial Loaded
-					2. Measure Deformation
-					3. Loop
-					4. Measure Failure---
-		- $\sigma=F/A$
+			- [[../2025-02-12_Stress and Strain/2025-02-12_Stress and Strain#^881997|Periodic Notes/Atomic/2025/2025-02-12_Stress and Strain/2025-02-12_Stress and Strain > ^881997]]
+		- $E=\sigma / \varepsilon$ | $\sigma=E \times \varepsilon$
 
 
 
