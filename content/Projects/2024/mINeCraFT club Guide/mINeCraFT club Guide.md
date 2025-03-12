@@ -72,11 +72,14 @@ LC + LS + Mouse3 = Inventory Profiles GUI
 
 ## 3. Common
 
+
 U = Death History
-O = Autofish GUI
+O = Autofish
+	Ctrl + O = Autofish GUI
 P = List Players (Minimap Icon)
 %%- F = Torch
     > Place torch from hotbar.%%
+J = Create Mod Block Rotation
 %%K = Quark Placement Orientation Lock
 - *Locks the placement orientation of blocks such as stairs.*%%
 L = Advancements
@@ -147,5 +150,6 @@ F5 = Perspective Toggle
     Right Arrow = Shoulder Surfing Camera Right
     Page Up = Shoulder Surfing Camera Closer
     Page Down = Shoulder Surfing Camera Farther%%
+F10 = Dynamic Surroundings
 F11 = Fullscreen
 F12 = Camera Mode
