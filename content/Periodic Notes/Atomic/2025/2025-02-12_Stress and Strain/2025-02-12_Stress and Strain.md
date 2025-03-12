@@ -31,11 +31,11 @@ hide: true
 		- $\varepsilon$: Strain
 		- $\Delta L$: Axial Deformation
 		- $L$: Original Length
-	- Test Piece Coupon Dogbone
-		1. Axial Loaded
-		2. Measure Deformation
-		3. Loop
-		4. Measure Failure
+- Test Piece Coupon Dogbone
+	1. Axial Loaded
+	2. Measure Deformation
+	3. Loop
+	4. Measure Failure
 - Exceptions to the rules
 	- Phase Change
 		- Ice Hotel Evaporates
