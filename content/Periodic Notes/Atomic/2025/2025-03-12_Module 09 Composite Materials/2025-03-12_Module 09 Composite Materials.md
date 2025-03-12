@@ -28,11 +28,28 @@ hide: true
 		- Multiple elements supporting the same load share it based on stiffness
 		- The load likes the path with the MOST resistance.
 	- To share load at all, they need to move (squash) together
-		- $\sigma=F/A$ | $F=\sigma \times A$
-		- $\varepsilon=\Delta L/L$
-			- [[../2025-02-12_Stress and Strain/2025-02-12_Stress and Strain#^881997|Periodic Notes/Atomic/2025/2025-02-12_Stress and Strain/2025-02-12_Stress and Strain > ^881997]]
-		- $E=\sigma / \varepsilon$ | $\sigma=E \times \varepsilon$
+		1. $\sigma=F/A$ | $F=\sigma \times A$
+		2. $\varepsilon=\Delta L/L$
+			1. [[../2025-02-12_Stress and Strain/2025-02-12_Stress and Strain#^881997|Periodic Notes/Atomic/2025/2025-02-12_Stress and Strain/2025-02-12_Stress and Strain > ^881997]]
+		3. $E=\sigma / \varepsilon$ | $\sigma=E \times \varepsilon$
+	- Rearrange 3 into 1
+	- $F=E \times \varepsilon \times A$
+		- $E$ and $A$ are for each material
+		- $\varepsilon$ has to be the same because they are moving together
+		- $\therefore$ For each material $x$
+			- $F_x=(E \times A)_x \times \varepsilon$
+		- $\therefore$ $F=F_s + F_c=\varepsilon \times ((EA)_s + (EA)_c)=\varepsilon \times \sum(EA)$
+			- $\sum(EA)$ is the axial stiffness of the combined system
+		- $\therefore$ $\varepsilon=F/\sum(EA)$
+		- $\because$ $F_x=(EA)_x \times \varepsilon$
+		- $\therefore$ $F_x=F \times (EA)_x / \sum(EA)$
+	- $F_x=F \times (EA)_x / \sum(EA)$
+		- $E(MPa)$
+		- $A(mm^2)$
+		- $EA(N)$
 
+- Load Sharing Example
+	- We have a steel HSS152x152x9.5 column filled with concrete. What load (kN) does the steel carry and what load does the concrete carry if Ec = 30,000MPa? Take a guess which will carry more load. Steel or Concrete?
 
 
 - Transformed Sections

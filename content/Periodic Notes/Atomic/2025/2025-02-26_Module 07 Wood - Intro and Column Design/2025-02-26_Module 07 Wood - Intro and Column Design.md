@@ -17,7 +17,7 @@ share: true
 hide: true
 ---
 %%[parents:: [[../../../../Courses/2025/ARC2046H/ARC2046H|ARC2046H]]]%%
-### Module 07 Wood - Intro and Column Design
+### Wood - Intro and Column Design
 
 ![[Periodic Notes/Atomic/2025/2025-02-26_Module 07 Wood - Intro and Column Design/2025-02-26_Module 07 Wood - Intro and Column Design.svg|Periodic Notes/Atomic/2025/2025-02-26_Module 07 Wood - Intro and Column Design/2025-02-26_Module 07 Wood - Intro and Column Design.svg]]
 
