@@ -26,7 +26,7 @@ hide: true
 		- $P$: Force
 			- Force usually expressed in kN
 		- $A$: Cross Sectional Area
-- Strain is the relative axial deformation of an element subjected to axial load
+- Strain is the relative axial deformation of an element subjected to axial load ^881997
 	- $\varepsilon (mm/mm|Unitless)=\frac{\Delta L(mm)}{L(mm)}$
 		- $\varepsilon$: Strain
 		- $\Delta L$: Axial Deformation
