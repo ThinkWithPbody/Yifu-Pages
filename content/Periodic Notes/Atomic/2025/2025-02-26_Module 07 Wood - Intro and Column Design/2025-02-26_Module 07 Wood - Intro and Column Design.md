@@ -167,9 +167,10 @@ hide: true
 			- $K_{Cd}=(1.0+\frac{F_C \times K_{ZCd} \times {C_{Cd}}^3}{35 \times E_{05} \times K_{SE} \times K_T})^{-1}$
 	- $K_{ZC}(Unitless)=6.3(dL_b)^{-0.13}=6.3(bL_d)^{-0.13}<=1.3$: Size Factor
 		- Calculate using $b$ and $d$
-			- $K_{ZCb}=6.3(bL_d)^{-0.13}<=1.3$
-			- $K_{ZCd}=6.3(dL_b)^{-0.13}<=1.3$
+			- $K_{ZCb}=6.3(bL_b)^{-0.13}<=1.3$
+			- $K_{ZCd}=6.3(dL_d)^{-0.13}<=1.3$
 
+[[../2025-02-26_Assignment 07/2025-02-26_Assignment 07#Assignment 07|Assignment 07]]
 
 ---
 
