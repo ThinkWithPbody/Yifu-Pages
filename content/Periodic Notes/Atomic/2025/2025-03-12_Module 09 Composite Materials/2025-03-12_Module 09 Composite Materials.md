@@ -65,7 +65,7 @@ hide: true
 	- If two objects or materials are combined so that they support load as one, the system is said to be composite.  In order for a system to be considered composite, the materials must be bonded so that they won’t slip relative to each other
 		- In axial loading, this is easy. But in bending, we need to make sure shear can be transferred across the plane where the materials interface
 		- They can be two different materials (like our example) or two pieces of wood (glulam beams)
-	- For bending elements, longitudinal shear is critical
+	- For bending elements, **longitudinal shear** is **critical**
 		- If there is no bond along the interface (or SHEAR PLANE), the elements will slip along that plane. That’s like two small beams sharing load
 		- If we ensure the two planes don’t slip, it’s like we have one deep beam
 	- Composite vs Non-Composite, two 140x140 beams
@@ -86,7 +86,7 @@ hide: true
 	- ![[./Attachments/2025-03-12_Module 09 Composite Materials/image.webp|640x232]]
 	- ![[./Attachments/2025-03-12_Module 09 Composite Materials/image-1.webp|355x298]]
 
-Assignment 09
+[[../2025-03-12_Assignment 09/2025-03-12_Assignment 09#Assignment 09|Assignment 09]]
 
 ---
 
