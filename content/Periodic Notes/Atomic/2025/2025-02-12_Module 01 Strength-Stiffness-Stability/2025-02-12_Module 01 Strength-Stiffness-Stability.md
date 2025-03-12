@@ -20,7 +20,7 @@ hide: true
 
 ![[Periodic Notes/Atomic/2025/2025-02-12_Module 01 Strength-Stiffness-Stability/2025-02-12_Module 01 Strength-Stiffness-Stability.png|Periodic Notes/Atomic/2025/2025-02-12_Module 01 Strength-Stiffness-Stability/2025-02-12_Module 01 Strength-Stiffness-Stability.png]]
 
-### Intro
+#### Intro
 
 
 - Weekly assignments 30%
@@ -81,7 +81,7 @@ hide: true
 	- Where all concepts come together and allow you to pick the perfectly sized member
 	- Number One Goal: Cheapest Section - To build the cheapest building posible, strong enough stiff enough stable
 
-### Lecture
+#### Lecture
 
 - Everything you need to know about structural engineering you already know
 	- Write down what you think the answer is in a corner, and compare with your answer to check your answers
