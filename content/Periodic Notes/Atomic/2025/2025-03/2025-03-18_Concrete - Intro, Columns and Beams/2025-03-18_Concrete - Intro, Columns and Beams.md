@@ -112,7 +112,7 @@ hide: true
 		- $A_c$ = Area of concrete
 	- $P_{rs} = f_s f_y A_s$
 		- $f_s$ = 0.85 rebar reduction factor
-		- $f_y$ = 400 MPa steel yield strength
+		- $f_y$ = 400 MPa steel yield strength ^273812
 		- $A_s$ = Area of steel
 	- Transformed Sections
 		- $\rho=A_s / A_g$
@@ -183,7 +183,7 @@ hide: true
 				- [[2025-03-18_Concrete - Intro, Columns and Beams#^eb0569|^eb0569]]
 				- [[2025-03-18_Concrete - Intro, Columns and Beams#^5616de|^5616de]]
 				- [[2025-03-18_Concrete - Intro, Columns and Beams#^f452bc|^f452bc]]
-				- [[^f_y|^f_y]]
+				- [[2025-03-18_Concrete - Intro, Columns and Beams#^273812|^273812]]
 - Shear
 - Continuous Beams
 
