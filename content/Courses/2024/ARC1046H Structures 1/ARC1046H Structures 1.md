@@ -480,7 +480,7 @@ ULS: Ultimate Limit State
 SLS: Serviceability Limit State
 
 ULS: Strength
-![[../../2025/ARC2046H/Attachments/ARC2046H/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg|2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc)]]
+![[../../../Periodic Notes/Atomic/2025/2025-02/2025-02-12_Module 02 ARC1046 Review/Attachments/2025-02-12_Module 02 ARC1046 Review/2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc).jpg|2024-03-05T15_12_48-05_00_TWP-X570-WIN10(vlc)]]
 
 SLS: Serviceability
 Stiffness, Deflection
