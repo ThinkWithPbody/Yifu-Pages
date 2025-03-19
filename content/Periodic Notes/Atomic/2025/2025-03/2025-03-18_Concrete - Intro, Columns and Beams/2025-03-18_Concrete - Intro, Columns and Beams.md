@@ -131,11 +131,11 @@ hide: true
 		
 		------
 		- Calculation
-			- $\gamma h=h - 2\times(Cover + \unicode{x2300}Ties + \frac{1}{2}\unicode{x2300}Bars)$
+			- $\gamma h=h - 2\times(Cover + \unicode{x2300}Ties + \frac{1}{2}\unicode{x2300}Bars)$ ^adc004
 			- $\gamma = \gamma h \div h$
 			- $A_g(mm^2)=b \times h$
 			- $P_r/A_g(MPa)=P_F(N) \div A_g(mm^2)$
-			- $M_r/A_{gh}(MPa)=M_F(N/mm) \div (A_g \times h)$
+			- $M_r/A_{gh}(MPa)=M_F(Nmm) \div (A_g \times h)$
 			- $P_g=e=A_s \div A_g$
 				- $A_s{req}=e \times A_g=P_g \times A_g$
 				- $N_{Bars}=A_s{req} \div A_{Bars}$
@@ -150,7 +150,7 @@ hide: true
 			- M1 = Smaller End Moment
 			- M2 = Larger End Moment
 - Bending
-	- ![[./2025-03-18_Concrete - Intro, Columns and Beams-image.webp|/Periodic Notes/Atomic/2025/2025-03/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image.webp]]
+	- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image.webp|2025-03-18_Concrete - Intro, Columns and Beams-image]]
 		- Cover = Fire protection, from code
 		- Bottom Steel = “Tension” bars
 		- Top Steel = Holds stirrup. Unless reverse bending, As’
@@ -171,21 +171,40 @@ hide: true
 			- The parabolic stress profile in the concrete can be approximated by a rectangular one.
 			- The diagrams show the stress distribution in concrete at various states of loading.
 		- Stress Profile
-			- ![[./2025-03-18_Concrete - Intro, Columns and Beams-image-1.webp|/Periodic Notes/Atomic/2025/2025-03/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-1.webp]]
-			- ![[./2025-03-18_Concrete - Intro, Columns and Beams-image-2.webp|/Periodic Notes/Atomic/2025/2025-03/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-2.webp]]
-			- ![[./2025-03-18_Concrete - Intro, Columns and Beams-image-3.webp|/Periodic Notes/Atomic/2025/2025-03/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-3.webp]]
+			- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-1-1.webp|2025-03-18_Concrete - Intro, Columns and Beams-image-1-1]]
+			- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-2.webp|2025-03-18_Concrete - Intro, Columns and Beams-image-2]]
+			- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-3.webp|2025-03-18_Concrete - Intro, Columns and Beams-image-3]]
 				- #Courses/2025/ARC2046H/Exam 
 				- $T(N)=\phi_S \times A_S \times f_y$
 				- $C_c(N) = \alpha_1 \times \phi_c \times f’_c \times A_c$
 				- $A_c(mm^2) = b \times \beta_1c$
-				- $\beta_1c(mm)= T/ (\alpha_1 \times f_c \times f’_c \times b)$: Height Of Stress Profile 
-				- $M_r(Nmm) = T * (d-(\beta_1c)/2)$
+				- $\beta_1c(mm)= T/ (\alpha_1 \times \phi_c \times f’_c \times b)$: Height Of Stress Profile 
+				- $M_r(Nmm) = T \times (d-(\beta_1c)/2)$
 				- [[2025-03-18_Concrete - Intro, Columns and Beams#^eb0569|^eb0569]]
 				- [[2025-03-18_Concrete - Intro, Columns and Beams#^5616de|^5616de]]
 				- [[2025-03-18_Concrete - Intro, Columns and Beams#^f452bc|^f452bc]]
 				- [[2025-03-18_Concrete - Intro, Columns and Beams#^273812|^273812]]
+	- Beam Tips
+		- A slab is a wide flat beam.
+		- Concrete beams are not always rectangular.  T-shaped beams use the slab in compression. The design basis for a T-beam is the same as that for a rectangular beam.
+		- Ensure that the beam is under-reinforced for the basic premise to hold true.  Limit the depth of the compression block to a specified maximum.
+		- Can increase bending resistance by adding reinforcement in the compression zone. 
 - Shear
+	- $V_r(N) = V_c + V_s$
+	- $V_c(N) = 0.2 \times \lambda \times \phi_c \times \sqrt{f’_c} \times b_w \times d$
+	- $V_s(N) = \phi_s \times A_v \times f_y \times d \div s$
+	- Where
+		- $V_c$ = the shear resistance of the concrete
+		- $V_s$ = the shear resistance of the steel 
+		- $\lambda$ = 1.0 for normal concrete. Factor for low density concrete.
+		- $b_w$ = minimum effective web width within the depth d. (Usually b)	
+		- $A_v$ = cross sectional area of reinforcing steel crossing the tension plane.
+			- Note that a typical stirrup has two vertical legs and they both count separately so that Av equals the cross sectional area of the bar times the number of vertical legs.
+		- $s$ = the spacing of the stirrups
 - Continuous Beams
+	- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-4.webp|2025-03-18_Concrete - Intro, Columns and Beams-image-4]]
+	- ![[./Attachments/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-5.webp|2025-03-18_Concrete - Intro, Columns and Beams-image-5]]
+	- 
 
 ---
 
