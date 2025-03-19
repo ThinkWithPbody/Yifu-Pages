@@ -2,7 +2,6 @@
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 tags:
-  - excalidraw
   - project
 title: ARC2048H_Visits
 status: TODO
@@ -19,9 +18,11 @@ share: true
 - [x] **MJMA**  [due:: 2025-02-06]  [completion:: 2025-02-12]
 - [x] **BDP Q**uadrangle  [due:: 2025-02-13]  [completion:: 2025-02-27]
 - [x] **SvN** Architects + Planners  [due:: 2025-03-06]  [completion:: 2025-03-06]
-- [ ] **M**ontgomery **S**isam **A**rchitects  [due:: 2025-03-13]
-- [ ] **D**iamond **S**chmitt **A**rchitects  [due:: 2025-03-20]
+- [x] **M**ontgomery **S**isam **A**rchitects  [due:: 2025-03-13]  [completion:: 2025-03-19]
+- [x] **D**iamond **S**chmitt **A**rchitects  [due:: 2025-03-20]  [completion:: 2025-03-19]
 - [ ] **DIALOG**  [due:: 2025-03-27]
+
+
 
 # Tagged
 `#Projects/2025/ARC2048H_Visits`

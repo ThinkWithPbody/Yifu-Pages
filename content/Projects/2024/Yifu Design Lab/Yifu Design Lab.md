@@ -54,26 +54,27 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 
 | PLA                       |   $/kg | Hex Code                                                     |
 | :------------------------ | -----: | ------------------------------------------------------------ |
-| Matte Ivory White         |  25.99 | <span style="background: #FFFFFF;">FFFFFF</span>             |
-| Matte Charcoal Black      |  25.99 | <span style="background: #000000;color:white;">000000</span> |
-| Matte Sakura Pink         |  25.99 | <span style="background: #E8AFCF;">E8AFCF</span>             |
-| Matte Lilac Purple        |  25.99 | <span style="background: #AE96D4;">AE96D4                    |
-| Basic Bambu Green         |  25.99 | <span style="background: #00AE42;">00AE42                    |
-| Marble White              |  38.99 | <span style="background: #F7F3F0;">F7F3F0                    |
-| Silk Gold                 |  38.99 | <span style="background: #E5B03D;">E5B03D                    |
-| Sparkle Crimson Red       |  38.99 | <span style="background: #792B36;color:white;">792B36        |
-| Metal Iron Gray           |  38.99 | <span style="background: #43403D;color:white;">43403D        |
-| Breakaway Support         |  89.98 |                                                              |
-| PVA Water-soluble Support | 101.98 |                                                              |
+| Matte Ivory White         |  22.59 | <span style="background: #FFFFFF;">FFFFFF</span>             |
+| Matte Charcoal Black      |  22.59 | <span style="background: #000000;color:white;">000000</span> |
+| Matte Sakura Pink         |  22.59 | <span style="background: #E8AFCF;">E8AFCF</span>             |
+| Matte Lilac Purple        |  22.59 | <span style="background: #AE96D4;">AE96D4                    |
+| Basic Bambu Green         |  22.59 | <span style="background: #00AE42;">00AE42                    |
+| Marble White              |  36.15 | <span style="background: #F7F3F0;">F7F3F0                    |
+| Silk Gold                 |  36.15 | <span style="background: #E5B03D;">E5B03D                    |
+| Sparkle Crimson Red       |  36.15 | <span style="background: #792B36;color:white;">792B36        |
+| Metal Iron Gray           |  36.15 | <span style="background: #43403D;color:white;">43403D        |
+| Breakaway Support         | 101.68 |                                                              |
+| PVA Water-soluble Support | 115.24 |                                                              |
 
 | ABS         |  $/kg | Hex Code                                         |
 | :---------- | ----: | ------------------------------------------------ |
-| Basic White | 29.99 | <span style="background: #FFFFFF;">FFFFFF</span> |
+| Basic White | 22.59 | <span style="background: #FFFFFF;">FFFFFF</span> |
 
-| PETG        |  $/kg | Hex Code                                         |
-| :---------- | ----: | ------------------------------------------------ |
-| Basic White | 29.99 | <span style="background: #FFFFFF;">FFFFFF</span> |
-| Basic Clear | 29.99 |                                                  |
+| PETG              |  $/kg | Hex Code                                                     |
+| :---------------- | ----: | ------------------------------------------------------------ |
+| Basic White       | 22.59 | <span style="background: #FFFFFF;">FFFFFF</span>             |
+| Translucent Clear | 22.59 | <span style="background: #F2F2F2">F2F2F2</span>              |
+| Translucent Grey  | 22.59 | <span style="background: #8E8E8E;color: white">8E8E8E</span> |
 
 > [!info]- Filament Pricing
 > Filament prices listed reflect bulk purchasing savings and are offered without any markup.
