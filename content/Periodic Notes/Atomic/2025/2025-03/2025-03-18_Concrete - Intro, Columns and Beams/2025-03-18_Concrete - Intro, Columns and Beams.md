@@ -176,10 +176,10 @@ hide: true
 			- ![[./2025-03-18_Concrete - Intro, Columns and Beams-image-3.webp|/Periodic Notes/Atomic/2025/2025-03/2025-03-18_Concrete - Intro, Columns and Beams/2025-03-18_Concrete - Intro, Columns and Beams-image-3.webp]]
 				- #Courses/2025/ARC2046H/Exam 
 				- $T(N)=\phi_S \times A_S \times f_y$
-				- $C_c = \alpha_1 \times \phi_c \times f’_c \times A_c$
-				- $A_c = b \times \beta_1c$
-				- $\beta_1c= T/ (\alpha_1 \times f_c \times f’_c \times b)$: Height Of Stress Profile 
-				- $M_r = T * (d-(\beta_1c)/2)$
+				- $C_c(N) = \alpha_1 \times \phi_c \times f’_c \times A_c$
+				- $A_c(mm^2) = b \times \beta_1c$
+				- $\beta_1c(mm)= T/ (\alpha_1 \times f_c \times f’_c \times b)$: Height Of Stress Profile 
+				- $M_r(Nmm) = T * (d-(\beta_1c)/2)$
 				- [[2025-03-18_Concrete - Intro, Columns and Beams#^eb0569|^eb0569]]
 				- [[2025-03-18_Concrete - Intro, Columns and Beams#^5616de|^5616de]]
 				- [[2025-03-18_Concrete - Intro, Columns and Beams#^f452bc|^f452bc]]
