@@ -23,11 +23,11 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 
 #### Machine
 
-**FDM Bambu P1S with AMS**
-- Up to 4 filaments per plate
-- Build volume XYZ: 225mm * 225mm * 250mm | 8.85in * 8.85in * 9.85in
-- 0.4 mm hardened steel nozzle
-- Bambu Studio slicer
+> [!info]- **FDM Bambu P1S with AMS**
+> - Up to 4 filaments per plate
+> - Build volume XYZ: 225mm × 225mm × 250mm | 8.85in × 8.85in × 9.85in
+> - 0.4 mm hardened steel nozzle
+> - Bambu Studio slicer
 
 #### Service Charge
 
@@ -35,11 +35,11 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 
 | File Setup | Printing                                          | Filament      |
 | ---------- | ------------------------------------------------- | ------------- |
-| \$12       | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament|Filament]] |
+| \$2/plate  | %%<span style="color:red;">\$3</span>%%\$0.05/min | [[Yifu Design Lab#Filament|Filament]] |
 
-> [!info]- [[Yifu Design Lab#Why is there a setup fee|Setup fee]] may be discounted or waived depending on complexity
+> [!info]- [[Yifu Design Lab#Why is there a setup fee|Setup fee]] may be discounted or waived depending on job complexity
 > 
-> Setup fee will be waived for Bambu Studio sliced .3mf files. However, please be aware that the outcome of the initial print will be final, as no adjustments or reprints will be provided for these waived jobs. The standard "100% satisfaction guarantee," which includes the option for a full reprint or refund if you are not satisfied with your order, does not apply to these waived jobs. If you accept these conditions and wish to proceed with complete control over the print process, please use the following [template](http://www.mediafire.com/view/rgq6dceauc22jln) to get started.
+> Setup fee will be waived for Bambu Studio sliced .3mf files. However, please be aware that the outcome of the initial print will be final, as no adjustments or reprints will be provided for these waived jobs. The standard "100% satisfaction guarantee," which includes the option for a full reprint or refund if you are not satisfied with your order, does not apply to these waived jobs. If you accept these conditions and wish to proceed with complete control over the print process, please use the following [template](http://www.mediafire.com/view/my3re98lpyflu7k) to get started.
 
 ### Getting Started
 
@@ -47,34 +47,48 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 2. Choose your [[Yifu Design Lab#Filament|Filament]].
 3. Choose from one of the [[Yifu Design Lab#Quality Presets|Quality Presets]].
 4. Adjust [[Yifu Design Lab#Slicing Options|Slicing Options]] as needed.
-5. Send your **ZIP** file, **filament**, **preset**, and any **custom options** to Yifu Ding over Teams or [Email](mailto:yifu.ding@mail.utoronto.ca) to place job order.
+5. Send your **ZIP** file, **filament**, **quality preset**, and any **custom slicing options** to Yifu Ding over Teams or [Email](mailto:yifu.ding@mail.utoronto.ca) to place job order.
 6. Email transfer fees to yifuding.twp@gmail.com
 
 #### Filament
 
-| PLA                       |   $/kg | Hex Code                                                     |
-| :------------------------ | -----: | ------------------------------------------------------------ |
-| Matte Ivory White         |  22.59 | <span style="background: #FFFFFF;">FFFFFF</span>             |
-| Matte Charcoal Black      |  22.59 | <span style="background: #000000;color:white;">000000</span> |
-| Matte Sakura Pink         |  22.59 | <span style="background: #E8AFCF;">E8AFCF</span>             |
-| Matte Lilac Purple        |  22.59 | <span style="background: #AE96D4;">AE96D4                    |
-| Basic Bambu Green         |  22.59 | <span style="background: #00AE42;">00AE42                    |
-| Marble White              |  36.15 | <span style="background: #F7F3F0;">F7F3F0                    |
-| Silk Gold                 |  36.15 | <span style="background: #E5B03D;">E5B03D                    |
-| Sparkle Crimson Red       |  36.15 | <span style="background: #792B36;color:white;">792B36        |
-| Metal Iron Gray           |  36.15 | <span style="background: #43403D;color:white;">43403D        |
-| Breakaway Support         | 101.68 |                                                              |
-| PVA Water-soluble Support | 115.24 |                                                              |
+##### PLA
+Easy | Brittle | Workable | Biodegradable
 
-| ABS         |  $/kg | Hex Code                                         |
-| :---------- | ----: | ------------------------------------------------ |
-| Basic White | 22.59 | <span style="background: #FFFFFF;">FFFFFF</span> |
+| Color                     | Hex Code                                                     |   $/kg |
+| :------------------------ | ------------------------------------------------------------ | -----: |
+| Matte Ivory White         | <span style="background: #FFFFFF;">FFFFFF</span>             |  22.59 |
+| Matte Charcoal Black      | <span style="background: #000000;color:white;">000000</span> |  22.59 |
+| Matte Sakura Pink         | <span style="background: #E8AFCF;">E8AFCF</span>             |  22.59 |
+| Matte Lilac Purple        | <span style="background: #AE96D4;">AE96D4                    |  22.59 |
+| Basic Bambu Green         | <span style="background: #00AE42;">00AE42                    |  22.59 |
+| Marble White              | <span style="background: #F7F3F0;">F7F3F0                    |  36.15 |
+| Silk Gold                 | <span style="background: #E5B03D;">E5B03D                    |  36.15 |
+| Sparkle Crimson Red       | <span style="background: #792B36;color:white;">792B36        |  36.15 |
+| Metal Iron Gray           | <span style="background: #43403D;color:white;">43403D        |  36.15 |
+| Breakaway Support         |                                                              | 101.68 |
+| PVA Water-soluble Support |                                                              | 115.24 |
 
-| PETG              |  $/kg | Hex Code                                                     |
-| :---------------- | ----: | ------------------------------------------------------------ |
-| Basic White       | 22.59 | <span style="background: #FFFFFF;">FFFFFF</span>             |
-| Translucent Clear | 22.59 | <span style="background: #F2F2F2">F2F2F2</span>              |
-| Translucent Grey  | 22.59 | <span style="background: #8E8E8E;color: white">8E8E8E</span> |
+##### PETG
+Fair | Durable | Impact-resistant | Food-safe
+
+| Color             | Hex Code                                                     |  $/kg |
+| :---------------- | ------------------------------------------------------------ | ----: |
+| Basic White       | <span style="background: #FFFFFF;">FFFFFF</span>             | 22.59 |
+| Translucent Clear | <span style="background: #F2F2F2">F2F2F2</span>              | 22.59 |
+| Translucent Grey  | <span style="background: #8E8E8E;color: white">8E8E8E</span> | 22.59 |
+
+##### ABS
+Difficult | Strong | Chemical-resistant | Industrial
+
+| Color       | Hex Code                                         |  $/kg |
+| :---------- | ------------------------------------------------ | ----: |
+| Basic White | <span style="background: #FFFFFF;">FFFFFF</span> | 22.59 |
+##### ASA
+Difficult | Strong | UV-resistant | Outdoor
+
+Available on request
+
 
 > [!info]- Filament Pricing
 > Filament prices listed reflect bulk purchasing savings and are offered without any markup.
@@ -88,18 +102,20 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 
 For 1 inch hollow cube with 2 walls:
 
-| Quality Presets   | Layer Height (mm) | Time  | $ (Time + Filament) |
-| :---------------- | :---------------: | :---: | :-----------------: |
-| Extra Fine        |       0.08        | 35:01 |        3.69         |
-| Fine              |       0.12        | 24:43 |        2.68         |
-| Optimal (Default) |       0.16        | 19:04 |        2.11         |
-| Standard          |       0.20        | 15:42 |        1.77         |
-| Draft             |       0.24        | 13:10 |        1.44         |
-| Extra Draft       |       0.28        | 11:34 |        1.28         |
+| Quality Presets    | Layer Height (mm) | Time  | $ (Time + Filament) |
+| :----------------- | :---------------: | :---: | :-----------------: |
+| Extra Fine         |       0.08        | 37:12 |        1.86         |
+| Fine               |       0.12        | 26:43 |        1.34         |
+| Optimal            |       0.16        | 21:08 |        1.06         |
+| Standard (Default) |       0.20        | 17:48 |        0.89         |
+| Draft              |       0.24        | 15:20 |        0.77         |
+| Extra Draft        |       0.28        | 13:46 |        0.69         |
 
 #### Slicing Options
 
 > [!white]- Slicing Options
+> Specify your non-default slicing options at job submission
+> 
 > Default value in parenthesis.
 > Critical settings are marked with ❗.
 > Recommended values are marked with ⭕.
@@ -107,10 +123,10 @@ For 1 inch hollow cube with 2 walls:
 > > [!grey]- Print Orientation ❗
 > > 
 > 
-> > [!grey]- Layer Height (0.16mm) ❗
+> > [!grey]- Layer Height (0.20mm) ❗
 > > - Affects overhang performance
 > 
-> > [!grey]- Print Speed
+> > [!grey]- Print Speed (100%)
 > > 
 > 
 > > [!grey]- Wall Loops (2) ❗
