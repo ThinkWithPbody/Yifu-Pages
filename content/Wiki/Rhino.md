@@ -34,7 +34,10 @@ hide: false
 | BU    | '_BooleanUnion         |
 | CB    | ! \_CurveBoolean       |
 | COi   | '_Copy _Inplace        |
+| DD    | '_Distance             |
+| DI    | '_Dim                  |
 | FL    | '_Fillet _Dynamic=Yes  |
+| LI    | '_Polyline             |
 | MV    | ! _Move _Vertical=Yes  |
 | SC    | '_Scale                |
 | S1    | '_Scale1D              |
@@ -77,3 +80,10 @@ human
 [Ngon](https://www.food4rhino.com/en/app/ngon)
 [pOd](https://www.food4rhino.com/en/app/podghbutton)
 [Pufferfish](https://www.food4rhino.com/en/app/pufferfish)
+
+
+### Commands
+
+`OptionsExport`
+`_SaveWindowLayout`
+`_ExportRuiFile`
