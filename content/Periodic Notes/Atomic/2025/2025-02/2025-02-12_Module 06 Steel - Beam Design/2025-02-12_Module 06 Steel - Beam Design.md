@@ -89,7 +89,7 @@ hide: true
 	- $F_s$ = ultimate shear stress, varies depending on slenderness of web
 		- = $0.66\times Fy$ for stocky members
 - Tips
-	- Use [[../../2025-03/2025-03-05_Assignment 08/Attachments/2025-03-05_Assignment 08/BEAM LOADING DIAGRAMS.pdf|BEAM LOADING DIAGRAMS]] to determine $M_f$ and $V_f$
+	- Use [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/BEAM LOADING DIAGRAMS.pdf|BEAM LOADING DIAGRAMS]] to determine $M_f$ and $V_f$
 
 ---
 

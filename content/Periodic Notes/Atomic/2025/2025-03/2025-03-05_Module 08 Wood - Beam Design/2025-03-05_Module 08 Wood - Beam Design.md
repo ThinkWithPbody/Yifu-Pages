@@ -34,7 +34,7 @@ Refer to details outlined in [[../../2025-02/2025-02-26_Module 07 Wood - Intro a
 			- $K_{Se}$ = Service Factor for stiffness
 			- $K_T$ = Treatment Factor
 	- $S(mm3)$ = Elastic section modulus
-		- Refer to [[./Attachments/2025-03-05_Module 08 Wood - Beam Design/SECTION PROPERTIES.pdf|SECTION PROPERTIES]]
+		- Refer to [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SECTION PROPERTIES.pdf|SECTION PROPERTIES]]
 		- Typically rectangles
 			- $S=\frac{bd^2}{6}$
 	- $K_{zb}$ = the size factor in bending

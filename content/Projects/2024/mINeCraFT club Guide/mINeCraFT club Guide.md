@@ -10,7 +10,7 @@ share: true
 hide: true
 ---
 ![Logo|16](https://live.staticflickr.com/65535/52191413864_3b47958f71_o.png)
-Version: mcc-1.20.1-forge-1.2
+- [ ] Version: mcc-1.20.1-forge-1.2
 Server Address: 99.140.56.170:25565
 
 # Install
@@ -91,6 +91,7 @@ Alt = Create Mod Toolbox (Schematic Overlay)
     LS + Capslock = Mute Microphone%%
 Enter = Chat
 / = Command
+F8 = Apotheosis World Tier
 
 ## 4. Map
 
@@ -120,6 +121,7 @@ A = JEI Bookmark
 - LC + F = JEI Search Bar Focus
 Num 1 = The One Probe Overlay Toggle
 - Num 2 = The One Probe Overlay Liquid
+F9 = Observable Profiler
 
 ## 6. Misc
 

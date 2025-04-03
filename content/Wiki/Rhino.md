@@ -36,6 +36,8 @@ hide: false
 | COi   | '_Copy _Inplace        |
 | DD    | '_Distance             |
 | DI    | '_Dim                  |
+| EC    | '_ExtrudeCrv           |
+| ES    | '_ExtrudeSrf           |
 | FL    | '_Fillet _Dynamic=Yes  |
 | LI    | '_Polyline             |
 | MV    | ! _Move _Vertical=Yes  |
