@@ -108,7 +108,7 @@ hide: true
 	- Stud
 	- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-2.webp|image-2]]
 - Strength and Modulus of Elasticity
-	- Look up table A-D [[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
+	- Look up table A-D [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
 		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-8.webp|640x384]]
 		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-9.webp|640x306]]
 		- ![[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/image-10.webp|640x384]]
@@ -152,7 +152,7 @@ hide: true
 	- Calculate both $P_{rb}$ and $P_{rd}$ using different $K_{ZC}$ and $K_{C}$ for strong and weak axis
 	- $\phi(Unitless)=0.8$: Resistance Factor for wood compression
 	- $F_c(MPa)=f_c(K_D K_H K_{SC} K_T)$
-		- $f_c$: Specified strength (stress) in compression parallel to grain, looked up from Table A-D [[./Attachments/2025-02-26_Module 07 Wood - Intro and Column Design/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
+		- $f_c$: Specified strength (stress) in compression parallel to grain, looked up from Table A-D [[../../../../../Courses/2025/ARC2046H/Attachments/ARC2046H/SAWN LUMBER.pdf#page=5|SAWN LUMBER, p.5]]
 		- $K_D K_H K_{SC} K_T$: Duration, system, service condition, treatment
 	- $A(mm^2)$: Cross sectional area ($b\times d$ for rectangular section)
 	- $K_{C}(Unitless)=(1.0+\frac{F_C K_{ZC} {C_{C}}^3}{35 E_{05} K_{SE} K_T})^{-1}$: Slenderness Factor ($\lambda$)
