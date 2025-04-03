@@ -146,8 +146,8 @@ For 1 inch hollow cube with 2 walls:
 > 
 > > [!grey]- X-Y Contour Compensation (0mm)
 > 
-> > [!grey]- Infill Pattern (Grid) ❗
-> > - Concentric
+> > [!grey]- Infill Pattern (3D Honeycomb) ❗
+> > - Concentric ⭕
 > > - Rectilinear ⭕
 > > - Grid ⭕
 > > - Line ⭕
@@ -158,12 +158,15 @@ For 1 inch hollow cube with 2 walls:
 > > - Honeycomb
 > > - Adaptive Cubic ⭕
 > > - Aligned Rectilinear
-> > - 3D Honeycomb
+> > - 3D Honeycomb ⭕
 > > - Hilbert Curve
 > > - Archimedean Chords
 > > - Octagram Spiral
 > > - Support Cubic ⭕
 > > - Lighting ⭕
+> > - Cross Hatch
+> > - Zig Zag
+> > - Cross Zag
 > 
 > > [!grey]- Infill Percentage 0-100% (15%) ❗
 > 
