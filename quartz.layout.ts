@@ -36,7 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
             filterFn: (node) => {
 
                 const filterTags = ["badtag"];
-                const filterFolders = [/Periodic Notes/, /Attachments/];
+                const filterFolders = [/^Periodic Notes$/, /^Attachments$/];
 
                 // Filter tags
                 if (node.file?.frontmatter?.tags?.some(tag => filterTags.includes(tag))) {
@@ -45,8 +45,10 @@ export const defaultContentPageLayout: PageLayout = {
                 
                 console.log("node.file?.slug: " + node.file?.slug)
                 console.log("node.displayName: " + node.displayName)
+                console.log("node.path: " + node.path)
+
                 // Filter folders
-                if (!node.file && filterFolders.some(regex => regex.test(node.slug))) {
+                if (!node.file && filterFolders.some(regex => regex.test(node.file?.slug))) {
                     return false;
                 }
 
