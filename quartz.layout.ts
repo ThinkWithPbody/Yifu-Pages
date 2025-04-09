@@ -43,7 +43,8 @@ export const defaultContentPageLayout: PageLayout = {
                     return false;
                 }
                 
-                console.log("Slug: " + node)
+                console.log("node.file?.slug: " + node.file?.slug)
+                console.log("node.displayName: " + node.displayName)
                 // Filter folders
                 if (!node.file && filterFolders.some(regex => regex.test(node.slug))) {
                     return false;
