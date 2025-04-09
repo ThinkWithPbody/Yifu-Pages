@@ -31,7 +31,7 @@ release-date:: 2027-06-18T12:00
 ```
 \- until release!!
 ```
-P2Y3M1DT22H29M56.805S until release!!
+P2Y2M1W2DT15H53M19.122S until release!!
 
 ## DataviewJS
 
