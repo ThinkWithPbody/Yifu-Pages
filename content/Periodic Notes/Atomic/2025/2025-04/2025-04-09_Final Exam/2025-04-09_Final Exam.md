@@ -99,8 +99,8 @@ What is the deflection limit for a steel roof beam 8,832mm long, if there is sno
 In Canada, what method of design do we use to ensure structural elements are strong enough?
 
 - We guess
-- Factor of Saftey
-- Servicability
+- Factor of Safety
+- Serviceability
 - ✔️Ultimate Limit State Design
 - Statics
 
@@ -110,14 +110,7 @@ A new materiel was developed and lab testing has shown it has a Modulus of Elast
 
 Provide them with an answer in mm2 with no decimal places.
 
-$C_r=\phi\cdot A \cdot f_y \cdot (1 + \lambda^{2 \cdot n})^\frac{-1}{n}$
-$51=0.9\cdot A \cdot f_y \cdot (1 + \lambda^{2 \cdot n})^\frac{-1}{n}$
-
-$\lambda = \frac{kL}{r}\cdot\sqrt{\frac{fy}{\pi^2 \cdot E}}$
-$\lambda = \frac{5000}{r}\cdot\sqrt{\frac{fy}{\pi^2 \cdot E}}$
-
-
-91992 mm2
+DNF
 
 ## Question 10
 
@@ -287,19 +280,8 @@ What is the Shear capacity, Vr (kN), for a 2x4 wood joist with Fv=1.5 MPa?
 
 Provide answer to two decimal places.
 
+$38 \times 89 \times 1.5=5.08kN$
 
-
-$V_r(N)=\phi_v \times F_v \times (\frac{2}{3}A_n) \times K_{Zv}$: **Shear Design**
-	- $\phi_v$ = 0.9 
-	- $F_v(N/mm^2|MPa)=f_v \times (K_d \times K_{Hv} \times K_{Sv} \times K_T)$
-		- $f_v(MPa)$ = specified strength in shear  
-		- $K_d$ = Duration Factor
-		- $K_{Hv}$ = System Factor
-		- $K_{Sv}$ = Service Factor for shear
-		- $K_T$ = Treatment Factor
-	- $A_n(mm^2)$ = net area of cross section ($b \times d$ for a rectangular section)
-	- $K_{Zv}$ = is the size factor in shear
-	- $1,000N=1kN$
 
 ## Question 26
 
@@ -385,8 +367,7 @@ For the concrete beam shown, calculate Mr (kNm)
 	- $\beta_1c(mm)= T/ (\alpha_1 \times \phi_c \times f’_c \times b)$: Height Of Stress Profile 
 	- $M_r(Nmm) = T \times (d-(\beta_1c)/2)$
 
-
-
+DNF
 ## Question 34
 
 For the concrete beam shown, calculate Vr (kN)
@@ -400,7 +381,7 @@ For the concrete beam shown, calculate Vr (kN)
 165.7 kN
 394.8 kN
 
-
+DNF
 ## Question 35
 
 If we took advantage of the natural construction process for concrete and made our beam continuous, where else would we have to add steel (and check the design)?
@@ -412,7 +393,6 @@ No extra Steel needed
 Slab Reinforcing
 ✔️More working Top Steel
 More Bottom Steel
-
 
 ## Question 36
 
@@ -433,9 +413,7 @@ $S = 1 (1.1 (0.8 ) + 0.4 )=1.28$
 Assuming the Dead Load was 3.23 kPa and the Snow Load was 1.66 kPa what is the factored uniformly distributed line load, wf (kN/m), on beam RB04 in the following Partial Roof Plan?
 
 ![[./2025-04-09_Final Exam-Roof UDL-1-1.webp|/Periodic Notes/Atomic/2025/2025-04/2025-04-09_Final Exam/2025-04-09_Final Exam-Roof UDL-1-1.webp]]
-
 49
-
 ## Question 39
 
 Assuming the length L of RB04 was 9,835 mm, what are the Factored Reactions (kN) if we had calculated wf = 51.49 kN/m in the previous question?
@@ -444,8 +422,7 @@ Provide the Numerical answer to one decimal place.
 
 NOTE: You do not need to do Method of Sections.
 
-253.2kN
-
+$253.2kN$
 ## Question 40
 
 Assuming the length L of RB04 was 9,507 mm, what is the maximum Vf (kN) if we had calculated wf = 54.34 kN/m in the previous question?
@@ -456,8 +433,7 @@ NOTE: You do not need to do Method of Sections.
 
 NOTE: L and wf is different from previous question.
 
-258.3
-
+$258.3kN$
 ## Question 41
 
 Assuming the length L of RB04 was 9,722 mm, what is the maximum Mf (kNm) if we had calculated wf = 46.99 kN/m in the previous question?
@@ -468,8 +444,7 @@ NOTE: You do not need to do Method of Sections.
 
 NOTE: L and wf is different from previous questions.
 
-555.2
-
+$555.2kNm$
 ## Question 42
 
 Assuming the length L of RB04 was 9,480 mm, what is the Moment of Inertia required, Ireq'd (x106 mm4), if the service D+S line load was wD+S = 3.94 kN/m and the service snow load alone was ws = 1.5 kN/m? The roof is a steel beam that is supporting finished susceptible to cracking.
@@ -480,8 +455,7 @@ NOTE: You do not need to do Method of Sections.
 
 NOTE: L is different from previous questions.
 
-97.6
-
+$97.6mm^4$
 ## Question 43
 
 What is the best (cheapest - top priority, shallowest - second priority) beam if we had calculated that Vf=330kN, Mf=155kNm and the Ireq’d=50x106mm4? Assume the top chord is fully braced. TIP: You do not need to do any calculations.
