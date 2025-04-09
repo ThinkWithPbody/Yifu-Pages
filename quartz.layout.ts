@@ -34,16 +34,26 @@ export const defaultContentPageLayout: PageLayout = {
             folderDefaultState: "open",
 
             filterFn: (node) => {
-                // Hide files with hide: true
-                if (node.file?.frontmatter?.tags?.includes("badtag")) {
+
+                const filterTags = ["badtag"];
+                const filterFolders = ["Periodic Notes", "Attachments"];
+
+                // Filter tags
+                if (node.file?.frontmatter?.tags?.some(tag => filterTags.includes(tag))) {
                     return false;
                 }
 
+                // Filter folders
+                if (!node.file && filterFolders.includes(node.name)) {
+                    return false;
+                }
+
+                // Filter hide
                 if (node.file?.frontmatter?.hide === true) {
                     return false;
                 }
-                
-                // Hide folders with a single hidden file
+
+                // Filter folders with a single hidden file
                 if (node.children?.length === 1 && node.children[0].file?.frontmatter?.hide === true) {
                     return false;
                 }
