@@ -42,25 +42,12 @@ export const defaultContentPageLayout: PageLayout = {
                 if (node.file?.frontmatter?.hide === true) {
                     return false;
                 }
-
-                const hasOnlyHiddenChildren = (children) => {
-                    return children.every(child => {
-                        // If the child is a file, check if it's hidden
-                        if (child.file) {
-                            return child.file.frontmatter?.hide === true;
-                        }
-                        // If the child is a folder, recursively check its children
-                        if (child.children) {
-                            return hasOnlyHiddenChildren(child.children);
-                        }
-                        return false;
-                    });
-                };
-
-                if (node.children && hasOnlyHiddenChildren(node.children)) {
+                
+                // Hide folders with a single hidden file
+                if (node.children?.length === 1 && node.children[0].file?.frontmatter?.hide === true) {
                     return false;
                 }
-
+                
                 return true;
             },
             mapFn: (node) => {
