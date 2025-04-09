@@ -36,15 +36,16 @@ export const defaultContentPageLayout: PageLayout = {
             filterFn: (node) => {
 
                 const filterTags = ["badtag"];
-                const filterFolders = ["Periodic Notes", "Attachments"];
+                const filterFolders = [/Periodic Notes/, /Attachments/];
 
                 // Filter tags
                 if (node.file?.frontmatter?.tags?.some(tag => filterTags.includes(tag))) {
                     return false;
                 }
-                console.log(node.slug)
+                
+                console.log("Slug" + node.slug)
                 // Filter folders
-                if (!node.file && filterFolders.includes(node.name)) {
+                if (!node.file && filterFolders.some(regex => regex.test(node.slug))) {
                     return false;
                 }
 
