@@ -47,7 +47,7 @@ export const defaultContentPageLayout: PageLayout = {
                 console.log("node.displayName: " + node.displayName)
 
                 // Filter folders
-                if (!node.file && filterFolders.some(regex => regex.test(node.file?.slug))) {
+                if (!node.file && filterFolders.some(regex => regex.test(node.displayName))) {
                     return false;
                 }
 
@@ -57,14 +57,8 @@ export const defaultContentPageLayout: PageLayout = {
                 }
 
                 // Filter folders with only hidden files
-                if (!node.file) {
-                    const allChildrenHidden = node.children?.every(child =>
-                        child.file?.frontmatter?.hide === true
-                    );
-
-                    if (allChildrenHidden) {
-                        return false; // Hide folder if all file children are hidden
-                    }
+                if (!node.file && node.children?.every(child => child.file?.frontmatter?.hide === true)) {
+                        return false; 
                 }
 
                 // // Filter folders with a single hidden file
