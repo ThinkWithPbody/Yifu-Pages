@@ -34,36 +34,33 @@ export const defaultContentPageLayout: PageLayout = {
             folderDefaultState: "open",
 
             filterFn: (node) => {
+
                 const filterTags = ["badtag"];
+                const filterFolders = [/^Periodic Notes$/, /^Attachments$/];
+
+                // Filter tags
+                if (node.file?.frontmatter?.tags?.some(tag => filterTags.includes(tag))) {
+                    return false;
+                }
                 
-                // Recursive check for visible content
-                const hasVisibleContent = (n: Node): boolean => {
-                    // Check current node's filters
-                    if (n.file) {
-                        const hasBadTag = n.file.frontmatter?.tags?.some(tag => filterTags.includes(tag));
-                        const isHidden = n.file.frontmatter?.hide === true;
-                        if (hasBadTag || isHidden) return false;
-                    }
-                    
-                    // Check children recursively
-                    if (n.children) {
-                        return n.children.some(child => hasVisibleContent(child));
-                    }
-                    
-                    // Default to visible if it's a file with no filters
-                    return !!n.file;
-                };
-        
-                if (!hasVisibleContent(node)) {
+                console.log("node.file?.slug: " + node.file?.slug)
+                console.log("node.displayName: " + node.displayName)
+
+                // Filter folders
+                if (!node.file && filterFolders.some(regex => regex.test(node.file?.slug))) {
                     return false;
                 }
-        
-                // Additional filter for single hidden child
-                if (node.children?.length === 1 && 
-                    node.children[0].file?.frontmatter?.hide === true) {
+
+                // Filter hide
+                if (node.file?.frontmatter?.hide === true) {
                     return false;
                 }
-        
+
+                // Filter folders with a single hidden file
+                if (node.children?.length === 1 && node.children[0].file?.frontmatter?.hide === true) {
+                    return false;
+                }
+                
                 return true;
             },
             mapFn: (node) => {
