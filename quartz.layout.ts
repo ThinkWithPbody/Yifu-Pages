@@ -42,7 +42,7 @@ export const defaultContentPageLayout: PageLayout = {
                 if (node.file?.frontmatter?.tags?.some(tag => filterTags.includes(tag))) {
                     return false;
                 }
-
+                console.log(node.slug)
                 // Filter folders
                 if (!node.file && filterFolders.includes(node.name)) {
                     return false;
