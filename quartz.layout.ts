@@ -35,7 +35,7 @@ export const defaultContentPageLayout: PageLayout = {
 
             filterFn: (node) => {
 
-                const filterTags = ["badtag"];
+                const filterTags = ["note"];
                 const filterFolders = [/^Periodic Notes$/, /^Attachments$/];
 
                 // Filter tags
