@@ -66,6 +66,7 @@ Transsolar: Climate Engineering - High Comfort, Low Impact
         - Prefabricated hybrid facade and slabs
         - Sell solar gardens and solar chimneys as an amenity
 
+%%
 ---
 
 # Excalidraw Data
@@ -84,7 +85,6 @@ a72ccd3d4b6adca0a025d500df52c6786152c020: [[./Attachments/2025-01-24_Transsolar/
 
 e8f79555f5b5cb8b2cdf7d8efe2236a3f9a53a01: [[./Attachments/2025-01-24_Transsolar/IMG_4628.JPEG|IMG_4628]]
 
-%%
 ## Drawing
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQB2bQBWGjoghH0EDihmbgBtcDBQMBKIEm5oAGZSJLh4gEkqflLYRArCfWikZshMbgBGJKTtHgBOAA5KgDZKnh4ABnH++Mqk

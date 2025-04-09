@@ -4,10 +4,10 @@ excalidraw-open-md: true
 tags:
   - project
 title: ARC2048H_Visits
-status: TODO
+status: DONE
 start: 2025-01-24
 due: 2025-05-24
-completion: 
+completion: 2025-04-01
 priority: medium
 share: true
 ---
@@ -20,7 +20,7 @@ share: true
 - [x] **SvN** Architects + Planners  [due:: 2025-03-06]  [completion:: 2025-03-06]
 - [x] **M**ontgomery **S**isam **A**rchitects  [due:: 2025-03-13]  [completion:: 2025-03-19]
 - [x] **D**iamond **S**chmitt **A**rchitects  [due:: 2025-03-20]  [completion:: 2025-03-19]
-- [ ] **DIALOG**  [due:: 2025-03-27]
+- [x] **DIALOG**  [due:: 2025-03-27]  [completion:: 2025-04-08]
 
 
 # Tagged
