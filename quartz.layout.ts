@@ -42,7 +42,7 @@ export const defaultContentPageLayout: PageLayout = {
                 if (node.file?.frontmatter?.tags?.some(tag => filterTags.includes(tag))) {
                     return false;
                 }
-                
+
                 console.log("node.file?.slug: " + node.file?.slug)
                 console.log("node.displayName: " + node.displayName)
 
@@ -51,16 +51,27 @@ export const defaultContentPageLayout: PageLayout = {
                     return false;
                 }
 
-                // Filter hide
+                // Filter files that are hidden
                 if (node.file?.frontmatter?.hide === true) {
                     return false;
                 }
 
-                // Filter folders with a single hidden file
-                if (node.children?.length === 1 && node.children[0].file?.frontmatter?.hide === true) {
-                    return false;
+                // Filter folders with only hidden files
+                if (!node.file) {
+                    const allChildrenHidden = node.children?.every(child =>
+                        child.file?.frontmatter?.hide === true
+                    );
+
+                    if (allChildrenHidden) {
+                        return false; // Hide folder if all file children are hidden
+                    }
                 }
-                
+
+                // // Filter folders with a single hidden file
+                // if (node.children?.length === 1 && node.children[0].file?.frontmatter?.hide === true) {
+                //     return false;
+                // }
+
                 return true;
             },
             mapFn: (node) => {
