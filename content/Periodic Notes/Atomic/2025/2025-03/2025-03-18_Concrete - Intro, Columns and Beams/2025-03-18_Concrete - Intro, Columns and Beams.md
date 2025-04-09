@@ -118,7 +118,7 @@ hide: true
 		- $\rho=A_s / A_g$
 		- $p_{r0}=A_g(\rho \times \phi_s \times f_y + (1 - \rho) \times \alpha_1 \times \phi_c \times f'_c)$
 		- $p_r=0.8\times p_{r0}$
-- Moment at ends
+- **Moment at ends**
 	- Concrete Compression with Moment
 	- Concrete columns end up taking Moment. Column design needs to account for Axial load and Bending Moment
 	- Interaction Diagram
@@ -140,7 +140,7 @@ hide: true
 				- $A_s{req}=e \times A_g=P_g \times A_g$
 				- $N_{Bars}=A_s{req} \div A_{Bars}$
 				- Evenly distributed (4,8,12,16,etc)
-- Slenderness (Buckling)
+- **Slenderness (Buckling)**
 	- Concrete isn’t as easily governed by buckling b/c it’s stocky
 	- If there are Shear Walls acting as the LLRS, 90% Concrete Columns get to ignore Slenderness
 	- Slenderness effects may be neglected for columns if:
