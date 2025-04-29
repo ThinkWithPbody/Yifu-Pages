@@ -53,7 +53,7 @@ hide: false
 ### Scripts
 
 #### I/O
-[[./Attachments/Rhino/BatchExportSTLByObj.py|BatchExportSTLByObj.py]]
+[[Configs/Files/BatchExportSTLByObj.py|BatchExportSTLByObj.py]]
 
 #### View
 [[./Attachments/Rhino/FindAllHiddenClippingPlaneLayers.py|FindAllHiddenClippingPlaneLayers.py]]
