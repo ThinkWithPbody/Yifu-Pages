@@ -31,7 +31,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 
 #### Service Charge
 
-**Total = Setup + Printing Minutes + Filament Grams**
+**Service Charge = Setup + Printing + Filament**
 
 | File Setup | Printing                                          | Filament      |
 | ---------- | ------------------------------------------------- | ------------- |
@@ -52,8 +52,11 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 
 #### Filament
 
+> [!info] Multi-color Printing
+> Choose up to 4 filament per plate, limited to one material type.
+
 ##### PLA
-**Easy | Brittle | Workable | Biodegradable**
+**Easy | Brittle | Workable | Renewable**
 
 |                                                                                                                                        | Color                      | Hex Code                                                     |   $/kg | Stock (kg) |
 | -------------------------------------------------------------------------------------------------------------------------------------- | :------------------------- | ------------------------------------------------------------ | -----: | ---------: |
@@ -63,12 +66,12 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 | ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d.webp|Yifu Design Lab_Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d]]   | Matte Charcoal Black       | <span style="background: #000000;color:white;">000000</span> |  22.59 |          2 |
 | ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d.webp|Yifu Design Lab_Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d]]   | Matte Sakura Pink          | <span style="background: #E8AFCF;">E8AFCF</span>             |  22.59 |          1 |
 | ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39.webp|Yifu Design Lab_Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39]]   | Matte Lilac Purple         | <span style="background: #AE96D4;">AE96D4                    |  22.59 |        0.8 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977.webp|Yifu Design Lab_Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977]]   | Marble White               | <span style="background: #F7F3F0;">F7F3F0                    |  36.15 |          1 |
 | ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-15bee911c43d40828e932f7397d55097.webp|Yifu Design Lab_Yifu Design Lab-15bee911c43d40828e932f7397d55097]]   | Silk Gold                  | <span style="background: #E5B03D;">E5B03D                    |  36.15 |        0.8 |
 | ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1.webp|Yifu Design Lab_Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1]] | Sparkle Crimson Red        | <span style="background: #792B36;color:white;">792B36        |  36.15 |        0.8 |
 | ![[./Attachments/Yifu Design Lab/Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6.webp|Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6]]                   | Metal Iron Gray            | <span style="background: #43403D;color:white;">43403D        |  36.15 |        0.8 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62.webp|Yifu Design Lab_Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62]]   | Breakaway Support PLA/PETG |                                                              | 101.68 |        0.5 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977.webp|Yifu Design Lab_Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977]]   | Marble White               | <span style="background: #F7F3F0;">F7F3F0                    |  36.15 |          1 |
 | ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-Support_3.webp|Yifu Design Lab_Yifu Design Lab-Support_3]]                          | Breakaway Support PLA      |                                                              |  67.78 |          0 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62.webp|Yifu Design Lab_Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62]]   | Breakaway Support PLA/PETG |                                                              | 101.68 |        0.5 |
 | ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-9e8efe4a411a461eb30248adf214376e.webp|Yifu Design Lab_Yifu Design Lab-9e8efe4a411a461eb30248adf214376e]]   | PVA Water-soluble Support  |                                                              | 115.24 |          0 |
 ##### PETG
 **Fair | Durable | Impact-resistant | Food-safe**
