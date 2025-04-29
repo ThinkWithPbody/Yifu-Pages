@@ -20,11 +20,12 @@ Or... you might be looking for:
 My [[./Wiki/Rhino|Rhino]] custom settings and scripts 
 My [[./Configs/Files/Resonant Orbit Calculator.py|Resonant Orbit Calculator]] for KSP 
 A guide on using [[./Projects/2024/Escape From Tarkov/Escape From Tarkov|SPT]] 
-Or some Obsidian related [[./Configs/Guides/Guides|Guides]] 
+Or some Obsidian related [[../Guides|Guides]] 
 
 
 What have I been up to?
 
 Fixing this website... got note transclusions working
 Drooling over [ROG Flow Z13](https://rog.asus.com/ca-en/laptops/rog-flow/rog-flow-z13-2025/)
+Admiring the DeltaV [Map](https://deltavmap.github.io/?system=Solar) and [Calculator](https://deltavmap.github.io/calculators.html?system=earth)
 Closely stalking [TURD](https://forum.kerbalspaceprogram.com/topic/174188-112x-textures-unlimited-recolour-depot/) updates... still... so I can blow Jeb up with style
