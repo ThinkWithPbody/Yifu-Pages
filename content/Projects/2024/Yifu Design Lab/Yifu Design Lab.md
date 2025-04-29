@@ -39,7 +39,7 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 
 > [!info]- [[Yifu Design Lab#Why is there a setup fee|Setup fee]] may be discounted or waived depending on job complexity
 > 
-> Setup fee will be waived for Bambu Studio sliced .3mf files. However, please be aware that the outcome of the initial print will be final, as no adjustments or reprints will be provided for these waived jobs. The standard "100% satisfaction guarantee," which includes the option for a full reprint or refund if you are not satisfied with your order, does not apply to these waived jobs. If you accept these conditions and wish to proceed with complete control over the print process, please use the following [template](http://www.mediafire.com/view/my3re98lpyflu7k) to get started.
+> Setup fee will be waived for Bambu Studio sliced .3mf files. However, please be aware that the outcome of the initial print will be final, as no adjustments or reprints will be provided for these waived jobs. The standard "100% satisfaction guarantee," which includes the option for a full reprint or refund if you are not satisfied with your order, does not apply to these waived jobs. If you accept these conditions and wish to proceed with complete control over the print process, please use the following [template](http://www.mediafire.com/view/6ps8bxhkjsgnka2) to get started.
 
 ### Getting Started
 
@@ -53,50 +53,48 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 #### Filament
 
 ##### PLA
-Easy | Brittle | Workable | Biodegradable
+**Easy | Brittle | Workable | Biodegradable**
 
-| Color                     | Hex Code                                                     |   $/kg |
-| :------------------------ | ------------------------------------------------------------ | -----: |
-| Matte Ivory White         | <span style="background: #FFFFFF;">FFFFFF</span>             |  22.59 |
-| Matte Charcoal Black      | <span style="background: #000000;color:white;">000000</span> |  22.59 |
-| Matte Sakura Pink         | <span style="background: #E8AFCF;">E8AFCF</span>             |  22.59 |
-| Matte Lilac Purple        | <span style="background: #AE96D4;">AE96D4                    |  22.59 |
-| Basic Bambu Green         | <span style="background: #00AE42;">00AE42                    |  22.59 |
-| Marble White              | <span style="background: #F7F3F0;">F7F3F0                    |  36.15 |
-| Silk Gold                 | <span style="background: #E5B03D;">E5B03D                    |  36.15 |
-| Sparkle Crimson Red       | <span style="background: #792B36;color:white;">792B36        |  36.15 |
-| Metal Iron Gray           | <span style="background: #43403D;color:white;">43403D        |  36.15 |
-| Breakaway Support         |                                                              | 101.68 |
-| PVA Water-soluble Support |                                                              | 115.24 |
-
+|                                                                                                                                        | Color                      | Hex Code                                                     |   $/kg | Stock (kg) |
+| -------------------------------------------------------------------------------------------------------------------------------------- | :------------------------- | ------------------------------------------------------------ | -----: | ---------: |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab_Sliver.webp|Yifu Design Lab_Yifu Design Lab_Sliver]]                             | Basic Silver               | <span style="background: #A6A9AA;color:white">A6A9AA         |  22.59 |          1 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-Bambu_Green.webp|Yifu Design Lab_Yifu Design Lab-Bambu_Green]]                        | Basic Bambu Green          | <span style="background: #00AE42;">00AE42                    |  22.59 |        0.2 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-650946feb4e04feda77bc4e5b2c38202.webp|Yifu Design Lab_Yifu Design Lab-650946feb4e04feda77bc4e5b2c38202]]   | Matte Ivory White          | <span style="background: #FFFFFF;">FFFFFF</span>             |  22.59 |          3 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d.webp|Yifu Design Lab_Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d]]   | Matte Charcoal Black       | <span style="background: #000000;color:white;">000000</span> |  22.59 |          2 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d.webp|Yifu Design Lab_Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d]]   | Matte Sakura Pink          | <span style="background: #E8AFCF;">E8AFCF</span>             |  22.59 |          1 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39.webp|Yifu Design Lab_Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39]]   | Matte Lilac Purple         | <span style="background: #AE96D4;">AE96D4                    |  22.59 |        0.8 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977.webp|Yifu Design Lab_Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977]]   | Marble White               | <span style="background: #F7F3F0;">F7F3F0                    |  36.15 |          1 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-15bee911c43d40828e932f7397d55097.webp|Yifu Design Lab_Yifu Design Lab-15bee911c43d40828e932f7397d55097]]   | Silk Gold                  | <span style="background: #E5B03D;">E5B03D                    |  36.15 |        0.8 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1.webp|Yifu Design Lab_Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1]] | Sparkle Crimson Red        | <span style="background: #792B36;color:white;">792B36        |  36.15 |        0.8 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6.webp|Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6]]                   | Metal Iron Gray            | <span style="background: #43403D;color:white;">43403D        |  36.15 |        0.8 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62.webp|Yifu Design Lab_Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62]]   | Breakaway Support PLA/PETG |                                                              | 101.68 |        0.5 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-Support_3.webp|Yifu Design Lab_Yifu Design Lab-Support_3]]                          | Breakaway Support PLA      |                                                              |  67.78 |          0 |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-9e8efe4a411a461eb30248adf214376e.webp|Yifu Design Lab_Yifu Design Lab-9e8efe4a411a461eb30248adf214376e]]   | PVA Water-soluble Support  |                                                              | 115.24 |          0 |
 ##### PETG
-Fair | Durable | Impact-resistant | Food-safe
+**Fair | Durable | Impact-resistant | Food-safe**
 
-| Color             | Hex Code                                                     |  $/kg |
-| :---------------- | ------------------------------------------------------------ | ----: |
-| Basic White       | <span style="background: #FFFFFF;">FFFFFF</span>             | 22.59 |
-| Translucent Clear | <span style="background: #F2F2F2">F2F2F2</span>              | 22.59 |
-| Translucent Grey  | <span style="background: #8E8E8E;color: white">8E8E8E</span> | 22.59 |
-
+|                                                                                                                                      | Color             | Hex Code                                                     |  $/kg | Stock (kg) |
+| :----------------------------------------------------------------------------------------------------------------------------------- | :---------------- | ------------------------------------------------------------ | ----: | ---------- |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1.webp|Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1]]               | Basic White       | <span style="background: #FFFFFF;">FFFFFF</span>             | 22.59 | 0.5        |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6.webp|Yifu Design Lab_Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6]] | HF White          | <span style="background: #FFFFFF;">FFFFFF</span>             | 22.59 | 1          |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_1a74ea492a6f4b8ea23c7d84b145d316.webp|Yifu Design Lab_1a74ea492a6f4b8ea23c7d84b145d316]]                 | Translucent Clear | <span style="background: #F2F2F2">F2F2F2</span>              | 22.59 | 1          |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab_18fb283d551c418f9246a22beec492ce.webp|Yifu Design Lab_Yifu Design Lab_18fb283d551c418f9246a22beec492ce]] | Translucent Grey  | <span style="background: #8E8E8E;color: white">8E8E8E</span> | 22.59 | 1          |
 ##### ABS
-Difficult | Strong | Chemical-resistant | Industrial
+**Difficult | Strong | Chemical-resistant | Industrial**
 
-| Color       | Hex Code                                         |  $/kg |
-| :---------- | ------------------------------------------------ | ----: |
-| Basic White | <span style="background: #FFFFFF;">FFFFFF</span> | 22.59 |
+|                                                                                                                                        | Color       | Hex Code                                         |  $/kg | Stock (kg) |
+| :------------------------------------------------------------------------------------------------------------------------------------- | :---------- | ------------------------------------------------ | ----: | ---------- |
+| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1.webp|Yifu Design Lab_Yifu Design Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1]] | Basic White | <span style="background: #FFFFFF;">FFFFFF</span> | 22.59 | 0.8        |
 ##### ASA
-Difficult | Strong | UV-resistant | Outdoor
+**Difficult | Strong | UV-resistant | Outdoor**
 
 Available on request
 
 
-> [!info]- Filament Pricing
-> Filament prices listed reflect bulk purchasing savings and are offered without any markup.
+> [!info]+ Filament Pricing
+> Filament prices listed reflect tax inclusive bulk purchasing savings and are offered without markup.
 > 
-> HST will be added to the total charge.
-> 
-> Other filaments may be available upon request.
-> [Bambu Lab](https://ca.store.bambulab.com/collections/pla?skr=yes)
+> Unlisted or out of stock filaments may be available upon request. See [Bambu Lab Filaments](https://ca.store.bambulab.com/collections/bambu-lab-3d-printer-filament).
 
 #### Quality Presets
 
@@ -125,6 +123,16 @@ For 1 inch hollow cube with 2 walls:
 > 
 > > [!grey]- Layer Height (0.20mm) ❗
 > > - Affects overhang performance
+> 
+> > [!grey]- Line Width (0.42mm)
+> > - Default 0.42mm
+> > - Initial Layer 0.50mm
+> > - Outer Wall 0.42mm
+> > - Inner Wall 0.45mm
+> > - Top Surface 0.42mm
+> > - Sparse Infill 0.45mm
+> > - Internal Solid Infill 0.42mm
+> > - Support 0.42mm
 > 
 > > [!grey]- Print Speed (100%)
 > > 
@@ -248,7 +256,7 @@ For 1 inch hollow cube with 2 walls:
 > - Rhino files or incorrectly scaled STL will not be accepted.
 > - **Each separated body should be one .stl file** to maximize nesting potential.
 > 	- When relative positioning is important but adding a base plate is too costly, add a small flat connecting bridge with a height of 1 to 2 `LayerHeight` directly on the print bed and `BooleanUnion` all connected bodies.
-> - To export objects, use `RunPythonScript` with the [[../../../Wiki/Attachments/Rhino/BatchExportSTLByObj.py|Batch Export Python Script]] to export all selected files at once.
+> - To export objects, use `RunPythonScript` with the [[![[./Attachments/Yifu Design Lab/BatchExportSTLByObj.py|BatchExportSTLByObj]]]] to export all selected files at once.
 > - Deliver more than one .stl files as a **ZIP**.
 
 > [!green]- Demonstration
@@ -261,6 +269,11 @@ For 1 inch hollow cube with 2 walls:
 <iframe title="Speckle" src="https://app.speckle.systems/projects/aefb5374cb/models/a8a8bbe12f#embed=%7B%22isEnabled%22%3Atrue%7D" width="800" height="400" frameborder="0"></iframe>
 
 by Arjay Asuncion - 2024
+
+
+
+
+by Mudabber Chughtai and Minghan Wei - 2025
 
 ### FAQ
 
