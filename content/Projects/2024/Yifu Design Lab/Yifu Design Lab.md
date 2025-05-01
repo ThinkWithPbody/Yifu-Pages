@@ -56,42 +56,150 @@ Pick up at Daniels or 404-Major Mackenzie Dr E.
 > Choose up to 4 filament per plate, limited to one material type.
 
 ##### PLA
+
 **Easy | Brittle | Workable | Renewable**
 
-|                                                                                                                                        | Color                      | Hex Code                                                     |   $/kg | Stock (kg) |
-| -------------------------------------------------------------------------------------------------------------------------------------- | :------------------------- | ------------------------------------------------------------ | -----: | ---------: |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab_Sliver.webp|Yifu Design Lab_Yifu Design Lab_Sliver]]                             | Basic Silver               | <span style="background: #A6A9AA;color:white">A6A9AA         |  22.59 |          1 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-Bambu_Green.webp|Yifu Design Lab_Yifu Design Lab-Bambu_Green]]                        | Basic Bambu Green          | <span style="background: #00AE42;">00AE42                    |  22.59 |        0.2 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-650946feb4e04feda77bc4e5b2c38202.webp|Yifu Design Lab_Yifu Design Lab-650946feb4e04feda77bc4e5b2c38202]]   | Matte Ivory White          | <span style="background: #FFFFFF;">FFFFFF</span>             |  22.59 |          3 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d.webp|Yifu Design Lab_Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d]]   | Matte Charcoal Black       | <span style="background: #000000;color:white;">000000</span> |  22.59 |          2 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d.webp|Yifu Design Lab_Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d]]   | Matte Sakura Pink          | <span style="background: #E8AFCF;">E8AFCF</span>             |  22.59 |          1 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39.webp|Yifu Design Lab_Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39]]   | Matte Lilac Purple         | <span style="background: #AE96D4;">AE96D4                    |  22.59 |        0.8 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-15bee911c43d40828e932f7397d55097.webp|Yifu Design Lab_Yifu Design Lab-15bee911c43d40828e932f7397d55097]]   | Silk Gold                  | <span style="background: #E5B03D;">E5B03D                    |  36.15 |        0.8 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1.webp|Yifu Design Lab_Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1]] | Sparkle Crimson Red        | <span style="background: #792B36;color:white;">792B36        |  36.15 |        0.8 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6.webp|Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6]]                   | Metal Iron Gray            | <span style="background: #43403D;color:white;">43403D        |  36.15 |        0.8 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977.webp|Yifu Design Lab_Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977]]   | Marble White               | <span style="background: #F7F3F0;">F7F3F0                    |  36.15 |          1 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-Support_3.webp|Yifu Design Lab_Yifu Design Lab-Support_3]]                          | Breakaway Support PLA      |                                                              |  67.78 |          0 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62.webp|Yifu Design Lab_Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62]]   | Breakaway Support PLA/PETG |                                                              | 101.68 |        0.5 |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-9e8efe4a411a461eb30248adf214376e.webp|Yifu Design Lab_Yifu Design Lab-9e8efe4a411a461eb30248adf214376e]]   | PVA Water-soluble Support  |                                                              | 115.24 |          0 |
+- **Basic Silver**  
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab_Sliver.webp|Yifu Design Lab_Yifu Design Lab_Sliver]]  
+    Color: Basic Silver  
+    Hex Code: `#A6A9AA`  
+    Price: $22.59/kg  
+    Stock: 1 kg
+    
+- **Basic Bambu Green**  
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-Bambu_Green.webp|Yifu Design Lab_Yifu Design Lab-Bambu_Green]]  
+    Color: Basic Bambu Green  
+    Hex Code: `#00AE42`  
+    Price: $22.59/kg  
+    Stock: 0.2 kg
+    
+- **Matte Ivory White**  
+    
+- [[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab-650946feb4e04feda77bc4e5b2c38202.webp
+    128]]
+- Color: Matte Ivory White  
+    Hex Code: `#FFFFFF`  
+    Price: $22.59/kg  
+    Stock: 3 kg
+    
+- **Matte Charcoal Black**  
+    ![[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d.webp|Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-a1b596fe17af44feb9b6af51c3b6985d.webp]]  
+    Color: Matte Charcoal Black  
+    Hex Code: `#000000`  
+    Price: $22.59/kg  
+    Stock: 2 kg
+    
+- **Matte Sakura Pink**  
+    ![[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d.webp|Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-374401f869f3479aa30ba8cdaf8def1d.webp]]  
+    Color: Matte Sakura Pink  
+    Hex Code: `#E8AFCF`  
+    Price: $22.59/kg  
+    Stock: 1 kg
+    
+- **Matte Lilac Purple**  
+    ![[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39.webp|Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-4db28960ac6d445a9920cb1133ef6c39.webp]]  
+    Color: Matte Lilac Purple  
+    Hex Code: `#AE96D4`  
+    Price: $22.59/kg  
+    Stock: 0.8 kg
+    
+- **Silk Gold**  
+    ![[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-15bee911c43d40828e932f7397d55097.webp|Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-15bee911c43d40828e932f7397d55097.webp]]  
+    Color: Silk Gold  
+    Hex Code: `#E5B03D`  
+    Price: $36.15/kg  
+    Stock: 0.8 kg
+    
+- **Sparkle Crimson Red**  
+    ![[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1.webp|Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-faf72eb685014a1b94f4048c2388fe0a-1.webp]]  
+    Color: Sparkle Crimson Red  
+    Hex Code: `#792B36`  
+    Price: $36.15/kg  
+    Stock: 0.8 kg
+    
+- **Metal Iron Gray**  
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6.webp|Yifu Design Lab-1fdb0b2166d3450ea180a6c83d4acbc6]]  
+    Color: Metal Iron Gray  
+    Hex Code: `#43403D`  
+    Price: $36.15/kg  
+    Stock: 0.8 kg
+    
+- **Marble White**  
+    ![[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977.webp|Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-ca48e1d56ed042b7920cba9912fe5977.webp]]  
+    Color: Marble White  
+    Hex Code: `#F7F3F0`  
+    Price: $36.15/kg  
+    Stock: 1 kg
+    
+- **Breakaway Support PLA**  
+    ![[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-Support_3.webp|Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-Support_3.webp]]  
+    Color: Breakaway Support PLA  
+    Price: $67.78/kg  
+    Stock: 0 kg
+    
+- **Breakaway Support PLA/PETG**  
+    ![[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62.webp|Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-df26d3f606fc46d4bcef831a68970a62.webp]]  
+    Color: Breakaway Support PLA/PETG  
+    Price: $101.68/kg  
+    Stock: 0.5 kg
+    
+- **PVA Water-soluble Support**  
+    ![[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-9e8efe4a411a461eb30248adf214376e.webp|Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab-9e8efe4a411a461eb30248adf214376e.webp]]  
+    Color: PVA Water-soluble Support  
+    Price: $115.24/kg  
+    Stock: 0 kg
+    
+
 ##### PETG
+
 **Fair | Durable | Impact-resistant | Food-safe**
 
-|                                                                                                                                      | Color             | Hex Code                                                     |  $/kg | Stock (kg) |
-| :----------------------------------------------------------------------------------------------------------------------------------- | :---------------- | ------------------------------------------------------------ | ----: | ---------- |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1.webp|Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1]]               | Basic White       | <span style="background: #FFFFFF;">FFFFFF</span>             | 22.59 | 0.5        |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6.webp|Yifu Design Lab_Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6]] | HF White          | <span style="background: #FFFFFF;">FFFFFF</span>             | 22.59 | 1          |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_1a74ea492a6f4b8ea23c7d84b145d316.webp|Yifu Design Lab_1a74ea492a6f4b8ea23c7d84b145d316]]                 | Translucent Clear | <span style="background: #F2F2F2">F2F2F2</span>              | 22.59 | 1          |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab_18fb283d551c418f9246a22beec492ce.webp|Yifu Design Lab_Yifu Design Lab_18fb283d551c418f9246a22beec492ce]] | Translucent Grey  | <span style="background: #8E8E8E;color: white">8E8E8E</span> | 22.59 | 1          |
+- **Basic White**  
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1.webp|Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6-1]]  
+    Color: Basic White  
+    Hex Code: `#FFFFFF`  
+    Price: $22.59/kg  
+    Stock: 0.5 kg
+    
+- **HF White**  
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6.webp|Yifu Design Lab_6f0f3ffb6bdb459f97d0f44a6d83fbf6]]  
+    Color: HF White  
+    Hex Code: `#FFFFFF`  
+    Price: $22.59/kg  
+    Stock: 1 kg
+    
+- **Translucent Clear**  
+    ![[./Attachments/Yifu Design Lab/Yifu Design Lab_1a74ea492a6f4b8ea23c7d84b145d316.webp|Yifu Design Lab_1a74ea492a6f4b8ea23c7d84b145d316]]  
+    Color: Translucent Clear  
+    Hex Code: `#F2F2F2`  
+    Price: $22.59/kg  
+    Stock: 1 kg
+    
+- **Translucent Grey**  
+    ![[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab_18fb283d551c418f9246a22beec492ce.webp|Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab_18fb283d551c418f9246a22beec492ce.webp]]  
+    Color: Translucent Grey  
+    Hex Code: `#8E8E8E`  
+    Price: $22.59/kg  
+    Stock: 1 kg
+    
+
 ##### ABS
+
 **Difficult | Strong | Chemical-resistant | Industrial**
 
-|                                                                                                                                        | Color       | Hex Code                                         |  $/kg | Stock (kg) |
-| :------------------------------------------------------------------------------------------------------------------------------------- | :---------- | ------------------------------------------------ | ----: | ---------- |
-| ![[./Attachments/Yifu Design Lab/Yifu Design Lab_Yifu Design Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1.webp|Yifu Design Lab_Yifu Design Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1]] | Basic White | <span style="background: #FFFFFF;">FFFFFF</span> | 22.59 | 0.8        |
-##### ASA
+- **Basic White**  
+    ![[Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1.webp|Projects/2024/Yifu Design Lab/Attachments/Yifu Design Lab/Yifu Design Lab_dcc84bbb1ebb4feab8e7fa3c6776d603-1.webp]]  
+    Color: Basic White  
+    Hex Code: `#FFFFFF`  
+    Price: $22.59/kg  
+    Stock: 0.8 kg
+    
+
+## ASA
+
 **Difficult | Strong | UV-resistant | Outdoor**
 
-Available on request
+- Available on request
 
 
 > [!info]+ Filament Pricing
