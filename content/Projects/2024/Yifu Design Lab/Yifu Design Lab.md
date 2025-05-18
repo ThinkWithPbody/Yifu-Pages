@@ -8,6 +8,10 @@ status: DONE
 %%[parents:: [[../../../../Yifu Ding|Yifu Ding]]]%%
 %%https://bit.ly/45WKQSC%%
 %%https://thinkwithpbody.github.io/Yifu-Pages/Projects/2024/Yifu-Design-Lab/Yifu-Design-Lab%%
+<span style="font-size: 2em; color: red;">
+  Please find updated website
+  <a href="https://thinkwithpbody.github.io/YifuDesignLab/Home/" style="color: red;">here</a>
+</span>
 
 ### Service
 
