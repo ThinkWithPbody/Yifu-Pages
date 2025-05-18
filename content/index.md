@@ -3,6 +3,11 @@ title: Home
 tags: 
 share: true
 ---
+<span style="font-size: 2em; color: red;">
+  Please find updated website
+  <a href="https://thinkwithpbody.github.io/YifuDesignLab/Home/" style="color: red;">here</a>
+</span>
+
 Hi there, thanks for stopping by (人´∀\`)
 
 My name is Yifu, and this is a small part of my digital lab where I organize, retain, and share knowledge.
